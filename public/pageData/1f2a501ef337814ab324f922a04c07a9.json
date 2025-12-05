@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "1f2a501ef337818b96d6d269104ecec9",
+    "type": "divider",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef33781f781abda9eb515b2d8",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まずは、これから開発していくGUIと、開発に使用するFletがどんなものか、簡単に紹介します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef33781fe82d0cf8510fd90ec",
+    "type": "heading_1",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CUIとGUI",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef337817fa4eccebe0db8d808",
+    "type": "divider",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": "_",
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef337810191bddd44c50472ca",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "突然ですが、パソコンを使用するのに、この世界には大きく分けて2通りの方法があります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1f2a501ef33781709727f36a398f2600",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "それは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "orange",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLI",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " と ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "orange",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GUI ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。CUIは ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Command Line Interface",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "、GUIは  ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Graphical User Interface ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の略です。（覚えなくても大丈夫ですよ。）",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1f2a501ef337819393aafd84ec59a6cb",
+    "type": "heading_2",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLI",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1f2a501ef3378179bf4bc6c9dd1cc4b5",
+    "type": "divider",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": "_",
+    "order": 7
+  },
+  {
+    "id": "1f2a501ef3378182a0cef625c57dc96b",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLIの基礎",
+          "href": "/posts/curriculums/1bea501ef337804c90e8da6f1f5384c1",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/keyboard_lightgray.svg",
+              "title": "CLIの基礎"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " でもやりましたね。CLI (Command Line Interface) は、パソコンを文字だけで操作する方法です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1f2a501ef337817b8b54fbead13db1d6",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "また、これまでPythonで使用していた",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "print",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "関数や",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "input",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "関数も、文字のみの出力と入力しか扱っていないのでCLIといえます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1f2a501ef33781cf840fec9aa3687b91",
+    "type": "callout",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/command-line_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLIの例",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1f2a501ef3378169ac4ccdc62e1c1976",
+    "type": "image",
+    "parentId": "1f2a501ef33781cf840fec9aa3687b91",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンド操作",
+          "href": null
+        }
+      ],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef337814ab324f922a04c07a9/1f2a501ef3378169ac4ccdc62e1c1976.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef3378181ad27e0daec13a0d9",
+    "type": "image",
+    "parentId": "1f2a501ef33781cf840fec9aa3687b91",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Pythonで作成したプログラム",
+          "href": null
+        }
+      ],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef337814ab324f922a04c07a9/1f2a501ef3378181ad27e0daec13a0d9.jpg"
+    },
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef33781c7b8c4dd2d699392b2",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このCLIを使用したプログラム・アプリは、作成が簡単、動作が軽量などといったメリットがあります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1f2a501ef3378164a11ae95308d8310b",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "でも、見た目もパッとしないし、なにより慣れている人でないとCLIを使用したアプリを使いこなすことは難しいでしょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1f2a501ef33781aba1dae5d2d908427a",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そこで登場するのが、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GUI",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1f2a501ef33781ffa36ddbfc88a9898c",
+    "type": "heading_2",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GUI",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1f2a501ef33781c6bef0e1174cbae506",
+    "type": "divider",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": "_",
+    "order": 15
+  },
+  {
+    "id": "1f2a501ef33781d1ba28c762193156d9",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このようなCLIのデメリットを解決するものが、GUI (Graphical User Interface) です。このGUIは日常生活でもっとも普及している方法で、文字に加え図形や画像、さらには映像や音声でパソコンを操作しやすくします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1f2a501ef3378112b89cf0e0cc075a96",
+    "type": "image",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef337814ab324f922a04c07a9/1f2a501ef3378112b89cf0e0cc075a96.jpg"
+    },
+    "order": 17
+  },
+  {
+    "id": "1f2a501ef33781398e23f3bfe230965b",
+    "type": "callout",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "☝"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "みなさんが日常的に使っているパソコンやスマートフォンも、ほとんどがこのGUIを用いて構成されています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1f2a501ef33781c8b374f902659af7ef",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 19
+  },
+  {
+    "id": "1f2a501ef337811490ecf6370f9dae60",
+    "type": "heading_1",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1f2a501ef337811f9bcec4143b70fd9f",
+    "type": "divider",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": "_",
+    "order": 21
+  },
+  {
+    "id": "1f2a501ef337812ca269fec86096a6f0",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "とは先ほど紹介したGUIのアプリケーションを、Pythonで簡単に作ることができる",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ライブラリ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1f2a501ef337812ea794f132daa598ad",
+    "type": "callout",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ライブラリとは？",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1f2a501ef33781538253c48c0e5a920a",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337812ea794f132daa598ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ライブラリとは、Pythonに追加でインストールすることで、さまざまな便利な機能を使えるようになるものです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef337813194c1f68df45a6c18",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337812ea794f132daa598ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "拡張機能やアドオン、ゲームで言うMODなどのイメージに近いです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef33781d385f6c7a8835c4c8c",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337812ea794f132daa598ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "PythonにはFlet以外にも多くのライブラリが存在しており、それらを追加でインストールすることでPythonをさらに使いやすく、多機能にできるのです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef33781b9b26cf451ec9b1c26",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337812ea794f132daa598ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "有名なものには",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flask",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "django",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Kivy",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "NumPy",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pandas",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "OpenCV",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "などがあります。気になったらぜひ調べて見てください！",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef3378102b243fc3b19d17a2e",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を使えば、以下のようなモダンな見た目で動作の軽快なアプリケーションを簡単に作ることができるのです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1f2a501ef3378115ad64d5ff327b82e9",
+    "type": "image",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "From : ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "https://flet.dev/gallery/",
+          "href": "https://flet.dev/gallery/"
+        }
+      ],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef337814ab324f922a04c07a9/1f2a501ef3378115ad64d5ff327b82e9.png"
+    },
+    "order": 25
+  },
+  {
+    "id": "1f2a501ef33781ad9e2ec7a8a3a8c4b3",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下のサイトから公式のFletアプリデモを触ることができます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1f2a501ef3378184b100f5ac60b951d9",
+    "type": "bulleted_list_item",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ToDoアプリ",
+          "href": "https://gallery.flet.dev/todo/"
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1f2a501ef33781db92aeda558640f8b8",
+    "type": "bulleted_list_item",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "電卓",
+          "href": "https://gallery.flet.dev/calculator/"
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "1f2a501ef33781a7af15d2eab5b34668",
+    "type": "bulleted_list_item",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Emoji Enigma（ゲーム）",
+          "href": "https://ee.lshss.app/"
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1f2a501ef33781c69348ca8e9e1b7979",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 30
+  },
+  {
+    "id": "1f2a501ef33781608ac0c8b079421ca2",
+    "type": "paragraph",
+    "parentId": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef337814ab324f922a04c07a9",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これからは、この",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を使って実際にGUIアプリケーションの作り方を学んでいきます！",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  }
+]

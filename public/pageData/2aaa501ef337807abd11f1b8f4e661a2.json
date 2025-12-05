@@ -1,0 +1,2126 @@
+[
+  {
+    "id": "2aaa501ef337817d8fe7d8d5dba208a6",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "2aaa501ef33781ed928bf9c7fb6100a5",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "目標：ハッカソンに向け、チームでの開発を身につける",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "2aba501ef33780a3bcb9f711ff33fd97",
+    "type": "heading_1",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーマ：実用的なもの",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "2aba501ef3378024b0c1e00d635b498d",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 3
+  },
+  {
+    "id": "2aba501ef337807884dffef9a18b10f9",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このテーマに沿ったアプリ・ソフトウェアを開発してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "2aba501ef33780d0b3afd98fb407f388",
+    "type": "heading_3",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期間",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "2aba501ef3378073b8edde39b6a57463",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "11/14～11/28の活動終了",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "2aba501ef33780d38042f9f3fc1081fa",
+    "type": "heading_3",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "最低要件",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "2aba501ef33780a5b4d3f8975bd6b827",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet create",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドでアプリの作成を始めること",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "2aba501ef337809bb303e10947625e8d",
+    "type": "paragraph",
+    "parentId": "2aba501ef33780a5b4d3f8975bd6b827",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "新しいFletアプリの作り方",
+          "href": "/posts/curriculums/26ea501ef33780e0aff1e562add4627b",
+          "mention": {
+            "content": {
+              "iconType": "emoji",
+              "iconUrl": "🆕",
+              "title": "新しいFletアプリの作り方"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef337801f9ffef6c41aaf96bf",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "2つ以上のpyファイルで構成されること",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "2aba501ef33780b1b02cc4c2ded8070f",
+    "type": "paragraph",
+    "parentId": "2aba501ef337801f9ffef6c41aaf96bf",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import文",
+          "href": "/posts/curriculums/267a501ef33780ba90cbd7fbfbcdc324",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/arrow-down-line_gray.svg",
+              "title": "import文"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef337809eb8f5e7e07a726ceb",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースを用いてデータの保存を行うこと",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "2aba501ef33780c78f44d8ed0bc9694e",
+    "type": "paragraph",
+    "parentId": "2aba501ef337809eb8f5e7e07a726ceb",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベース基礎",
+          "href": "/posts/curriculums/1ada501ef33781e8b251df0f38a0cb23",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/database_blue.svg",
+              "title": "データベース基礎"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef3378044a6cbc66d9b60c430",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Git, Githubを使用して開発物を共有すること",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "2aba501ef3378016a667dbcb35f370ba",
+    "type": "paragraph",
+    "parentId": "2aba501ef3378044a6cbc66d9b60c430",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Git, Github",
+          "href": "/posts/curriculums/256a501ef33780a9a46fc17219f411da",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/git_orange.svg",
+              "title": "Git, Github"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef3378004957cf3255a160aa6",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以上の要件を満たすアプリを作成してください",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "2aba501ef337807491fce2b427fe4152",
+    "type": "heading_3",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "任意要件",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "2aba501ef33780dd801ef9a8404fc732",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次回にルーティングを必須するので今開発でも使っておくと練習になります",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "2aba501ef33780a1bab1c8f18f32783e",
+    "type": "paragraph",
+    "parentId": "2aba501ef33780dd801ef9a8404fc732",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ルーティング",
+          "href": "/posts/curriculums/267a501ef33780fd9f0efa54963de153",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/branch_orange.svg",
+              "title": "ルーティング"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " \n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "静的ルーティング",
+          "href": "/posts/curriculums/267a501ef33780c2ac2ac9c0ac0b439e",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/branch_green.svg",
+              "title": "静的ルーティング"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef33780f28889d3d3c3d30e2e",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 15
+  },
+  {
+    "id": "2aba501ef33780ddab61ed0a3af111a8",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 16
+  },
+  {
+    "id": "2aba501ef33780378cf1ec60dde1c4df",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Discordについて",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "2aba501ef33780678438d9441114724a",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 18
+  },
+  {
+    "id": "2aba501ef337802db8cce73a29502ae5",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今回もDiscordのHorizonサーバー内に、各チーム用のフォーラムを用意しています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "2aba501ef337800c9481cbdf75468ecc",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チーム開発に関するコミュニケーションはこのフォーラム上で行ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "2aba501ef337802883fcd15660fa9f44",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チーム内ミーティングについて",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "11/19 24:00",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "までに1回、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "11/26 24:00",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "までに1回、計2回必ず",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "全員でのミーティング",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を行ってください。\nまた、これは最低限のラインなので基本的に計4回はするつもりで決めましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "2aba501ef337801e93a4dceabbfe846d",
+    "type": "callout",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "⚠️"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チーム全員が活動に参加できる場合は、活動中に対面でミーティングをしてもOKです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "2aba501ef33780d3a26edc0b22a59add",
+    "type": "paragraph",
+    "parentId": "2aba501ef337801e93a4dceabbfe846d",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "一人でも欠ける場合はオンラインで行ってください。",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "必ず全員が話し合いに参加するようにしましょう",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef33780ecbd75d6811078e992",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "タスク管理表について",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "2aba501ef33780439992d92ac862b1dc",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 24
+  },
+  {
+    "id": "2aba501ef337809ebab6c95469f12018",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "各人の担当箇所と進捗度を明確にするため、必ずタスク管理表を使用してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "2aba501ef3378012a5d8fd91a6acd464",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "第2回チーム開発は、自発的にタスク管理表を作り、次回本番であるHDCのチーム開発では、完全に基礎班の方々に作ってもらいます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "2aba501ef337800bb9e6d319b87a9a22",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "タスク管理表は以下を参考に作成してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "2aba501ef33780e89515c59e3df96b94",
+    "type": "child_page",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "coverUrl": "",
+      "iconType": "",
+      "iconUrl": "",
+      "parent": "タスク管理表（見本）"
+    },
+    "order": 28
+  },
+  {
+    "id": "2aba501ef337804a8a43c48dddb6edcb",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チーム開発のコツ",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "2aba501ef33780e0a8f1f396a96dd389",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 30
+  },
+  {
+    "id": "2aba501ef33780a6ab7fe5716077017b",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チーム開発を進めるうえでは、お互いの進捗をしっかりと確認できることが重要です。そのため、以下の2点を意識しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "2aba501ef33780fb8ba2fd8bf5bc6ce6",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "頻繁なGithubへのプッシュ",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "2aba501ef3378078b752d9e72f18a23e",
+    "type": "paragraph",
+    "parentId": "2aba501ef33780fb8ba2fd8bf5bc6ce6",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "たとえ5分だけの作業でも…",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef337805b97a3f625a5a71e21",
+    "type": "bulleted_list_item",
+    "parentId": "2aba501ef33780fb8ba2fd8bf5bc6ce6",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "必ず作業前にはGithubからリポジトリをプル",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "2aba501ef337805c9ba2ce17520914ba",
+    "type": "bulleted_list_item",
+    "parentId": "2aba501ef33780fb8ba2fd8bf5bc6ce6",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作業が終わればコミットをしてGithubにプッシュ",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "2aba501ef337803d8552f21abf18d1d6",
+    "type": "paragraph",
+    "parentId": "2aba501ef33780fb8ba2fd8bf5bc6ce6",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作業終わりだけでなく、作業のキリがいいところでもプッシュをするようにしましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "2aba501ef3378000bb7ac7e5368bf566",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Discordでの作業報告",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "2aba501ef33780908e30f6b8a3357f7d",
+    "type": "paragraph",
+    "parentId": "2aba501ef3378000bb7ac7e5368bf566",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プログラムに追加・変更を加えた際には、その旨と概要をDiscordのフォーラムでチームメイトに共有しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef33780cb9939d74b256ab527",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チームリーダーについて",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  },
+  {
+    "id": "2aba501ef3378062a84cd67faae6e223",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 35
+  },
+  {
+    "id": "2aba501ef33780eb83a6d71b56939ddd",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今回はチーム開発を進める上でリーダーを決めてもらいます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "2aba501ef337802eb383c4e7ea3ddca2",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "役割",
+          "href": null
+        }
+      ]
+    },
+    "order": 37
+  },
+  {
+    "id": "2aba501ef3378081a1b2d5e5ad6f8c99",
+    "type": "bulleted_list_item",
+    "parentId": "2aba501ef337802eb383c4e7ea3ddca2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "あくまで開発を進める上でのリーダー役なので技術面はあまり関係がありません",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef33780bcb73fe35d782b5dad",
+    "type": "bulleted_list_item",
+    "parentId": "2aba501ef337802eb383c4e7ea3ddca2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チームのまとめ役として意見をまとめましょう",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "2aba501ef33780aba350fa23306004a7",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "開発物の発表について",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "2aba501ef33780f5b4cace60ee7dd721",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 39
+  },
+  {
+    "id": "2aba501ef33780058061fa00c167da41",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "前回はnotionでデモ動画を提出してもらいましたが、今回は",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "デモ動画だけでなく",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "同ページに説明等を含む記事",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "も書いてもらいます。記事に必要な内容はチーム開発終盤ごろに通知します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 40
+  },
+  {
+    "id": "2aba501ef33780faa7acc4ba57369eff",
+    "type": "heading_1",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今日やること",
+          "href": null
+        }
+      ]
+    },
+    "order": 41
+  },
+  {
+    "id": "2aba501ef33780c9b17ff663e85c6f71",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 42
+  },
+  {
+    "id": "2aba501ef33780cb8b98ffad0e2a9c8b",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "空いてる時間を共有しよう",
+          "href": null
+        }
+      ]
+    },
+    "order": 43
+  },
+  {
+    "id": "2aba501ef33780258b37dfdd93836b6d",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 44
+  },
+  {
+    "id": "2aba501ef337806195abd8b09a107c31",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "自分がチーム開発にどれだけの時間を割くことができるのかを明確化し、チーム内で共有しておきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 45
+  },
+  {
+    "id": "2aba501ef33780db981ee05ab774d48b",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "こうすることで、どれほどの作業量を分担すればよいかが分かってきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 46
+  },
+  {
+    "id": "2aba501ef33780d28365e501545c41f5",
+    "type": "callout",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "🗨️"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "11/15 22:00~23:00",
+          "href": null
+        }
+      ]
+    },
+    "order": 47
+  },
+  {
+    "id": "2aba501ef33780a59cbcee6bb7be93ac",
+    "type": "paragraph",
+    "parentId": "2aba501ef33780d28365e501545c41f5",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "11/16 17:00~19:00",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef33780898b30ee02c1d89741",
+    "type": "paragraph",
+    "parentId": "2aba501ef33780d28365e501545c41f5",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "11/18 9:00~12:00",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "2aba501ef33780bf85b7c4d4f7efb07f",
+    "type": "paragraph",
+    "parentId": "2aba501ef33780d28365e501545c41f5",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "             ⋮",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "2aba501ef337804fba61dee9c0872a67",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このように自分の空いている時間を書き出し、Discordのフォーラムに書き込みましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 48
+  },
+  {
+    "id": "2aba501ef3378071acbfe9fc68f814dc",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "また、全員の空き時間がわかったら、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "11/19までに行う1回目の全員ミーティングの日時も決めましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 49
+  },
+  {
+    "id": "2aba501ef33780898aebd177f3613e07",
+    "type": "heading_2",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "開発物に関する話し合いをしよう",
+          "href": null
+        }
+      ]
+    },
+    "order": 50
+  },
+  {
+    "id": "2aba501ef337803e80c8e1d1358c4993",
+    "type": "divider",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": "_",
+    "order": 51
+  },
+  {
+    "id": "2aba501ef337804aa100e637fce08dc9",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下の内容について、開発物についてチームで決定しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 52
+  },
+  {
+    "id": "2aba501ef3378027930fdd971d2b9dbf",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どんなアプリを作るか",
+          "href": null
+        }
+      ]
+    },
+    "order": 53
+  },
+  {
+    "id": "2aba501ef3378006bf82f41bb51645fd",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どんな機能が必要か",
+          "href": null
+        }
+      ]
+    },
+    "order": 54
+  },
+  {
+    "id": "2aba501ef3378020a59fc06b2943b842",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どんなページがいるか・何ページいるか",
+          "href": null
+        }
+      ]
+    },
+    "order": 55
+  },
+  {
+    "id": "2aba501ef337808a895fc2870e299968",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どのように役割分担するか",
+          "href": null
+        }
+      ]
+    },
+    "order": 56
+  },
+  {
+    "id": "2aba501ef33780ccab42c6da0040dbac",
+    "type": "paragraph",
+    "parentId": "2aba501ef337808a895fc2870e299968",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "書けるところは、タスク管理表に書き込みながら決めていきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef3378086ad57eb33ce2d834e",
+    "type": "bulleted_list_item",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どんなUIにするか",
+          "href": null
+        }
+      ]
+    },
+    "order": 57
+  },
+  {
+    "id": "2aba501ef337806d9626e35e8d23238a",
+    "type": "paragraph",
+    "parentId": "2aba501ef3378086ad57eb33ce2d834e",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Canvaのプロトタイプ機能",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を使って考えましょう。\nチーム内で共有することも忘れずに！",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2aba501ef337803ca6f2cd1de5176a77",
+    "type": "callout",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "話し合いで決まったことは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Discordのフォーラム",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "や",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notion",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "などで、チームメイト全員がいつでも見れる状態で残しておきましょう",
+          "href": null
+        }
+      ]
+    },
+    "order": 58
+  },
+  {
+    "id": "2aba501ef3378065a7daed70a40ee2d6",
+    "type": "paragraph",
+    "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "curriculumId": "28aa501ef337805185e6e399d399ac90",
+    "pageId": "2aaa501ef337807abd11f1b8f4e661a2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "上記が本日の活動中に決まらなかった場合は、土日のうちにオンライン等で話し合って決めてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 59
+  }
+]

@@ -1,0 +1,2117 @@
+[
+  {
+    "id": "24ba501ef337814c8816d33c26b3a39b",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTML, CSS",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の学習を効率よく進めるためのに、VSCodeのおすすめな設定を伝授します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef33781299ef9d92b0a8e31ad",
+    "type": "callout",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "✅"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーマ・設定などの影響で、このページに乗っているスクリーンショットと皆さんのVSCodeの画面表示がすこし違うかもしれませんが、気にせず進めてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "24ba501ef337814589fee72d8df168f1",
+    "type": "column_list",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "24ba501ef337814ca83cc750037177cd",
+    "type": "column",
+    "parentId": "24ba501ef337814589fee72d8df168f1",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337810ea5dbf913644fe34e",
+    "type": "heading_1",
+    "parentId": "24ba501ef337814ca83cc750037177cd",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Live Preview",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef33781899b5ee78e3d08dc55",
+    "type": "column",
+    "parentId": "24ba501ef337814589fee72d8df168f1",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "24ba501ef33781fd973cf40403c2f852",
+    "type": "image",
+    "parentId": "24ba501ef33781899b5ee78e3d08dc55",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781fd973cf40403c2f852.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef33781428a9de4d6ecb37159",
+    "type": "divider",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 3
+  },
+  {
+    "id": "24ba501ef337815085f0c942c51d3e32",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTMLとCSSは、簡単に言うとWebサイトを作るための言語です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "24ba501ef33781f28ef0c7cdbbe99ae1",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そのため、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTML, CSSのファイルを編集→ブラウザでHTML, CSSで作られたページを確認 ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という作業が頻繁に発生します。\n本来であれば、編集→保存→エクスプローラでHTMLファイルを開く→変更部分を確認→また編集・・・とかなり面倒な作業となります。\nそれを解決するのが",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "blue",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Live Preview",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "というVSCodeの",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "拡張機能",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "24ba501ef33781f8bdbfc2cb7165531c",
+    "type": "toggle",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "gray_background",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "[雑談] ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " HTMLはプログラミング言語？",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "24ba501ef33781fbb7a3e71e1b300bde",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781f8bdbfc2cb7165531c",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "よくネット上の「初心者おすすめプログラミング言語○選！」みたいな記事では、HTMLやCSSがプログラミング言語の一種のように語られます。しかし、実はHTMLもCSSもプログラミング言語ではありません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef33781bbbf57c7d0fcbcfbfc",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781f8bdbfc2cb7165531c",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ですが、HTMLもCSSもプログラミング言語とは違う括りの",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "言語",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に属します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "24ba501ef337811095ecd3613b19ea46",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781f8bdbfc2cb7165531c",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTMLはその正式名称",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": true,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HyperText Markup ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": true,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "Language",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "にLanguageという言葉が含まれています。HTMLは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "マークアップ言語",
+          "href": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という言語の一種です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "24ba501ef337818ca5cae4eb465bd760",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781f8bdbfc2cb7165531c",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CSSに関しては正式名称",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": true,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Cascading Style Sheets",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "にLanguageという言葉こそ含まれていませんが、これは",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "スタイルシート言語",
+          "href": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%B7%E3%83%BC%E3%83%88#%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%B7%E3%83%BC%E3%83%88%E8%A8%80%E8%AA%9E"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の一種なのです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "24ba501ef337811bb833d067eacd81b5",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781f8bdbfc2cb7165531c",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ジャンルこそ違えど、HTMLもCSSも立派な「",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "言語",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」なのです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "24ba501ef337815684e1d8190e5071cb",
+    "type": "heading_2",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "インストール",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "24ba501ef337811ca4f1cf166eb6f97f",
+    "type": "divider",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 8
+  },
+  {
+    "id": "24ba501ef337815d9943db510bd32abf",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VSCodeを立ち上げてください。Live Previewをインストールしましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "24ba501ef3378114bd8eec53b1f86673",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まず、左側のアイコンが並んだところ（",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "アクティビティバー",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "）から、拡張機能のマークをクリックします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "24ba501ef33781b88522e00c23131db5",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781b88522e00c23131db5.png"
+    },
+    "order": 11
+  },
+  {
+    "id": "24ba501ef33781c48a24dd1d72e113e8",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "すると、左側に「拡張機能：マーケットプレイス」というサイドバーが開きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "24ba501ef3378162b716f6fe59d000cf",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "その検索窓に「live preview」と入力すると、Microsoftが提供する「",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Live Preview",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」という拡張機能がヒットします。それをクリックしましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "24ba501ef33781498998f21b72c3a4a8",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781498998f21b72c3a4a8.png"
+    },
+    "order": 14
+  },
+  {
+    "id": "24ba501ef3378196a38ff898e324621b",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「Live Preview」の詳細が右側に表示されます。「インストール」ボタンをクリックしてインストールしましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "24ba501ef33781f09cafccff7ee267b8",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781f09cafccff7ee267b8.png"
+    },
+    "order": 16
+  },
+  {
+    "id": "24ba501ef337817d9cb7c07fcfe1c33e",
+    "type": "heading_2",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "使い方",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "24ba501ef337816aac8ad08ac9367728",
+    "type": "divider",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 18
+  },
+  {
+    "id": "24ba501ef3378140b994c846d2fbf610",
+    "type": "column_list",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 19
+  },
+  {
+    "id": "24ba501ef337813d91a9e5f829951377",
+    "type": "column",
+    "parentId": "24ba501ef3378140b994c846d2fbf610",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337814ba1dfda61cb7037eb",
+    "type": "paragraph",
+    "parentId": "24ba501ef337813d91a9e5f829951377",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Live Previewをインストールした状態でHTMLファイルを開くと、右上に",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "扉と虫眼鏡みたいなマーク",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "が現れます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337815b91afff46d31adb7e",
+    "type": "column",
+    "parentId": "24ba501ef3378140b994c846d2fbf610",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "24ba501ef33781e4be64f8b0c0763404",
+    "type": "image",
+    "parentId": "24ba501ef337815b91afff46d31adb7e",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781e4be64f8b0c0763404.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337815299fadd3e10bce84f",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef337815299fadd3e10bce84f.png"
+    },
+    "order": 20
+  },
+  {
+    "id": "24ba501ef33781e88931efc5ac78aca6",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTMLファイルを開いているときにこのマークをクリックすると、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "新しくブラウザのウィンドウが開き",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "、そのHTMLファイルがプレビューされます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "24ba501ef33781e3a153eb3e28250ec3",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781e3a153eb3e28250ec3.gif"
+    },
+    "order": 22
+  },
+  {
+    "id": "24ba501ef3378177a653c95bbe049804",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このプレビューは、PythonのFletで書いたプログラムを",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet run",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "で実行したときと同じように、ファイルを変更すると",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "即座にその結果が反映",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "されます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "24ba501ef337815293feea5902562ed4",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下の動画を見てみてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "24ba501ef33781678e16d163463f551c",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781678e16d163463f551c.gif"
+    },
+    "order": 25
+  },
+  {
+    "id": "24ba501ef33781f1b86ef96e09358a08",
+    "type": "callout",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "orange_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "❓"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プレビューのマークが表示されない！？",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "24ba501ef33781d78dc3fb1aab5e8ae8",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781f1b86ef96e09358a08",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "扉と虫眼鏡のマークが表示されない場合、以下を確認してみてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef33781f283d3cddf38ac22e3",
+    "type": "numbered_list_item",
+    "parentId": "24ba501ef33781f1b86ef96e09358a08",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "現在、HTMLファイルを開いているか？",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "24ba501ef3378192b627e27e0cac775a",
+    "type": "numbered_list_item",
+    "parentId": "24ba501ef33781f1b86ef96e09358a08",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Live Previewは正常にインストールされているか？",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "24ba501ef3378141b2a9caf2b1625e28",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781f1b86ef96e09358a08",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なかなか改善しないときは、Live Previewの再インストールやVSCodeの再起動で治るかもしれません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "24ba501ef3378133b0d6c26585ae1fab",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "手元で動かして試してみたい人は、以下のHTMLのコ―ドをコピペして使ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "24ba501ef33781ad8569e015875510b8",
+    "type": "code",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "caption": [],
+      "language": "html",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n    \u003cmeta charset=\"UTF-8\"\u003e\n    \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n    \u003ctitle\u003eてすとぉ！\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n    \u003ch1\u003eこれはテストページです\u003c/h1\u003e\n    \u003cp\u003eつれづれなるまゝに、日くらし、硯にむかひて、心に移りゆくよしなし事を、\u003cbr\u003e\n        そこはかとなく書きつくれば、あやしうこそものぐるほしけれ\u003c/p\u003e\n    \n\u003c/body\u003e\n\u003c/html\u003e",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "24ba501ef337814c98fecb190cfb2d04",
+    "type": "heading_1",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "インデントを見やすく",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "24ba501ef3378117a9d1e10b98d63654",
+    "type": "divider",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 30
+  },
+  {
+    "id": "24ba501ef33781609622df15f471d36d",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "特にHTMLを書く時は、コートを見やすくするためにインデント（＝タブ）を多用します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "24ba501ef337818b8db5f72d7c9a74dc",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "インデントがたくさん",
+          "href": null
+        }
+      ],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef337818b8db5f72d7c9a74dc.png"
+    },
+    "order": 32
+  },
+  {
+    "id": "24ba501ef337818884a1ff3f18588d74",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "たくさんインデントを使っていると、どこまでインデントを入れたのか、今どの階層にいるかなど、結構ややこしくなってきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "24ba501ef337819f8bcec551f9825cac",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "それを視覚的にわかりやすくする方法をお教えします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  },
+  {
+    "id": "24ba501ef3378176b898f944e94953ee",
+    "type": "heading_2",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "setting.jsonを編集",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "24ba501ef3378112a3beef3bb28d8078",
+    "type": "divider",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": "_",
+    "order": 36
+  },
+  {
+    "id": "24ba501ef33781cb9fedd40c28701251",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これはVSCodeの標準機能として搭載されていて、拡張機能の追加インストールは不要です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 37
+  },
+  {
+    "id": "24ba501ef3378184ac3ffb9b1f3f9683",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "この設定は",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "setting.json",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という、VSCode専用の設定ファイルを編集して行います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "24ba501ef33781e2961ef737a88e1c99",
+    "type": "callout",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "green_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "setting.jsonとは？",
+          "href": null
+        }
+      ]
+    },
+    "order": 39
+  },
+  {
+    "id": "24ba501ef337812aa610e9099cbea553",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781e2961ef737a88e1c99",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VSCodeに動作や外見など、様々な設定を記述するファイルです。JSONという形式で記述をします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef33781c49940d9f5e292cd06",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781e2961ef737a88e1c99",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VSCodeを使う上でsetting.jsonを知っておくのは必須ではありません。（多くの設定がGUIで変更できるため）",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "24ba501ef3378136a0ffe3135283c4dc",
+    "type": "paragraph",
+    "parentId": "24ba501ef33781e2961ef737a88e1c99",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "しかし、今回のようにsetting.jsonをいじらなきゃいけないこともあるので（大体がコピペでOK）存在ぐらいは知っておきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "24ba501ef3378148ab62ca4e421bf9d5",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まずは、setting.jsonファイルを開きましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 40
+  },
+  {
+    "id": "24ba501ef33781919f27cbb3101e7fab",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "左下の歯車マークをクリックし、出てきたメニューの中から「設定」に進みます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 41
+  },
+  {
+    "id": "24ba501ef337811089a4d2bd67244ab1",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef337811089a4d2bd67244ab1.png"
+    },
+    "order": 42
+  },
+  {
+    "id": "24ba501ef337817e8b51c6ceff8d1dea",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "すると、VSCodeの設定画面が開きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 43
+  },
+  {
+    "id": "24ba501ef3378115b438cc6718eacc11",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "設定の保存先が「ユーザー」であることを確認し（①参照）右上にある「紙と矢印」みたいなアイコンをクリックすると、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "setting.json",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を開くことができます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 44
+  },
+  {
+    "id": "24ba501ef33781a19630ff77b84e4d33",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781a19630ff77b84e4d33.png"
+    },
+    "order": 45
+  },
+  {
+    "id": "24ba501ef33781e680bfd36618110c7c",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "setting.jsonを開くと以下のような呪文がたくさん書き込まれたファイルが開きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 46
+  },
+  {
+    "id": "24ba501ef3378193a002efc3ae02dd44",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（内容は人により異なります）",
+          "href": null
+        }
+      ]
+    },
+    "order": 47
+  },
+  {
+    "id": "24ba501ef337810bbb56f0d38d12e8ed",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef337810bbb56f0d38d12e8ed.png"
+    },
+    "order": 48
+  },
+  {
+    "id": "24ba501ef33781f79d87f39fbe381743",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "一番最後にある「",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "}",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」の手前に、以下のコードを追記（コピペ）しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 49
+  },
+  {
+    "id": "24ba501ef337817387d8e5d1287d5be3",
+    "type": "code",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "caption": [],
+      "language": "json",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ",\n\"workbench.colorCustomizations\": {\n\"editorIndentGuide.background1\": \"#b22222\",\n\"editorIndentGuide.background2\": \"#ff4500\",\n\"editorIndentGuide.background3\": \"#ffd700\",\n\"editorIndentGuide.background4\": \"#228b22\",\n\"editorIndentGuide.background5\": \"#000080\",\n\"editorIndentGuide.background6\": \"#8b008b\",\n\"editorIndentGuide.activeBackground1\": \"#fff\",\n\"editorIndentGuide.activeBackground2\": \"#fff\",\n\"editorIndentGuide.activeBackground3\": \"#fff\",\n\"editorIndentGuide.activeBackground4\": \"#fff\",\n\"editorIndentGuide.activeBackground5\": \"#fff\",\n\"editorIndentGuide.activeBackground6\": \"#fff\"\n},",
+          "href": null
+        }
+      ]
+    },
+    "order": 50
+  },
+  {
+    "id": "24ba501ef33781f19d27d0c76aaea8b9",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "追記後はこのようになります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 51
+  },
+  {
+    "id": "24ba501ef33781a7b408e8ac38744d3e",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781a7b408e8ac38744d3e.png"
+    },
+    "order": 52
+  },
+  {
+    "id": "24ba501ef3378177837cd565578332d3",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "追記ができたら、setting.jsonを保存し、適当なインデントがあるファイルを開いてみましょう（Pythonなど、HTMLでないファイルでも大丈夫です）。",
+          "href": null
+        }
+      ]
+    },
+    "order": 53
+  },
+  {
+    "id": "24ba501ef3378126becdf421b858a398",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下のように、インデントごとに異なる色が表示されているはずです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 54
+  },
+  {
+    "id": "24ba501ef33781c3811cf8b7f641df22",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781c3811cf8b7f641df22.png"
+    },
+    "order": 55
+  },
+  {
+    "id": "24ba501ef33781aeaf09f2928acd90cf",
+    "type": "image",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337810383accac23c85dce4/24ba501ef33781aeaf09f2928acd90cf.png"
+    },
+    "order": 56
+  },
+  {
+    "id": "24ba501ef33781e2be20e3053c6c23b4",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これでコード内のインデントが見やすくなりましたね！",
+          "href": null
+        }
+      ]
+    },
+    "order": 57
+  },
+  {
+    "id": "24ba501ef337818cbc3fcc533bcab75a",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810383accac23c85dce4",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337810383accac23c85dce4",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 58
+  }
+]

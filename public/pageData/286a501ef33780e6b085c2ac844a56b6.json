@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "288a501ef33780cbb2b7e6ce63a58465",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "練習問題1おつかれまさでした！",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "288a501ef33780efbe99ef70e7eba2e2",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下に練習問題1の回答例が記載されています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "28aa501ef33780108423fdf51b313a11",
+    "type": "heading_1",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題1",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "28aa501ef337805bb84cfab643c7032f",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "縦3、横4の長方形の面積を求め、その値を変数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "a",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に代入し、結果を出力するプログラムを書いてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "28aa501ef33780aca77bee71ccc903aa",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※プログラムは「prac1-1.py」として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "28aa501ef33780d5b162f68ca9157a60",
+    "type": "heading_3",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待する出力結果",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "28aa501ef3378003a66bef242820fe30",
+    "type": "image",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/286a501ef33780e6b085c2ac844a56b6/28aa501ef3378003a66bef242820fe30.jpg"
+    },
+    "order": 6
+  },
+  {
+    "id": "288a501ef3378095bd56d426c2cc7ed7",
+    "type": "callout",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": ""
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "答え",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "288a501ef33780338627d490ac63c060",
+    "type": "code",
+    "parentId": "288a501ef3378095bd56d426c2cc7ed7",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "a = 3 * 4\nprint(\"縦3、横4の長方形の面積は\", a, \"です\")",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "28aa501ef33780d0ac2dffbf0a90068a",
+    "type": "heading_1",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題2",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "28aa501ef337801b87b4f1f19086b8bd",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "半径が5の円の面積を求め、その値を変数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "b",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に代入し、結果を出力するプログラムを書いてください。ただし、円周率は3.14としてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "28aa501ef337808c9fccc47f0972163d",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※プログラムは「prac1-2.py」として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "28aa501ef33780a99d3cfeffc4bb3290",
+    "type": "callout",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "円の面積の公式は ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "半径^2 × 円周率",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "28aa501ef3378062acd9edfe63833726",
+    "type": "heading_3",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待する出力結果",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "28aa501ef337805d8555cdb95a2758ad",
+    "type": "image",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/286a501ef33780e6b085c2ac844a56b6/28aa501ef337805d8555cdb95a2758ad.jpg"
+    },
+    "order": 13
+  },
+  {
+    "id": "288a501ef33780d68f3af9a1a06ee49e",
+    "type": "callout",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": ""
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "答え",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "288a501ef337809a99aaea0a3cda5a6c",
+    "type": "code",
+    "parentId": "288a501ef33780d68f3af9a1a06ee49e",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "b = 5 ** 2 * 3.14\nprint(\"半径5の円の面積は\", b, \"です\")",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "28aa501ef3378041abb3eace10323fa2",
+    "type": "heading_1",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題3",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "28aa501ef3378049ad0bf70dedf728e2",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "適切な演算子を用いて、次の計算を行ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "28aa501ef33780b6bcacd2bedd09f97c",
+    "type": "numbered_list_item",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "500 を 7 で割ったあまり",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "28aa501ef33780b1ab64d32f0519eb76",
+    "type": "numbered_list_item",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1000 を 80 で割った結果の整数部のみ",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "28aa501ef337801d87cad7ae7116a8bb",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ただし、結果の出力は変数を介さずprint関数に直接計算式を記述して行ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "28aa501ef337805b8dd4e5abe4a891c3",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※プログラムは「prac1-3.py」として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "28aa501ef3378087bf47f3963e0e23be",
+    "type": "heading_3",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待する出力結果",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "28aa501ef337805aa322df49e2bf13b3",
+    "type": "image",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/286a501ef33780e6b085c2ac844a56b6/28aa501ef337805aa322df49e2bf13b3.jpg"
+    },
+    "order": 22
+  },
+  {
+    "id": "288a501ef33780a0b7facefc78fdde1e",
+    "type": "callout",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": ""
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "答え",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "288a501ef337807db405e16e6c53455e",
+    "type": "code",
+    "parentId": "288a501ef33780a0b7facefc78fdde1e",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "print(\"500÷7のあまり:\", 500%7)\nprint(\"1000÷80の整数部:\", 1000//80)",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "28aa501ef337809eaf3edf54b9693352",
+    "type": "heading_1",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "発展問題",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "28aa501ef337806c8c06ee13c83e0881",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "変数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に代入した数字と、変数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "m",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に代入した値を入れ替えてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "28aa501ef337800fa25ef641e4b5f0fc",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "また、出力として入れ替え前の変数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "m",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の内容、入れ替えを実施すること、入れ替え後の変数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "m",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の内容の３つを表示してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "28aa501ef337803f8ef4e0c5a295f7e4",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ただし、この問題では必ず",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "orange",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "3つ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の変数を使用してください。(",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "m",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ともう一つ)",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "28aa501ef337809e9f56e52ac3f11be9",
+    "type": "paragraph",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※プログラムは「prac1-4.py」として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "28aa501ef3378015a079c6475744dc20",
+    "type": "heading_3",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待する出力結果",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "28aa501ef337809bbeb7e0a6a313ac77",
+    "type": "image",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/286a501ef33780e6b085c2ac844a56b6/28aa501ef337809bbeb7e0a6a313ac77.jpg"
+    },
+    "order": 30
+  },
+  {
+    "id": "288a501ef33780128d64c627d8459cb2",
+    "type": "callout",
+    "parentId": "286a501ef33780e6b085c2ac844a56b6",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": ""
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "答え",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "288a501ef33780b29a76fa8d644f9553",
+    "type": "code",
+    "parentId": "288a501ef33780128d64c627d8459cb2",
+    "curriculumId": "286a501ef33780e6b085c2ac844a56b6",
+    "pageId": "286a501ef33780e6b085c2ac844a56b6",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "n = 5\nm = 3\nprint(\"入れ替え前 n:\", n, \" m:\", m)\nprint(\"変数nとmを入れ替えます\")\nx = \nn = m\nm = x\nprint(\"入れ替え後 n:\", n, \" m:\", m)",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  }
+]

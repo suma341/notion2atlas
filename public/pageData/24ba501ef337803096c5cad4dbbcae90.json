@@ -1,0 +1,386 @@
+[
+  {
+    "id": "24ba501ef337819a8fecc773eaa6f31a",
+    "type": "heading_1",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef3378122b482f5f8a016aae9",
+    "type": "divider",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "24ba501ef33781659047f27459ffbac1",
+    "type": "paragraph",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次に ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "箇条書きで用いるタグ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "のみを用いてグローバルナビゲーションと設置学部、目次のリストを設置してください",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "24ba501ef337814ab8dfe0b366db549c",
+    "type": "callout",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "☝"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "グローバルナビゲーションとは、Webサイトのすべてのページに原則共通で設置されている主要ページへのリンクです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "24ba501ef337810da2feeea9a32e929a",
+    "type": "callout",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "お手本画像",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "24ba501ef3378160a52bfc2de7fdeefc",
+    "type": "image",
+    "parentId": "24ba501ef337810da2feeea9a32e929a",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337803096c5cad4dbbcae90/24ba501ef3378160a52bfc2de7fdeefc.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337810088ddf89b10e846c5",
+    "type": "paragraph",
+    "parentId": "24ba501ef337810da2feeea9a32e929a",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "赤枠で囲われたところをつけ足してください",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "24ba501ef33781a4ab9de89ec2ed3336",
+    "type": "paragraph",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "箇条書きのタグを用いてHTMLを書いてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "24ba501ef33781638ba5de21dc4630a6",
+    "type": "heading_2",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ヒント",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "24ba501ef33781db9575e2a771416158",
+    "type": "divider",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": "_",
+    "order": 7
+  },
+  {
+    "id": "24ba501ef3378197a061d1b3449aa8e0",
+    "type": "toggle",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "gray_background",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ヒント：使用するタグ",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "24ba501ef337811aaf1cc80f98b016cd",
+    "type": "paragraph",
+    "parentId": "24ba501ef3378197a061d1b3449aa8e0",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003cul\u003e",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003cli\u003e",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef33781658d75ec94202c07e5",
+    "type": "paragraph",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 9
+  },
+  {
+    "id": "24ba501ef337814c83b9c3f4c5a74c03",
+    "type": "paragraph",
+    "parentId": "24ba501ef337803096c5cad4dbbcae90",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337803096c5cad4dbbcae90",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "4. メディアに関するタグ",
+          "href": "/posts/curriculums/24ba501ef33780feb7a1d55613cbe24a",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/movie-clapboard-play_green.svg",
+              "title": "4. メディアに関するタグ"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  }
+]

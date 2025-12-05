@@ -1,0 +1,358 @@
+[
+  {
+    "id": "24ba501ef3378132b745e16487927dfb",
+    "type": "heading_2",
+    "parentId": "24ba501ef337805282f6fb088ef57af6",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337805282f6fb088ef57af6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "練習問題1",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337814681e3cf4d11f5e677",
+    "type": "paragraph",
+    "parentId": "24ba501ef337805282f6fb088ef57af6",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337805282f6fb088ef57af6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003ch1\u003e",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003ch2\u003e",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003ch3\u003e",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "タグを使用して、CSSでそれぞれの文字色を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "red",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "赤",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "blue",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "青",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "緑",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に設定してみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "24ba501ef33781abbf65fbbce7f6d4ad",
+    "type": "callout",
+    "parentId": "24ba501ef337805282f6fb088ef57af6",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337805282f6fb088ef57af6",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "お手本画像",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "24ba501ef337814b9fedee34a44e6b03",
+    "type": "image",
+    "parentId": "24ba501ef33781abbf65fbbce7f6d4ad",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337805282f6fb088ef57af6",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef337805282f6fb088ef57af6/24ba501ef337814b9fedee34a44e6b03.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337814788acdd2c1433e9c0",
+    "type": "paragraph",
+    "parentId": "24ba501ef337805282f6fb088ef57af6",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337805282f6fb088ef57af6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ただし、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTMLファイルとCSSファイルは分離して、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003clink\u003e",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "タグを用いてCSSをHTMLに適応させましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "24ba501ef33781bbb904c22471711540",
+    "type": "paragraph",
+    "parentId": "24ba501ef337805282f6fb088ef57af6",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337805282f6fb088ef57af6",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 4
+  },
+  {
+    "id": "24ba501ef3378153b8c8c04e86c10cc9",
+    "type": "paragraph",
+    "parentId": "24ba501ef337805282f6fb088ef57af6",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef337805282f6fb088ef57af6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "演習問題8",
+          "href": "/posts/curriculums/24ba501ef33780c680beec31f1976f83",
+          "mention": {
+            "content": {
+              "iconType": "emoji",
+              "iconUrl": "✏️",
+              "title": "演習問題8"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  }
+]

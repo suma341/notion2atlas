@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "1e0a501ef33781bb832deb1dd264a1e4",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✅ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "概要",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337817b8f33d75d19e0c77e",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このガイドは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Java",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "がどのような言語かを紹介し、「Hello, World!」を出力するプログラムを通して基本を学べるように構成されています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef337812d93d5d2594fc6c8ef",
+    "type": "divider",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "1e0a501ef3378100bc0ce61d1acf542c",
+    "type": "heading_2",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1. Javaとは？",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1e0a501ef33781c69751d1dd922d206d",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✔️ Javaは、世界中で広く使われている人気のあるプログラミング言語です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1e0a501ef33781a59ab3c287aaa4a1f7",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✔️ Webシステム、Androidアプリ、企業の業務システムなどに多く使われています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1e0a501ef33781b7add3f37ce77fc897",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✔️ 「一度書けば、どこでも動く（Write Once, Run Anywhere）」という考え方で作られました。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1e0a501ef33781c78de5dd25692f07a0",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "💡 ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Javaの特徴",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1e0a501ef3378144bbd5e4a161702ef7",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "汎用性、互換性：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Javaで書いたプログラムは、WindowsでもMacでもLinuxでも動かせます（JVMがあればOK）。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1e0a501ef3378175b5c7c6d0e07b6f51",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "安全で安定した設計：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "エラーが起こりにくく、企業のシステムや大規模な開発でも安心して使えます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1e0a501ef33781778c5ef5b58e42c09e",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オブジェクト指向：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「部品を組み立てる」ように考えて開発できるので、複雑なプログラムも整理しやすいです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1e0a501ef33781c1a1b7cb2f5e7abe67",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "スマホ開発（Android）にも対応：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Androidアプリの開発にもJavaはよく使われています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1e0a501ef33781ba82c0e62ceff9d1ea",
+    "type": "divider",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": "_",
+    "order": 12
+  },
+  {
+    "id": "1e0a501ef33781c5bbf5f8eda74d2ccd",
+    "type": "heading_2",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1-2. 開発環境の構築",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1e0a501ef3378144a0b1e954dd86e173",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✅ (1) Windows / Mac / Linux 共通手順",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1e0a501ef33781099a69d0e57464e025",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "① Javaのインストール（JDK）",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1e0a501ef337818da241d2e9e189590e",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "https://www.oracle.com/java/technologies/javase-downloads.html",
+          "href": "https://www.oracle.com/java/technologies/javase-downloads.html"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " からJDK（開発キット）をダウンロードしインストールします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1e0a501ef33781f0b4dcf4d5b84f0c7d",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "② 開発ツール（おすすめ）",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1e0a501ef33781f6982dfa20dfeb9d61",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Visual Studio Code",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（軽量でおすすめ）",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1e0a501ef337819898d6dc26ac73a318",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33781f6982dfa20dfeb9d61",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ C/C++拡張と同様に、Java用の拡張機能を追加します（Java Extension Pack）。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337812c9355f9c2c9b22aa8",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "IntelliJ IDEA（上級者向けIDE）",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "1e0a501ef337819093fdda5ed5a83c46",
+    "type": "paragraph",
+    "parentId": "1e0a501ef337812c9355f9c2c9b22aa8",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ Javaに特化した高機能なIDEです（Community版は無料）。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781c49a5bea8e5fc4cab4",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "③ インストール確認（ターミナル）",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1e0a501ef33781d4b298f59d9e81b591",
+    "type": "code",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "java -version\njavac -version",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1e0a501ef33781f1bfe3f4ea84e42bc9",
+    "type": "divider",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": "_",
+    "order": 22
+  },
+  {
+    "id": "1e0a501ef33781ad8d7ded298d057017",
+    "type": "heading_2",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1e0a501ef337813baa4cc247af95cd45",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Javaの基本的な構造を学ぶために、「Hello, World!」を出力してみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1e0a501ef337811c935ded6e0d59a2de",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Hello World を表示するJavaコード",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1e0a501ef337814d963fe205a2238149",
+    "type": "code",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "caption": [],
+      "language": "java",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1e0a501ef33781759326c9d7b9b706e7",
+    "type": "divider",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": "_",
+    "order": 27
+  },
+  {
+    "id": "1e0a501ef3378128b139cbce3cac880b",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行方法（ターミナルで）",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "1e0a501ef33781a29972d79aeb825c62",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ファイル名を ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HelloWorld.java",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1e0a501ef33781fcb77cf6b212c10e5e",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コンパイル",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "1e0a501ef337812dae96ee58f5f850a0",
+    "type": "code",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "caption": [],
+      "language": "shell",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "javac HelloWorld.java",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "1e0a501ef33781b8b3facd504d069dae",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "1e0a501ef33781af9c1bd136dcce0b69",
+    "type": "code",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "java HelloWorld",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "1e0a501ef33781a49b8bf3b5ca07a6af",
+    "type": "divider",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": "_",
+    "order": 34
+  },
+  {
+    "id": "1e0a501ef3378154a786f43f6ae64863",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行結果：",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "1e0a501ef33781f3bbb1e0ff8cf27301",
+    "type": "code",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Hello, World!",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "1e0a501ef337812a8451d8798bc698dc",
+    "type": "divider",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": "_",
+    "order": 37
+  },
+  {
+    "id": "1e0a501ef33781579574f3e23219b373",
+    "type": "heading_3",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コード解説",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "1e0a501ef33781fe99bbd810b8584645",
+    "type": "code",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "caption": [],
+      "language": "java",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "public class HelloWorld {         // クラス名（ファイル名と一致する必要あり）\n\n    public static void main(String[] args) {  // プログラムのスタート地点\n        System.out.println(\"Hello, World!\");  // コンソールに文字を出力する命令\n    }\n\n}",
+          "href": null
+        }
+      ]
+    },
+    "order": 39
+  },
+  {
+    "id": "1e0a501ef33781f3b91ee5098f821a82",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 40
+  },
+  {
+    "id": "1e0a501ef337817eacd0c6c19bcf5a81",
+    "type": "callout",
+    "parentId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Javaでは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "すべてのコードはクラスの中に書く必要があります",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "。",
+          "href": null
+        }
+      ]
+    },
+    "order": 41
+  },
+  {
+    "id": "1e0a501ef337812482f7ea2c36533fa0",
+    "type": "paragraph",
+    "parentId": "1e0a501ef337817eacd0c6c19bcf5a81",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef3378039b5ffe8ff7a3b160c",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "メソッドが、プログラムの「入口」であり、ここから処理が始まります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  }
+]

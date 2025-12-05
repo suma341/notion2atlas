@@ -1,0 +1,57 @@
+name: update data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write  
+
+jobs:
+  run-notion2alas-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.0'
+
+      - name: Install Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget gnupg
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+      
+      - name: Install Japanese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+          sudo fc-cache -fv
+
+      - name: Build
+        run: go build -o app .
+
+      - name: Run
+        run: ./app
+        env:
+          NOTION_TOKEN_HORIZON: ${{ secrets.NOTION_TOKEN_HORIZON }}
+          NOTION_DB_ID_HORIZON: ${{ secrets.NOTION_DB_ID_HORIZON }}
+          NOTION_DB_ID_CATEGORY: ${{ secrets.NOTION_DB_ID_CATEGORY }}
+          NOTION_DB_ID_INFO: ${{ secrets.NOTION_DB_ID_INFO }}
+          NOTION_DB_ID_ANSWER: ${{ secrets.NOTION_DB_ID_ANSWER }}
+
+      - name: Commit and push if changes exist
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Notion data [skip ci]"
+          git push -f

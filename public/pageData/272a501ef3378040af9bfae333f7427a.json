@@ -1,0 +1,213 @@
+[
+  {
+    "id": "272a501ef33780d3b0cac4b7787b043e",
+    "type": "paragraph",
+    "parentId": "272a501ef3378040af9bfae333f7427a",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ここでは、アプリケーションを設計する際に必要となるアプリケーションアーキテクチャの基礎を学べます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "272a501ef337806b9933ce054648f84b",
+    "type": "paragraph",
+    "parentId": "272a501ef3378040af9bfae333f7427a",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 1
+  },
+  {
+    "id": "272a501ef337800ea312cc759fe5f747",
+    "type": "quote",
+    "parentId": "272a501ef3378040af9bfae333f7427a",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Section1：基本情報",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "272a501ef33781dc8baac66b37fc5454",
+    "type": "child_page",
+    "parentId": "272a501ef337800ea312cc759fe5f747",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/question-mark_pink.svg",
+      "parent": "アプリケーションアーキテクチャとは"
+    },
+    "order": 0
+  },
+  {
+    "id": "272a501ef337814b9fd0cd3ad7f764b5",
+    "type": "child_page",
+    "parentId": "272a501ef337800ea312cc759fe5f747",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/list-indent_pink.svg",
+      "parent": "MVCについて"
+    },
+    "order": 1
+  },
+  {
+    "id": "272a501ef3378081b041d471cbc6b775",
+    "type": "quote",
+    "parentId": "272a501ef3378040af9bfae333f7427a",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Section2：FletでTodoアプリを作ってMVCを学ぼう",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "272a501ef33781d084bbfc2e5f939f86",
+    "type": "child_page",
+    "parentId": "272a501ef3378081b041d471cbc6b775",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/soccer_pink.svg",
+      "parent": "FletでTodoアプリを作ってMVCを学ぼう"
+    },
+    "order": 0
+  },
+  {
+    "id": "272a501ef337819297bbc044d7ec9435",
+    "type": "child_page",
+    "parentId": "272a501ef3378081b041d471cbc6b775",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/code-scan_pink.svg",
+      "parent": "UIを作る"
+    },
+    "order": 1
+  },
+  {
+    "id": "272a501ef33781adab70e985dba92d6d",
+    "type": "child_page",
+    "parentId": "272a501ef3378081b041d471cbc6b775",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/branch-create_pink.svg",
+      "parent": "ロジックを作る"
+    },
+    "order": 2
+  },
+  {
+    "id": "272a501ef33781caa5c3c4263114cacd",
+    "type": "child_page",
+    "parentId": "272a501ef3378081b041d471cbc6b775",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/database_pink.svg",
+      "parent": "Model層を作る"
+    },
+    "order": 3
+  },
+  {
+    "id": "272a501ef3378142bdacdfdaaf90b0c8",
+    "type": "child_page",
+    "parentId": "272a501ef3378081b041d471cbc6b775",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/video-game-classic_pink.svg",
+      "parent": "Controller層を作る"
+    },
+    "order": 4
+  },
+  {
+    "id": "272a501ef33781b4ab85c626f335c399",
+    "type": "child_page",
+    "parentId": "272a501ef3378081b041d471cbc6b775",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/preview_pink.svg",
+      "parent": "View層を作る"
+    },
+    "order": 5
+  },
+  {
+    "id": "272a501ef3378035bdfdeea953ecf09b",
+    "type": "paragraph",
+    "parentId": "272a501ef3378040af9bfae333f7427a",
+    "curriculumId": "272a501ef3378040af9bfae333f7427a",
+    "pageId": "272a501ef3378040af9bfae333f7427a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 4
+  }
+]

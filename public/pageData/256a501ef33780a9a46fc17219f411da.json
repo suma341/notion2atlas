@@ -1,0 +1,239 @@
+[
+  {
+    "id": "26aa501ef33780e6aadff993b88b74d9",
+    "type": "paragraph",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "セットアップがまだの方は、こちら（→",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Git、GitHubセットアップ",
+          "href": "/posts/curriculums/1ada501ef3378122b26fd5ed2f5d6a1b",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/gear_orange.svg",
+              "title": "Git、GitHubセットアップ"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ）でセットアップの方法を解説しています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "27aa501ef3378010aa00e0578317fc01",
+    "type": "heading_2",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "必須ページ",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "27aa501ef337807eb686cff7555cc2e2",
+    "type": "divider",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "26aa501ef33780ea9c00c101544df5e6",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "❓",
+      "parent": "Git、Githubとは "
+    },
+    "order": 3
+  },
+  {
+    "id": "266a501ef337808e8078e09ab83d6de8",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "https://www.notion.so/images/page-cover/nasa_fingerprints_of_water_on_the_sand.jpg",
+      "iconType": "emoji",
+      "iconUrl": "🔰",
+      "parent": "Git,GitHubのはじめ方"
+    },
+    "order": 4
+  },
+  {
+    "id": "26aa501ef33780cab7cae768aa7bc7f0",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "https://www.notion.so/images/page-cover/met_terracotta_funerary_plaque.jpg",
+      "iconType": "emoji",
+      "iconUrl": "👥",
+      "parent": "チーム開発での使い方"
+    },
+    "order": 5
+  },
+  {
+    "id": "272a501ef33780c7a5e6fb2c06746bc3",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "https://www.notion.so/images/page-cover/met_paul_signac.jpg",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/merge_red.svg",
+      "parent": "競合エラーの原因と解決方法"
+    },
+    "order": 6
+  },
+  {
+    "id": "273a501ef337803d879cc2d7157f3fe6",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/branch-merge_orange.svg",
+      "parent": "ブランチを分ける"
+    },
+    "order": 7
+  },
+  {
+    "id": "273a501ef3378008bedcf01f15612df4",
+    "type": "heading_2",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "任意ページ",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "273a501ef337808fb76ae92073a6ff34",
+    "type": "divider",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": "_",
+    "order": 9
+  },
+  {
+    "id": "277a501ef33780b786eee25597018d01",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "🌐",
+      "parent": "リモートとローカルについて"
+    },
+    "order": 10
+  },
+  {
+    "id": "273a501ef337807dad51ea377d446b60",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "🔴",
+      "parent": "not a git repositoryエラーについて"
+    },
+    "order": 11
+  },
+  {
+    "id": "277a501ef337803f80fafe3935956112",
+    "type": "paragraph",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 12
+  }
+]

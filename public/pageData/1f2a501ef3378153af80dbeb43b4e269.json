@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "1f2a501ef337813f92e8e2fb02fa9a06",
+    "type": "divider",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef337812ab3a2f3c8a47d45b0",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これから",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を使っていくにあたって、Fletのインストールが必要です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef337815f9cf1fc7da9368058",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletのインストールも含め、これからは",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLI",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "での操作をしなければなりません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef33781dabe04e2e738fe7f37",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLIって難しそう…と思うかもしれませんが、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLIの基礎",
+          "href": "/posts/curriculums/1bea501ef337804c90e8da6f1f5384c1",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/keyboard_lightgray.svg",
+              "title": "CLIの基礎"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " で学んだ基礎が抑えれられていれば大丈夫です！",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef33781b8aa6de232d0f12d29",
+    "type": "callout",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "❗"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CUIはGUIでの操作よりもエラーが起こりやすい傾向にあります。\nもしカリキュラムとは異なる表示やエラー（",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Error",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "）が表示された場合には遠慮せず基礎班運営や発展班の人に頼ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1f2a501ef33781e49d48fc045904040c",
+    "type": "heading_1",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VSCodeのターミナルを使用",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1f2a501ef33781e58010dc47900e4d8e",
+    "type": "divider",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": "_",
+    "order": 6
+  },
+  {
+    "id": "1f2a501ef33781cea129cb5cbccc663c",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今回は、VSCodeのターミナルを使用してFletをインストールしていきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1f2a501ef337812792e1ee6ef132dd3c",
+    "type": "image",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378153af80dbeb43b4e269/1f2a501ef337812792e1ee6ef132dd3c.png"
+    },
+    "order": 8
+  },
+  {
+    "id": "1f2a501ef3378162887eca5f6ae6009a",
+    "type": "callout",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/command-line_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VSCodeにターミナルがない！",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という人は、右上にあるボタンを押すことで表示できます",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1f2a501ef337815995aff0aaf23b4fcd",
+    "type": "image",
+    "parentId": "1f2a501ef3378162887eca5f6ae6009a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378153af80dbeb43b4e269/1f2a501ef337815995aff0aaf23b4fcd.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef337813ebddef21ad9b08174",
+    "type": "heading_1",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pip コマンドの実行",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1f2a501ef3378190834ac14dc49e2e26",
+    "type": "divider",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": "_",
+    "order": 11
+  },
+  {
+    "id": "1f2a501ef33781b3ac37e86d25aa5f7f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "では、早速Fletをインストールしていきましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1f2a501ef33781628e9ac778108ebec1",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ターミナル (CLI) に以下のコマンドを打って、エンターしてください。（コピペでもOK）",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1f2a501ef33781a587fff26bfbeee312",
+    "type": "code",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pip install flet",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1f2a501ef33781d79e36e3cb1129a6f9",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "こんなふうに…",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1f2a501ef337815f8a16eec85595b80c",
+    "type": "image",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378153af80dbeb43b4e269/1f2a501ef337815f8a16eec85595b80c.png"
+    },
+    "order": 16
+  },
+  {
+    "id": "1f2a501ef33781adbd79db7af6126808",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "しばらく待つと、大量の出力のあとに",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "PS C:\\User\\◯◯\u003e",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "または",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "〇〇@△△ ~ %",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という行が表示されます。（",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "〇〇",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の部分は人によって違います）",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1f2a501ef33781edae86c7f736615a9f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これが実行完了の合図です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1f2a501ef33781e3b0c2e3cf9c353bdf",
+    "type": "image",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378153af80dbeb43b4e269/1f2a501ef33781e3b0c2e3cf9c353bdf.png"
+    },
+    "order": 19
+  },
+  {
+    "id": "1f2a501ef3378107acbffff20681e226",
+    "type": "callout",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "green_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/apple_red.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Macの人は…",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1f2a501ef337817198a8f6effc6336d9",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378107acbffff20681e226",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pip",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドではエラーが出る可能性があります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef33781bc97bcc70fce346b40",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378107acbffff20681e226",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "その場合、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pip3",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドを使用して",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pip3 install flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と打ってみてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef33781528003d824d574a78c",
+    "type": "heading_1",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletの確認",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1f2a501ef33781c59220ea38d938c837",
+    "type": "divider",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": "_",
+    "order": 22
+  },
+  {
+    "id": "1f2a501ef33781a09404eba368a360b5",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "つづいて、Fletのインストールが成功しているか確認してみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1f2a501ef33781a7a38ae5757ccb855d",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "続けて、以下のコマンドを打ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1f2a501ef33781f4b922e1e9b6d6ed70",
+    "type": "code",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet --version",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1f2a501ef33781fa97f9ccd5453bb20d",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これはインストールしたFletのバージョン（ゲームとかスマホにもバージョンがありますよね。あれと一緒です）を確認するコマンドです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1f2a501ef3378129a1cafb11da735fc2",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下のような出力が出てくるはずです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1f2a501ef3378127a73ac174c91fb219",
+    "type": "image",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378153af80dbeb43b4e269/1f2a501ef3378127a73ac174c91fb219.png"
+    },
+    "order": 28
+  },
+  {
+    "id": "1f2a501ef337814ab538dbd2f1363e1f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行してこのようにバージョンが表示されたなら、Fletのインストールは成功しています！🎉",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1f2a501ef33781a890dfcff433b6d187",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 30
+  },
+  {
+    "id": "1f2a501ef33781cd9b82e95adc049f0d",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378153af80dbeb43b4e269",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "もしバージョンが正常に表示されずに、よくわからない表示が出た人は、基礎班運営の人に言ってください！",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  }
+]

@@ -1,0 +1,764 @@
+[
+  {
+    "id": "26aa501ef337814094bbf5d72f6b3c6c",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ここでは「そもそもGit、GitHubとは何？」について説明します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "26aa501ef337815cb943efffd62b35af",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GitとGitHubは、どちらもソフトウェア開発の際に利用されるツールですが、それぞれ異なる役割を持っています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "26aa501ef33781e3b28dd464fc5ec2a2",
+    "type": "heading_2",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "概要",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "26aa501ef33781d080f5e37e02848072",
+    "type": "divider",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": "_",
+    "order": 3
+  },
+  {
+    "id": "26aa501ef337810ab20de3d6848c16a9",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GitとGitHubは、ソフトウェア開発で広く使われているバージョン管理システムです。開発者がコードを管理し、複数の人が同時に協力してプロジェクトを進めるために使われます。変更履歴を保存し、過去のバージョンに戻したり、ブランチを作成して異なる開発ラインを並行して進めることができるため、特にチーム開発に非常に役立ちます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "26aa501ef3378107ac29d981308046ef",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下ではGitとGitHubそれぞれについて説明します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "26aa501ef33781da8f11f7b88fdae36f",
+    "type": "heading_2",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Gitとは",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "26aa501ef337811c80aada7478795fe0",
+    "type": "divider",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": "_",
+    "order": 7
+  },
+  {
+    "id": "26aa501ef337810c9538c9258053bfcf",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Git",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は、ソースコードの「バージョン管理システム 」で、ローカル（自分のPC）で動作します。Gitを使うと、以下のことができます：",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "26aa501ef3378105a196ea7edcece98a",
+    "type": "bulleted_list_item",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "履歴管理",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ": プロジェクトの変更履歴を追跡し、過去の特定のバージョンに戻ることができます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "26aa501ef33781198639e92f179e2f79",
+    "type": "bulleted_list_item",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "分岐管理",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ": 「ブランチ」を作って新機能の開発やバグ修正を並行して進め、後で統合（マージ）できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "26aa501ef33781479be5eadda8ef92a7",
+    "type": "bulleted_list_item",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "差分管理",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ": 各変更の内容を記録し、複数人で同時に作業してもその差分を管理できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "26aa501ef33781bfb3bce442c7add217",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Gitはあくまでローカルで動作するもので、開発者が自分のパソコンでコードを管理するために使われます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "26aa501ef33781c8bab8d8580ee7ba9a",
+    "type": "divider",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": "_",
+    "order": 13
+  },
+  {
+    "id": "26aa501ef3378173898af6f6e7f35f79",
+    "type": "heading_2",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Githubとは",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "26aa501ef3378124bcb6ea4a0ca1d389",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GitHub",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は、Gitの機能をインターネット上で、他の開発者とプロジェクトを共有・コラボレーションするための",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プラットフォーム",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。GitHubはGitをベースにしており、Gitのリポジトリをインターネット上で共有することができます。以下のような機能が追加されています：",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "26aa501ef337817192fcd95a3a7c1cc8",
+    "type": "bulleted_list_item",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リモートリポジトリ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ": プロジェクトのコードをインターネット上に保存し、複数の人がアクセスできるようにします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "26aa501ef337817d86e3c9f07e4d9000",
+    "type": "bulleted_list_item",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プルリクエストやレビュー",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ": 他の開発者が変更内容をレビューでき、承認されたらプロジェクトに反映できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "26aa501ef33781498ef5e3f04651a09f",
+    "type": "bulleted_list_item",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "イシュー管理",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ": バグ報告や機能追加のリクエストを追跡・管理できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "26aa501ef337813faa65f23f35fe4421",
+    "type": "bulleted_list_item",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オープンソースの共有",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ": 公開リポジトリであれば、世界中の開発者がコードを見たり、貢献したりできます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "26aa501ef337815086a7cb672d5b54ae",
+    "type": "heading_2",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まとめ",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "26aa501ef33781d9a425e521f1b7644d",
+    "type": "divider",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": "_",
+    "order": 21
+  },
+  {
+    "id": "26aa501ef33781d49d97c573b8559330",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "要は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Gitはコードや変更履歴を管理する機能を持ち、ローカル（それぞれのPC）で動作します。GitHubはそれをオンラインで共有するためのプラットフォーム",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "26aa501ef3378196aadefbbab207038c",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "この二つを組み合わせることによって、チームでの開発を円滑に行うことが可能となります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "271a501ef33780d8bc76fb110ce12fea",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 24
+  },
+  {
+    "id": "271a501ef33780448360cf0a3bab876d",
+    "type": "divider",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": "_",
+    "order": 25
+  },
+  {
+    "id": "26aa501ef33780fc9d32da85161cd71a",
+    "type": "paragraph",
+    "parentId": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "26aa501ef33780ea9c00c101544df5e6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Git,GitHubのはじめ方",
+          "href": "/posts/curriculums/266a501ef337808e8078e09ab83d6de8",
+          "mention": {
+            "content": {
+              "iconType": "emoji",
+              "iconUrl": "🔰",
+              "title": "Git,GitHubのはじめ方"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  }
+]

@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "1ada501ef337812bae0fcf3000cc70ed",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今回はpythonとそのライブラリであるsqlite3を使用して、データベースのデータを取得する方法を紹介します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781b2905ce5681cf686a0",
+    "type": "heading_2",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの取得方法",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1ada501ef337813583c2f2c634b7ea82",
+    "type": "divider",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "1ada501ef337811986effc9d55db7b68",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データを取得する方法を見ていきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1ada501ef33781c1a1b1ccbb405495c1",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データを取得するSQL文",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1ada501ef33781d19742f32e1ebd88d3",
+    "type": "code",
+    "parentId": "1ada501ef33781c1a1b1ccbb405495c1",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "sql",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "SELECT カラム名 FROM テーブル名",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781f293fedccf37bdec3f",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これで指定したテーブルの中のカラムを取得できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1ada501ef33781668123d4645e5274dd",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーブル内のすべてのデータを取得したい場合はカラム名に",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "*",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を指定します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1ada501ef337818eaf56f22774983f0e",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーブル内のすべてのデータを取得する",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1ada501ef33781fbbdedf2a0807eb5a1",
+    "type": "code",
+    "parentId": "1ada501ef337818eaf56f22774983f0e",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "sql",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "SELECT * FROM テーブル名",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781df88a3d52135769fca",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "取得するデータの条件を指定するには、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "WHERE",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " 句をつけます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1ada501ef33781afb640e6a8fceb1b6e",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "取り出すデータに条件を指定する",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1ada501ef3378166a257e772d4d1c65b",
+    "type": "code",
+    "parentId": "1ada501ef33781afb640e6a8fceb1b6e",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "sql",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "SELECT カラム名 FROM テーブル名 WHERE 条件",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef337810488bcf53f263a3f39",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "条件をつけることでどの行のデータを取得するかを指定できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1ada501ef337817989f2f983d9bbf3a7",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "条件には、「idが何か」を指定することが多いです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1ada501ef33781d8bbb8f36c55819d78",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "id",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の値が",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の行のデータを取り出したい場合は以下のように書きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1ada501ef337812b87cbf58f8dc62b88",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "id=1のデータのみを取得する",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1ada501ef337817d9ff2c4ae8efdcfdb",
+    "type": "code",
+    "parentId": "1ada501ef337812b87cbf58f8dc62b88",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "sql",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "SELECT * FROM テーブル名 WHERE id = 1",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781e09086f8b6d8807b7e",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "条件を複数指定する時は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "AND",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " を使います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1ada501ef33781d29e76d3b2cd9ac048",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "複数の条件を指定する",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1ada501ef33781f4ac2ae8d633742d55",
+    "type": "code",
+    "parentId": "1ada501ef33781d29e76d3b2cd9ac048",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "sql",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "SELECT カラム名 FROM テーブル名 WHERE 条件1 AND 条件2 AND ...",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef3378195a068c723c78094bb",
+    "type": "heading_2",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実際にデータを取得してみよう",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1ada501ef33781b783a2fbdf69734b0a",
+    "type": "divider",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": "_",
+    "order": 17
+  },
+  {
+    "id": "1ada501ef3378176a9bef4147894f42e",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "blue",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの保存(Create)",
+          "href": "/posts/curriculums/1ada501ef3378124834cd232ae4e3855"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」で保存したデータを取得してみよう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1ada501ef337816f8ea6d3a20f965d07",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "新たにread.pyを作成してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "1ada501ef33781ed9a4efcace43acf58",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "read.pyの内容を以下のようにしてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1ada501ef33781f98697df3c0d7af5fe",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "read.py",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1ada501ef33781e998dfc84ca17cf464",
+    "type": "code",
+    "parentId": "1ada501ef33781f98697df3c0d7af5fe",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import sqlite3\n\ndbname = 'TEST.db'\nconn = sqlite3.connect(dbname)\ncur = conn.cursor()\n\n# personテーブルデータを全件取得\ncur.execute('SELECT * FROM person')\ndata = cur.fetchall()\nprint(data)\n\nconn.commit()\n\ncur.close()\nconn.close()",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef337813da0bbe4d1f287e982",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このコードを実行してください。\n以下のように出力されればデータの取得に成功です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1ada501ef33781d6abcbda94a5bb719d",
+    "type": "code",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "[(1, 'Sato', 15, 'Man')]",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1ada501ef33781678563f07d09ab3bb9",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コードを見ていきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1ada501ef3378121a614c738379791c7",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まず、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cur.execute(’SELECT * FROM person’)",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " で、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "person",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーブルのデータをすべて取得するSQL文を実行します。次に、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "fetchall",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "メソッドで取得したデータを全て変数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "data",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に代入し、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "print",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "で出力しています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1ada501ef33781338f5bec6ee1b05359",
+    "type": "heading_2",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "任意のデータを扱う",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1ada501ef33781559b5bd0ff4d2eb3b7",
+    "type": "divider",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": "_",
+    "order": 27
+  },
+  {
+    "id": "1ada501ef3378120ac72c793ffe80709",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの取得をより実用的に扱うには、データを取得するとき、任意の値で条件を指定する必要があります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "1ada501ef3378164a2d5f2414e9261e7",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "任意の値で条件を指定する方法を見ていきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1ada501ef3378153946def8436d7753a",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例：idが任意の値の条件を指定する",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "1ada501ef3378183bc9ec79265373775",
+    "type": "code",
+    "parentId": "1ada501ef3378153946def8436d7753a",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cur.execute('SELECT カラム名 FROM テーブル名 WHERE id = ?',(指定したいidの値))",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781b5b69ce7a7feb30fb9",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378153946def8436d7753a",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "🛑 ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cur",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " = ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cursor",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オブジェクト",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1ada501ef33781bc90dff24dfbac22ef",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、personテーブルから、任意のidの行のデータを取得するコードは以下のようになります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "1ada501ef33781aabc70f97d2f347bd8",
+    "type": "callout",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "personテーブルから、任意のidの行のデータを取得する",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "1ada501ef33781f683adcf6d197c1dc8",
+    "type": "code",
+    "parentId": "1ada501ef33781aabc70f97d2f347bd8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import sqlite3\n\ndbname = 'TEST.db'\nconn = sqlite3.connect(dbname)\ncur = conn.cursor()\n\n# 任意の値を入れる\ntarget_id = 1",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n\n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "# personテーブルから任意の行のデータを取得\ncur.execute('SELECT * FROM person WHERE id = ?',(target_id,))\ndata = cur.fetchall()",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n\n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "# 取得したデータを出力\nprint(data)\n\nconn.commit()\n\ncur.close()\nconn.close()",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781b5ac4ac24a5ace4fb3",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このコードだと、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "target_id",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の値によって、テーブルから取得するデータの行が変わります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "1ada501ef33781978112c6dc0e0e59aa",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 34
+  },
+  {
+    "id": "1ada501ef33781ebbd03d9129a69361c",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781fe9043da67e48709a8",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef33781fe9043da67e48709a8",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次→",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの編集(Update)",
+          "href": "/posts/curriculums/1ada501ef337815aa9e6d8cdd63afa9c",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/pencil_blue.svg",
+              "title": "データの編集(Update)"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  }
+]

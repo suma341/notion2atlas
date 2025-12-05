@@ -1,0 +1,949 @@
+[
+  {
+    "id": "1f2a501ef33781d699e3cc69d01e3e04",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "公式ドキュメント",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef337817b8593c5f76d1758fc",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef33781179d3af2de66acb1ea",
+    "type": "bookmark",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "ogp": {
+        "title": "Flet",
+        "description": "",
+        "image": "",
+        "icon": "https://flet.dev/img/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://flet.dev/docs/controls/text/"
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef33781848cfcd3defcae0e9f",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "概要",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef33781c5b3a8e202349f43fa",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 4
+  },
+  {
+    "id": "1f2a501ef33781b98becf621fcca7180",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Text",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コントロールはその名のとおり、テキスト（＝文章・文字）を表示することができるコントロールです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1f2a501ef33781b39aeef7da17f33645",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "文字のサイズや色、細かいスタイルも設定が可能です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1f2a501ef3378189a16cdf7d8f98fda3",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実装例",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1f2a501ef337813a8a33e53c57042dc2",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 8
+  },
+  {
+    "id": "1f2a501ef33781baa9d0d68b7fe66d90",
+    "type": "image",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef33781f9a0daf94add8e7cc3/1f2a501ef33781baa9d0d68b7fe66d90.png"
+    },
+    "order": 9
+  },
+  {
+    "id": "1f2a501ef33781ceae95fed728762896",
+    "type": "toggle",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "gray_background",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コード例",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1f2a501ef3378179a6d1fdd8cf8cf059",
+    "type": "code",
+    "parentId": "1f2a501ef33781ceae95fed728762896",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import flet as ft\n\ndef main(page: ft.Page):\n    t1 = ft.Column(\n        controls=[\n            ft.Text(\n                value=\"これはテストテキストです。\",\n            ),\n            ft.Text(\n                value='value=\"これはテストテキストです。\"',\n                color=ft.colors.BLACK54,\n            )\n        ]\n    )\n\n    t2 = ft.Column(\n        controls=[\n            ft.Text(\n                value=\"大きさや色を変えたり\",\n                size=50,\n                color=ft.colors.PINK,\n            ),\n            ft.Text(\n                value='value=\"大きさや色を変えたり\"   size=50  color=ft.colors.PINK',\n                color=ft.colors.BLACK54,\n            )\n        ]\n    )\n\n    t3 = ft.Column(\n        controls=[\n            ft.Text(\n                value=\"背景色も変えられます\",\n                size=30,\n                color=ft.colors.WHITE,\n                bgcolor=ft.colors.GREEN\n            ),\n            ft.Text(\n                value='value=\"背景色も変えられます\"  size=30  color=ft.colors.WHITE  bgcolor=ft.colors.GREEN',\n                color=ft.colors.BLACK54,\n            )\n        ]\n    )\n\n    t4 = ft.Column(\n        controls=[\n            ft.Text(\n                spans=[\n                    ft.TextSpan(\n                        text=\"styleやspansを設定すると\"\n                    ),\n                    ft.TextSpan(\n                        text=\"斜体にしたり、\",\n                        style=ft.TextStyle(\n                            color=ft.colors.PURPLE,\n                            italic=True,\n                        )\n                    ),\n                    ft.TextSpan(\n                        text=\"取り消し線を引いたり、\",\n                        style=ft.TextStyle(\n                            color=ft.colors.RED,\n                            decoration=ft.TextDecoration.LINE_THROUGH,\n                            decoration_thickness=3,\n                        )\n                    ),\n                    ft.TextSpan(\n                        text=\"影をつけたり、\",\n                        style=ft.TextStyle(\n                            color=ft.colors.ORANGE,\n                            shadow=ft.BoxShadow(\n                                spread_radius=10,\n                                blur_radius=3,\n                                color=ft.colors.BLACK26,\n                            )\n                        )\n                    ),\n                    ft.TextSpan(\n                        text=\"リンクを設定したり\",\n                        style=ft.TextStyle(\n                            color=ft.colors.BLUE_500,\n                            decoration=ft.TextDecoration.UNDERLINE,\n                            decoration_color=ft.colors.BLUE_500,\n                        ),\n                        url=\"https://flet.dev/\"\n                    ),\n                    ft.TextSpan(\n                        text=\"できます。\"\n                    )\n                ],\n            ),\n            ft.Text(\n                value=\"spans=[中略・下記コードを参照]\",\n                color=ft.colors.BLACK54,\n            )\n        ]\n    )\n\n    clm = ft.Column(\n        controls=[\n            t1, t2, t3, t4,\n        ]\n    )\n\n    page.add(clm)\n\nft.app(target=main)\n",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef337817f9394cde92a041b9b",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "主なプロパティ",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1f2a501ef33781eeb09dc180454fcfee",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 12
+  },
+  {
+    "id": "1f2a501ef3378187af66ec99697a798b",
+    "type": "heading_2",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "value",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1f2a501ef337815eba1de03d0c4d64a7",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 14
+  },
+  {
+    "id": "1f2a501ef33781d88879dc4e7baaa0fa",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "表示するテキストを設定します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1f2a501ef33781368cb5f374827b2809",
+    "type": "heading_2",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "size",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1f2a501ef3378163977dd9ab4b054aea",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 17
+  },
+  {
+    "id": "1f2a501ef33781b6ba5acbe97a9bc5a3",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "文字サイズを設定します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1f2a501ef33781a4aa27df25b5332183",
+    "type": "heading_2",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "color",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "1f2a501ef33781e388d7f295f1ee038d",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 20
+  },
+  {
+    "id": "1f2a501ef337813092cbd3dc1e106ea2",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "文字の色を設定します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1f2a501ef33781c5a86ae03ec70a8048",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "色の設定には",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Colors",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "クラスを使用できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1f2a501ef337817e9715ec7912431ebc",
+    "type": "link_to_page",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "iconType": "emoji",
+      "iconUrl": "🎨",
+      "link": "/posts/curriculums/1f2a501e-f337-81dd-9aab-c21539a0882b",
+      "title": "Colors"
+    },
+    "order": 23
+  },
+  {
+    "id": "1f2a501ef3378132bb0eda00d87f948d",
+    "type": "heading_2",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "bgcolor",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1f2a501ef3378153bb57cc528721b1fe",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 25
+  },
+  {
+    "id": "1f2a501ef337814b9d7edf0e79cdaf7f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "文字の背景色を設定します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1f2a501ef3378186901bca4819f6a098",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "色の設定には",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Colors",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "クラスを使用できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1f2a501ef3378154b2b5f497611ac451",
+    "type": "link_to_page",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "iconType": "emoji",
+      "iconUrl": "🎨",
+      "link": "/posts/curriculums/1f2a501e-f337-81dd-9aab-c21539a0882b",
+      "title": "Colors"
+    },
+    "order": 28
+  },
+  {
+    "id": "1f2a501ef337817da6c3dfdcc4ffc3aa",
+    "type": "heading_2",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "spans",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1f2a501ef3378157afc1f308c5919106",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 30
+  },
+  {
+    "id": "1f2a501ef337811088fef296b2da68e8",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "設定することで、より細かく文字のレイアウトを組むことが出来ます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "1f2a501ef33781dea43bdc9e09491259",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "詳しくは",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "blue",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "TextSpan",
+          "href": "https://flet.dev/docs/reference/types/textspan/"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "クラスを参照してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "1f2a501ef33781538d21d0a9447b474f",
+    "type": "heading_2",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "style",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "1f2a501ef337814db5e4fc51049c8eb6",
+    "type": "divider",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": "_",
+    "order": 34
+  },
+  {
+    "id": "1f2a501ef33781e8b38fc0d85d619d37",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "設定することで、テキストのスタイルを詳細に決めることが出来ます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "1f2a501ef33781f4a987deedf17a306f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "詳しくは",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "blue",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "TextStyle",
+          "href": "https://flet.dev/docs/reference/types/textstyle"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "クラスを参照してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "1f2a501ef337816c85baf305d8156819",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 37
+  },
+  {
+    "id": "1f2a501ef3378114a565f7a815d2b600",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "上記以外にも複数の便利なプロパティが存在します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "1f2a501ef3378105a7c9c9ad50367884",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "詳しくは、公式ドキュメントを読んでみてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 39
+  },
+  {
+    "id": "1f2a501ef3378176aaacffb90c038317",
+    "type": "bookmark",
+    "parentId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "data": {
+      "ogp": {
+        "title": "Text | Flet",
+        "description": "",
+        "image": "",
+        "icon": "https://flet.dev/img/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://flet.dev/docs/controls/text/"
+    },
+    "order": 40
+  }
+]

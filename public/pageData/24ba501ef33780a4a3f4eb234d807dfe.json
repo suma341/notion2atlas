@@ -1,0 +1,310 @@
+[
+  {
+    "id": "24ba501ef33781d2ac61c9b22f12853f",
+    "type": "heading_2",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題１",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef3378114bd70c104d92ce489",
+    "type": "paragraph",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下のようなHTML要素を記述してください",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "24ba501ef33781fb8ab6de7e69c383b5",
+    "type": "code",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "caption": [],
+      "language": "html",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\u003cdiv\u003e\n    \u003cli\u003efirst\u003c/li\u003e\n    \u003cli\u003esecond\u003c/li\u003e\n    \u003cli\u003ethird\u003c/li\u003e\n    \u003cli\u003efourth\u003c/li\u003e\n\u003c/div\u003e",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "24ba501ef3378104b0eed355e6b6f0c9",
+    "type": "paragraph",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "擬似クラスを使用して、以下のように最初のリストと最後のリストの色を変更してください。（変更する色は何色でも良いです）",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "24ba501ef33781c7aba9fb40a0fb3e87",
+    "type": "callout",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "お手本画像",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "24ba501ef33781e5944cebc2c0bd1d26",
+    "type": "image",
+    "parentId": "24ba501ef33781c7aba9fb40a0fb3e87",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef33780a4a3f4eb234d807dfe/24ba501ef33781e5944cebc2c0bd1d26.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef337818ba322fc10c3855b17",
+    "type": "heading_2",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題２",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "24ba501ef3378196bd69dd82c5a719eb",
+    "type": "paragraph",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「問題１」のHTML要素の２番目と３番目の要素の色を、擬似クラスを使用して変更してください。（変更する色は何色でも良いです）",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "24ba501ef33781c382cfe60f3421c936",
+    "type": "callout",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/photo-landscape_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "お手本画像",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "24ba501ef33781c8b00cdc88efd4f425",
+    "type": "image",
+    "parentId": "24ba501ef33781c382cfe60f3421c936",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/24ba501ef33780a4a3f4eb234d807dfe/24ba501ef33781c8b00cdc88efd4f425.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "24ba501ef3378161ac3ec42c8d4e8f98",
+    "type": "paragraph",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 8
+  },
+  {
+    "id": "24ba501ef33781ba8a3eef04f31f2e2d",
+    "type": "paragraph",
+    "parentId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "curriculumId": "24ba501ef33780e683f3dec2d9cb8a44",
+    "pageId": "24ba501ef33780a4a3f4eb234d807dfe",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "演習問題10",
+          "href": "/posts/curriculums/24ba501ef3378069a67fdc413a0c4ec7",
+          "mention": {
+            "content": {
+              "iconType": "emoji",
+              "iconUrl": "✏️",
+              "title": "演習問題10"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  }
+]

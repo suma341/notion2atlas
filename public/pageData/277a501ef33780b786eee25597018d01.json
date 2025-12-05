@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "277a501ef337808e9812f2cd90db478d",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ここでは、リモートとローカルについて補足します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "277a501ef337800e9420cab3224551f4",
+    "type": "heading_2",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リモート環境とローカル環境",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "277a501ef33780ee8745c2aded324bcf",
+    "type": "divider",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "277a501ef337805c8478df29aa4e2979",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "基本的に、ネットワークを介してアクセスできる環境を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リモート環境",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "、オフラインでもアクセスできる自分のPCを",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ローカル環境",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "277a501ef33780f9aa40ea726faec612",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "gitは、ローカル環境でリポジトリの管理をするためのツールであり、githubはリモート環境でgitの機能を使用できて、コラボレーションできるプラットフォームです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "277a501ef33780fea5b3c8d8e9e5db2f",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "要は",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "277a501ef33780ee87f3f18d542d2e4f",
+    "type": "bulleted_list_item",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オフラインでもアクセスできる→ローカル環境",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "277a501ef33780d5bbd3cfed74b0e19b",
+    "type": "bulleted_list_item",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オンラインじゃないとアクセスできない→リモート環境",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "277a501ef33780a49188cfd4877c0216",
+    "type": "heading_2",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リモートリポジトリとローカルリポジトリ",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "277a501ef337803791d8df4fff6ede8a",
+    "type": "divider",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": "_",
+    "order": 9
+  },
+  {
+    "id": "277a501ef3378050b1fcf7e0b2cbc15c",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GitHubで作成したリポジトリはリモート環境にあるので、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リモートリポジトリ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "277a501ef33780c6b487f2191c55abab",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GitHubのリポジトリをクローンすると、ローカル環境にリポジトリのコピーができます。このコピーされたリポジトリを",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ローカルリポジトリ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "277a501ef33780d59f83f527859322c5",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "基本的には、「ローカルリポジトリで作業→pushしてリモートリポジトリで他の人に共有」というのがgithubを使った作業の流れです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "277a501ef3378021bbd0dbee0152500f",
+    "type": "heading_2",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Pushするときのコマンドについて",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "277a501ef337806589ccd0cf0f2c19ee",
+    "type": "divider",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": "_",
+    "order": 14
+  },
+  {
+    "id": "277a501ef33780a2ae0be3e523083a2c",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Pushするときのコマンドは上記のリモートとローカルについての知識があると理解できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "277a501ef3378084b030ed25bbe81c8a",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "みなさんはPushするときに以下のように三つのコマンドを実行していると思います",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "277a501ef33780d09af6f7da62e604a5",
+    "type": "callout",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add .",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "277a501ef337804baa6dc28d0cf898b8",
+    "type": "paragraph",
+    "parentId": "277a501ef33780d09af6f7da62e604a5",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git commit -m “メッセージ”",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "277a501ef33780afac9ee0712c708bf7",
+    "type": "paragraph",
+    "parentId": "277a501ef33780d09af6f7da62e604a5",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git push",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "277a501ef3378030b4f0ed866b60fd96",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "それぞれ補足します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "277a501ef337805f8a0ec55a10c4c9fb",
+    "type": "heading_3",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "277a501ef33780f8ac51d2f762bf42b7",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add .",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "というのは変更を確定するファイルを選ぶコマンドです",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "277a501ef33780c19754c34e6ed99bf8",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add 変更を確定するファイル名",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という形で実行します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "277a501ef3378017babdc891cddde9b2",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add test.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を実行すればtest.pyを変更を確定するファイルとして選ぶことになります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "277a501ef33780fb8e60ce8731d48bb5",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add .",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "のように、変更を確定するファイル名の部分に ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ".",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " をおくと、変更したすべてのファイルが選択されます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "277a501ef337803cbdbcf8128cdbc98a",
+    "type": "callout",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ちなみに、この変更を確定するファイルを選ぶことをステージすると言います",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "277a501ef337802ca945c2c0bf062eb3",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドはあくまで変更を確定するファイルを選ぶコマンドであって、変更を確定するコマンドではないです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "277a501ef3378091bcdbd1d6918fa604",
+    "type": "heading_3",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git commit",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "277a501ef33780b793ecc019cf2261fe",
+    "type": "bulleted_list_item",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git commit",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドは、変更を確定するコマンドです",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "277a501ef3378056b877ccf78d4e963d",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "先ほどの",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドで変更を確定するファイルとして選ばれた（ステージされた）ファイルの変更を確定し、変更履歴を残します。（だから、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git commit",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドを実行する前には",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git add",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドを実行しておく必要がある）",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "277a501ef337808089bcfe36da92987b",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ちなみに、ここで変更が確定して、変更履歴が残るのは、あくまでローカルリポジトリにおいてのみです。つまり、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git commit",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドは、ローカルリポジトリの内容の変更を確定し、リポジトリの内容を変更するコマンドなのです",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "277a501ef337805ebe52f3e29002b87e",
+    "type": "heading_3",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git push",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "277a501ef33780b09d9fd8b4ff730dac",
+    "type": "bulleted_list_item",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git push",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドは、ローカルリポジトリでの変更をリモートリポジトリに送信するコマンドです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "277a501ef33780ccb67dd75c33f8f6fa",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "つまり、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git push",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドというのは、上記の",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git commit",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドで確定したローカルでの変更をリモートに送信するためのコマンドです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "277a501ef33780d89f33f0868f44d6a5",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 33
+  },
+  {
+    "id": "277a501ef33780788954e2822dae5e50",
+    "type": "divider",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": "_",
+    "order": 34
+  },
+  {
+    "id": "277a501ef33780a5810dee0c0854f1fc",
+    "type": "paragraph",
+    "parentId": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "277a501ef33780b786eee25597018d01",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "番外編2→",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "not a git repositoryエラーについて",
+          "href": "/posts/curriculums/273a501ef337807dad51ea377d446b60",
+          "mention": {
+            "content": {
+              "iconType": "emoji",
+              "iconUrl": "🔴",
+              "title": "not a git repositoryエラーについて"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  }
+]

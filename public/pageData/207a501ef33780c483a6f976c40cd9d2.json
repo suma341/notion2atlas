@@ -1,0 +1,1448 @@
+[
+  {
+    "id": "207a501ef337815e800cd54cf70cb5fd",
+    "type": "divider",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "207a501ef3378195a945daea83aa535d",
+    "type": "heading_1",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "はじめに",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "207a501ef337810ba9bbcf4f43107d21",
+    "type": "divider",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "207a501ef3378159a542f835532cfdb7",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今日は、タイトルの通り意見交換を通して復習をしていきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "207a501ef337816ea240c4b276d09b6c",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "後で紹介する三つのトピックではそれぞれ違う形式をとって意見交換をしていきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "207a501ef33781c4a19bf71224d2ad6f",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 5
+  },
+  {
+    "id": "207a501ef337815f8215f873b26f4d72",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "全体方式",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "207a501ef33781aea9d4f0e3c7c1dde7",
+    "type": "paragraph",
+    "parentId": "207a501ef337815f8215f873b26f4d72",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "全体で議論の項目を優先して意見交換していきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "207a501ef3378179a6c7c311e04e8930",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "大グループ方式",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "207a501ef33781cc84a1c0509de91f02",
+    "type": "paragraph",
+    "parentId": "207a501ef3378179a6c7c311e04e8930",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "2、3グループに分かれてそのグループごとに議論をしていきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "207a501ef33781fc8053c661caa778a7",
+    "type": "paragraph",
+    "parentId": "207a501ef3378179a6c7c311e04e8930",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "意見がまとまると議論した内容をさらにグループ同士で共有しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "207a501ef33781a09bdefb70d96a0b06",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "小グループ方式",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "207a501ef3378105a36ed4fd145b2cb1",
+    "type": "paragraph",
+    "parentId": "207a501ef33781a09bdefb70d96a0b06",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "2~4人のグループを作って議論をして他のいずれか1グループとも意見交換をしましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "207a501ef3378129a565c71679984bd2",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 9
+  },
+  {
+    "id": "207a501ef33781368535dba2fc33908b",
+    "type": "heading_1",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "意見交換の仕方",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "207a501ef33781498f83dfa01dc19909",
+    "type": "divider",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": "_",
+    "order": 11
+  },
+  {
+    "id": "207a501ef33781c581c2c3f99dfe326d",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "基本的に、各トピックについて自由に思うことを話してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "207a501ef33781c8b683ef354e64ea4f",
+    "type": "paragraph",
+    "parentId": "207a501ef33781c581c2c3f99dfe326d",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "もし何か調べたことがあったらそれも共有してみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "207a501ef33781009ba3daa5b9341d1d",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ですが、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "yellow",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "各トピックの下に書いてある箇条書きの必須項目",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は絶対に意見交換をしておきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "207a501ef33781f19872df8424b5001c",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 14
+  },
+  {
+    "id": "207a501ef337815386f3c4ab32e8ad51",
+    "type": "heading_1",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "意見交換の内容",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "207a501ef337814a9e12de6cd724b312",
+    "type": "divider",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": "_",
+    "order": 16
+  },
+  {
+    "id": "207a501ef337819dab57ec86b3d23a91",
+    "type": "heading_2",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Topic1-bool型(小グループ方式)",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "207a501ef33781228c55d934789be8b5",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "bool型への理解…皆さんはなーなーで済ませていませんか？",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "207a501ef33781e0a430dfaf7a9f79df",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このトピックではbool型の理解できている部分を共有して、さらに理解を深めていきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "207a501ef337816fa727ebf37b3b14f9",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 20
+  },
+  {
+    "id": "207a501ef33781ab8de3f95fb690e61c",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "必須項目",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "207a501ef33781efb48ec882f933e81a",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どういうものだった？",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "207a501ef3378132a2ece70645e56d4a",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どういう動きをするの？",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "207a501ef3378132abb8cd762cefc43e",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そもそも何に使えるの？",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "207a501ef33781059ddff4d5dd0215d7",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "使うとどう便利なの？",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "207a501ef33781cd9d6fd665131b3780",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 26
+  },
+  {
+    "id": "207a501ef33781cfaeafdf44be64d114",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "任意項目(ネタが尽きた時など)",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "207a501ef33781dea4f9f4320681768e",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "個人的に調べたこと",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "207a501ef337811886cfd5dc752fe39e",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "普通はどういうふうに使われてる？(具体例)",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "207a501ef33781d0b39ad9d2de46b289",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 30
+  },
+  {
+    "id": "207a501ef337818583bdd34ee2fdbcb6",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 31
+  },
+  {
+    "id": "207a501ef33781248137f0a4038557b7",
+    "type": "heading_2",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Topic2-読みやすさ(大グループ方式)",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "207a501ef337811987b2e7c59b488ecd",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コードの書き方…if文、for文、空白•••色々あると思いますがおそらく書き方は人それぞれです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "207a501ef337817daa68f018930f32cb",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ですが、もし誰かと協力してコーディングをしていくときにお互いのコードが読めないと大変です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  },
+  {
+    "id": "207a501ef337812fad9ac7795d6e10d1",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なのでこのトピックでは読みやすいコーディングを議論していきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "207a501ef33781ab8b3fe58fea090a1b",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 36
+  },
+  {
+    "id": "207a501ef33781a4a693f56ee2d8f29c",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "必須項目",
+          "href": null
+        }
+      ]
+    },
+    "order": 37
+  },
+  {
+    "id": "207a501ef3378144a257c2b06c39311d",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どういうタイミングで空白を入れてる？",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "207a501ef33781198a3dc3cdec31922d",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "if文の条件ってどう書いてる？",
+          "href": null
+        }
+      ]
+    },
+    "order": 39
+  },
+  {
+    "id": "207a501ef3378174935ce5a5383b6b6b",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "for文で繰り返すときの書き方は？",
+          "href": null
+        }
+      ]
+    },
+    "order": 40
+  },
+  {
+    "id": "207a501ef337818e8ae3ea1ef2e3921e",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "変数名や関数名とかってどういうふうに付けよう？",
+          "href": null
+        }
+      ]
+    },
+    "order": 41
+  },
+  {
+    "id": "207a501ef3378118a61be721cab6e680",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 42
+  },
+  {
+    "id": "207a501ef3378126a985e75bab53ce9f",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "任意項目(ネタが尽きた時など)",
+          "href": null
+        }
+      ]
+    },
+    "order": 43
+  },
+  {
+    "id": "207a501ef33781fd8b89ff88205cac04",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "個人的に調べたこと",
+          "href": null
+        }
+      ]
+    },
+    "order": 44
+  },
+  {
+    "id": "207a501ef3378192b709c667dbf24731",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "一行が長すぎて折り返したい時にどの部分で折り返すのが読みやすい？",
+          "href": null
+        }
+      ]
+    },
+    "order": 45
+  },
+  {
+    "id": "207a501ef337816ab64cd0e1fde76511",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 46
+  },
+  {
+    "id": "207a501ef33781e88364ed0e23b8c826",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 47
+  },
+  {
+    "id": "207a501ef33781098ccae047bb335124",
+    "type": "heading_2",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Topic3-関数(全体方式)",
+          "href": null
+        }
+      ]
+    },
+    "order": 48
+  },
+  {
+    "id": "207a501ef33781c5b049c559f729dd76",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "一番最後の内容なのでまだ理解が進んでいないかもしれません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 49
+  },
+  {
+    "id": "207a501ef337811d8a20cc308b0b35df",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なので、この機会に一気に理解を進めていきましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 50
+  },
+  {
+    "id": "207a501ef33781808b94f2fe428d2031",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 51
+  },
+  {
+    "id": "207a501ef337812a8469c25153cfdaa3",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "必須項目",
+          "href": null
+        }
+      ]
+    },
+    "order": 52
+  },
+  {
+    "id": "207a501ef337813cad47fca9537050d1",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "引数って？",
+          "href": null
+        }
+      ]
+    },
+    "order": 53
+  },
+  {
+    "id": "207a501ef33781d7a063c050fef8fe74",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "返り値って？",
+          "href": null
+        }
+      ]
+    },
+    "order": 54
+  },
+  {
+    "id": "207a501ef337812eb75fca03e7ff7fd6",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どんなことができそう？",
+          "href": null
+        }
+      ]
+    },
+    "order": 55
+  },
+  {
+    "id": "207a501ef33781ec885fffb5d68aae95",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 56
+  },
+  {
+    "id": "207a501ef337810e8ffaea16d9358018",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "任意項目(ネタが尽きた時など)",
+          "href": null
+        }
+      ]
+    },
+    "order": 57
+  },
+  {
+    "id": "207a501ef3378148b14ccf523a3bc28a",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "個人的に調べたこと",
+          "href": null
+        }
+      ]
+    },
+    "order": 58
+  },
+  {
+    "id": "207a501ef3378122a8eaeba304780380",
+    "type": "bulleted_list_item",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "どこに書いたらどこまでの範囲で使えるの？",
+          "href": null
+        }
+      ]
+    },
+    "order": 59
+  },
+  {
+    "id": "207a501ef337814aa027dcac3cf83f18",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 60
+  },
+  {
+    "id": "207a501ef337812a8e64de4fc21f4b15",
+    "type": "paragraph",
+    "parentId": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "pageId": "207a501ef33780c483a6f976c40cd9d2",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 61
+  }
+]

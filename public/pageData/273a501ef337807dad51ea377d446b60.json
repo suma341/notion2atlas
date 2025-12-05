@@ -1,0 +1,392 @@
+[
+  {
+    "id": "273a501ef3378022ae22e83cfaba1e9a",
+    "type": "paragraph",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "gitでは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "not a git repository",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "というエラーが起きることがあります。ここではその原因と解決方法を紹介します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "273a501ef337805fbed1ef1af972e57a",
+    "type": "heading_2",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "原因：リポジトリ以外の場所でリポジトリの操作を実行している",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "273a501ef3378061a91fc3a1968c1f8a",
+    "type": "quote",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まず振り返り：",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "273a501ef337801bbd25f5f6566849e7",
+    "type": "bulleted_list_item",
+    "parentId": "273a501ef3378061a91fc3a1968c1f8a",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リポジトリというのは、GitHubで作成できるデータの保管場所",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "273a501ef337800c9853ebbceab1f6bc",
+    "type": "bulleted_list_item",
+    "parentId": "273a501ef3378061a91fc3a1968c1f8a",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リポジトリは自分のPCにクローンすることで、ローカルで操作ができるようになる",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "273a501ef3378095a7ecc1d781c0275a",
+    "type": "paragraph",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「リポジトリ以外の場所」というのは、「リポジトリをクローンしたフォルダ以外の場所」ということです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "273a501ef33780668053db7bf8c8ff21",
+    "type": "paragraph",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そして、「リポジトリの操作」というのは、PushやPullといったコマンドを使うことです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "273a501ef3378026b1c9f468901faf90",
+    "type": "paragraph",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "つまり、リポジトリをクローンした以外のフォルダで、PushやPullといったgitのコマンドを使うとエラーになります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "273a501ef3378063aeafff81bc04cb1f",
+    "type": "callout",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "yellow_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "🔴"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "エラー文",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "273a501ef33780048c84e9ff8ae3eadd",
+    "type": "image",
+    "parentId": "273a501ef3378063aeafff81bc04cb1f",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/273a501ef337807dad51ea377d446b60/273a501ef33780048c84e9ff8ae3eadd.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "273a501ef3378040a5a1d82f580d015d",
+    "type": "paragraph",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このように、リポジトリをクローンしたフォルダ以外で",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "git pull",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンド使うと「fatal: not a git repository (or any of the parent directories): .git（",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Git リポジトリ (または親ディレクトリのいずれか) ではありません",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "）」と出ます。（「ディレクトリ」とは「フォルダ」のこと）",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "273a501ef33780488d25dec4989bbea7",
+    "type": "heading_3",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "解決法",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "273a501ef3378008959ecb47a9080638",
+    "type": "paragraph",
+    "parentId": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "273a501ef337807dad51ea377d446b60",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リポジトリをクローンしたフォルダがどこかを確認し、そのフォルダでコマンドを実行しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  }
+]

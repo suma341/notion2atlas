@@ -1,0 +1,1279 @@
+[
+  {
+    "id": "1e0a501ef337815eb071d5313be93db6",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✅ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "概要",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337817e9948ca6e434943b5",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このガイドは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C#",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "がどんな言語かを紹介し、「Hello, World!」を出力するプログラムまでをわかりやすく説明します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef33781a4b98cf1e36e96dca4",
+    "type": "divider",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "1e0a501ef33781d8861ed107c6b4aa67",
+    "type": "heading_2",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1. C#とは？",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1e0a501ef33781a9a212f5316aff4a3a",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✔️ C#は、Microsoftが開発したプログラミング言語で、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "アプリケーション開発",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に広く使われています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1e0a501ef3378113abc4e95a4503b195",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✔️ Windowsアプリ、ゲーム（Unity）、Webシステムなど、様々な場所で活躍します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1e0a501ef33781349a18eaa05803202b",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✔️ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "JavaやC++に似た構文",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を持ちながらも、よりモダンで扱いやすくなっています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1e0a501ef337813a8490f86ec16ccc9d",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "💡 ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C#の特徴",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1e0a501ef33781c1b7a6d1e3c3b0c46a",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オブジェクト指向で書きやすい：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「部品を組み合わせる」ようにプログラムが作れる。複雑なものも整理しやすい。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1e0a501ef33781b4940ffbf76d1d6ce5",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "開発環境がとても充実：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Visual Studioなど、便利なツールで効率よく開発できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1e0a501ef33781beaf18d5b3b8db478d",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Unityと相性バツグン：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ゲーム開発で人気のUnityはC#で作るので、ゲームを作りたい人にもおすすめ！",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1e0a501ef3378167ad3cc6ea2638c6e1",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "安全で強力な型システム：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プログラムの間違いを事前にチェックしやすく、安心して開発できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1e0a501ef3378140ba2ec557908483dd",
+    "type": "divider",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": "_",
+    "order": 12
+  },
+  {
+    "id": "1e0a501ef3378178972df53d2ea9bf77",
+    "type": "heading_2",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1-2. 開発環境の構築",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1e0a501ef33781bf9833ea211fd4dca7",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✅ (1) Windowsユーザー向け（おすすめ）",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1e0a501ef3378110be47fb009f384b0d",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Visual Studioのインストール",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1e0a501ef33781f6919bc4f95aae93a2",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378110be47fb009f384b0d",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "https://visualstudio.microsoft.com/ja/",
+          "href": "https://visualstudio.microsoft.com/ja/"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " にアクセス",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337818bb5d2c0703b1e69c4",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378110be47fb009f384b0d",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ 「Visual Studio Community」を選んでインストール",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef337810e8e42d801db3c4eff",
+    "type": "paragraph",
+    "parentId": "1e0a501ef3378110be47fb009f384b0d",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ インストール時に「.NETデスクトップ開発」を選択しておくと便利！",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1e0a501ef33781778176c3f70a2726da",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✅ (2) MacやLinuxの場合",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1e0a501ef33781e1bfccf54a155755f6",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ".NET SDKのインストール",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1e0a501ef33781cb8487cf753ed6ea92",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33781e1bfccf54a155755f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "https://dotnet.microsoft.com/ja-jp/download",
+          "href": "https://dotnet.microsoft.com/ja-jp/download"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " からお使いのOSに合わせてダウンロード",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef3378168a26cf03bd296deca",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33781e1bfccf54a155755f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ ターミナルで確認：",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef337811ba769f623e42c5535",
+    "type": "code",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "dotnet --version",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1e0a501ef33781c8a8acd6a09016cad2",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VS Codeの使用も可能！",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "1e0a501ef33781d192c8d51c44bd8f61",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33781c8a8acd6a09016cad2",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ VS CodeとC#拡張機能を組み合わせて使うことで、軽量かつ快適に開発できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef3378153bf3de5d74a2fd7df",
+    "type": "divider",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": "_",
+    "order": 20
+  },
+  {
+    "id": "1e0a501ef33781bc8c53de22f7191fb9",
+    "type": "heading_2",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1e0a501ef3378159b44cf2fbee877603",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C#の基本的な動作を理解するために、「Hello, World!」を表示するプログラムを書いてみましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1e0a501ef33781029a65cf86827ba23f",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Hello World を表示するコード",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1e0a501ef33781a1a26af8729f70957c",
+    "type": "code",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "caption": [],
+      "language": "c#",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine(\"Hello, World!\");\n    }\n}",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1e0a501ef3378117b28fcb44cfb95e49",
+    "type": "divider",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": "_",
+    "order": 25
+  },
+  {
+    "id": "1e0a501ef33781368282d5f6af64fb3b",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行方法（コマンドラインで実行する場合）",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1e0a501ef3378179946ce598de17c1dc",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フォルダを作成し、初期化：",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1e0a501ef3378143a757ec2a6068186c",
+    "type": "code",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "dotnet new console -o HelloWorldApp\ncd HelloWorldApp",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "1e0a501ef33781df87cfe92ccdcf1633",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プログラムを実行：",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1e0a501ef3378165ba12fe6ba9e51277",
+    "type": "code",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "dotnet run",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "1e0a501ef33781bb8093c1b61078c87c",
+    "type": "divider",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": "_",
+    "order": 31
+  },
+  {
+    "id": "1e0a501ef337816881c4c1601447b783",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行結果：",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "1e0a501ef3378121bbf4d6e03a3208b5",
+    "type": "code",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Hello, World!",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "1e0a501ef33781b5bec5d9179cab9219",
+    "type": "divider",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": "_",
+    "order": 34
+  },
+  {
+    "id": "1e0a501ef3378157b838ea13cc92712f",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コードの解説（初心者向け）",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "1e0a501ef33781d48b55fe56bf557297",
+    "type": "code",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "caption": [],
+      "language": "c#",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "using System;              // 入出力に使うSystem名前空間を使用\n\nclass Program              // クラス（プログラムの基本単位）を定義\n{\n    static void Main()     // プログラムの開始地点\n    {\n        Console.WriteLine(\"Hello, World!\"); // コンソールに文字を出力\n    }\n}",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "1e0a501ef337816db179f066fc6f0da9",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 37
+  },
+  {
+    "id": "1e0a501ef33781c196d8f489162e5798",
+    "type": "callout",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C#では、すべてのプログラムがクラスの中で動作します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "1e0a501ef337811d8b3fc81701c41aed",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33781c196d8f489162e5798",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Main()",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "メソッドが最初に実行される場所です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337816c9721f3e1c83adb57",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780c2bdb7e83ebc6675f6",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 39
+  }
+]

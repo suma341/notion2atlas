@@ -1,0 +1,363 @@
+[
+  {
+    "id": "1e0a501ef337801b8919e987b47db960",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ゲーム、Web、アプリなど、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "用途別分類",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を見たいなら",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337804ebed1f93373407682",
+    "type": "child_page",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "coverUrl": "",
+      "iconType": "",
+      "iconUrl": "",
+      "parent": "プログラミング言語用途による分類"
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef337805c82fdd722153984ac",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 2
+  },
+  {
+    "id": "1e0a501ef33780c2a51dcdbcb5167e90",
+    "type": "divider",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": "_",
+    "order": 3
+  },
+  {
+    "id": "1e0a501ef33780bd91a7c18beafc5564",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コンパイル、インタプリタ別分類",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を見たいなら",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1e0a501ef337806da2c4e60e9eef0e14",
+    "type": "child_page",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "coverUrl": "",
+      "iconType": "",
+      "iconUrl": "",
+      "parent": "実行方法による分類"
+    },
+    "order": 5
+  },
+  {
+    "id": "1e0a501ef33780508b45c899a4d30df0",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 6
+  },
+  {
+    "id": "1e0a501ef33780f4845df4ef8a75fd97",
+    "type": "divider",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": "_",
+    "order": 7
+  },
+  {
+    "id": "1e0a501ef33780bca360f891c384b0af",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "言語の",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "難易度分類",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を見たいなら",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1e0a501ef3378037bf53f8e3f878872a",
+    "type": "child_page",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "coverUrl": "",
+      "iconType": "",
+      "iconUrl": "",
+      "parent": "難易度による分類"
+    },
+    "order": 9
+  },
+  {
+    "id": "1e0a501ef3378045a949f871c0290d13",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 10
+  },
+  {
+    "id": "1e0a501ef33780c6831ee43715ebf433",
+    "type": "divider",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": "_",
+    "order": 11
+  },
+  {
+    "id": "1e0a501ef3378046ab39c525137a6552",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プログラミング言語以外の",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "開発ツール",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を知りたいなら",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1e0a501ef337802f9270d323affa25d8",
+    "type": "child_page",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "coverUrl": "",
+      "iconType": "",
+      "iconUrl": "",
+      "parent": "開発ツール"
+    },
+    "order": 13
+  },
+  {
+    "id": "1e0a501ef3378017849dcd977aa22723",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 14
+  },
+  {
+    "id": "1e0a501ef337808791c2ea2d5fd1d7b8",
+    "type": "divider",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": "_",
+    "order": 15
+  },
+  {
+    "id": "1e0a501ef33780a0a213f4aca29fe321",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 16
+  },
+  {
+    "id": "1e0a501ef337809ebb10ca1f0a9ffd99",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780efadc7e6da2c264201",
+    "curriculumId": "1e0a501ef33780efadc7e6da2c264201",
+    "pageId": "1e0a501ef33780efadc7e6da2c264201",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リンクがない言語(ツール)は順序更新予定です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  }
+]

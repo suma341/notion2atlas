@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "26ea501ef3378001b7decf932e4a82e9",
+    "type": "heading_1",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "アプリは複数のファイル・フォルダで作る。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "26ea501ef337804ca039e8536a9fae6a",
+    "type": "divider",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "26ea501ef33780f18616f9e1bb1b5d82",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これまでは",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ひとつのファイルだけ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "でFletアプリを作成してきました。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "26ea501ef3378084ab84f1143fc5401d",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "しかし、チーム開発などでこれまでより規模の大きなアプリを作ることが増えてくると、アプリに関わるファイルやフォルダも増えてきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "26ea501ef337804c89b5cc44f67790b9",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "たとえば、アプリ内で使用する",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "画像ファイル",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "や関数を記述した",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プログラムファイル",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "などなど…です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "26ea501ef3378033878fda175fa7557d",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "また、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "デプロイ",
+          "href": "https://flet.dev/docs/publish/web/"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "や",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ビルド",
+          "href": "https://flet.dev/docs/reference/cli/build/"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を実施しようと思えばそれに沿った設定ファイルも必要になります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "26ea501ef337805d9cfcfce809f0460a",
+    "type": "image",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337805d9cfcfce809f0460a.png"
+    },
+    "order": 6
+  },
+  {
+    "id": "26ea501ef33780269850e703f01f9898",
+    "type": "callout",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "👌"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "デプロイ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "や",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ビルド",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は発展的な内容なので、わからなくても大丈夫！",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "26ea501ef33780c3905dee6e83c0113f",
+    "type": "heading_1",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet create",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンド",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "26ea501ef337801fa790ea0a91f8fff0",
+    "type": "divider",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": "_",
+    "order": 9
+  },
+  {
+    "id": "26ea501ef33780a797bac12c8ba45396",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "上記のようなフォルダ構成を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "自分で考えて作るのは大変",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "26ea501ef33780a282d1db58a6b12e2d",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そこで、Fletにはこのフォルダを自動で作成する機能を活用しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "26ea501ef33780c5b25ad195e4cc10bb",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドラインでアプリを作成したいフォルダまで移動したあと、以下のコマンドを打ちましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "26ea501ef33780c2b877ccd4cde072e7",
+    "type": "code",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet create ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "orange",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "app-name",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "26ea501ef3378036af52d55e81cf699e",
+    "type": "callout",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "☝"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドラインでのフォルダ操作があまりわからない人はこのサイトを参照してください！",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "26ea501ef33780a29883d0698d29b193",
+    "type": "paragraph",
+    "parentId": "26ea501ef3378036af52d55e81cf699e",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
+          "href": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
+          "mention": {
+            "content": {
+              "href": "https://news.mynavi.jp/techplus/article/liunx_win-6/",
+              "icon_url": "https://news.mynavi.jp/images/techplus/favicon_techplus.ico",
+              "link_provider": "マイナビニュース",
+              "thumbnail_url": "https://news.mynavi.jp/techplus/article/liunx_win-6/index_images/index.jpg",
+              "title": "Windowsユーザーに贈るLinux超入門(6) Windows Explorerで行う操作をcd、ls、pwdコマンドで実行してみる"
+            },
+            "type": "link_mention"
+          }
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "26ea501ef33780da90f3ea07400be0dc",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "orange",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "app-name",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の部分は、作成するアプリを示す簡単な名前にしておきましょう。（日本語は使わないのが吉）",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "26ea501ef337805297e6fd1885a9d7c0",
+    "type": "image",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337805297e6fd1885a9d7c0.png"
+    },
+    "order": 16
+  },
+  {
+    "id": "26ea501ef33780318694e24933282276",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "すると、以下のようなフォルダが生成されます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "26ea501ef337803d95e4f9207ada35e5",
+    "type": "image",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef337803d95e4f9207ada35e5.png"
+    },
+    "order": 18
+  },
+  {
+    "id": "26ea501ef337808e8621c51a8c101cd6",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このフォルダの中に、追加のプログラムファイルや設定ファイルなどを保存します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "26ea501ef337806ebe05f96c1c8934ae",
+    "type": "callout",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "green_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "✅"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "１アプリ : １フォルダ！",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "26ea501ef33780ab8d93dd55ae04026d",
+    "type": "paragraph",
+    "parentId": "26ea501ef337806ebe05f96c1c8934ae",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletに限らず、基本的に一つのアプリは一つのフォルダで構成します。\nフォルダの中に複数のアプリを混在させたり、そのアプリに関するファイルを別のフォルダ内に入れるのはご法度です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "26ea501ef33780bbb1bcddc0474c9fbc",
+    "type": "paragraph",
+    "parentId": "26ea501ef337806ebe05f96c1c8934ae",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "また、このフォルダは",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プロジェクトフォルダ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と呼んだりします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "26ea501ef33780549b01e4c74eff6659",
+    "type": "heading_1",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "アプリの実行方法",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "26ea501ef337805a9008f9cf3e158d5f",
+    "type": "divider",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": "_",
+    "order": 22
+  },
+  {
+    "id": "26ea501ef33780d88a6ace49d59e690c",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これまではFletのプログラムもVSCodeの実行ボタンで実行している人もいたと思いますが、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet create",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "でアプリを作るときには必ず",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet run",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドでプログラムを実行しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "26ea501ef33780659830d0f68ad7aa7c",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行方法はカンタン。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "26ea501ef33780c0990fedff4c046c1a",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドライン上でプロジェクトフォルダ（",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "があるフォルダ）まで移動し、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet run",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドを実行するだけです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "26ea501ef33780e797aae9d5ef493512",
+    "type": "image",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/26ea501ef33780e0aff1e562add4627b/26ea501ef33780e797aae9d5ef493512.png"
+    },
+    "order": 26
+  },
+  {
+    "id": "26ea501ef33780158f49c930729fedd8",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これにより、プロジェクトフォルダ内の",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "が実行されます。そのため、この",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "にそのアプリの中核となるプログラムを書き込んでおきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "26ea501ef3378062a2caf766a8d42aa4",
+    "type": "callout",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "yellow_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "⚠️"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "のファイル名は変えないようにしましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "271a501ef33780c7be95ccaa42169438",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 29
+  },
+  {
+    "id": "271a501ef33780f0b87bc19743ee3fa5",
+    "type": "divider",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": "_",
+    "order": 30
+  },
+  {
+    "id": "271a501ef33780e8b820c035847669e3",
+    "type": "paragraph",
+    "parentId": "26ea501ef33780e0aff1e562add4627b",
+    "curriculumId": "256a501ef337803b9c9ee872f50d594f",
+    "pageId": "26ea501ef33780e0aff1e562add4627b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次→",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ルーティング",
+          "href": "/posts/curriculums/267a501ef33780fd9f0efa54963de153",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/branch_orange.svg",
+              "title": "ルーティング"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  }
+]

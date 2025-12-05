@@ -1,0 +1,257 @@
+[
+  {
+    "id": "27ca501ef33780978db1d4f6748b36b2",
+    "type": "paragraph",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Horizonでudemyのアカウントを所有しています",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "27da501ef33780ee8f0dda467599bf01",
+    "type": "callout",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "orange_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "udemyとは",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "27da501ef3378020ae11c7bf66226cf7",
+    "type": "paragraph",
+    "parentId": "27da501ef33780ee8f0dda467599bf01",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "プログラミングなどを学べる動画を購入できるサービス",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "283a501ef337804183b8c86354e3de31",
+    "type": "paragraph",
+    "parentId": "27da501ef33780ee8f0dda467599bf01",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "動画で気軽に学べるからめちゃ便利だぞ",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "283a501ef337808a9502f4b09ff9cadc",
+    "type": "quote",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "部のアカウントで動画を色々購入してあるよ↓",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "283a501ef33780228aa2d52f07d4848d",
+    "type": "child_page",
+    "parentId": "283a501ef337808a9502f4b09ff9cadc",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/photo-landscape_purple.svg",
+      "parent": "購入済みの動画一覧"
+    },
+    "order": 0
+  },
+  {
+    "id": "27da501ef3378090b751cb42658765b9",
+    "type": "heading_2",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ログイン方法",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "27ca501ef33780ecaa9edb2f32d68449",
+    "type": "paragraph",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ここにあるメールアドレスとパスワードでログインできるよ",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "27ca501ef337807c9d96d2fd10699fbf",
+    "type": "bookmark",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "ogp": {
+        "title": "Discord",
+        "description": "",
+        "image": "https://cdn.discordapp.com/assets/og_img_discord_home.png",
+        "icon": "https://discord.com/assets/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://discord.com/channels/1022421169770594315/1181154831516323933"
+    },
+    "order": 5
+  },
+  {
+    "id": "27da501ef33780c4b7aee9dd63879aa5",
+    "type": "paragraph",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ログイン後に６桁の数字を求められたらこの↓チャンネルに６桁の番号が出るので確認して入力してね",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "27da501ef33780c3b5f2e2d91d272215",
+    "type": "bookmark",
+    "parentId": "27ca501ef3378064a7c7d01f40afb922",
+    "curriculumId": "27ca501ef3378064a7c7d01f40afb922",
+    "pageId": "27ca501ef3378064a7c7d01f40afb922",
+    "data": {
+      "ogp": {
+        "title": "Discord",
+        "description": "",
+        "image": "https://cdn.discordapp.com/assets/og_img_discord_home.png",
+        "icon": "https://discord.com/assets/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://discord.com/channels/1022421169770594315/1252604885573304412"
+    },
+    "order": 7
+  }
+]

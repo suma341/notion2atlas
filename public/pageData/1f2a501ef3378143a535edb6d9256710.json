@@ -1,0 +1,593 @@
+[
+  {
+    "id": "1f2a501ef337811e9cf0c74dd0c531b6",
+    "type": "heading_1",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "公式ドキュメント",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef3378163a90ee47ec3bb2ce3",
+    "type": "divider",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef3378111be07fcd9d074b99f",
+    "type": "bookmark",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "ogp": {
+        "title": "Checkbox | Flet",
+        "description": "",
+        "image": "",
+        "icon": "https://flet.dev/img/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://flet.dev/docs/controls/checkbox/"
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef3378110936df46fccf62577",
+    "type": "heading_1",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "概要",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef3378182a765c16f530175b8",
+    "type": "divider",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": "_",
+    "order": 4
+  },
+  {
+    "id": "1f2a501ef33781f5b5a3c3384f5f5b56",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "その名の通りチェックボックスを作成することが出来ます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1f2a501ef3378160a34ad98fb5104002",
+    "type": "heading_1",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実装例",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1f2a501ef337813c8237e449bb65c101",
+    "type": "divider",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": "_",
+    "order": 7
+  },
+  {
+    "id": "1f2a501ef33781e485afe0ef1a1139e0",
+    "type": "quote",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実装例とコード",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1f2a501ef337813d80f2eaba8b19acb8",
+    "type": "heading_1",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "主なプロパティ",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1f2a501ef33781229685e783574b7291",
+    "type": "divider",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": "_",
+    "order": 10
+  },
+  {
+    "id": "1f2a501ef33781aa96a7e831047ac926",
+    "type": "heading_2",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "value",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1f2a501ef33781c78c3cfcbebf17f3f7",
+    "type": "divider",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": "_",
+    "order": 12
+  },
+  {
+    "id": "1f2a501ef3378131a4ffea2c86a94480",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チェックボックスにチェックがされているかどうかを変更・参照できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1f2a501ef33781ba8aa4cc619c3bf4c6",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "value = True",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "のときはチェックされている状態です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1f2a501ef33781248b7ceb99d5afa178",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "デフォルトは",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "value = False",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1f2a501ef3378140a3f3f31fbc7521be",
+    "type": "heading_2",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "label",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1f2a501ef33781888d35dff560fc2078",
+    "type": "divider",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": "_",
+    "order": 17
+  },
+  {
+    "id": "1f2a501ef3378177897ff9daaff7036f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チェックボックスの右側に表示されるラベル（テキスト）を設定します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1f2a501ef33781a5837be8bfb2d4e965",
+    "type": "heading_2",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "on_change",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "1f2a501ef3378179bb87dd0d0e85c533",
+    "type": "divider",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": "_",
+    "order": 20
+  },
+  {
+    "id": "1f2a501ef33781f2a146c508393e80f2",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "イベントハンドラ",
+          "href": "/posts/curriculums/1f2a501ef337814f8d9ad3ff930e4a0c"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1f2a501ef33781d48656eb359866537e",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "チェックボックスが変更されたときに発火します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1f2a501ef33781a6aa01d33008d3c481",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 23
+  },
+  {
+    "id": "1f2a501ef337812d8ec5ce9ec9469cfa",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "上記以外にも複数の便利なプロパティが存在します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1f2a501ef337816eaadde28f0d3ada1c",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "詳しくは、公式ドキュメントを読んでみてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1f2a501ef3378120b731c1e4c9c7e438",
+    "type": "bookmark",
+    "parentId": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378143a535edb6d9256710",
+    "data": {
+      "ogp": {
+        "title": "Checkbox | Flet",
+        "description": "Checkbox allows to select one or more items from a group, or switch between two mutually exclusive options (checked or unchecked, on or off).",
+        "image": "",
+        "icon": "https://flet.dev/img/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://flet.dev/docs/controls/checkbox/"
+    },
+    "order": 26
+  }
+]

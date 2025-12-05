@@ -1,0 +1,1254 @@
+[
+  {
+    "id": "1dfa501ef33780398418ee655e8a6029",
+    "type": "heading_1",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題１",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1dfa501ef33780ebbd69ec97a0fe272e",
+    "type": "divider",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "1dfa501ef3378004892ef691fec8cabb",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "入力した文字列について、指定した「N文字目からM文字目まで」の部分を取り出して表示する機能を持つプログラムを作成してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1dfa501ef337804ca0a1c3c2c4657427",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "ファイル名：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "summary1.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": " で保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1dfa501ef33780f49509f80bf764c59a",
+    "type": "callout",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待される出力（緑色の文字がユーザーが入力する部分）",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1dfa501ef33780b085dbcd0557baaf61",
+    "type": "code",
+    "parentId": "1dfa501ef33780f49509f80bf764c59a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "文字列を入力してください: HelloHorizon\n何文字目から抜き出しますか？:",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "2",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n何文字目まで抜き出しますか？:",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "7",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n文字列を2文字目から7文字目まで抜き出すと「elloHo」です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1dfa501ef33780a5ac12dfed9462a66a",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 5
+  },
+  {
+    "id": "1dfa501ef33780aca1eed8dca5ee8f4c",
+    "type": "heading_1",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題２",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1dfa501ef3378092bd03ffcdd3105bee",
+    "type": "divider",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": "_",
+    "order": 7
+  },
+  {
+    "id": "1dfa501ef33780be80edeeea2eee6906",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "for文を使って「1×1」から「9×9」までの「九九の答え」のリストを作って出力してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1dfa501ef33780b9bdd9eadf15356cfe",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "ファイル名：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "summary2.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": " で保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1dfa501ef3378009a3a0e8a0b476a6e7",
+    "type": "callout",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待される出力",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1dfa501ef3378025903ffafc3b530486",
+    "type": "code",
+    "parentId": "1dfa501ef3378009a3a0e8a0b476a6e7",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "[1, 2, 3, 4, 5,..., 81]",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1dfa501ef33780fc834bdeaaef6440e1",
+    "type": "toggle",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "💡ヒント",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1dfa501ef33780518095ec207399f2b1",
+    "type": "paragraph",
+    "parentId": "1dfa501ef33780fc834bdeaaef6440e1",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "for文を2重に使う",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1dfa501ef337807eac4dfb10f30b30cd",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 12
+  },
+  {
+    "id": "1dfa501ef33780338e68c7164300b226",
+    "type": "heading_1",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題３",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1dfa501ef33780e78fdfd1cf40339233",
+    "type": "divider",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": "_",
+    "order": 14
+  },
+  {
+    "id": "1dfa501ef337808a8118e0993d369fbb",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "input関数を使って、プログラムに適当に作った辞書のプリントをするかしないかを、入力と非入力によって選択するプログラムを作ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1dfa501ef33780ff8ab4ebe0383a3121",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "ファイル名：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "summary3.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": " で保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1dfa501ef3378077910afeb9414e567e",
+    "type": "callout",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待される出力例（緑色の文字が入力する部分）",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1dfa501ef33780ef936cecb999d2c236",
+    "type": "code",
+    "parentId": "1dfa501ef3378077910afeb9414e567e",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作った辞書を見る？(見る場合は何かを入力)：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "No",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n{2: 'a', 63: 'b', 14: 'c', 7: 'd', 154: 'e', 62: 'f'}",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1dfa501ef337808aa98df844216b6d05",
+    "type": "code",
+    "parentId": "1dfa501ef3378077910afeb9414e567e",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作った辞書を見る？(見る場合は何かを入力)：",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1dfa501ef337803fa50cdbe824ceeba8",
+    "type": "code",
+    "parentId": "1dfa501ef3378077910afeb9414e567e",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作った辞書を見る？(見る場合は何かを入力)：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "見る",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n{2: 'a', 63: 'b', 14: 'c', 7: 'd', 154: 'e', 62: 'f'}",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1dfa501ef337808f951ae90e8ba7723a",
+    "type": "toggle",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "該当カリキュラムへのリンク(1~5を除く)",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1dfa501ef3378044a7e0cdaf4b25b25d",
+    "type": "paragraph",
+    "parentId": "1dfa501ef337808f951ae90e8ba7723a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "6.条件分岐(if文)",
+          "href": "/posts/curriculums/1b8a501ef337800d909dc7f9943aba15"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」と",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そのboolの説明部分(予備知識トグルの外で大丈夫)",
+          "href": "/posts/curriculums/1b8a501ef337800d909dc7f9943aba15",
+          "scroll": "1b8a501ef3378101aa2ac6700cb38eb0"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ",「 ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "7.リストと辞書",
+          "href": "/posts/curriculums/1b8a501ef33780329beede1f29e138fa"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1dfa501ef33780c6a967d0fc1ef67488",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 19
+  },
+  {
+    "id": "1dfa501ef337805d96eddcfd1f280caa",
+    "type": "heading_1",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題4",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1dfa501ef33780f7b6f2d5342e259f48",
+    "type": "divider",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": "_",
+    "order": 21
+  },
+  {
+    "id": "1dfa501ef33780b9b2d2ef630494ad2c",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1~100の整数を入力してint化したものを引数にして、1~33,34~66,67~99,100の時にそれぞれ1,2,3,4を返しそれ以外の時に0を返す関数(名前はmode_selecter)を作り、呼び出して入力した後にその結果をプリントするプログラムを作ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1dfa501ef337800984dcf536ad0073c6",
+    "type": "paragraph",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "ファイル名：",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": "summary4.py",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": true
+          },
+          "plain_text": " で保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1dfa501ef33780d9b252f75c6efbdd51",
+    "type": "callout",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待される出力例（緑色の文字が入力する部分）",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1dfa501ef33780769a3ae8b82409b1f2",
+    "type": "code",
+    "parentId": "1dfa501ef33780d9b252f75c6efbdd51",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モードを選ぶ(1~100の整数):",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "100",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n4",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1dfa501ef33780c3b9e3c8197dc3e1c3",
+    "type": "code",
+    "parentId": "1dfa501ef33780d9b252f75c6efbdd51",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モードを選ぶ(1~100の整数):",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "50",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n2",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1dfa501ef3378021993dc5de51ed0da9",
+    "type": "code",
+    "parentId": "1dfa501ef33780d9b252f75c6efbdd51",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モードを選ぶ(1~100の整数):",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "-10",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n0",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1dfa501ef337800ea4b8eee8c66e2072",
+    "type": "toggle",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "該当カリキュラムへのリンク(1~5を除く)",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1dfa501ef33780eab59ec2c037b19601",
+    "type": "paragraph",
+    "parentId": "1dfa501ef337800ea4b8eee8c66e2072",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "10.関数とは",
+          "href": "/posts/curriculums/1b8a501ef3378022a217fb1418047a05"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」,「 ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "11.関数を作ろう",
+          "href": "/posts/curriculums/1b8a501ef337802fa0f0c6e94d32d3bf"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "24ca501ef33780b1b865d5ccf5c776f8",
+    "type": "synced_block",
+    "parentId": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1dfa501ef3378051a42ff0790a6a502a",
+    "data": "24ca501e-f337-806c-bdd7-dc4251317ba1",
+    "order": 26
+  }
+]

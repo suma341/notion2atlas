@@ -1,0 +1,295 @@
+[
+  {
+    "id": "1f2a501ef33781afa5cae02e9caceeb2",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "電卓が完成した方は、以下のアレンジ例を参考にしてオリジナルの電卓を作成してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef337810d9e70cf2a4ef622ef",
+    "type": "callout",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "yellow_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "⚠️"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "いくつかのアレンジ例は、スマートフォンでは正常に表示されないかもしれません！",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef3378108a021fb574f94dc93",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "もちろん、これらの例に縛られず、自由に作ってもらって大丈夫です！",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef337816facb5dc2ed2833530",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletで利用できる便利な機能や、さまざまなコントロールとそのプロパティなどはFlet公式サイトから詳細な説明を見ることができます⇩",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef33781e88548d137d5a0a784",
+    "type": "bookmark",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "ogp": {
+        "title": "Controls reference | Flet",
+        "description": "Flet UI is built of controls. Controls are organized into hierarchy, or a tree, where each control has a parent (except Page) and container controls like Column, Dropdown can contain child controls, for example:",
+        "image": "",
+        "icon": "https://flet.dev/img/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://flet.dev/docs/controls"
+    },
+    "order": 4
+  },
+  {
+    "id": "1f2a501ef33781e49827edc27a45f44c",
+    "type": "heading_2",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "色ちがいの電卓",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1f2a501ef33781219520e4426ee23465",
+    "type": "embed",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "canEmbed": true,
+      "parent": [],
+      "url": "https://flet-samples.fly.dev/various_calc/colored"
+    },
+    "order": 6
+  },
+  {
+    "id": "1f2a501ef33781d692a0c28c30213138",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 7
+  },
+  {
+    "id": "1f2a501ef337816dae4ee156bfa2b8cb",
+    "type": "divider",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": "_",
+    "order": 8
+  },
+  {
+    "id": "1f2a501ef33781b3a64cecf36a875337",
+    "type": "heading_2",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "履歴・メモ機能付き電卓",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1f2a501ef33781d18444de9403d0d09e",
+    "type": "embed",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "canEmbed": true,
+      "parent": [],
+      "url": "https://flet-samples.fly.dev/various_calc/hist_memo"
+    },
+    "order": 10
+  },
+  {
+    "id": "1f2a501ef3378186a3cfdd82826ded6d",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 11
+  },
+  {
+    "id": "1f2a501ef33781d08c4ee7a8734766ad",
+    "type": "divider",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": "_",
+    "order": 12
+  },
+  {
+    "id": "1f2a501ef337817e98d6e1d39861a76e",
+    "type": "heading_2",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GOGO電卓",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1f2a501ef33781969ebef7f3dce8fd6c",
+    "type": "embed",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "canEmbed": false,
+      "parent": [],
+      "url": "https://singlepage.kouryakubon.com/"
+    },
+    "order": 14
+  },
+  {
+    "id": "1f2a501ef337816da1d1db26d326cd9b",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef3378100a84de70c910fe58a",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 15
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "272a501ef337805d85a7fd0815128288",
+    "type": "heading_2",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題１",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "272a501ef33780dcb2edd642d5728ef1",
+    "type": "paragraph",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "module.pyファイルとmain.pyファイルを用意してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "272a501ef337808abb55f198fb0fd506",
+    "type": "paragraph",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "module.pyで",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "add_number関数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を定義してください",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "272a501ef3378072aec3c84f95f2c073",
+    "type": "callout",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "orange_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "add_number関数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の定義",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "272a501ef33780b0a217f66b9f678cfd",
+    "type": "paragraph",
+    "parentId": "272a501ef3378072aec3c84f95f2c073",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "二つの引数を受け取り、二つの引数を足した値を戻り値として返す",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "272a501ef337802997e9cc1770708561",
+    "type": "paragraph",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.pyで、module.py内で定義された",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "add_number関数",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を呼び出して、その結果を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "変数result",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "とし、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "result",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "print",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "で出力するプログラムを作ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "273a501ef3378080ab06f3ea4baa398d",
+    "type": "paragraph",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 5
+  },
+  {
+    "id": "273a501ef3378022b172e59974983685",
+    "type": "synced_block",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": "24ca501e-f337-806c-bdd7-dc4251317ba1",
+    "order": 6
+  },
+  {
+    "id": "273a501ef3378094b7bfec3958620fea",
+    "type": "paragraph",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 7
+  },
+  {
+    "id": "273a501ef3378077a58dc98b47e48373",
+    "type": "divider",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": "_",
+    "order": 8
+  },
+  {
+    "id": "273a501ef33780b080abc73bfa44aa93",
+    "type": "paragraph",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次→",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet後期",
+          "href": "/posts/curriculums/256a501ef337803b9c9ee872f50d594f",
+          "mention": {
+            "content": {
+              "iconType": "custom_emoji",
+              "iconUrl": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/7168b811-de02-41a8-b288-d3d9c791720a/flet-android-192.png",
+              "title": "Flet後期"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "273a501ef337805cb9d7d4a1629c6e2a",
+    "type": "paragraph",
+    "parentId": "26ea501ef337803ea94fef75d78cea9e",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "26ea501ef337803ea94fef75d78cea9e",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 10
+  }
+]

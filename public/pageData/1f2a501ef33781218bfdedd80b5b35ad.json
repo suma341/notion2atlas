@@ -1,0 +1,417 @@
+[
+  {
+    "id": "1f2a501ef33781a6b906faac1fc1841f",
+    "type": "callout",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "現在作成中のページですが、閲覧していただいで大丈夫です。\nこれからもコントロールを追加していく予定です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef3378171a288d0c1547b60fb",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ほんの一部ではありますが、Fletで使用できる便利な",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コントロール",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を厳選して紹介します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef337819784a5fde20966dfc3",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そのコントロールで",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "できること",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "や",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "使い方",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "も簡単に解説しています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef33781d0b8a2cc9e9689be0f",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "キホン",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef337812583d6db8ee7d33c33",
+    "type": "divider",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": "_",
+    "order": 4
+  },
+  {
+    "id": "1f2a501ef33781839576ce0ffe742787",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "🔲",
+      "parent": "Container"
+    },
+    "order": 5
+  },
+  {
+    "id": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "📄",
+      "parent": "Text"
+    },
+    "order": 6
+  },
+  {
+    "id": "1f2a501ef3378179830cc107a72faf73",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/cursor-button_blue.svg",
+      "parent": "Button"
+    },
+    "order": 7
+  },
+  {
+    "id": "1f2a501ef337810eafc9f27be061bb6c",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "入力",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1f2a501ef33781729d62cb1fa6435e51",
+    "type": "divider",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": "_",
+    "order": 9
+  },
+  {
+    "id": "1f2a501ef337813ca777f48d0edddc2a",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/rename_gray.svg",
+      "parent": "TextField"
+    },
+    "order": 10
+  },
+  {
+    "id": "1f2a501ef3378143a535edb6d9256710",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "✅",
+      "parent": "Checkbox"
+    },
+    "order": 11
+  },
+  {
+    "id": "1f2a501ef337814a8d26feafd9b9e18a",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "レイアウト",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1f2a501ef3378184af7cd55eb15c7022",
+    "type": "divider",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": "_",
+    "order": 13
+  },
+  {
+    "id": "1f2a501ef3378191b01dc3837805d3b3",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "custom_emoji",
+      "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378191b01dc3837805d3b3/icon.svg",
+      "parent": "Tabs"
+    },
+    "order": 14
+  },
+  {
+    "id": "1f2a501ef337817f881cf48d8205c4a1",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "様々なクラス",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1f2a501ef33781668b7ec83afce2b573",
+    "type": "divider",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": "_",
+    "order": 16
+  },
+  {
+    "id": "1f2a501ef33781dd9aabc21539a0882b",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "🎨",
+      "parent": "Colors"
+    },
+    "order": 17
+  },
+  {
+    "id": "1f2a501ef3378146ba46cbed686c0185",
+    "type": "child_page",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "coverUrl": "",
+      "iconType": "emoji",
+      "iconUrl": "😆",
+      "parent": "Icons"
+    },
+    "order": 18
+  },
+  {
+    "id": "1f2a501ef33781f0b898fea083ec7d78",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 19
+  }
+]

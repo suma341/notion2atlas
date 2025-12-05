@@ -1,0 +1,2307 @@
+[
+  {
+    "id": "1ada501ef337818f9927edc36ef7d009",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今回はpythonとそのライブラリであるsqlite3を使用して、データベースとの接続方法と、テーブルの作成方法を紹介します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781748930fef084af484d",
+    "type": "heading_2",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの保存形式",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1ada501ef33781e3bfb1f77f87ad47b2",
+    "type": "divider",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "1ada501ef33781b19c80d5f36ec050bf",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの保存形式については「",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "blue",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースとは",
+          "href": "/posts/curriculums/1ada501ef33781ce889fd99449a4ba30"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "」で一度説明しましたが、ここで改めて解説します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1ada501ef3378147ae7beb85d461fe06",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースはテーブル（表）の形式で保存されます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1ada501ef33781a4a506e819e5914c9d",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "以下は人の基本情報を保存するためのpersonテーブルの例です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1ada501ef33781fab995f07049c29104",
+    "type": "image",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1ada501ef3378160b03ef28f8a18fa43/1ada501ef33781fab995f07049c29104.png"
+    },
+    "order": 6
+  },
+  {
+    "id": "1ada501ef3378182888dfb6a739def1d",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーブル",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は、データの集まりを格納する場所です。テーブルはデータを行とカラム（列）の構造で整理し、それぞれの行が個別のデータ項目を表し、列がデータの属性や種類を示します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1ada501ef33781ffa5bbff70cc53d11d",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "カラム",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "はテーブルの各列を指し、それぞれの属性を表します。例えば、personテーブルには、「id」、「name」、「gender」のカラムを含ます。カラムごとにデータの型（文字列、数値など）が決められており、各カラムに保存されたデータがその属性に応じた情報を提供します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1ada501ef33781958bb6fcd04c35acba",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "行",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は、実際のデータが格納されている単位です。例えば、personテーブルの1行目が「1、Sato、Man」であれば、それが1つのデータとして保存されます。テーブル内の各行は通常、識別のために一意（他と重複しない値）のID（",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "主キー",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "）を持ちます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1ada501ef337818798ebeed602469e12",
+    "type": "heading_2",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースと接続する",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1ada501ef3378162965fe8306ca23df7",
+    "type": "divider",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": "_",
+    "order": 11
+  },
+  {
+    "id": "1ada501ef33781f09dffdaad0dbabed4",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pythonでデータベースを操作するには、まずデータベースと接続する必要があります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1ada501ef3378167998cf2572495e932",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まず、「TEST.db」という名前のデータベースファイルを作ってください。\n(すでに「TEST.db」を作った人はそのままでいいです)",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1ada501ef337819f8550f0679afda90d",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そして、conn.pyというファイルを作ってください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1ada501ef33781e785fdd88befc7af88",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "conn.pyに、以下のようなコードを書いてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1ada501ef337811ea06ee2aada157f8a",
+    "type": "callout",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "conn.py",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1ada501ef33781efa7ffc018980318c1",
+    "type": "code",
+    "parentId": "1ada501ef337811ea06ee2aada157f8a",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import sqlite3\n\n# データベースファイルの名前を保持\ndbname = 'TEST.db'\n# データベースに接続\nconn = sqlite3.connect(dbname)\n# データベースを操作するカーソルオブジェクトを作成\ncur = conn.cursor()\n# データベースにデータをコミット\nconn.commit()\n\n# データベースの接続を切断\ncur.close()\nconn.close()",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781bfac6cf15d1ed7ec26",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コードを上から順番に説明します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1ada501ef33781a881e7e944999211f0",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "最初に、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "sqlite3",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モジュールをインポートします。\n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "dbname",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "にデータベースの名前を代入します。\n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "sqlite3",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モジュールの",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "connect",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "関数の引数に",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "dbname",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を入れて、データベースと接続します。\nデータベースを操作するための",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cursor",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オブジェクトを作成します。\nデータベースにデータをコミット（確定）します。\n最後に、データベースの接続を切断します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1ada501ef3378184a01cd36aa7fb6006",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これでデータベースに接続し、操作することが可能となります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "1ada501ef337811997c8eb4e3274a54c",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このコードはsqlite3を使う場合、ほぼ毎回必要になります。これだけで内容を理解することはできないと思いますが、とりあえず今はデータベースを操作するために必要な前準備だと思っておいてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1ada501ef33781b4bf76d43e23756fad",
+    "type": "heading_2",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースの操作方法",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1ada501ef33781d787a4d49a20602ad2",
+    "type": "divider",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": "_",
+    "order": 22
+  },
+  {
+    "id": "1ada501ef33781dc8db7c091037a8382",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースを操作するためには、基本的に",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cursor",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オブジェクトの",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "execute",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " メソッドを使います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1ada501ef337814295dbcb348e6039ba",
+    "type": "callout",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベース操作方法",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1ada501ef33781769233d916de55f29a",
+    "type": "code",
+    "parentId": "1ada501ef337814295dbcb348e6039ba",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cursorオブジェクト.execute('データベースへの命令')",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef337815e9b8fe79761f669ff",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "green",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースへの命令",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の部分は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "SQL",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "というデータベースを操作するための言語で書きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1ada501ef33781b0bc92e1e121dfaa61",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CRUD操作（データの保存、データの取得、データの編集、データの削除）は、基本的にこの",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "execute",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "メソッドを使い、引数にSQL文を入れて行います。なお、SQL文の部分が文字列であることに注意してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1ada501ef33781fbbb8ac6367781420b",
+    "type": "heading_2",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベーステーブルを作成する",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1ada501ef3378127bebbdc882d910d08",
+    "type": "divider",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": "_",
+    "order": 28
+  },
+  {
+    "id": "1ada501ef33781cfa45fe6c940a41154",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "それでは、ここから実際にデータベースを操作しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1ada501ef33781748451e0eab9c16b3b",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データを保存するためには、まずテーブルを作成しなければなりません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "1ada501ef337815787f7d7da00a649a8",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーブルを作成するには、SQL文では",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CREATE TABLE IF NOT EXISTS",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を使います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "299a501ef33780dc9d1afe1262f121db",
+    "type": "callout",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "orange_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CREATE TABLE",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "だけでもテーブルを作成できるますが、すでに存在しているテーブルと同じテーブルを作成しようとするとエラーが出るので、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "IF NOT EXISTS",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "をつけることによってテーブルが存在しない場合のみ作成するようにするのが一般的です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "1ada501ef33781eeb4c5cfa93abf8050",
+    "type": "callout",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CREATE TABLE",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の書き方",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "1ada501ef33781cf8706fe25c4ea0652",
+    "type": "code",
+    "parentId": "1ada501ef33781eeb4c5cfa93abf8050",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "caption": [],
+      "language": "sql",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CREATE TABLE IF NOT EXISTS テーブル名(’カラム名 カラムの属性’)",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef337813f9201c72ba3b4b446",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "person",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という名前のテーブルに、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "id、name、age、gender",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "というカラムを持たせたければ、下のように書きます。\nconn.pyの内容を以下のようにしてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  },
+  {
+    "id": "1ada501ef33781a9b1b5cbb5dc6ab093",
+    "type": "callout",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "conn.py",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "1ada501ef33781c38857dc5c2dd41ac4",
+    "type": "code",
+    "parentId": "1ada501ef33781a9b1b5cbb5dc6ab093",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import sqlite3\n\n# データベースファイルの名前\ndbname = 'TEST.db'\n# データベースに接続\nconn = sqlite3.connect(dbname)\n\n# データベースを操作するカーソルオブジェクトを作成\ncur = conn.cursor()\n\n",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "# テーブル作成\ncur.execute(\n    'CREATE TABLE IF NOT EXISTS person(id INTEGER PRIMARY KEY AUTOINCREMENT, name STRING, age INTEGER, gender STRING)')",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "\n\n# データベースにデータをコミット\nconn.commit()\n\n# データベースの接続を切断\ncur.close()\nconn.close()",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef337815893bbc7b42e2c0480",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テーブルを作成するSQL文は以下のようになっています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "1ada501ef33781d18eb4ca89074f2e7c",
+    "type": "code",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "caption": [],
+      "language": "sql",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CREATE TABLE IF NOT EXISTS person(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, gender TEXT)",
+          "href": null
+        }
+      ]
+    },
+    "order": 37
+  },
+  {
+    "id": "1ada501ef33781229770e40355ade769",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "id",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の属性は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "INTEGER PRIMARY KEY AUTOINCREMENT",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "1ada501ef337817eb2a7eadfe55b51e3",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "name",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の属性は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "TEXT",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 39
+  },
+  {
+    "id": "1ada501ef33781a99583dfc7dc2bbd57",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "age",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の属性は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "INTEGER",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 40
+  },
+  {
+    "id": "1ada501ef337811dbca0c9389a808f8b",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "gender",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の属性は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "TEXT",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 41
+  },
+  {
+    "id": "1ada501ef337811aa226c5b352e49be2",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まずidを見ましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 42
+  },
+  {
+    "id": "1ada501ef33781ed8477f38157858149",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "id",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "には、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "INTEGER",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "PRIMARY KEY",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "AUTOINCREMENT",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の三つの属性があります。\n・",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "INTEGER",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は、値の型であり、pythonでいうところのint型です。\n・",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "PRIMARY KEY",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " は、テーブル内で各行を一意に識別するカラムに設定します。カラムは重複を許さず、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "NULL",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " 値（空の値）も許可しません。\n・",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "AUTOINCREMENT",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は、あるデータが保存される時、idの値を指定していなくても自動で値が入るようにする属性です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 43
+  },
+  {
+    "id": "1ada501ef33781b2ae7cf98d6fb9adf1",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "他を見ると、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "name",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "gender",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の属性は",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "STRING",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "であり、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "age",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の属性は",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "INTEGER",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。\n・",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "TEXT",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "は、値の型であり、pythonで言うところのstr型です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 44
+  },
+  {
+    "id": "1ada501ef3378109af84eed3619c2d6f",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "一度、conn.pyを実行してみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 45
+  },
+  {
+    "id": "1ada501ef33781fea249dbe6bca4cf86",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "TEST.dbの中を確認してください。TEST.dbの中が以下のようになっていればテーブルの作成に成功です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 46
+  },
+  {
+    "id": "1ada501ef33781baa5abd04996bc3e86",
+    "type": "image",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1ada501ef3378160b03ef28f8a18fa43/1ada501ef33781baa5abd04996bc3e86.png"
+    },
+    "order": 47
+  },
+  {
+    "id": "1ada501ef33781dab4c0c41e15dc7aa2",
+    "type": "callout",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ちなみに、データベースではテーブルを複数作ることが可能です",
+          "href": null
+        }
+      ]
+    },
+    "order": 48
+  },
+  {
+    "id": "1ada501ef33781f5890bfb26d359a5e9",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 49
+  },
+  {
+    "id": "1ada501ef3378126bd25cfe8de389983",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次→",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの保存(Create)",
+          "href": "/posts/curriculums/1ada501ef3378124834cd232ae4e3855",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/arrow-down-line_blue.svg",
+              "title": "データの保存(Create)"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 50
+  },
+  {
+    "id": "2b9a501ef3378054a6b4f0b55b0de039",
+    "type": "paragraph",
+    "parentId": "1ada501ef3378160b03ef28f8a18fa43",
+    "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
+    "pageId": "1ada501ef3378160b03ef28f8a18fa43",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 51
+  }
+]

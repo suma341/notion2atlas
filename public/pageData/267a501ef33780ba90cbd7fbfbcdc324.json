@@ -1,0 +1,1610 @@
+[
+  {
+    "id": "267a501ef3378107a9cac4433a96d609",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ほとんどの場合、Pythonでコードを書くと、一番はじめに行う命令は",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "です。今回はこの",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "が何を行なっているのか、どのように使うのかを学んでいきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef337810f8d5bd3b1cbb19e58",
+    "type": "heading_2",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import文とは",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "267a501ef3378117adb2ef71134fb072",
+    "type": "divider",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "267a501ef337816598bcd08f87da0df1",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "結論から言うと、「モジュール」をそのファイル内で使えるようにするための命令です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "267a501ef3378174a108f9227f86a84b",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言われてもあまりピンとこないと思いますので、順番に説明していきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "272a501ef33780c78de6f93d4b377c4b",
+    "type": "heading_3",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "概要",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "267a501ef337817f9273e27fabd71995",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "pythonで言う「モジュール」とは、関数やクラスなどが定義されたpythonファイルのことです。ですので、「モジュールをそのファイル内で使えるようにする」というのは、つまり、他のpythonのファイルで定義された関数やクラスなどを、import文で呼び出したファイル内で使えるようにするということです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "267a501ef33781d6adbdc66288f3204f",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import文の書き方",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "267a501ef33781799bbfed434b291f5b",
+    "type": "code",
+    "parentId": "267a501ef33781d6adbdc66288f3204f",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import モジュール名",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef33781ad824cdd5fc7148d08",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、みなさんにお馴染みのモジュールといえば",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "が挙げられます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "267a501ef33781c18b8de57c2df46842",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletをimport文で呼び出す例",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "267a501ef33781e9a9dce956a01915ed",
+    "type": "code",
+    "parentId": "267a501ef33781c18b8de57c2df46842",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import flet as ft",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef3378195baabf9b66a66ddef",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このように書くことで、fletというモジュールを呼び出しているわけです。これによって、みなさんは、fletモジュール内で定義された関数やクラスを使えて、アプリを簡単に開発できるのです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "267a501ef337815cb3ffc36e165737b0",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " の後ろにある",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "as ft",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " は、fletというモジュールの呼称を定めているコードです。これによって、fletモジュールを",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ft",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という名前で使用できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "272a501ef33780aeb014d6653e4e160c",
+    "type": "heading_3",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "使い方",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "272a501ef3378093bbc8e9647ec5b1dd",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "呼び出したモジュールの関数やクラスを使用するには、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モジュール名.関数名",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "や",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モジュール名.クラス名",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " というように、呼び出した関数やクラスの前にモジュール名をつける必要があります。",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "as ft",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言うのは、このモジュール名を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ft",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "にしていると言うわけです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "267a501ef33781cbae49e0b227b95eb5",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "したがって、例えば、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ft.Text()",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " と言うのは、fletモジュールの中で定義されている",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Text",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言うクラスを使用しているわけです。",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を使って開発するときに、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ft.",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " と書くのは、このように、使用するクラスや関数がfletモジュール内で定義されていることを明示するためです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "267a501ef33781ba97a5d8caf9f3cf00",
+    "type": "heading_2",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "自分で作成したモジュールを呼び出す",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "267a501ef337812cbc69dfd767c6864b",
+    "type": "divider",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": "_",
+    "order": 16
+  },
+  {
+    "id": "267a501ef337817cb1a5d7ccae31cef2",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "上述した通り、import文はモジュール（他のpythonファイル）を呼び出す命令です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "272a501ef33780b085b7f6a85672f159",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletは他の人が開発したモジュールでしたが、みなさんも自分のpythonファイルで関数やクラスを定義することができますよね。import文を使うと、あるファイルで定義した関数やクラスを、別のファイルで使用することができるようになります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "267a501ef337812aacf1d7e4a6eb1c71",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、以下のようにscript.pyで定義した関数を、main.pyで呼び出して使用することができます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "267a501ef33781798ac0d35ef6ce4458",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "script.py",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "267a501ef33781a7acfaefd451b0d7b1",
+    "type": "code",
+    "parentId": "267a501ef33781798ac0d35ef6ce4458",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "def add_number(a,b):\n\treturn a + b",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef337819e9ae4c92e6d7964d4",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.py",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "267a501ef337814bb2e0d77f703b4807",
+    "type": "code",
+    "parentId": "267a501ef337819e9ae4c92e6d7964d4",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import script\n\nprint(",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "script",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": ".add_number(4,5))",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef33781c5a025f6fe95feaef7",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.pyを実行すると、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "9",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " と出力され、script.pyで定義された関数を使用できることがわかります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "267a501ef337811b8cdcf4c800e22054",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このように、import文を使うことによって、複数のファイルを使って開発をすることができるようになります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "267a501ef337813ca457f40ba86b2738",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "orange_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "複数のファイルを使って開発することのメリット",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "267a501ef337813b928fddb1b275a40d",
+    "type": "paragraph",
+    "parentId": "267a501ef337813ca457f40ba86b2738",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "複数のファイルを使って開発をすることによって、一つのファイルにコードを詰め込まなくてよくなり、コードが読みやすくなります。また、汎用的な関数やクラスをそれぞれのファイルに分けて定義しておくことで、再度ゼロからコードを書く必要がなくなり、開発効率が劇的によくなります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef33781d99ea7c84933cf7094",
+    "type": "heading_2",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "from文",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "267a501ef337818f9061d9148cd62d69",
+    "type": "divider",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": "_",
+    "order": 26
+  },
+  {
+    "id": "267a501ef337810f8b87f799457f4128",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "一度ふりかえると、import文を使って他のファイルで定義されている関数を使用する場合、以下のように書きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "267a501ef337819e86cafd89af4ff818",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "他のファイルで定義された関数を使用する",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "267a501ef33781c68a04c10ed42ac678",
+    "type": "code",
+    "parentId": "267a501ef337819e86cafd89af4ff818",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import script\n\nprint(script.add_number(4,5))",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef337816cb52ff209b99d48c6",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このように他のファイルの関数を使用するには、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "モジュール名.関数名",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " と、関数の前にモジュール名をつける必要があります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "267a501ef337811cb110c6ac598f25e6",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "しかし、その関数を何度も使う場合、モジュール名を毎回つけるのは面倒に感じるときもあるでしょう。そのような時には、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "from文",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を使って、モジュール内の関数やクラスを単体で呼び出しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "267a501ef3378122b61be28a930b2de0",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "from文の書き方",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "267a501ef33781c9aa44c7ed67ec2613",
+    "type": "code",
+    "parentId": "267a501ef3378122b61be28a930b2de0",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "from モジュール名 import クラス名、関数名、変数名など",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef337816299f9d17c6a9906c6",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "先ほどのscriptファイルからadd_number関数を単体で呼び出すとすれば以下のように書きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "267a501ef3378117ac64d1ae818d9b20",
+    "type": "callout",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/code_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "main.py",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "267a501ef337810caf5bd6f7a4fde42c",
+    "type": "code",
+    "parentId": "267a501ef3378117ac64d1ae818d9b20",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "from script import add_number\n\nprint(add_number(4,5))",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "267a501ef337814ba967f5773d582c6c",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このようにfrom文を使うことによって、関数やクラスを単体で呼び出すことができます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  },
+  {
+    "id": "272a501ef33780f0a497fd259285f4fb",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（呼び出した関数やクラスを使用する時にモジュール名を書かずにそのまま使えます。）",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "272a501ef33780589321fbf4ee0871f5",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 36
+  },
+  {
+    "id": "272a501ef337806ba953ee7c3b5d5cfe",
+    "type": "divider",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": "_",
+    "order": 37
+  },
+  {
+    "id": "267a501ef33781b5828fd69f99be949a",
+    "type": "paragraph",
+    "parentId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "curriculumId": "256a501ef337802e8fcaf378c366fb03",
+    "pageId": "267a501ef33780ba90cbd7fbfbcdc324",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次→",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import文の練習問題",
+          "href": "/posts/curriculums/26ea501ef337803ea94fef75d78cea9e",
+          "mention": {
+            "content": {
+              "iconType": "emoji",
+              "iconUrl": "📝",
+              "title": "import文の練習問題"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  }
+]

@@ -1,0 +1,845 @@
+[
+  {
+    "id": "1f2a501ef33781c59c82d9c42cf8430d",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作ってみよう",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef33781acbbeceb6d385c885e",
+    "type": "divider",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "1f2a501ef33781d28aa9ef6b9fdc0a44",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まずは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "blue",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Flet公式ドキュメント",
+          "href": "https://flet.dev/docs/"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "に沿って、シンプルなカウンターアプリを作ってみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1f2a501ef33781529649fea67feffcd0",
+    "type": "image",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef33781a49284d0a05e2c6853/1f2a501ef33781529649fea67feffcd0.png"
+    },
+    "order": 3
+  },
+  {
+    "id": "1f2a501ef33781288b1ddc4505762308",
+    "type": "image",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef33781a49284d0a05e2c6853/1f2a501ef33781288b1ddc4505762308.gif"
+    },
+    "order": 4
+  },
+  {
+    "id": "1f2a501ef3378141a786d455f2453211",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まずは、好きな場所に「counter.py」という名前でファイルを作成しましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1f2a501ef33781d6b5f6ecd4ebce6d9e",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次に、counter.py に以下のプログラムを貼り付けてください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1f2a501ef33781899c74fa667d9c93c9",
+    "type": "callout",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "green_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "👌"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "今はコードは理解できなくても大丈夫ですよ！",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1f2a501ef337810db9edd6a053c47f7b",
+    "type": "code",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "caption": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "from : ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "https://flet.dev/docs/",
+          "href": "https://flet.dev/docs/"
+        }
+      ],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "import flet as ft\n\ndef main(page: ft.Page):\n    page.title = \"Flet counter example\"\n    page.vertical_alignment = ft.MainAxisAlignment.CENTER\n\n    txt_number = ft.TextField(value=\"0\", text_align=ft.TextAlign.RIGHT, width=100)\n\n    def minus_click(e):\n        txt_number.value = str(int(txt_number.value) - 1)\n        page.update()\n\n    def plus_click(e):\n        txt_number.value = str(int(txt_number.value) + 1)\n        page.update()\n\n    page.add(\n        ft.Row(\n            [\n                ft.IconButton(ft.Icons.REMOVE, on_click=minus_click),\n                txt_number,\n                ft.IconButton(ft.Icons.ADD, on_click=plus_click),\n            ],\n            alignment=ft.MainAxisAlignment.CENTER,\n        )\n    )\n\nft.app(main)",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1f2a501ef3378192aa25e82238ddf55f",
+    "type": "heading_2",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletアプリの実行方法",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1f2a501ef3378113a57ad65ae25f49a2",
+    "type": "divider",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": "_",
+    "order": 10
+  },
+  {
+    "id": "1f2a501ef33781ffba77ce66cd0602ed",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Fletで作成したアプリ・プログラムは ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLIコマンド",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " で実行します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1f2a501ef33781ea9173d96c65b6d034",
+    "type": "image",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef33781a49284d0a05e2c6853/1f2a501ef33781ea9173d96c65b6d034.png"
+    },
+    "order": 12
+  },
+  {
+    "id": "1f2a501ef3378113a5fbd757147e0b3a",
+    "type": "callout",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "☝"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "これまで同様、実行ボタンでも動かせますが、コマンドで実行したほうが動作が安定するほか、様々なメリットがあります。（様々なFlet独自の機能が使用できます！）",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1f2a501ef33781df84ccef3d77a27659",
+    "type": "paragraph",
+    "parentId": "1f2a501ef3378113a5fbd757147e0b3a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "慣れるためにも、必ずコマンドを使って実行しましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1f2a501ef337817d97adff2a6e026906",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まずは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "CLIの基礎",
+          "href": "/posts/curriculums/1bea501ef337804c90e8da6f1f5384c1",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/keyboard_lightgray.svg",
+              "title": "CLIの基礎"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " で学んだ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "cd",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドや",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ls",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コマンドを駆使して、「counter.py」を保存したフォルダまで移動しましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1f2a501ef3378119b827c86506dccf17",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そして、以下のようなコマンドを打つことでFletアプリを実行できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1f2a501ef337817b8226d51316d644a4",
+    "type": "code",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet run .\\counter.py",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1f2a501ef33781e58f07ee5ad4a9d837",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "エンターを押して少し待つと、新しくウィンドウが立ち上がり、カウンターアプリが起動します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1f2a501ef33781d99837cdc849b7df5a",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「＋」や「－」をクリックして、真ん中の数字が増えたり減ったりするのを確認してみてください！",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1f2a501ef3378171a757f443db08fc07",
+    "type": "image",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef33781a49284d0a05e2c6853/1f2a501ef3378171a757f443db08fc07.png"
+    },
+    "order": 19
+  },
+  {
+    "id": "1f2a501ef33781fca617e8c1cf967bc8",
+    "type": "heading_1",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ちょっと改造",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1f2a501ef33781619bdcdabd42d46a2c",
+    "type": "divider",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": "_",
+    "order": 21
+  },
+  {
+    "id": "1f2a501ef337815cb4c1c27d24ce9244",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "現在のカウンターアプリは、「－」を押し続けるとマイナスの値を取ってしまいます。つまり、最低値がありません。これを、0が最低値となるようにしてみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1f2a501ef33781d59421ed3616c35f87",
+    "type": "image",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef33781a49284d0a05e2c6853/1f2a501ef33781d59421ed3616c35f87.jpg"
+    },
+    "order": 23
+  },
+  {
+    "id": "1f2a501ef3378106bd27e55765df279f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "minus_click関数の中身を以下のように少し変えてみましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1f2a501ef3378133b8f8fc6cde0b6d03",
+    "type": "code",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "def minus_click(e):\n      txt_number.value = str(int(txt_number.value) - 1)\n      if int(txt_number.value) \u003c 0:\n          txt_number.value = \"0\"\n      page.update()",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1f2a501ef3378166a1bef1ad854192ac",
+    "type": "callout",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "☝"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まだ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "flet run",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "が実行されている状況ならば、プログラムを変更し保存（",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Ctrl+S",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "）するだけで、アプリにも変更が適応されます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1f2a501ef3378113b118f3e421da1c9f",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "int型 に変換した数字の表示部が0より小さくなった（＝マイナス値）とき、同じ部分に０を代入し直すという処理になっています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1f2a501ef33781659fa2e5b3294f23b1",
+    "type": "paragraph",
+    "parentId": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "pageId": "1f2a501ef33781a49284d0a05e2c6853",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 28
+  }
+]

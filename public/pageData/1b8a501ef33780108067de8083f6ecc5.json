@@ -1,0 +1,524 @@
+[
+  {
+    "id": "1b8a501ef337817887fbca8abdc8f9d5",
+    "type": "heading_1",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題1",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1b8a501ef33781e595eae7f2bb11a372",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次の文字列を結合して新しい文字列を作成し、画面に出力してください",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1b8a501ef33781f6b83ac9f9fad889cb",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※プログラムは「prac4-1.py」として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1b8a501ef33781b79a99c790b26e69b4",
+    "type": "code",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "caption": [],
+      "language": "python",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "str1 = '私は'\nstr2 = 'バスケットが'\nstr3 = '好きです' ",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1b8a501ef3378185ad87d0e4c0484f95",
+    "type": "heading_3",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待する出力結果",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1b8a501ef33781de8a6bfcba47994159",
+    "type": "code",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "私はバスケットが好きです",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1b8a501ef3378174b804e1ce898fea9c",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 6
+  },
+  {
+    "id": "1b8a501ef33781bca19ac4710d4b4793",
+    "type": "divider",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": "_",
+    "order": 7
+  },
+  {
+    "id": "1b8a501ef33781a48ac0ee4265da58aa",
+    "type": "heading_1",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題2",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1b8a501ef337816daf08ebb39bd63d30",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ユーザーから入力された文字列の最初の文字と最後の文字を出力してください",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1b8a501ef33781e09e54cb4ff91876ae",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※プログラムは「prac4-2.py」として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1b8a501ef33781389759d96b11da3a9c",
+    "type": "heading_3",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待する出力結果",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1b8a501ef3378175b787c978e1ca1d47",
+    "type": "code",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "文字列を入力 : Hello, Horizon\n最初の文字 : H\n最後の文字 : n",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1b8a501ef337814bbd4add1496622e6b",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 13
+  },
+  {
+    "id": "1b8a501ef33781e99aafc80e75a8afff",
+    "type": "divider",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": "_",
+    "order": 14
+  },
+  {
+    "id": "1b8a501ef33781a79619df72dbda9412",
+    "type": "heading_1",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "問題3",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1b8a501ef337816a8d0afbd06f381f81",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ユーザーから入力された文字列の3文字目から5文字目までを取り出し、画面に出力してください。",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1b8a501ef33781c087efc9d23517c53c",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※プログラムは「prac4-3.py」として保存",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1b8a501ef337815fb70ef0268f23de1a",
+    "type": "heading_3",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "期待する出力結果",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1b8a501ef337818996cced1ad98389be",
+    "type": "code",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "文字列を入力 : こんにちは！最近は花粉がきついですね\n3文字目から5文字目までを表示します\nにちは",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "24ca501ef337805a89ebd6631ea5c353",
+    "type": "synced_block",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": "24ca501e-f337-806c-bdd7-dc4251317ba1",
+    "order": 20
+  },
+  {
+    "id": "1b8a501ef337811981f5c36b7fbb69d7",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "前回(9.文字列)",
+          "href": "/posts/curriculums/1b8a501ef33780fab3cec5016923e198"
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "　|　",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次回(10.関数とは)",
+          "href": "/posts/curriculums/1b8a501ef3378022a217fb1418047a05"
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1b8a501ef337816c896de2aad1a0fffe",
+    "type": "paragraph",
+    "parentId": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "pageId": "1b8a501ef33780108067de8083f6ecc5",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 22
+  }
+]

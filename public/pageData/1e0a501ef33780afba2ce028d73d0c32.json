@@ -1,0 +1,1569 @@
+[
+  {
+    "id": "1e0a501ef3378172ab37fc55aa53b68a",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337814cba16d76670a3eb4b",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✅",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "概要",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef3378157affcee69d494218d",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このガイドは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C++言語",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "がどんな言語なのかを紹介し、「Hello, World!」を出力するところまでをわかりやすく解説する学習資料です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1e0a501ef337812aaa27cdce4bd30473",
+    "type": "divider",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 3
+  },
+  {
+    "id": "1e0a501ef33781b79866f60784ebf5e3",
+    "type": "heading_2",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1. C++言語とは？",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1e0a501ef33781ecb40dee2c8d4f6575",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "✔️ C++は、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C言語を拡張",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "して作られた言語で、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オブジェクト指向",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "にも対応しています。\u003cbr\u003e\n✔️ ゲーム開発やシステム開発、競技プログラミングなど幅広い分野で使用されています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "1e0a501ef3378110a1c8e54f97db8f37",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "💡",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C++の特徴",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1e0a501ef33781838dcec171511ef317",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C言語の上位互換",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：C言語のコードがほとんどそのまま動くため、Cの知識も活かせます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1e0a501ef337813f9aa8fe8b604517f6",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "オブジェクト指向",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：クラスや継承、ポリモーフィズムといった設計手法に対応しています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "1e0a501ef3378149af90f4b08d9d729f",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "高速で柔軟",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：コンパイル後の実行速度が非常に速く、大規模なプログラムにも対応できます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1e0a501ef3378199a414fd7cda5682c9",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "細かい制御が可能",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：メモリ管理など低レベルな操作もC同様に行えます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "1e0a501ef33781b4a04dff4e02dcbfb4",
+    "type": "divider",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 11
+  },
+  {
+    "id": "1e0a501ef33781e1931ccc6fe8d7ddc3",
+    "type": "heading_2",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1-2. 開発環境の構築",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1e0a501ef33781489462c67f963ecf87",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "(1) WindowsでのC++開発環境構築 (おすすめ)",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1e0a501ef33781779114f386be552923",
+    "type": "column_list",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 14
+  },
+  {
+    "id": "1e0a501ef337815b8b00c20325765689",
+    "type": "column",
+    "parentId": "1e0a501ef33781779114f386be552923",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337815d957dc1e54c0b5588",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef337815b8b00c20325765689",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Visual Studio",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：C++向けの機能が充実したMicrosoft公式IDE",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781c38f45fea2631f08ca",
+    "type": "paragraph",
+    "parentId": "1e0a501ef337815d957dc1e54c0b5588",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "→ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Visual Studio公式サイト",
+          "href": "https://visualstudio.microsoft.com/ja/"
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781e6a376d33ddac37711",
+    "type": "column",
+    "parentId": "1e0a501ef33781779114f386be552923",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef3378166913ec15bc8dc8258",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33781e6a376d33ddac37711",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VS Codeの設定",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef337817983c3d5cf5224fd95",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378166913ec15bc8dc8258",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C++拡張機能 (",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C/C++",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " by Microsoft) をインストール",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781268af9d71cff07cc89",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378166913ec15bc8dc8258",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コンパイラとして",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "MinGW",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "や",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "MSVC",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を利用",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef3378190b4e8e5aee7d592a9",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "(2) Macでの開発環境構築（VS Code）",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1e0a501ef33781d3a44fe0086aa488bf",
+    "type": "column_list",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 16
+  },
+  {
+    "id": "1e0a501ef3378186b43cd1e8c9fc8cd3",
+    "type": "column",
+    "parentId": "1e0a501ef33781d3a44fe0086aa488bf",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781b68bbcc3cc5e83ef46",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378186b43cd1e8c9fc8cd3",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "VS Codeの設定",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781318a82d15afbbeaec9",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33781b68bbcc3cc5e83ef46",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "拡張機能：「C/C++」と「Code Runner」をインストール",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781859996e6356480f122",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33781b68bbcc3cc5e83ef46",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef3378122aa94e3f2c10051ec",
+    "type": "column",
+    "parentId": "1e0a501ef33781d3a44fe0086aa488bf",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "1e0a501ef33781199faeff108038eca4",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef3378122aa94e3f2c10051ec",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コンパイラ（g++）のインストール",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef3378196a38ac4e63ff6517b",
+    "type": "code",
+    "parentId": "1e0a501ef33781199faeff108038eca4",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "brew install gcc",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781faa819dede92a7ae13",
+    "type": "bulleted_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行方法（ターミナル）",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "：",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1e0a501ef337818d8492f955cb9252ca",
+    "type": "code",
+    "parentId": "1e0a501ef33781faa819dede92a7ae13",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "caption": [],
+      "language": "bash",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "g++ example.cpp -o example\n./example",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1e0a501ef33781fb9987d3b012f16e52",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "※ ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "g++",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "はC++用のコンパイラです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1e0a501ef33781949a3cda4d1b86b3db",
+    "type": "divider",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": "_",
+    "order": 19
+  },
+  {
+    "id": "1e0a501ef337817d9ca4dace1a14e751",
+    "type": "heading_2",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "1-3. はじめてのプログラム - \"Hello, World!\"",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1e0a501ef33781748b8fc111ab0ab0d1",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C++で一番シンプルなプログラム、「Hello, World!」を見てみましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1e0a501ef33781698397df64c9b3c659",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Hello Worldを表示するコード",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1e0a501ef337814e84a8e1c13922b0cd",
+    "type": "code",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "caption": [],
+      "language": "c++",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "#include \u003ciostream\u003e\n\nint main() {\n    std::cout \u003c\u003c \"Hello, World!\" \u003c\u003c std::endl;\n    return 0;\n}",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1e0a501ef33781318bdece2cdd211557",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行方法：",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1e0a501ef3378127bcfbd476923b4583",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ファイルを保存 ( ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "example.cpp",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "など )",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1e0a501ef3378112b501dc0794b8f98d",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ターミナルでコンパイル",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1e0a501ef337813580a8e657eaee3983",
+    "type": "numbered_list_item",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1e0a501ef337817ba379da33224b2cfd",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "実行結果：",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "1e0a501ef33781068743d991a5eb4965",
+    "type": "code",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Hello, World!",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1e0a501ef3378126a2a0eb49893bffb5",
+    "type": "heading_3",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コード概説：",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "1e0a501ef33781b6b4b5e933913126ba",
+    "type": "code",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "caption": [],
+      "language": "c++",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "#include \u003ciostream\u003e                     // 1. 入出力用ヘッダーを読み込み\n\nint main() {                           // 2. プログラムの開始点となるmain関数\n    std::cout \u003c\u003c \"Hello, World!\"       // 3. 出力ストリームで画面に表示\n              \u003c\u003c std::endl;            //    改行も一緒に出力\n    return 0;                          // 4. 正常終了を表す\n}",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "1e0a501ef33781768f86da3a96d9eea5",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C++では、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "#include \u003ciostream\u003e",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "で入出力のためのヘッダーを読み込み、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "std::cout",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "で文字列を画面に表示します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "1e0a501ef3378187b9dee92f3c44ee96",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "最後に",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "return 0;",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "でプログラムの正常終了を示します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "1e0a501ef337813ba8ecc47809c2529a",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 34
+  },
+  {
+    "id": "1e0a501ef33781298f82fcf233ee051f",
+    "type": "callout",
+    "parentId": "1e0a501ef33780afba2ce028d73d0c32",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "C++は",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "手続き型 + オブジェクト指向",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "のハイブリッド言語です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 35
+  },
+  {
+    "id": "1e0a501ef3378127a843f71deb675791",
+    "type": "paragraph",
+    "parentId": "1e0a501ef33781298f82fcf233ee051f",
+    "curriculumId": "1e0a501ef33780dd8d3ee0341937095f",
+    "pageId": "1e0a501ef33780afba2ce028d73d0c32",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まずは手続き的に書き、徐々にクラスや関数分割などに慣れていきましょう。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  }
+]
