@@ -2,7 +2,6 @@ package presentation
 
 import (
 	"fmt"
-	"notion2atlas/domain"
 	"notion2atlas/usecase"
 )
 
@@ -12,32 +11,29 @@ func HandleUpdateData() error {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println("start process curriculums")
 	err = updateCurriculum()
 	if err != nil {
 		return err
 	}
+	fmt.Println("start process Categories")
 	err = updateCategory()
 	if err != nil {
 		return err
 	}
+	fmt.Println("start process infos")
 	err = updateInfo()
 	if err != nil {
 		return err
 	}
+	fmt.Println("start process answers")
 	err = updateAnswer()
 	if err != nil {
 		return err
 	}
-	staticPages := []domain.PageEntity{
-		domain.CreatePage("部活情報", "emoji", "ℹ️", "infos"),
-		domain.CreatePage("基礎班カリキュラム", "emoji", "🔰", "basic"),
-	}
-	for _, p := range staticPages {
-		err := usecase.SaveOGPPicture(p)
-		if err != nil {
-			fmt.Println("error in presentation/HandleUpdateData/usecase.SaveOGPPicture")
-			return err
-		}
+	err = usecase.SaveStaticPageOGPPicture()
+	if err != nil {
+		return err
 	}
 	return nil
 }

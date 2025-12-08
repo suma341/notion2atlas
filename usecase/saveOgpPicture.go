@@ -11,6 +11,26 @@ import (
 	"github.com/chromedp/chromedp"
 )
 
+func SaveStaticPageOGPPicture() error {
+	staticPages := []domain.PageEntity{}
+	var isInfoOGPExist = filemanager.FileExists("public/ogp/infos.png")
+	if !isInfoOGPExist {
+		staticPages = append(staticPages, domain.CreatePage("部活情報", "emoji", "ℹ️", "infos"))
+	}
+	var isBasicOGPExist = filemanager.FileExists("public/ogp/basic.png")
+	if !isBasicOGPExist {
+		staticPages = append(staticPages, domain.CreatePage("基礎班カリキュラム", "emoji", "🔰", "basic"))
+	}
+	for _, p := range staticPages {
+		err := SaveOGPPicture(p)
+		if err != nil {
+			fmt.Println("error in usecase/SaveStaticPageOGPPicture/SaveOGPPicture")
+			return err
+		}
+	}
+	return nil
+}
+
 func SaveOGPPicture(p domain.PageIf) error {
 	_, coverUrl := p.GetCover()
 	iconType, iconUrl := p.GetIcon()
