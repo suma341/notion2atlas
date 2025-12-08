@@ -1837,94 +1837,6 @@
     "title": "任意ページ"
   },
   {
-    "id": "256a501ef33780a9a46fc17219f411da",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/git_orange.svg",
-    "cover": "https://www.notion.so/images/page-cover/met_edgar_degas_1874.jpg",
-    "coverType": "external",
-    "order": 10001,
-    "parentId": "",
-    "title": "Git, Github"
-  },
-  {
-    "id": "26aa501ef33780ea9c00c101544df5e6",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "emoji",
-    "iconUrl": "❓",
-    "cover": "",
-    "coverType": "",
-    "order": 3,
-    "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "Git、Githubとは "
-  },
-  {
-    "id": "266a501ef337808e8078e09ab83d6de8",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "emoji",
-    "iconUrl": "🔰",
-    "cover": "https://www.notion.so/images/page-cover/nasa_fingerprints_of_water_on_the_sand.jpg",
-    "coverType": "external",
-    "order": 4,
-    "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "Git,GitHubのはじめ方"
-  },
-  {
-    "id": "26aa501ef33780cab7cae768aa7bc7f0",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "emoji",
-    "iconUrl": "👥",
-    "cover": "https://www.notion.so/images/page-cover/met_terracotta_funerary_plaque.jpg",
-    "coverType": "external",
-    "order": 5,
-    "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "チーム開発での使い方"
-  },
-  {
-    "id": "272a501ef33780c7a5e6fb2c06746bc3",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/merge_red.svg",
-    "cover": "https://www.notion.so/images/page-cover/met_paul_signac.jpg",
-    "coverType": "external",
-    "order": 6,
-    "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "競合エラーの原因と解決方法"
-  },
-  {
-    "id": "273a501ef337803d879cc2d7157f3fe6",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/branch-merge_orange.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 7,
-    "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "ブランチを分ける"
-  },
-  {
-    "id": "277a501ef33780b786eee25597018d01",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "emoji",
-    "iconUrl": "🌐",
-    "cover": "",
-    "coverType": "",
-    "order": 10,
-    "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "リモートとローカルについて"
-  },
-  {
-    "id": "273a501ef337807dad51ea377d446b60",
-    "curriculumId": "256a501ef33780a9a46fc17219f411da",
-    "iconType": "emoji",
-    "iconUrl": "🔴",
-    "cover": "",
-    "coverType": "",
-    "order": 11,
-    "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "not a git repositoryエラーについて"
-  },
-  {
     "id": "272a501ef3378040af9bfae333f7427a",
     "curriculumId": "272a501ef3378040af9bfae333f7427a",
     "iconType": "external",
@@ -2275,5 +2187,115 @@
     "order": 10,
     "parentId": "",
     "title": "Git、GitHubセットアップ"
+  },
+  {
+    "id": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/git_orange.svg",
+    "cover": "https://www.notion.so/images/page-cover/met_edgar_degas_1874.jpg",
+    "coverType": "external",
+    "order": 10001,
+    "parentId": "",
+    "title": "Git, Github"
+  },
+  {
+    "id": "26aa501ef33780ea9c00c101544df5e6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "emoji",
+    "iconUrl": "❓",
+    "cover": "",
+    "coverType": "",
+    "order": 3,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "Git、Githubとは "
+  },
+  {
+    "id": "266a501ef337808e8078e09ab83d6de8",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "emoji",
+    "iconUrl": "🔰",
+    "cover": "https://www.notion.so/images/page-cover/nasa_fingerprints_of_water_on_the_sand.jpg",
+    "coverType": "external",
+    "order": 4,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "Git,GitHubのはじめ方"
+  },
+  {
+    "id": "26aa501ef33780cab7cae768aa7bc7f0",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "emoji",
+    "iconUrl": "👥",
+    "cover": "https://www.notion.so/images/page-cover/met_terracotta_funerary_plaque.jpg",
+    "coverType": "external",
+    "order": 5,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "チーム開発での使い方"
+  },
+  {
+    "id": "272a501ef33780c7a5e6fb2c06746bc3",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/merge_red.svg",
+    "cover": "https://www.notion.so/images/page-cover/met_paul_signac.jpg",
+    "coverType": "external",
+    "order": 6,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "競合エラーの原因と解決方法"
+  },
+  {
+    "id": "273a501ef337803d879cc2d7157f3fe6",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/branch-merge_orange.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 7,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "ブランチを分ける"
+  },
+  {
+    "id": "277a501ef33780b786eee25597018d01",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "emoji",
+    "iconUrl": "🌐",
+    "cover": "",
+    "coverType": "",
+    "order": 10,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "リモートとローカルについて"
+  },
+  {
+    "id": "2c3a501ef33780cf9a87d90191b07681",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/new-document_orange.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 11,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "Push時のコマンドについて"
+  },
+  {
+    "id": "2c3a501ef33780bd9acaf29783b9d4f8",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/archive_orange.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 12,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "ステージとコミットについて"
+  },
+  {
+    "id": "273a501ef337807dad51ea377d446b60",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "iconType": "emoji",
+    "iconUrl": "🔴",
+    "cover": "",
+    "coverType": "",
+    "order": 13,
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "title": "not a git repositoryエラーについて"
   }
 ]
