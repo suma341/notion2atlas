@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "2c8a501ef33780e08998c0220c151354",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリのフレームワークとは、Webアプリを効率よく、正しく作るための“土台”や“型”です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2c8a501ef337808e983ce2eb27457e9e",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ゼロから作る必要をなくし、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "決められたやり方に沿って開発できる仕組み",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を提供します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "2c8a501ef33780f4a603e4b9a79e1403",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "基礎班のカリキュラムにあるFletもフレームワークの一つです（ただし、webアプリ限定ではない）。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "2c8a501ef33780d0840ac21912cf489a",
+    "type": "heading_2",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なぜフレームワークが必要？",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "2c8a501ef33780f9a17de670ff4072e6",
+    "type": "divider",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": "_",
+    "order": 4
+  },
+  {
+    "id": "2c8a501ef33780c3b0eaf0d3c856fc75",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "もしフレームワークがなければ：",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "2c8a501ef33780d59e8be2093cc0884c",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ルーティングを毎回自作",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "2c8a501ef3378091b706df3ebd3715e9",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "認証や入力チェックを自分で実装",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "2c8a501ef337802da797d97009e13bfa",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ファイル構成が人によってバラバラ",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "2c8a501ef33780ba9ed7d7251b82af28",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "バグ・セキュリティ事故が起きやすい",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "2c8a501ef3378092b690e7c5bd98f38b",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "同じ苦労を何度もする状態になります",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "2c8a501ef3378046ab16d0554531b68a",
+    "type": "heading_2",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フレームワークの役割",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "2c8a501ef33780f4bee0c9fa9d87e703",
+    "type": "divider",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": "_",
+    "order": 12
+  },
+  {
+    "id": "2c8a501ef33780749812d9ec4eb20420",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フレームワークは次のものを提供します。",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "2c8a501ef33780a68defc71890fb0b6e",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "URLと処理の対応付け（ルーティング）",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "2c8a501ef33780698297e11ae5459c44",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データの受け取り・検証",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "2c8a501ef33780f89291ce3bfe456cf9",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "状態管理",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "2c8a501ef33780028d3ddb5f85cf63a4",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "テンプレート・コンポーネント",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "2c8a501ef337801c9b7ce44bd6fdf453",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "セキュリティ対策の仕組み",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "2c8a501ef337802d84cade1ee1d26411",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "開発ルール（設計指針）",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "2c8a501ef3378034b8b5f515e6646df3",
+    "type": "heading_2",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "代表的なフレームワーク",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "2c8a501ef33780548892fe9f96b31a86",
+    "type": "divider",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": "_",
+    "order": 21
+  },
+  {
+    "id": "2c8a501ef33780faa038f3bdbfdf3e7e",
+    "type": "heading_3",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フロントエンド",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "2c8a501ef3378020a174cc41bcc152fc",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "React / Next.js",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "2c8a501ef33780dd92abda25112b47d5",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Vue / Nuxt",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "2c8a501ef33780d39f10c34793a2af17",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Angular",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "2c8a501ef33780bfb427eeab3ccf2002",
+    "type": "heading_3",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "バックエンド",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "2c8a501ef3378097bad9ea5a4c2689fa",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Express / NestJS（Node.js）",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "2c8a501ef3378022b17ccd892493db71",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Django / FastAPI（Python）",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "2c8a501ef33780388590dbbffefe7bfe",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Ruby on Rails（Ruby）",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "2c8a501ef3378076a835c8bcc44dc522",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Spring Boot（Java）",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "2c8a501ef337801ba37bf18e5e50fbfe",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Gin / Echo（Go）",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "2c8a501ef337803d9eb2d75a1209961c",
+    "type": "heading_2",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ライブラリとの違い",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "2c8a501ef33780aa902bf865df7d8910",
+    "type": "divider",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": "_",
+    "order": 33
+  },
+  {
+    "id": "2c8a501ef337800a8c35e9c61020fd97",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "よくある混乱ポイントです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  },
+  {
+    "id": "2c8a501ef3378036b8f7d2c1efcdbd87",
+    "type": "table",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "has_column_header": true,
+      "has_row_header": false,
+      "table_width": 3
+    },
+    "order": 35
+  },
+  {
+    "id": "2c8a501ef337806aad72d53e9684a07f",
+    "type": "table_row",
+    "parentId": "2c8a501ef3378036b8f7d2c1efcdbd87",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": [
+      [],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ライブラリ",
+          "href": null
+        }
+      ],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フレームワーク",
+          "href": null
+        }
+      ]
+    ],
+    "order": 0
+  },
+  {
+    "id": "2c8a501ef33780b8884fcee45af746f4",
+    "type": "table_row",
+    "parentId": "2c8a501ef3378036b8f7d2c1efcdbd87",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": [
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "主導権",
+          "href": null
+        }
+      ],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "開発者",
+          "href": null
+        }
+      ],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フレームワーク",
+          "href": null
+        }
+      ]
+    ],
+    "order": 1
+  },
+  {
+    "id": "2c8a501ef33780ebadc3d67a8d1c9087",
+    "type": "table_row",
+    "parentId": "2c8a501ef3378036b8f7d2c1efcdbd87",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": [
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "構成",
+          "href": null
+        }
+      ],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "自由",
+          "href": null
+        }
+      ],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "決まっている",
+          "href": null
+        }
+      ]
+    ],
+    "order": 2
+  },
+  {
+    "id": "2c8a501ef33780718632fd0735bf08f8",
+    "type": "table_row",
+    "parentId": "2c8a501ef3378036b8f7d2c1efcdbd87",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": [
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "呼び出し",
+          "href": null
+        }
+      ],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "必要な時",
+          "href": null
+        }
+      ],
+      [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "自動で呼ばれる",
+          "href": null
+        }
+      ]
+    ],
+    "order": 3
+  },
+  {
+    "id": "2c8a501ef33780e59a93f0725a755ee1",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フレームワークは流れを支配します",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "2c8a501ef33780d69076dda3ea0a2a02",
+    "type": "heading_2",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "まとめ",
+          "href": null
+        }
+      ]
+    },
+    "order": 37
+  },
+  {
+    "id": "2c8a501ef33780878d02cedba5b719d4",
+    "type": "divider",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": "_",
+    "order": 38
+  },
+  {
+    "id": "2c8a501ef33780acac53f7666560927d",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリのフレームワークとは、安全で効率的な開発を可能にする“共通の土台”です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 39
+  },
+  {
+    "id": "2c8a501ef3378037a53df3e248975c2f",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 40
+  },
+  {
+    "id": "2c8a501ef3378037be7ac88f9c183b85",
+    "type": "divider",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": "_",
+    "order": 41
+  },
+  {
+    "id": "2c8a501ef337809085edf5d219098a4f",
+    "type": "paragraph",
+    "parentId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef337803fa6cdfc08d24c3443",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリを開発するには？",
+          "href": "/posts/curriculums/2c8a501ef337807cbe63df809cb0ac68",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/hammer_blue.svg",
+              "title": "Webアプリを開発するには？"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 42
+  }
+]

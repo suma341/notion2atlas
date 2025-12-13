@@ -2318,7 +2318,7 @@
     "coverType": "external",
     "order": 1006,
     "parentId": "",
-    "title": "Webアプリ"
+    "title": "Webアプリのガイド"
   },
   {
     "id": "2c7a501ef3378027b627d12ad61e4a21",
@@ -2327,7 +2327,7 @@
     "iconUrl": "https://www.notion.so/icons/question-mark_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 0,
+    "order": 2,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "Webアプリとは"
   },
@@ -2338,7 +2338,7 @@
     "iconUrl": "https://www.notion.so/icons/server_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 1,
+    "order": 3,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "Webサーバーについて"
   },
@@ -2349,7 +2349,7 @@
     "iconUrl": "https://www.notion.so/icons/username_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 2,
+    "order": 4,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "URLについて"
   },
@@ -2360,7 +2360,7 @@
     "iconUrl": "https://www.notion.so/icons/cellular_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 3,
+    "order": 5,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "HTTPについて"
   },
@@ -2371,7 +2371,7 @@
     "iconUrl": "https://www.notion.so/icons/document_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 4,
+    "order": 6,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "Webサイトについて"
   },
@@ -2382,7 +2382,7 @@
     "iconUrl": "https://www.notion.so/icons/code_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 5,
+    "order": 7,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "HTMLについて"
   },
@@ -2393,7 +2393,7 @@
     "iconUrl": "https://www.notion.so/icons/computer-chip_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 6,
+    "order": 8,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "バックエンドについて"
   },
@@ -2404,8 +2404,30 @@
     "iconUrl": "https://www.notion.so/icons/archive_blue.svg",
     "cover": "",
     "coverType": "",
-    "order": 7,
+    "order": 9,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
     "title": "ミドルウェアについて"
+  },
+  {
+    "id": "2c8a501ef337803fa6cdfc08d24c3443",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/art_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 10,
+    "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "title": "フレームワークについて"
+  },
+  {
+    "id": "2c8a501ef337807cbe63df809cb0ac68",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/hammer_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 11,
+    "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "title": "Webアプリを開発するには？"
   }
 ]
