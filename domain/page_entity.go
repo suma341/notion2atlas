@@ -1,5 +1,7 @@
 package domain
 
+import "fmt"
+
 type PageEntity struct {
 	Id           string `json:"id"`
 	CurriculumId string `json:"curriculumId"`
@@ -10,6 +12,7 @@ type PageEntity struct {
 	Order        int    `json:"order"`
 	ParentId     string `json:"parentId"`
 	Title        string `json:"title"`
+	Type         string `json:"type"`
 }
 
 func (p PageEntity) GetTitle() string {
@@ -38,6 +41,35 @@ func (p PageEntity) ChangePageEntityUrl(iconUrl string, coverUrl string) PageEnt
 	}
 }
 
+func NewPageEntity(
+	Id string,
+	CurriculumId string,
+	IconType string,
+	IconUrl string,
+	CoverUrl string,
+	CoverType string,
+	Order int,
+	ParentId string,
+	Title string,
+	Type string,
+) (*PageEntity, error) {
+	if Type != "curriculum" && Type != "info" && Type != "answer" {
+		return nil, fmt.Errorf("unexpected type: %s", Type)
+	}
+	return &PageEntity{
+		Id:           Id,
+		CurriculumId: CurriculumId,
+		IconType:     IconType,
+		IconUrl:      IconUrl,
+		CoverUrl:     CoverUrl,
+		CoverType:    CoverType,
+		Order:        Order,
+		ParentId:     ParentId,
+		Title:        Title,
+		Type:         Type,
+	}, nil
+}
+
 func CreatePage(title string, iconType string, iconUrl string, id string) PageEntity {
 	return PageEntity{
 		Id:           id,
@@ -49,5 +81,6 @@ func CreatePage(title string, iconType string, iconUrl string, id string) PageEn
 		Order:        0,
 		ParentId:     "",
 		Title:        title,
+		Type:         "",
 	}
 }

@@ -74,13 +74,13 @@ func GetDBItem(id string) (*domain.NTDBRepository, error) {
 	return filtered, nil
 }
 
-func GetPageItem(id string) (*domain.NTPageRepository, error) {
+func GetPageItem(id string, type_ string) (*domain.NTPageRepository, error) {
 	data, err := gateway.GetNotionData(domain.Page, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetPageItem/gateway.GetNotionData")
 		return nil, err
 	}
-	filtered, err := domain.ResNTPageRepository(data)
+	filtered, err := domain.ResNTPageRepository(data, type_)
 	if err != nil {
 		fmt.Println("error in usecase/GetPageItem/domain.ResNTPageRepositoryRepository")
 		return nil, err

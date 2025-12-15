@@ -13,6 +13,7 @@ type NTPageRepository struct {
 	CoverUrl  string `json:"coverUrl"`
 	CoverType string `json:"coverType"`
 	Title     string `json:"title"`
+	Type      string `json:"type"`
 }
 
 func (p NTPageRepository) GetTitle() string {
@@ -28,7 +29,7 @@ func (p NTPageRepository) GetCover() (CoverType string, CoverUrl string) {
 	return p.CoverType, p.CoverUrl
 }
 
-func ResNTPageRepository(res map[string]any) (*NTPageRepository, error) {
+func ResNTPageRepository(res map[string]any, type_ string) (*NTPageRepository, error) {
 	jsonBytes, err := json.Marshal(res)
 	if err != nil {
 		fmt.Println("error in domain/Res2NTPageRepository/json.Marshal(res)")
@@ -61,6 +62,7 @@ func ResNTPageRepository(res map[string]any) (*NTPageRepository, error) {
 		CoverUrl:  coverUrl,
 		CoverType: coverType,
 		Title:     title,
+		Type:      type_,
 	}
 	return &page, nil
 }

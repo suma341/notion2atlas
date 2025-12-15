@@ -7,8 +7,8 @@ import (
 	"notion2atlas/utils"
 )
 
-func makeParagraphData(para domain.ParagraphProperty) (map[string]any, error) {
-	richTextModels, err := ProcessRichText(para.RichText)
+func makeParagraphData(para domain.ParagraphProperty, type_ string) (map[string]any, error) {
+	richTextModels, err := ProcessRichText(para.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeParagraphData/ProcessRichText")
 		return nil, err
@@ -20,8 +20,8 @@ func makeParagraphData(para domain.ParagraphProperty) (map[string]any, error) {
 	return data, nil
 }
 
-func makeHeaderData(header domain.HeaderProperty) (map[string]any, error) {
-	richTextModels, err := ProcessRichText(header.RichText)
+func makeHeaderData(header domain.HeaderProperty, type_ string) (map[string]any, error) {
+	richTextModels, err := ProcessRichText(header.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeHeaderData/ProcessRichText")
 		return nil, err
@@ -34,8 +34,8 @@ func makeHeaderData(header domain.HeaderProperty) (map[string]any, error) {
 	return data, nil
 }
 
-func makeImageData(img domain.ImageProperty, blockId string, pageId string) (map[string]any, error) {
-	richTextModels, err := ProcessRichText(img.Caption)
+func makeImageData(img domain.ImageProperty, blockId string, pageId string, type_ string) (map[string]any, error) {
+	richTextModels, err := ProcessRichText(img.Caption, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeImageData/ProcessRichText")
 		return nil, err
@@ -61,7 +61,7 @@ func makeImageData(img domain.ImageProperty, blockId string, pageId string) (map
 
 func makeEmbedData(embed domain.EmbedProperty, type_ string) (map[string]any, error) {
 	var data map[string]any
-	parent, err := ProcessRichText(embed.Caption)
+	parent, err := ProcessRichText(embed.Caption, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeEmbedData/ProcessRichText")
 		return nil, err
@@ -98,10 +98,10 @@ func makeTableData(table domain.TableProperty) (map[string]any, error) {
 	return data, nil
 }
 
-func makeTableRowData(table_row domain.TableRowProperty) ([][]RichTextModel, error) {
+func makeTableRowData(table_row domain.TableRowProperty, type_ string) ([][]RichTextModel, error) {
 	var cells [][]RichTextModel
 	for _, cell := range table_row.Cells {
-		richTextModel, err := ProcessRichText(cell)
+		richTextModel, err := ProcessRichText(cell, type_)
 		if err != nil {
 			fmt.Println("error in usecase/makeTableRowData/ProcessRichText")
 			return nil, err
@@ -111,8 +111,8 @@ func makeTableRowData(table_row domain.TableRowProperty) ([][]RichTextModel, err
 	return cells, nil
 }
 
-func makeChildPageData(pageId string) (map[string]any, *domain.NTPageRepository, error) {
-	pageDataAddress, err := GetPageItem(pageId)
+func makeChildPageData(pageId string, type_ string) (map[string]any, *domain.NTPageRepository, error) {
+	pageDataAddress, err := GetPageItem(pageId, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeChildPageData/GetPageItem")
 		return nil, nil, err
@@ -143,10 +143,10 @@ func makeChildPageData(pageId string) (map[string]any, *domain.NTPageRepository,
 	return data, &pageRepo, nil
 }
 
-func makeLinkToPageData(link_to_page domain.LinkToPageProperty) (map[string]any, error) {
+func makeLinkToPageData(link_to_page domain.LinkToPageProperty, type_ string) (map[string]any, error) {
 	pageId := link_to_page.PageId
 	link := "/posts/curriculums/" + pageId
-	pageData, err := GetPageItem(pageId)
+	pageData, err := GetPageItem(pageId, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeLinkToPageData/GetPageItem")
 		return nil, err
@@ -161,13 +161,13 @@ func makeLinkToPageData(link_to_page domain.LinkToPageProperty) (map[string]any,
 	return data, nil
 }
 
-func makeCodeData(code domain.CodeProperty) (map[string]any, error) {
-	codeContent, err := ProcessRichText(code.RichText)
+func makeCodeData(code domain.CodeProperty, type_ string) (map[string]any, error) {
+	codeContent, err := ProcessRichText(code.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeCodeData/ProcessRichText(code.RichText)")
 		return nil, err
 	}
-	caption, err := ProcessRichText(code.Caption)
+	caption, err := ProcessRichText(code.Caption, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeCodeData/ProcessRichText(code.Caption)")
 		return nil, err
@@ -180,8 +180,8 @@ func makeCodeData(code domain.CodeProperty) (map[string]any, error) {
 	return data, nil
 }
 
-func makeCalloutData(callout domain.CalloutProperty) (map[string]any, error) {
-	richText, err := ProcessRichText(callout.RichText)
+func makeCalloutData(callout domain.CalloutProperty, type_ string) (map[string]any, error) {
+	richText, err := ProcessRichText(callout.RichText, type_)
 	if err != nil {
 		fmt.Println("error in usecase/makeCalloutData/ProcessRichText")
 		return nil, err

@@ -20,7 +20,7 @@ const (
 func (r ResourceType) GetStr() string {
 	switch r {
 	case CURRICULUM:
-		return "curriculm"
+		return "curriculum"
 	case PAGE:
 		return "page"
 	case CATEGORY:

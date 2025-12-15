@@ -12,53 +12,54 @@ func GetBlockEntities(
 	pageId string,
 	i int,
 	pageBuffer []domain.PageEntity,
+	type_ string,
 ) ([]domain.BlockEntity, []domain.PageEntity, error) {
 
 	switch res.Type {
 	case "paragraph":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Paragraph, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Paragraph, pageBuffer, type_)
 	case "quote":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Quote, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Quote, pageBuffer, type_)
 	case "toggle":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Toggle, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Toggle, pageBuffer, type_)
 	case "bulleted_list_item":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.BulletedListItem, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.BulletedListItem, pageBuffer, type_)
 	case "numbered_list_item":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.NumberedListItem, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.NumberedListItem, pageBuffer, type_)
 	case "to_do":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.ToDo, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.ToDo, pageBuffer, type_)
 	case "heading_1":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Heading1, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Heading1, pageBuffer, type_)
 	case "heading_2":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Heading2, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Heading2, pageBuffer, type_)
 	case "heading_3":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Heading3, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Heading3, pageBuffer, type_)
 	case "image":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Image, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Image, pageBuffer, type_)
 	case "video":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Video, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Video, pageBuffer, type_)
 	case "embed":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Embed, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Embed, pageBuffer, type_)
 	case "bookmark":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Bookmark, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Bookmark, pageBuffer, type_)
 	case "table":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Table, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Table, pageBuffer, type_)
 	case "table_row":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.TableRow, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.TableRow, pageBuffer, type_)
 	case "child_page":
-		return appendBlock(buffer, res, curriculumId, pageId, i, 0, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, 0, pageBuffer, type_)
 	case "link_to_page":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.LinkToPage, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.LinkToPage, pageBuffer, type_)
 	case "code":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Code, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Code, pageBuffer, type_)
 	case "synced_block":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.SyncedBlock, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.SyncedBlock, pageBuffer, type_)
 	case "child_database":
-		return appendBlock(buffer, res, curriculumId, pageId, i, 0, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, 0, pageBuffer, type_)
 	case "callout":
-		return appendBlock(buffer, res, curriculumId, pageId, i, res.Callout, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, res.Callout, pageBuffer, type_)
 	default:
-		return appendBlock(buffer, res, curriculumId, pageId, i, 0, pageBuffer)
+		return appendBlock(buffer, res, curriculumId, pageId, i, 0, pageBuffer, type_)
 	}
 }
 
@@ -70,6 +71,7 @@ func appendBlock(
 	i int,
 	block any,
 	pageBuffer []domain.PageEntity,
+	type_ string,
 ) ([]domain.BlockEntity, []domain.PageEntity, error) {
 	var data any
 	var err error = nil
@@ -84,7 +86,7 @@ func appendBlock(
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.ParagraphProperty)")
 		}
-		data, err = makeParagraphData(*obj)
+		data, err = makeParagraphData(*obj, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeParagraphData")
 			return buffer, pageBuffer, err
@@ -94,7 +96,7 @@ func appendBlock(
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.Header)")
 		}
-		data, err = makeHeaderData(*obj)
+		data, err = makeHeaderData(*obj, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeHeaderData")
 			return buffer, pageBuffer, err
@@ -104,7 +106,7 @@ func appendBlock(
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.ImageProperty)")
 		}
-		data, err = makeImageData(*obj, res.Id, pageId)
+		data, err = makeImageData(*obj, res.Id, pageId, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeImageData")
 			return buffer, pageBuffer, err
@@ -134,7 +136,7 @@ func appendBlock(
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.TableRowProperty)")
 		}
-		data, err = makeTableRowData(*obj)
+		data, err = makeTableRowData(*obj, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeTableRowData")
 			return buffer, pageBuffer, err
@@ -144,7 +146,7 @@ func appendBlock(
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.LinkToPageProperty)")
 		}
-		data, err = makeLinkToPageData(*obj)
+		data, err = makeLinkToPageData(*obj, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeLinkToPageData")
 			return buffer, pageBuffer, err
@@ -154,7 +156,7 @@ func appendBlock(
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.CodeProperty)")
 		}
-		data, err = makeCodeData(*obj)
+		data, err = makeCodeData(*obj, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeCodeData")
 			return buffer, pageBuffer, err
@@ -164,7 +166,7 @@ func appendBlock(
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.CodeProperty)")
 		}
-		data, err = makeCalloutData(*obj)
+		data, err = makeCalloutData(*obj, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeCodeData")
 			return buffer, pageBuffer, err
@@ -198,7 +200,7 @@ func appendBlock(
 		}
 	case "child_page":
 		var pageDataAddress *domain.NTPageRepository
-		data, pageDataAddress, err = makeChildPageData(res.Id)
+		data, pageDataAddress, err = makeChildPageData(res.Id, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeChildPageData")
 			return buffer, pageBuffer, err
@@ -206,18 +208,23 @@ func appendBlock(
 		if pageDataAddress == nil {
 			return buffer, pageBuffer, fmt.Errorf("pageDataAddress is nil")
 		}
-		pageEntity := domain.PageEntity{
-			Id:           res.Id,
-			CurriculumId: curriculumId,
-			IconType:     pageDataAddress.IconType,
-			IconUrl:      pageDataAddress.IconUrl,
-			ParentId:     parentId,
-			Order:        i,
-			CoverUrl:     pageDataAddress.CoverUrl,
-			CoverType:    pageDataAddress.CoverType,
-			Title:        pageDataAddress.Title,
+		pageEntity, err := domain.NewPageEntity(
+			res.Id,
+			curriculumId,
+			pageDataAddress.IconType,
+			pageDataAddress.IconUrl,
+			pageDataAddress.CoverUrl,
+			pageDataAddress.CoverType,
+			i,
+			parentId,
+			pageDataAddress.Title,
+			type_,
+		)
+		if err != nil {
+			fmt.Println("error in usecase/appendBlock/domain.NewPageEntity")
+			return buffer, pageBuffer, err
 		}
-		pageBuffer = append(pageBuffer, pageEntity)
+		pageBuffer = append(pageBuffer, *pageEntity)
 	default:
 		data = "_"
 	}

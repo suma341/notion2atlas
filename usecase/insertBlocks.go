@@ -6,7 +6,7 @@ import (
 	"notion2atlas/filemanager"
 )
 
-func InsertNotionBlocks(bp domain.BasePage, pageBuffer []domain.PageEntity) ([]domain.PageEntity, error) {
+func InsertNotionBlocks(bp domain.BasePage, pageBuffer []domain.PageEntity, resourceType string) ([]domain.PageEntity, error) {
 	filemanager.CreateDirIfNotExist("public/assets/" + bp.GetId())
 	err := filemanager.ClearDir("public/assets/" + bp.GetId())
 	if err != nil {
@@ -26,7 +26,7 @@ func InsertNotionBlocks(bp domain.BasePage, pageBuffer []domain.PageEntity) ([]d
 		return nil, err
 	}
 	var blockBuffer = []domain.BlockEntity{}
-	blockBuffer, pageBuffer, err = insertChildren(bp.GetId(), bp.GetId(), blocks, blockBuffer, pageBuffer)
+	blockBuffer, pageBuffer, err = insertChildren(bp.GetId(), bp.GetId(), blocks, blockBuffer, pageBuffer, resourceType)
 	if err != nil {
 		fmt.Println("error in usecase/InsertCurriculumBlocks/insertChildren in curriculum/" + bp.GetTitle())
 		return pageBuffer, err
@@ -39,7 +39,7 @@ func InsertNotionBlocks(bp domain.BasePage, pageBuffer []domain.PageEntity) ([]d
 	return pageBuffer, nil
 }
 
-func insertChildren(currId string, pageId string, blocks []domain.NTBlockRepository, blockBuffer []domain.BlockEntity, pageBuffer []domain.PageEntity) ([]domain.BlockEntity, []domain.PageEntity, error) {
+func insertChildren(currId string, pageId string, blocks []domain.NTBlockRepository, blockBuffer []domain.BlockEntity, pageBuffer []domain.PageEntity, resourceType string) ([]domain.BlockEntity, []domain.PageEntity, error) {
 	var err error = nil
 	// var wg sync.WaitGroup
 	// for i, block := range blocks {
@@ -54,7 +54,7 @@ func insertChildren(currId string, pageId string, blocks []domain.NTBlockReposit
 	// 	}()
 	// }
 	for i, block := range blocks {
-		blockBuffer, pageBuffer, err = insertBlock(block, currId, pageId, i, fmt.Sprintf("%d/%d", i+1, len(blocks)), blockBuffer, pageBuffer)
+		blockBuffer, pageBuffer, err = insertBlock(block, currId, pageId, i, fmt.Sprintf("%d/%d", i+1, len(blocks)), blockBuffer, pageBuffer, resourceType)
 		if err != nil {
 			fmt.Println("error in usecase/insertChildren/insertBlock")
 			return blockBuffer, pageBuffer, err
@@ -65,11 +65,11 @@ func insertChildren(currId string, pageId string, blocks []domain.NTBlockReposit
 	return blockBuffer, pageBuffer, nil
 }
 
-func insertBlock(block domain.NTBlockRepository, curriculumId string, pageId string, i int, p string, buffer []domain.BlockEntity, pageBuffer []domain.PageEntity) ([]domain.BlockEntity, []domain.PageEntity, error) {
+func insertBlock(block domain.NTBlockRepository, curriculumId string, pageId string, i int, p string, buffer []domain.BlockEntity, pageBuffer []domain.PageEntity, resourceType string) ([]domain.BlockEntity, []domain.PageEntity, error) {
 	type_ := block.Type
 	fmt.Println(p, type_)
 	var err error = nil
-	buffer, pageBuffer, err = GetBlockEntities(block, buffer, curriculumId, pageId, i, pageBuffer)
+	buffer, pageBuffer, err = GetBlockEntities(block, buffer, curriculumId, pageId, i, pageBuffer, resourceType)
 	if err != nil {
 		fmt.Println("error in usecase/insertBlock/GetBlockEntities in " + type_)
 		return buffer, pageBuffer, err
@@ -82,7 +82,7 @@ func insertBlock(block domain.NTBlockRepository, curriculumId string, pageId str
 			return buffer, pageBuffer, err
 		}
 		var newBuffer = []domain.BlockEntity{}
-		newBuffer, pageBuffer, err = insertChildren(curriculumId, block.Id, children, newBuffer, pageBuffer)
+		newBuffer, pageBuffer, err = insertChildren(curriculumId, block.Id, children, newBuffer, pageBuffer, resourceType)
 		if err != nil {
 			fmt.Println("error in usecase/insertBlock/insertChildren in " + type_)
 			return buffer, pageBuffer, err
@@ -99,7 +99,7 @@ func insertBlock(block domain.NTBlockRepository, curriculumId string, pageId str
 				fmt.Println("error in usecase/insertBlock/GetChildren in " + type_)
 				return buffer, pageBuffer, err
 			}
-			buffer, pageBuffer, err = insertChildren(curriculumId, pageId, children, buffer, pageBuffer)
+			buffer, pageBuffer, err = insertChildren(curriculumId, pageId, children, buffer, pageBuffer, resourceType)
 			if err != nil {
 				fmt.Println("error in usecase/insertBlock/insertChildren in " + type_)
 				return buffer, pageBuffer, err

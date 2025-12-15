@@ -19,10 +19,10 @@ type MentionModel = struct {
 	Type    string         `json:"type"`
 }
 
-func ProcessRichText(richTexts []domain.RichTextProperty) ([]RichTextModel, error) {
+func ProcessRichText(richTexts []domain.RichTextProperty, type_ string) ([]RichTextModel, error) {
 	richTextModels := make([]RichTextModel, 0, len(richTexts))
 	for _, it := range richTexts {
-		model, err := richTextRes2Model(it)
+		model, err := richTextRes2Model(it, type_)
 		if err != nil {
 			fmt.Println("error in usecase/ProcessRichText/richTextRes2Model")
 			return nil, err
@@ -32,7 +32,7 @@ func ProcessRichText(richTexts []domain.RichTextProperty) ([]RichTextModel, erro
 	return richTextModels, nil
 }
 
-func richTextRes2Model(rich_text domain.RichTextProperty) (*RichTextModel, error) {
+func richTextRes2Model(rich_text domain.RichTextProperty, type_ string) (*RichTextModel, error) {
 	var href *string = nil
 	var scroll *string = nil
 	if rich_text.Href != nil {
@@ -41,7 +41,7 @@ func richTextRes2Model(rich_text domain.RichTextProperty) (*RichTextModel, error
 		scroll = urlParam.Scroll
 	}
 	if rich_text.Mention != nil {
-		mentionModel, err := getMentionModel(rich_text.Mention)
+		mentionModel, err := getMentionModel(rich_text.Mention, type_)
 		if err != nil {
 			fmt.Println("error in usecase/richTextRes2Model/getMentionModel")
 			return nil, err
@@ -63,13 +63,13 @@ func richTextRes2Model(rich_text domain.RichTextProperty) (*RichTextModel, error
 	}, nil
 }
 
-func getMentionModel(mention *domain.MentionProperty) (*MentionModel, error) {
+func getMentionModel(mention *domain.MentionProperty, type_ string) (*MentionModel, error) {
 	mentionType := mention.Type
 	switch mentionType {
 	case "page":
 		if mention.Page != nil {
 			pageId := mention.Page.Id
-			pageData, err := GetPageItem(pageId)
+			pageData, err := GetPageItem(pageId, type_)
 			if err != nil {
 				fmt.Println("error in usecase/getMentionModel/GetPageItem")
 				return nil, err

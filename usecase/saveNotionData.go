@@ -9,7 +9,7 @@ func SaveNotionData[T domain.BasePage](item domain.Entity, resourceType domain.R
 	var err error = nil
 	curr := item.(T)
 	pageBuffer := []domain.PageEntity{}
-	pageBuffer, err = InsertNotionBlocks(curr, pageBuffer)
+	pageBuffer, err = InsertNotionBlocks(curr, pageBuffer, resourceType.GetStr())
 	if err != nil {
 		fmt.Println("error in usecase/SaveNotionData/InsertCurriculumBlocks New")
 		return err
