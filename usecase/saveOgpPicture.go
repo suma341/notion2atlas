@@ -21,6 +21,10 @@ func SaveStaticPageOGPPicture() error {
 	if !isBasicOGPExist {
 		staticPages = append(staticPages, domain.CreatePage("基礎班カリキュラム", "emoji", "🔰", "basic"))
 	}
+	var isAnswerOGPExist = filemanager.FileExists("public/ogp/answers.png")
+	if !isAnswerOGPExist {
+		staticPages = append(staticPages, domain.CreatePage("解答ページ", "emoji", "✔️", "answers"))
+	}
 	for _, p := range staticPages {
 		err := SaveOGPPicture(p)
 		if err != nil {
