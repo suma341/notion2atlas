@@ -19,7 +19,12 @@ func InsertNotionBlocks(bp domain.BasePage, pageBuffer []domain.PageEntity, reso
 		return pageBuffer, err
 	}
 	basePage := *pageEntity
-	pageBuffer = append(pageBuffer, basePage.ChangePageEntityUrl(urls.IconUrl, urls.CoverUrl))
+	urlRewritedEntity, err := basePage.ChangePageEntityUrl(urls.IconUrl, urls.CoverUrl)
+	if err != nil {
+		fmt.Println("error in usecase/InsertNotionBlocks/basePage.ChangePageEntityUrl")
+		return pageBuffer, err
+	}
+	pageBuffer = append(pageBuffer, *urlRewritedEntity)
 	blocks, err := GetChildren(bp.GetId())
 	if err != nil {
 		fmt.Println("error in usecase/InsertCurriculumBlocks/GetChildren in curriculum/" + bp.GetTitle())

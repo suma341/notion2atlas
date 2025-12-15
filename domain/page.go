@@ -10,5 +10,5 @@ type PageIf interface {
 type BasePage interface {
 	GetId() string
 	GetTitle() string
-	ToPageEntity() PageEntity
+	ToPageEntity() (*PageEntity, error)
 }

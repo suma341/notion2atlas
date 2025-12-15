@@ -27,18 +27,24 @@ func (p PageEntity) GetIcon() (IconType string, IconUrl string) {
 func (p PageEntity) GetCover() (CoverType string, CoverUrl string) {
 	return p.CoverType, p.CoverUrl
 }
-func (p PageEntity) ChangePageEntityUrl(iconUrl string, coverUrl string) PageEntity {
-	return PageEntity{
-		Id:           p.Id,
-		CurriculumId: p.CurriculumId,
-		IconType:     p.IconType,
-		IconUrl:      iconUrl,
-		CoverUrl:     coverUrl,
-		CoverType:    p.CoverType,
-		Order:        p.Order,
-		ParentId:     p.ParentId,
-		Title:        p.Title,
+func (p PageEntity) ChangePageEntityUrl(iconUrl string, coverUrl string) (*PageEntity, error) {
+	entity, err := NewPageEntity(
+		p.Id,
+		p.CurriculumId,
+		p.IconType,
+		iconUrl,
+		coverUrl,
+		p.CoverType,
+		p.Order,
+		p.ParentId,
+		p.Title,
+		p.Type,
+	)
+	if err != nil {
+		fmt.Println("error in domain/PageEntity.ChangePageEntityUrl/NewPageEntity")
+		return nil, err
 	}
+	return entity, nil
 }
 
 func NewPageEntity(

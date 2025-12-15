@@ -25,7 +25,12 @@ func GetPagesForOGP() ([]domain.PageEntity, error) {
 	pages := *pagesPointer
 	categories := *categoriesPointer
 	for _, c := range categories {
-		pages = append(pages, c.ToPageEntity())
+		entity, err := c.ToPageEntity()
+		if err != nil {
+			fmt.Println("error in usecase/GetPagesForOGPc.ToPageEntity/")
+			return nil, err
+		}
+		pages = append(pages, *entity)
 	}
 	pages = append(pages, domain.CreatePage("部活情報", "emoji", "ℹ️", "infos"))
 	pages = append(pages, domain.CreatePage("基礎班カリキュラム", "emoji", "🔰", "basic"))

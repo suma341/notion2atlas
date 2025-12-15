@@ -40,18 +40,24 @@ func (c CategoryEntity) GetUpdate() bool {
 	return c.Update
 }
 
-func (c CategoryEntity) ToPageEntity() PageEntity {
-	return PageEntity{
-		Id:           c.Id,
-		CurriculumId: c.Id,
-		IconType:     c.IconType,
-		IconUrl:      c.IconUrl,
-		ParentId:     "",
-		CoverUrl:     c.CoverUrl,
-		CoverType:    c.CoverType,
-		Order:        c.Order,
-		Title:        c.Title,
+func (c CategoryEntity) ToPageEntity() (*PageEntity, error) {
+	page, err := NewPageEntity(
+		c.Id,
+		c.Id,
+		c.IconType,
+		c.IconUrl,
+		c.CoverUrl,
+		c.CoverType,
+		c.Order,
+		"",
+		c.Title,
+		"curriculum",
+	)
+	if err != nil {
+		fmt.Println("error in domain/CategoryEntity.ToPageEntity/NewPageEntity")
+		return nil, err
 	}
+	return page, nil
 }
 func (c CategoryEntity) GetTitle() string {
 	return c.Title

@@ -37,19 +37,26 @@ func (c AnswerEntity) GetTime() (*time.Time, error) {
 	}
 	return &lastEditedTime, nil
 }
-func (c AnswerEntity) ToPageEntity() PageEntity {
-	return PageEntity{
-		Id:           c.Id,
-		CurriculumId: c.Id,
-		IconType:     c.IconType,
-		IconUrl:      c.IconUrl,
-		ParentId:     "",
-		CoverUrl:     c.CoverUrl,
-		CoverType:    c.CoverType,
-		Order:        c.Order,
-		Title:        c.Title,
+func (c AnswerEntity) ToPageEntity() (*PageEntity, error) {
+	page, err := NewPageEntity(
+		c.Id,
+		c.Id,
+		c.IconType,
+		c.IconUrl,
+		c.CoverUrl,
+		c.CoverType,
+		c.Order,
+		"",
+		c.Title,
+		"answer",
+	)
+	if err != nil {
+		fmt.Println("error in domain/CategoryEntity.ToPageEntity/NewPageEntity")
+		return nil, err
 	}
+	return page, nil
 }
+
 func (c AnswerEntity) GetTitle() string {
 	return c.Title
 }

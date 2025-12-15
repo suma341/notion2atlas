@@ -40,18 +40,24 @@ func (c CurriculumEntity) GetTime() (*time.Time, error) {
 	}
 	return &lastEditedTime, nil
 }
-func (c CurriculumEntity) ToPageEntity() PageEntity {
-	return PageEntity{
-		Id:           c.Id,
-		CurriculumId: c.Id,
-		IconType:     c.IconType,
-		IconUrl:      c.IconUrl,
-		ParentId:     "",
-		CoverUrl:     c.CoverUrl,
-		CoverType:    c.CoverType,
-		Order:        c.Order,
-		Title:        c.Title,
+func (c CurriculumEntity) ToPageEntity() (*PageEntity, error) {
+	page, err := NewPageEntity(
+		c.Id,
+		c.Id,
+		c.IconType,
+		c.IconUrl,
+		c.CoverUrl,
+		c.CoverType,
+		c.Order,
+		"",
+		c.Title,
+		"curriculum",
+	)
+	if err != nil {
+		fmt.Println("error in domain/CurriculumEntity.ToPageEntity/NewPageEntity")
+		return nil, err
 	}
+	return page, nil
 }
 func (c CurriculumEntity) GetTitle() string {
 	return c.Title

@@ -26,7 +26,12 @@ func ProcessCategory(categories []domain.CategoryEntity) error {
 			LastEditedTime:    c.LastEditedTime,
 			Update:            c.Update,
 		})
-		err = SaveOGPPicture(c.ToPageEntity())
+		entity, err := c.ToPageEntity()
+		if err != nil {
+			fmt.Println("error in usecase/ProcessCategory/c.ToPageEntity")
+			return err
+		}
+		err = SaveOGPPicture(entity)
 		if err != nil {
 			fmt.Println("error in usecase/ProcessCategory/SaveOGPPicture")
 			return err
