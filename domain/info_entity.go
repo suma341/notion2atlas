@@ -48,7 +48,7 @@ func (c InfoEntity) ToPageEntity() (*PageEntity, error) {
 		c.Order,
 		"",
 		c.Title,
-		"answer",
+		"info",
 	)
 	if err != nil {
 		fmt.Println("error in domain/CategoryEntity.ToPageEntity/NewPageEntity")
