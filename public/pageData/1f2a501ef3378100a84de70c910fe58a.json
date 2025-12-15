@@ -112,7 +112,7 @@
     "data": {
       "ogp": {
         "title": "Controls reference | Flet",
-        "description": "Flet UI is built of controls. Controls are organized into hierarchy, or a tree, where each control has a parent (except Page) and container controls like Column, Dropdown can contain child controls, for example:",
+        "description": "",
         "image": "",
         "icon": "https://flet.dev/img/favicon.ico"
       },

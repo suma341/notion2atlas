@@ -1,632 +1,5 @@
 [
   {
-    "id": "1ada501ef337814bac7dcbd864901138",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "custom_emoji",
-    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1ada501ef337814bac7dcbd864901138/icon.png",
-    "cover": "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
-    "coverType": "external",
-    "order": 6,
-    "parentId": "",
-    "title": "Python基礎文法"
-  },
-  {
-    "id": "1dfa501ef33780b39835e82769bd01f8",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 2,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "0. VSCodeでプログラムを始める"
-  },
-  {
-    "id": "1b8a501ef337806c8615f492e93f80b0",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 3,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "1. Hello World! "
-  },
-  {
-    "id": "1b8a501ef33780f1af62f3552733a81d",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 4,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "2. 変数 "
-  },
-  {
-    "id": "1b8a501ef3378064b0e1f200f4276e5e",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 5,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "3. 変数の型"
-  },
-  {
-    "id": "1b8a501ef33780f0a9cdf0d196c362de",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 6,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "4. 四則演算 "
-  },
-  {
-    "id": "1b8a501ef33780baa251c8fe9f1c8cc2",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 7,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "練習問題1"
-  },
-  {
-    "id": "1b8a501ef33780819a0cd8aafc4b4c17",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 8,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "5. 入力"
-  },
-  {
-    "id": "1b8a501ef337800d909dc7f9943aba15",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 9,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "6. 条件分岐（if文）"
-  },
-  {
-    "id": "1b8a501ef3378040be11fcc20622dd7c",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 10,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "練習問題2 "
-  },
-  {
-    "id": "1b8a501ef33780329beede1f29e138fa",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 11,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "7. リストと辞書"
-  },
-  {
-    "id": "1b8a501ef33780a5a084f584f95197c5",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 12,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "8. 繰り返し（for文）"
-  },
-  {
-    "id": "1b8a501ef337803f8590d0737976ab27",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 13,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "練習問題3"
-  },
-  {
-    "id": "1b8a501ef33780fab3cec5016923e198",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 14,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "9. 文字列"
-  },
-  {
-    "id": "1b8a501ef33780108067de8083f6ecc5",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 15,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "練習問題4"
-  },
-  {
-    "id": "1b8a501ef3378022a217fb1418047a05",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 16,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "10. 関数とは"
-  },
-  {
-    "id": "1b8a501ef337802fa0f0c6e94d32d3bf",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "",
-    "iconUrl": "",
-    "cover": "",
-    "coverType": "",
-    "order": 17,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "11. 関数を作ろう！"
-  },
-  {
-    "id": "1b8a501ef337804eada7c904a1585fd1",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 18,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "練習問題5"
-  },
-  {
-    "id": "1dfa501ef3378051a42ff0790a6a502a",
-    "curriculumId": "1ada501ef337814bac7dcbd864901138",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 19,
-    "parentId": "1ada501ef337814bac7dcbd864901138",
-    "title": "Pythonまとめ問題"
-  },
-  {
-    "id": "1d8a501ef337800c9ae8ca9153877fc1",
-    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "iconType": "emoji",
-    "iconUrl": "💫",
-    "cover": "https://images.unsplash.com/photo-1621508654686-809f23efdabc?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "coverType": "external",
-    "order": 1,
-    "parentId": "",
-    "title": "Horizonではじめにやること！"
-  },
-  {
-    "id": "1d8a501ef3378046aa5fe50c89a862f6",
-    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/save_blue.svg",
-    "cover": "https://images.unsplash.com/photo-1491382825904-a4c6dca98e8c?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "coverType": "external",
-    "order": 0,
-    "parentId": "1d8a501ef3378092959dd4df91e6277f",
-    "title": "Pythonのインストール"
-  },
-  {
-    "id": "1d8a501ef33780a8846dcdc0f52c57b8",
-    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/move-document_orange.svg",
-    "cover": "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1636.jpg",
-    "coverType": "external",
-    "order": 0,
-    "parentId": "1d8a501ef33780c9a2f2e2553bc27a75",
-    "title": "Visual Studio Codeのチュートリアル"
-  },
-  {
-    "id": "1d8a501ef33781569349f0f8face44f2",
-    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "iconType": "emoji",
-    "iconUrl": "🪟",
-    "cover": "https://www.notion.so/images/page-cover/met_fitz_henry_lane.jpg",
-    "coverType": "external",
-    "order": 0,
-    "parentId": "1d8a501ef337816d891bfea92cb044a2",
-    "title": "VSCodeのチュートリアル：Windows"
-  },
-  {
-    "id": "1d8a501ef337810292b5ff2f78906951",
-    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "iconType": "emoji",
-    "iconUrl": "🍎",
-    "cover": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg",
-    "coverType": "external",
-    "order": 1,
-    "parentId": "1d8a501ef337816d891bfea92cb044a2",
-    "title": "VSCodeのチュートリアル：Mac"
-  },
-  {
-    "id": "1d8a501ef3378058b91cc0a04b396d44",
-    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "iconType": "file",
-    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1d8a501ef3378058b91cc0a04b396d44/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB4666ENLHNAL%2F20251204%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251204T024648Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHMaCXVzLXdlc3QtMiJIMEYCIQD3tLc2A02GoK%2BeEsWKv9xZIUnnvCcS2r4PXWfmW0ZHdAIhALG%2FW8NBjn%2BiOurgK1OkcqjmCnDSu7E%2FuvfV21CFug8kKv8DCDsQABoMNjM3NDIzMTgzODA1IgzquJpagZstW5a9bT0q3AM53PBVXUojZioAlyqcQmUgdxw%2BY4XOwdyrblXtncNMUzINiAsydnL7HfnI5WAALZIaZIvrtnDtvTVtwS3DznVGaCGcN7WyAYWJ4%2Fu%2FvWGWf3MrmlF%2B7HPf7cuUJE5PAjfgKY1n1l8M2mGngbUkW77LSN%2F40UOHdQDij7xw5kjzjj%2B3CPQgGe%2FhG%2FCIH873VxEbDCzhuAMhB%2BS3qDStYbgEqqkejuCoVFmCpNOOwxRg1wZs65wTLyZGKmBLXEVaux3WBUbb%2FrqlnjZ2U%2F0f44bs9IIuCYmzEiT%2BBoHBLSpZeCt3SaKv47uLZdhX9%2BhmQUy2%2Fp5Dykf1f5%2FPco2SqzLeaSZ8jQrmQx1OY20n8R6aoB9W9cT7lEXuuJOwhtCrjcu47727yd%2FyZ%2BdEQoGWobPfrL%2B%2BFct7qL%2Fc3P4p6IAiL3%2BVrTkabDXPJi5PqBU4qUmTgi0sb77BBxTNzHeJoRke%2FEYg9aK2AvWYOdzX0QnvzGW%2BLcw6V3OVilmWDsz5BK%2B%2FM8mC4UHcjtCgFIJ1zMCgToZywjh%2FuZzh527GxhWkpkxnpQXcer5pcrz1dbSZcrZZRWYuNY0%2BQkBajgymCSXQFKX%2FSpL2chVjqb99oGJKFaSYtN3xgYVvzZGsHDC%2B38PJBjqkAblcdU9%2Fz7aYOHTN943i8vkgw2DHyqJqvX2N0O3VQGTRwS3femTGCb9kFRRuGtB%2B%2BEJ%2FfSXkiItpaBufLDVmprU90xqMdEEFs3LPS8HqpAJ6A3TgEjbFsXxsZZabJq1V0GWCUA3JdBLZB%2Bs1zgUAqQOND5yIUWdrpf%2FI1bH0ojb5MTNm1EbqeE5vksjoZwt2yMI1vVH4tq48yB5mqIg6JCfJqoOP\u0026X-Amz-Signature=1bd649bf0f22ac9a3ae285477001a0003b65b8276e2da876e9f9a99c8e02cbc9\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
-    "cover": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "coverType": "external",
-    "order": 0,
-    "parentId": "1d8a501ef337802797e0c712e5a097de",
-    "title": "Canvaについて"
-  },
-  {
-    "id": "1d8a501ef33780fa90edeffb876c58ba",
-    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
-    "iconType": "file",
-    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1d8a501ef33780fa90edeffb876c58ba/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB4663ZOKL4NM%2F20251204%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251204T024701Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHMaCXVzLXdlc3QtMiJIMEYCIQDYVu6zUZ77Td4QQnRbiftgZGLfz1ltp02fbescx4k70wIhAO2F94zcaJF2pJZl8SyMC8p77VKKOzs%2BN0LGilG9hDMDKv8DCDsQABoMNjM3NDIzMTgzODA1Igz0pnM1BlqGlnY28b8q3AMOYwg2ZiyaL0B%2Fd7P0UBE6NQ4LNTOiGqsUIO12CI4nj94g8Uhuj8CzARFJzAdtuXAl7YcQzjq8dvpP1Cp0m6wDCqF1Mpv7byoySA5jaDAs2fm7pOs6ZmbOlMYUA9W6cf6KKEHlWyiPHiBuJW84uReMNmW5qwDAy7NQrcXTaCzi3Vjvs1ZFy5rtWDKt9y4pOGWpXhBxgD7p4aoJdP6mfZewCp0sCMRg9TlDkoFhMOg8yptWOn3MAN2FfCgQgH7zHkhTqI70hJ7eguzjcag%2Fs8X3HlbcBbjHTgiODEvaMn0KxMBCekGShwOJcw4mIv0tjU8Ck3oQnRHaM4CQMW%2B5UthtNUt7vznjc%2B6FqAe67d1z9i9Xc5vdcm%2BkNiCw%2B2fLIGn5v92tk%2Bol3b798Q4WjkcMBOgLDg9ZdnD5%2BiTGpkP2nJTThLsQeZBrUoMUp0TpCdvypptNhhiLY5slN4pe6jTPeVTEmP%2FhyfoX%2BulCfou%2FCjnfzCcv5ucHGwWdwezCsgVfQLDbj%2FPSZ50COlpWIF3aJti9KI%2BOownNOeRTIUi3xPKSEoG%2BoZYbOPbuv7ohqWOLwQl3tFnEZjd2crph0bDt6o39iIKdd2ESY8QqnDg0X2pTtXydANYIk1Gt3DC838PJBjqkAf5DZoCOEsGGd%2BAh8AJCD9JNv70AUnIEWMtAFsVTd9vgxXlbNFPR87Ee4FToBBwPdYLpnj2nRcwtbtJ9EjFdu5WtlWYkQGndKFuNNoVGxStHggRtAr3rorp1bPwPKRRl5FEtqiK3MrSRbDpUe29ae00p%2Ff04IjAQBepAe5rzB%2Fcp%2F%2FoGx7qDnxA1V39TMWy1l%2F9Adokpg48tRjEDnPD933f97oUs\u0026X-Amz-Signature=16cf327a8d93997805a2a97618a0d25322aaf1dbf4f6090263770ccc26c0dd50\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
-    "cover": "https://www.notion.so/images/page-cover/webb1.jpg",
-    "coverType": "external",
-    "order": 0,
-    "parentId": "1d8a501ef337808fbf30cd0b0078f90f",
-    "title": "Discordの使い方"
-  },
-  {
-    "id": "1bea501ef337804c90e8da6f1f5384c1",
-    "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/keyboard_lightgray.svg",
-    "cover": "https://images.unsplash.com/photo-1600860701935-40f338f8d793?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
-    "coverType": "external",
-    "order": 8,
-    "parentId": "",
-    "title": "CLIの基礎"
-  },
-  {
-    "id": "1f0a501ef33780d8a091da399b7fa1e2",
-    "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/grid_blue.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 22,
-    "parentId": "1bea501ef337804c90e8da6f1f5384c1",
-    "title": "for Windows(PowerShell)"
-  },
-  {
-    "id": "1f0a501ef33780079a3ff6f6db3fec52",
-    "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/apple_red.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 23,
-    "parentId": "1bea501ef337804c90e8da6f1f5384c1",
-    "title": "for Mac(zsh)"
-  },
-  {
-    "id": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "🖥️",
-    "cover": "https://images.unsplash.com/photo-1621508654686-809f23efdabc?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "coverType": "external",
-    "order": 9,
-    "parentId": "",
-    "title": "Flet の基礎"
-  },
-  {
-    "id": "1f2a501ef337814ab324f922a04c07a9",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "❔",
-    "cover": "",
-    "coverType": "",
-    "order": 2,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "0. GUIとFletについて"
-  },
-  {
-    "id": "1f2a501ef3378153af80dbeb43b4e269",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/playback-play_blue.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 3,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "1. Fletのインストール"
-  },
-  {
-    "id": "1f2a501ef33781a49284d0a05e2c6853",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "➕",
-    "cover": "",
-    "coverType": "",
-    "order": 4,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "2. カウンターを作ってみよう"
-  },
-  {
-    "id": "1f2a501ef33781159ab6e102f005effc",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "🆕",
-    "cover": "",
-    "coverType": "",
-    "order": 5,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "3. ページの生成"
-  },
-  {
-    "id": "1f2a501ef337811f8cdfd048944a1a02",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/square-three-fourths_green.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 6,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "4. コントロール"
-  },
-  {
-    "id": "1f2a501ef3378193b91fe640fb009c46",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 7,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "Fletの練習問題1"
-  },
-  {
-    "id": "1f2a501ef3378105b4bdf8d00128dc56",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/cursor-button_blue.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 8,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "5. 主要なコントロール①（ボタン系）"
-  },
-  {
-    "id": "1f2a501ef33781f0aa2ed10a99de4035",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/rename_gray.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 9,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "6. 主要なコントロール②（テキスト系）"
-  },
-  {
-    "id": "1f2a501ef337815ca39fee7c9b906b66",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 10,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "Fletの練習問題2"
-  },
-  {
-    "id": "1f2a501ef33781c09affe4634d3f7993",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/list-indent_red.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 11,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "7. コントロールのレイアウト"
-  },
-  {
-    "id": "1f2a501ef337814d9630d6bca814fb48",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 12,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "Fletの練習問題3"
-  },
-  {
-    "id": "1f2a501ef3378140af60f2e9ccf706c1",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/arrow-down_green.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 13,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "8. プロパティへのアクセス"
-  },
-  {
-    "id": "1f2a501ef33781308728e3d7c43f6ab4",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 14,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "Fletの練習問題4"
-  },
-  {
-    "id": "1f2a501ef337814f8d9ad3ff930e4a0c",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/gear_yellow.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 15,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "9. イベントハンドラとイベントオブジェクト"
-  },
-  {
-    "id": "1f2a501ef3378191b1e8c8bb82351594",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "",
-    "coverType": "",
-    "order": 16,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "Fletの練習問題5"
-  },
-  {
-    "id": "1f2a501ef33781fa8253ffa48f3563e5",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/calculator_blue.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 21,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "電卓について"
-  },
-  {
-    "id": "1f2a501ef3378100a84de70c910fe58a",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/calculator_orange.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 25,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "電卓アレンジ例"
-  },
-  {
-    "id": "1f2a501ef33781fa971eff1c96a32fe2",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "📑",
-    "cover": "",
-    "coverType": "",
-    "order": 27,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "ToDoアプリ"
-  },
-  {
-    "id": "1f2a501ef33781218bfdedd80b5b35ad",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "🚧",
-    "cover": "",
-    "coverType": "",
-    "order": 30,
-    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "【工事中】コントロール紹介"
-  },
-  {
-    "id": "1f2a501ef33781839576ce0ffe742787",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "🔲",
-    "cover": "",
-    "coverType": "",
-    "order": 5,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "Container"
-  },
-  {
-    "id": "1f2a501ef33781f9a0daf94add8e7cc3",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "📄",
-    "cover": "",
-    "coverType": "",
-    "order": 6,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "Text"
-  },
-  {
-    "id": "1f2a501ef3378179830cc107a72faf73",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/cursor-button_blue.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 7,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "Button"
-  },
-  {
-    "id": "1f2a501ef337813ca777f48d0edddc2a",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/rename_gray.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 10,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "TextField"
-  },
-  {
-    "id": "1f2a501ef3378143a535edb6d9256710",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "✅",
-    "cover": "",
-    "coverType": "",
-    "order": 11,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "Checkbox"
-  },
-  {
-    "id": "1f2a501ef3378191b01dc3837805d3b3",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "custom_emoji",
-    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378191b01dc3837805d3b3/icon.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 14,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "Tabs"
-  },
-  {
-    "id": "1f2a501ef33781dd9aabc21539a0882b",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "🎨",
-    "cover": "",
-    "coverType": "",
-    "order": 17,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "Colors"
-  },
-  {
-    "id": "1f2a501ef3378146ba46cbed686c0185",
-    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "iconType": "emoji",
-    "iconUrl": "😆",
-    "cover": "",
-    "coverType": "",
-    "order": 18,
-    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
-    "title": "Icons"
-  },
-  {
     "id": "1ada501ef33781e8b251df0f38a0cb23",
     "curriculumId": "1ada501ef33781e8b251df0f38a0cb23",
     "iconType": "external",
@@ -635,7 +8,8 @@
     "coverType": "external",
     "order": 1004,
     "parentId": "",
-    "title": "データベース基礎"
+    "title": "データベース基礎",
+    "type": ""
   },
   {
     "id": "1ada501ef33781ce889fd99449a4ba30",
@@ -646,7 +20,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "1ada501ef33781edb7b0e1ec76e410d0",
-    "title": "データベースとは"
+    "title": "データベースとは",
+    "type": ""
   },
   {
     "id": "1ada501ef33781ea92d1dcb4d8f60e2a",
@@ -657,7 +32,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "1ada501ef33781edb7b0e1ec76e410d0",
-    "title": "Pythonでデータベースを扱うためのライブラリ"
+    "title": "Pythonでデータベースを扱うためのライブラリ",
+    "type": ""
   },
   {
     "id": "1ada501ef3378160b03ef28f8a18fa43",
@@ -668,7 +44,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "1ada501ef337817ea926ce51c10f819e",
-    "title": "データベースとの接続とテーブルの作成"
+    "title": "データベースとの接続とテーブルの作成",
+    "type": ""
   },
   {
     "id": "1ada501ef3378124834cd232ae4e3855",
@@ -679,7 +56,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "1ada501ef337817ea926ce51c10f819e",
-    "title": "データの保存(Create)"
+    "title": "データの保存(Create)",
+    "type": ""
   },
   {
     "id": "1ada501ef33781fe9043da67e48709a8",
@@ -690,7 +68,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "1ada501ef337817ea926ce51c10f819e",
-    "title": "データの取得(Read)"
+    "title": "データの取得(Read)",
+    "type": ""
   },
   {
     "id": "1ada501ef337815aa9e6d8cdd63afa9c",
@@ -701,7 +80,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "1ada501ef337817ea926ce51c10f819e",
-    "title": "データの編集(Update)"
+    "title": "データの編集(Update)",
+    "type": ""
   },
   {
     "id": "1ada501ef3378190b5d5ff083def3250",
@@ -712,7 +92,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "1ada501ef337817ea926ce51c10f819e",
-    "title": "データの削除(Delete)"
+    "title": "データの削除(Delete)",
+    "type": ""
   },
   {
     "id": "1ada501ef33781d28f41cd45c5a72b38",
@@ -723,7 +104,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "1ada501ef3378121baf9d3b57298cc62",
-    "title": "CRUD操作を使い回せるようにしよう"
+    "title": "CRUD操作を使い回せるようにしよう",
+    "type": ""
   },
   {
     "id": "1ada501ef33781a2bb7ad5bc48cd5f09",
@@ -734,7 +116,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "255a501ef33780029d51eafd8aafde20",
-    "title": "テーブルの編集"
+    "title": "テーブルの編集",
+    "type": ""
   },
   {
     "id": "1ada501ef33781aca7f5efdaf65ef9e7",
@@ -745,7 +128,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "255a501ef33780029d51eafd8aafde20",
-    "title": "マイグレーション"
+    "title": "マイグレーション",
+    "type": ""
   },
   {
     "id": "1e0a501ef33780dd8d3ee0341937095f",
@@ -756,7 +140,8 @@
     "coverType": "",
     "order": 1001,
     "parentId": "",
-    "title": "言語一覧"
+    "title": "言語一覧",
+    "type": ""
   },
   {
     "id": "1e0a501ef337807d8d51ffdbd5aa590b",
@@ -767,7 +152,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "Cガイド"
+    "title": "Cガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef33780afba2ce028d73d0c32",
@@ -778,7 +164,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "C++ガイド"
+    "title": "C++ガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef33780c2bdb7e83ebc6675f6",
@@ -789,7 +176,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "C#ガイド"
+    "title": "C#ガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef3378039b5ffe8ff7a3b160c",
@@ -800,7 +188,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "JAVAガイド"
+    "title": "JAVAガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef3378083b011d3e519821520",
@@ -811,7 +200,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "Pythonガイド"
+    "title": "Pythonガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef33780efbfced4e500670fcb",
@@ -822,7 +212,8 @@
     "coverType": "",
     "order": 5,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "Goガイド"
+    "title": "Goガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef33780ca9e4dd6ed64bb9789",
@@ -833,7 +224,8 @@
     "coverType": "",
     "order": 6,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "JavaScriptガイド"
+    "title": "JavaScriptガイド",
+    "type": ""
   },
   {
     "id": "1e2a501ef3378044b5f3f682843ee1b2",
@@ -844,7 +236,8 @@
     "coverType": "",
     "order": 7,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "Node.jsガイド"
+    "title": "Node.jsガイド",
+    "type": ""
   },
   {
     "id": "1e2a501ef337803cb6fedfac09f14017",
@@ -855,7 +248,8 @@
     "coverType": "",
     "order": 8,
     "parentId": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "TypeScriptガイド"
+    "title": "TypeScriptガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef33780efadc7e6da2c264201",
@@ -866,7 +260,8 @@
     "coverType": "external",
     "order": 1000,
     "parentId": "",
-    "title": "プログラミング言語ガイド"
+    "title": "プログラミング言語ガイド",
+    "type": ""
   },
   {
     "id": "1e0a501ef337804ebed1f93373407682",
@@ -877,7 +272,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
-    "title": "プログラミング言語用途による分類"
+    "title": "プログラミング言語用途による分類",
+    "type": ""
   },
   {
     "id": "1e0a501ef337806da2c4e60e9eef0e14",
@@ -888,7 +284,8 @@
     "coverType": "",
     "order": 5,
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
-    "title": "実行方法による分類"
+    "title": "実行方法による分類",
+    "type": ""
   },
   {
     "id": "1e0a501ef3378037bf53f8e3f878872a",
@@ -899,7 +296,8 @@
     "coverType": "",
     "order": 9,
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
-    "title": "難易度による分類"
+    "title": "難易度による分類",
+    "type": ""
   },
   {
     "id": "1e0a501ef337802f9270d323affa25d8",
@@ -910,260 +308,8 @@
     "coverType": "",
     "order": 13,
     "parentId": "1e0a501ef33780efadc7e6da2c264201",
-    "title": "開発ツール"
-  },
-  {
-    "id": "1e7a501ef337805bbc4ed442525244f3",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "🦾",
-    "cover": "",
-    "coverType": "",
-    "order": 500,
-    "parentId": "",
-    "title": "番外編（カリキュラム終わった人向け）"
-  },
-  {
-    "id": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "☑️",
-    "cover": "https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg",
-    "coverType": "external",
-    "order": 4,
-    "parentId": "1e7a501ef337805bbc4ed442525244f3",
-    "title": "数当てゲームをPythonで作ってみよう"
-  },
-  {
-    "id": "1eca501ef33781379cadf44a28bc0617",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 8,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "「Numer0n」って何？"
-  },
-  {
-    "id": "1eca501ef3378195ac72cd402b5d391b",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 10,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "1-1 モジュールを使ってみよう"
-  },
-  {
-    "id": "1eca501ef33781d08bdbed9a375a9245",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 11,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "1-2 乱数を扱ってみよう"
-  },
-  {
-    "id": "1eca501ef33781f3a70cedaf1c040177",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 12,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "1-3 無限ループを使ってみよう"
-  },
-  {
-    "id": "1eca501ef337819aa15fc1cc5e64cda2",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📗",
-    "cover": "",
-    "coverType": "",
-    "order": 13,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "1-4 練習問題"
-  },
-  {
-    "id": "1eca501ef337818c9c6dddca1f8feb10",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 15,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "2-1 正解の数字をリスト化しよう"
-  },
-  {
-    "id": "1eca501ef337814e95ebc4445ff31b47",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 16,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "2-2 正解の数字を全て異なる数字にしよう"
-  },
-  {
-    "id": "1eca501ef337810b9186e990e57dedc1",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📗",
-    "cover": "",
-    "coverType": "",
-    "order": 17,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "2-3 練習問題"
-  },
-  {
-    "id": "1eca501ef337817a9e5bc6190535af2e",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 19,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "3-1 入力される数字の桁数を制限しよう"
-  },
-  {
-    "id": "1eca501ef3378166a58be172fea0ca95",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 20,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "3-2 数字や桁の一致判定システムを作成しよう"
-  },
-  {
-    "id": "1eca501ef3378151b8d2da01eb4c2a83",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📘",
-    "cover": "",
-    "coverType": "",
-    "order": 21,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "3-3 ゲームクリア判定を作成しよう"
-  },
-  {
-    "id": "1eca501ef33781e4a7a8c9a25f22dcb5",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📗",
-    "cover": "",
-    "coverType": "",
-    "order": 22,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "3-4 練習問題"
-  },
-  {
-    "id": "1eca501ef33781d29d15fdd984df7fc6",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📗",
-    "cover": "",
-    "coverType": "",
-    "order": 24,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "4-1 処理を待たせられるようにしよう"
-  },
-  {
-    "id": "1eca501ef33781369cadcf4ef1c20633",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📗",
-    "cover": "",
-    "coverType": "",
-    "order": 25,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "4-2 3桁モードと4桁モードを選択できるようにしよう"
-  },
-  {
-    "id": "1eca501ef33781e2bb62d04269f9236f",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📗",
-    "cover": "",
-    "coverType": "",
-    "order": 26,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "4-3 正解するまでにかかった回数を表示できるようにしよう"
-  },
-  {
-    "id": "1eca501ef33781198c88d6b2b00d184d",
-    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
-    "iconType": "emoji",
-    "iconUrl": "📗",
-    "cover": "",
-    "coverType": "",
-    "order": 27,
-    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
-    "title": "4-4 百の位に0が使えるようにしよう"
-  },
-  {
-    "id": "1f5a501ef3378055b23cf8b1b79b780a",
-    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/meeting_blue.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 15,
-    "parentId": "",
-    "title": "グループワーク"
-  },
-  {
-    "id": "1f5a501ef337800ca814cda3cb32fb56",
-    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "iconType": "emoji",
-    "iconUrl": "🐾",
-    "cover": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg",
-    "coverType": "external",
-    "order": 3,
-    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "title": "エラー解決クエスト - 5/16(金)"
-  },
-  {
-    "id": "207a501ef33780c483a6f976c40cd9d2",
-    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "iconType": "emoji",
-    "iconUrl": "🖋️",
-    "cover": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "coverType": "external",
-    "order": 4,
-    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "title": "意見交換 de 復習 - 6/3, 4 (火, 水)"
-  },
-  {
-    "id": "214a501ef337805981b4fcf49cf9c102",
-    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "iconType": "emoji",
-    "iconUrl": "🐾",
-    "cover": "https://www.notion.so/images/page-cover/woodcuts_1.jpg",
-    "coverType": "external",
-    "order": 5,
-    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "title": "エラー解決クエスト２ - 6/17, 18 (火, 水)"
-  },
-  {
-    "id": "229a501ef337803ea0bed46547063528",
-    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "iconType": "emoji",
-    "iconUrl": "🐾",
-    "cover": "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "coverType": "external",
-    "order": 6,
-    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
-    "title": "エラー解決クエスト３ - 7/8, 9 (火, 水)"
+    "title": "開発ツール",
+    "type": ""
   },
   {
     "id": "200a501ef33780ffb3a9ed1bd068b618",
@@ -1174,7 +320,8 @@
     "coverType": "",
     "order": 2000,
     "parentId": "",
-    "title": "Qiita Teamへの参加方法（全体向け）"
+    "title": "Qiita Teamへの参加方法（全体向け）",
+    "type": ""
   },
   {
     "id": "211a501ef3378033aba3e2b9e036eacf",
@@ -1185,7 +332,8 @@
     "coverType": "external",
     "order": 1007,
     "parentId": "",
-    "title": "Dockerガイド"
+    "title": "Dockerガイド",
+    "type": ""
   },
   {
     "id": "211a501ef33781b49b29f9f99f64ba24",
@@ -1196,7 +344,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "211a501ef337806f9ccaf27c8c8f9b92",
-    "title": "Dockerのインストール"
+    "title": "Dockerのインストール",
+    "type": ""
   },
   {
     "id": "211a501ef337819581b6ebbc6999f155",
@@ -1207,7 +356,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "211a501ef33780c49b35eb2caa472574",
-    "title": "Dockerとは？"
+    "title": "Dockerとは？",
+    "type": ""
   },
   {
     "id": "211a501ef337816b83cec443681b6751",
@@ -1218,7 +368,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "211a501ef33780c49b35eb2caa472574",
-    "title": "イメージとコンテナについて"
+    "title": "イメージとコンテナについて",
+    "type": ""
   },
   {
     "id": "211a501ef337811498e2c56b90c48d3f",
@@ -1229,40 +380,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "211a501ef3378069930eeb71c33812c4",
-    "title": "コンテナ起動までの流れ"
-  },
-  {
-    "id": "232a501ef33780c8920dc85f8ca9efde",
-    "curriculumId": "232a501ef33780c8920dc85f8ca9efde",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/home_brown.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 50,
-    "parentId": "",
-    "title": "Fletの宿題"
-  },
-  {
-    "id": "232a501ef3378064a9cce16e066f0f48",
-    "curriculumId": "232a501ef33780c8920dc85f8ca9efde",
-    "iconType": "emoji",
-    "iconUrl": "🍅",
-    "cover": "https://images.unsplash.com/photo-1505705694340-019e1e335916?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "coverType": "external",
-    "order": 12,
-    "parentId": "232a501ef33780c8920dc85f8ca9efde",
-    "title": "回文判定アプリの手引き"
-  },
-  {
-    "id": "232a501ef3378021ab94e9762df05e86",
-    "curriculumId": "232a501ef33780c8920dc85f8ca9efde",
-    "iconType": "emoji",
-    "iconUrl": "📝",
-    "cover": "https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg",
-    "coverType": "external",
-    "order": 16,
-    "parentId": "232a501ef33780c8920dc85f8ca9efde",
-    "title": "シンプルメモアプリの手引き"
+    "title": "コンテナ起動までの流れ",
+    "type": ""
   },
   {
     "id": "24ba501ef33780e683f3dec2d9cb8a44",
@@ -1273,7 +392,8 @@
     "coverType": "external",
     "order": 1003,
     "parentId": "",
-    "title": "HTML,CSS"
+    "title": "HTML,CSS",
+    "type": ""
   },
   {
     "id": "24ba501ef3378161a4dffdaf7b0fed22",
@@ -1284,7 +404,8 @@
     "coverType": "external",
     "order": 0,
     "parentId": "24ba501ef33780d28482e8ea9d6c344a",
-    "title": "HTMLの基本"
+    "title": "HTMLの基本",
+    "type": ""
   },
   {
     "id": "24ba501ef337810383accac23c85dce4",
@@ -1295,7 +416,8 @@
     "coverType": "external",
     "order": 0,
     "parentId": "24ba501ef33780dbaf92fa7facdc357a",
-    "title": "VSCodeの設定"
+    "title": "VSCodeの設定",
+    "type": ""
   },
   {
     "id": "24ba501ef33780759e6ed3f3efbc8126",
@@ -1306,7 +428,8 @@
     "coverType": "",
     "order": 33,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "1. HTMLの雛形"
+    "title": "1. HTMLの雛形",
+    "type": ""
   },
   {
     "id": "24ba501ef33780edacc4d54914fb20d2",
@@ -1317,7 +440,8 @@
     "coverType": "",
     "order": 34,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題1"
+    "title": "演習問題1",
+    "type": ""
   },
   {
     "id": "24ba501ef33780b48a8ac9458eaef4ab",
@@ -1328,7 +452,8 @@
     "coverType": "",
     "order": 35,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "2. テキストに関するタグ"
+    "title": "2. テキストに関するタグ",
+    "type": ""
   },
   {
     "id": "24ba501ef337806390e9d0177ad55025",
@@ -1339,7 +464,8 @@
     "coverType": "",
     "order": 36,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題2"
+    "title": "演習問題2",
+    "type": ""
   },
   {
     "id": "24ba501ef337806fb46cceef79e9cbfc",
@@ -1350,7 +476,8 @@
     "coverType": "",
     "order": 37,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "3. リストに関するタグ"
+    "title": "3. リストに関するタグ",
+    "type": ""
   },
   {
     "id": "24ba501ef337803096c5cad4dbbcae90",
@@ -1361,7 +488,8 @@
     "coverType": "",
     "order": 38,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題3"
+    "title": "演習問題3",
+    "type": ""
   },
   {
     "id": "24ba501ef33780feb7a1d55613cbe24a",
@@ -1372,7 +500,8 @@
     "coverType": "",
     "order": 39,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "4. メディアに関するタグ"
+    "title": "4. メディアに関するタグ",
+    "type": ""
   },
   {
     "id": "24ba501ef33780d6b531e0d4dea4689b",
@@ -1383,7 +512,8 @@
     "coverType": "",
     "order": 40,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題4 "
+    "title": "演習問題4 ",
+    "type": ""
   },
   {
     "id": "24ba501ef337808f8a33f3a85747e022",
@@ -1394,7 +524,8 @@
     "coverType": "",
     "order": 41,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "5. 表に関するタグ"
+    "title": "5. 表に関するタグ",
+    "type": ""
   },
   {
     "id": "24ba501ef33780918917e5fae94158fe",
@@ -1405,7 +536,8 @@
     "coverType": "",
     "order": 42,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題5"
+    "title": "演習問題5",
+    "type": ""
   },
   {
     "id": "24ba501ef33780e6b96fd7eadaa901ad",
@@ -1416,7 +548,8 @@
     "coverType": "",
     "order": 43,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "6. フォームに関するタグ"
+    "title": "6. フォームに関するタグ",
+    "type": ""
   },
   {
     "id": "24ba501ef337805db232cfe5deefbd55",
@@ -1427,7 +560,8 @@
     "coverType": "",
     "order": 44,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "7.リンクに関するタグ"
+    "title": "7.リンクに関するタグ",
+    "type": ""
   },
   {
     "id": "24ba501ef337802cbf85d1ad6091cc1e",
@@ -1438,7 +572,8 @@
     "coverType": "",
     "order": 45,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題6"
+    "title": "演習問題6",
+    "type": ""
   },
   {
     "id": "24ba501ef33780868c69e83ac9cafc32",
@@ -1449,7 +584,8 @@
     "coverType": "",
     "order": 46,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "8. 体裁を整えるタグとCSS"
+    "title": "8. 体裁を整えるタグとCSS",
+    "type": ""
   },
   {
     "id": "24ba501ef33780bd837ee391fe4c5635",
@@ -1460,7 +596,8 @@
     "coverType": "",
     "order": 47,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題7"
+    "title": "演習問題7",
+    "type": ""
   },
   {
     "id": "24ba501ef337805282f6fb088ef57af6",
@@ -1471,7 +608,8 @@
     "coverType": "",
     "order": 48,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "9. HTMLファイルとCSSファイルの分離"
+    "title": "9. HTMLファイルとCSSファイルの分離",
+    "type": ""
   },
   {
     "id": "24ba501ef33780c680beec31f1976f83",
@@ -1482,7 +620,8 @@
     "coverType": "",
     "order": 49,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題8"
+    "title": "演習問題8",
+    "type": ""
   },
   {
     "id": "24ba501ef3378050b7f7db36a1cd6c75",
@@ -1493,7 +632,8 @@
     "coverType": "",
     "order": 50,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "10. クラス名とセレクター"
+    "title": "10. クラス名とセレクター",
+    "type": ""
   },
   {
     "id": "24ba501ef337807c9bb7e37598f43272",
@@ -1504,7 +644,8 @@
     "coverType": "",
     "order": 51,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題9"
+    "title": "演習問題9",
+    "type": ""
   },
   {
     "id": "24ba501ef3378060892ed2d23d1ea1ec",
@@ -1515,7 +656,8 @@
     "coverType": "",
     "order": 52,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "11. ボーダー"
+    "title": "11. ボーダー",
+    "type": ""
   },
   {
     "id": "24ba501ef33780a4a3f4eb234d807dfe",
@@ -1526,7 +668,8 @@
     "coverType": "",
     "order": 53,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "12. 擬似クラス : ◯個目の子要素"
+    "title": "12. 擬似クラス : ◯個目の子要素",
+    "type": ""
   },
   {
     "id": "24ba501ef3378069a67fdc413a0c4ec7",
@@ -1537,7 +680,8 @@
     "coverType": "",
     "order": 54,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題10"
+    "title": "演習問題10",
+    "type": ""
   },
   {
     "id": "24ba501ef33780aa9d68dd141d08f635",
@@ -1548,7 +692,8 @@
     "coverType": "",
     "order": 55,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "13. 擬似クラス : ユーザーの操作と状態"
+    "title": "13. 擬似クラス : ユーザーの操作と状態",
+    "type": ""
   },
   {
     "id": "24ba501ef33780bd89a7c708a73b73bc",
@@ -1559,7 +704,8 @@
     "coverType": "",
     "order": 56,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題11"
+    "title": "演習問題11",
+    "type": ""
   },
   {
     "id": "24ba501ef33780e8af31de34146e0db5",
@@ -1570,7 +716,8 @@
     "coverType": "",
     "order": 57,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "14. フレックスボックス"
+    "title": "14. フレックスボックス",
+    "type": ""
   },
   {
     "id": "24ba501ef33780ce8fd6e2a7fc622ed5",
@@ -1581,7 +728,8 @@
     "coverType": "",
     "order": 58,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題12"
+    "title": "演習問題12",
+    "type": ""
   },
   {
     "id": "24ba501ef33780639d95f52543138802",
@@ -1592,7 +740,8 @@
     "coverType": "",
     "order": 59,
     "parentId": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "演習問題13：仕上げ"
+    "title": "演習問題13：仕上げ",
+    "type": ""
   },
   {
     "id": "256a501ef337802e8fcaf378c366fb03",
@@ -1603,7 +752,8 @@
     "coverType": "",
     "order": 9999,
     "parentId": "",
-    "title": "Python後期"
+    "title": "Python後期",
+    "type": ""
   },
   {
     "id": "265a501ef33780eab42dee317fd66072",
@@ -1614,7 +764,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "クラス"
+    "title": "クラス",
+    "type": ""
   },
   {
     "id": "26ea501ef33780eda25cfa4915c1b4ab",
@@ -1625,7 +776,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "クラスの練習問題"
+    "title": "クラスの練習問題",
+    "type": ""
   },
   {
     "id": "267a501ef33780ba90cbd7fbfbcdc324",
@@ -1636,7 +788,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "import文"
+    "title": "import文",
+    "type": ""
   },
   {
     "id": "26ea501ef337803ea94fef75d78cea9e",
@@ -1647,7 +800,8 @@
     "coverType": "",
     "order": 5,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "import文の練習問題"
+    "title": "import文の練習問題",
+    "type": ""
   },
   {
     "id": "26ea501ef337803a993af4e422180074",
@@ -1658,7 +812,8 @@
     "coverType": "",
     "order": 8,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "クラスの継承"
+    "title": "クラスの継承",
+    "type": ""
   },
   {
     "id": "272a501ef33780b3b5fadbe1df070583",
@@ -1669,7 +824,8 @@
     "coverType": "",
     "order": 9,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "lambda式"
+    "title": "lambda式",
+    "type": ""
   },
   {
     "id": "272a501ef33780469e42d990642e19bf",
@@ -1680,7 +836,8 @@
     "coverType": "",
     "order": 10,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "例外処理"
+    "title": "例外処理",
+    "type": ""
   },
   {
     "id": "272a501ef3378026b170d8a3ae12483e",
@@ -1691,7 +848,8 @@
     "coverType": "",
     "order": 11,
     "parentId": "256a501ef337802e8fcaf378c366fb03",
-    "title": "タプル型"
+    "title": "タプル型",
+    "type": ""
   },
   {
     "id": "256a501ef337803b9c9ee872f50d594f",
@@ -1702,7 +860,8 @@
     "coverType": "",
     "order": 10000,
     "parentId": "",
-    "title": "Flet後期"
+    "title": "Flet後期",
+    "type": ""
   },
   {
     "id": "26ea501ef33780e0aff1e562add4627b",
@@ -1713,7 +872,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "新しいFletアプリの作り方"
+    "title": "新しいFletアプリの作り方",
+    "type": ""
   },
   {
     "id": "267a501ef33780fd9f0efa54963de153",
@@ -1724,7 +884,8 @@
     "coverType": "external",
     "order": 3,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "ルーティング"
+    "title": "ルーティング",
+    "type": ""
   },
   {
     "id": "267a501ef33780c2ac2ac9c0ac0b439e",
@@ -1735,7 +896,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "静的ルーティング"
+    "title": "静的ルーティング",
+    "type": ""
   },
   {
     "id": "267a501ef33780e690aafe7e057f852b",
@@ -1746,7 +908,8 @@
     "coverType": "",
     "order": 5,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "View毎のファイル分割"
+    "title": "View毎のファイル分割",
+    "type": ""
   },
   {
     "id": "26ea501ef337801a9bc5fe1221d3f826",
@@ -1757,7 +920,8 @@
     "coverType": "",
     "order": 6,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "ルーティングの練習問題"
+    "title": "ルーティングの練習問題",
+    "type": ""
   },
   {
     "id": "263a501ef3378041a746ebebfc015bcf",
@@ -1768,7 +932,8 @@
     "coverType": "external",
     "order": 9,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "Imageコントロール"
+    "title": "Imageコントロール",
+    "type": ""
   },
   {
     "id": "263a501ef337805d89cff74be50d4712",
@@ -1779,7 +944,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "263a501ef337809ca153d93cc663b9ce",
-    "title": "Imageの表示領域とfitプロパティの話"
+    "title": "Imageの表示領域とfitプロパティの話",
+    "type": ""
   },
   {
     "id": "267a501ef337800380a5d685df0acc48",
@@ -1790,7 +956,8 @@
     "coverType": "",
     "order": 10,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "動的ルーティング"
+    "title": "動的ルーティング",
+    "type": ""
   },
   {
     "id": "272a501ef33780c2b370cc9f784525d0",
@@ -1801,7 +968,8 @@
     "coverType": "",
     "order": 11,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "AppBar"
+    "title": "AppBar",
+    "type": ""
   },
   {
     "id": "264a501ef337809b8603f6187c3ea3ec",
@@ -1812,7 +980,8 @@
     "coverType": "",
     "order": 12,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "カスタムコントロール"
+    "title": "カスタムコントロール",
+    "type": ""
   },
   {
     "id": "272a501ef33780dfadfaf37fcb54b0c7",
@@ -1823,7 +992,8 @@
     "coverType": "",
     "order": 13,
     "parentId": "256a501ef337803b9c9ee872f50d594f",
-    "title": "カラーテーマ"
+    "title": "カラーテーマ",
+    "type": ""
   },
   {
     "id": "256a501ef33780788124f85e3320ee25",
@@ -1834,7 +1004,8 @@
     "coverType": "",
     "order": 10002,
     "parentId": "",
-    "title": "任意ページ"
+    "title": "任意ページ",
+    "type": ""
   },
   {
     "id": "272a501ef3378040af9bfae333f7427a",
@@ -1845,7 +1016,8 @@
     "coverType": "external",
     "order": 1005,
     "parentId": "",
-    "title": "アプリケーションアーキテクチャ基礎"
+    "title": "アプリケーションアーキテクチャ基礎",
+    "type": ""
   },
   {
     "id": "272a501ef33781dc8baac66b37fc5454",
@@ -1856,7 +1028,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "272a501ef337800ea312cc759fe5f747",
-    "title": "アプリケーションアーキテクチャとは"
+    "title": "アプリケーションアーキテクチャとは",
+    "type": ""
   },
   {
     "id": "272a501ef337814b9fd0cd3ad7f764b5",
@@ -1867,7 +1040,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "272a501ef337800ea312cc759fe5f747",
-    "title": "MVCについて"
+    "title": "MVCについて",
+    "type": ""
   },
   {
     "id": "272a501ef33781d084bbfc2e5f939f86",
@@ -1878,7 +1052,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "272a501ef3378081b041d471cbc6b775",
-    "title": "FletでTodoアプリを作ってMVCを学ぼう"
+    "title": "FletでTodoアプリを作ってMVCを学ぼう",
+    "type": ""
   },
   {
     "id": "272a501ef337819297bbc044d7ec9435",
@@ -1889,7 +1064,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "272a501ef3378081b041d471cbc6b775",
-    "title": "UIを作る"
+    "title": "UIを作る",
+    "type": ""
   },
   {
     "id": "272a501ef337813296cad82d242bbe2b",
@@ -1900,7 +1076,8 @@
     "coverType": "",
     "order": 37,
     "parentId": "272a501ef337819297bbc044d7ec9435",
-    "title": "コード全体"
+    "title": "コード全体",
+    "type": ""
   },
   {
     "id": "272a501ef33781adab70e985dba92d6d",
@@ -1911,7 +1088,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "272a501ef3378081b041d471cbc6b775",
-    "title": "ロジックを作る"
+    "title": "ロジックを作る",
+    "type": ""
   },
   {
     "id": "272a501ef33781c0a447c9f0ed2b7e0a",
@@ -1922,7 +1100,8 @@
     "coverType": "",
     "order": 52,
     "parentId": "272a501ef33781adab70e985dba92d6d",
-    "title": "コード全体"
+    "title": "コード全体",
+    "type": ""
   },
   {
     "id": "272a501ef33781caa5c3c4263114cacd",
@@ -1933,7 +1112,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "272a501ef3378081b041d471cbc6b775",
-    "title": "Model層を作る"
+    "title": "Model層を作る",
+    "type": ""
   },
   {
     "id": "272a501ef337818fbe91fe0e2443154a",
@@ -1944,7 +1124,8 @@
     "coverType": "",
     "order": 71,
     "parentId": "272a501ef33781caa5c3c4263114cacd",
-    "title": "コード全体"
+    "title": "コード全体",
+    "type": ""
   },
   {
     "id": "272a501ef3378142bdacdfdaaf90b0c8",
@@ -1955,7 +1136,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "272a501ef3378081b041d471cbc6b775",
-    "title": "Controller層を作る"
+    "title": "Controller層を作る",
+    "type": ""
   },
   {
     "id": "272a501ef337811c8b94c8697bb7dcfa",
@@ -1966,7 +1148,8 @@
     "coverType": "",
     "order": 54,
     "parentId": "272a501ef3378142bdacdfdaaf90b0c8",
-    "title": "コード全体"
+    "title": "コード全体",
+    "type": ""
   },
   {
     "id": "272a501ef33781b4ab85c626f335c399",
@@ -1977,7 +1160,8 @@
     "coverType": "",
     "order": 5,
     "parentId": "272a501ef3378081b041d471cbc6b775",
-    "title": "View層を作る"
+    "title": "View層を作る",
+    "type": ""
   },
   {
     "id": "272a501ef33781058a2bca3e87117967",
@@ -1988,7 +1172,8 @@
     "coverType": "",
     "order": 41,
     "parentId": "272a501ef33781b4ab85c626f335c399",
-    "title": "コード全体"
+    "title": "コード全体",
+    "type": ""
   },
   {
     "id": "278a501ef337803ab4f6ea002a586eb2",
@@ -1999,7 +1184,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "",
-    "title": "本のリスト"
+    "title": "本のリスト",
+    "type": ""
   },
   {
     "id": "278a501ef33780cd8630d283f74801aa",
@@ -2010,7 +1196,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "",
-    "title": "部室の本貸し出し・返却"
+    "title": "部室の本貸し出し・返却",
+    "type": ""
   },
   {
     "id": "279a501ef33780dfa164dcfbf444bd9d",
@@ -2021,7 +1208,8 @@
     "coverType": "file",
     "order": 3,
     "parentId": "",
-    "title": "部室の場所とルール"
+    "title": "部室の場所とルール",
+    "type": ""
   },
   {
     "id": "27ca501ef3378064a7c7d01f40afb922",
@@ -2032,7 +1220,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "",
-    "title": "udemyアカウント"
+    "title": "udemyアカウント",
+    "type": ""
   },
   {
     "id": "283a501ef33780228aa2d52f07d4848d",
@@ -2043,7 +1232,8 @@
     "coverType": "",
     "order": 0,
     "parentId": "283a501ef337808a9502f4b09ff9cadc",
-    "title": "購入済みの動画一覧"
+    "title": "購入済みの動画一覧",
+    "type": ""
   },
   {
     "id": "286a501ef33780798745d087320edfc0",
@@ -2054,7 +1244,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "",
-    "title": "Python - 練習問題2"
+    "title": "Python - 練習問題2",
+    "type": ""
   },
   {
     "id": "286a501ef33780e6b085c2ac844a56b6",
@@ -2065,7 +1256,8 @@
     "coverType": "",
     "order": 1,
     "parentId": "",
-    "title": "Python - 練習問題1"
+    "title": "Python - 練習問題1",
+    "type": ""
   },
   {
     "id": "286a501ef33780e6b322f2081c425174",
@@ -2076,7 +1268,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "",
-    "title": "Python - 練習問題3"
+    "title": "Python - 練習問題3",
+    "type": ""
   },
   {
     "id": "287a501ef337800b8950c28fb48e552e",
@@ -2087,7 +1280,8 @@
     "coverType": "",
     "order": 5,
     "parentId": "",
-    "title": "Python - 練習問題5"
+    "title": "Python - 練習問題5",
+    "type": ""
   },
   {
     "id": "287a501ef337805e8394c55c7120aa06",
@@ -2098,7 +1292,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "",
-    "title": "Python - 練習問題4"
+    "title": "Python - 練習問題4",
+    "type": ""
   },
   {
     "id": "28aa501ef337805185e6e399d399ac90",
@@ -2109,7 +1304,8 @@
     "coverType": "",
     "order": 10003,
     "parentId": "",
-    "title": "チーム開発"
+    "title": "チーム開発",
+    "type": ""
   },
   {
     "id": "28ba501ef337809ab5d3e90f123eb8c7",
@@ -2120,7 +1316,8 @@
     "coverType": "external",
     "order": 0,
     "parentId": "28aa501ef337805185e6e399d399ac90",
-    "title": "第1回チーム開発について"
+    "title": "第1回チーム開発について",
+    "type": ""
   },
   {
     "id": "28ba501ef33780199be2df02371fb29b",
@@ -2131,7 +1328,8 @@
     "coverType": "",
     "order": 25,
     "parentId": "28ba501ef337809ab5d3e90f123eb8c7",
-    "title": "タスク管理表（見本）"
+    "title": "タスク管理表（見本）",
+    "type": ""
   },
   {
     "id": "2aaa501ef337807abd11f1b8f4e661a2",
@@ -2142,7 +1340,8 @@
     "coverType": "external",
     "order": 1,
     "parentId": "28aa501ef337805185e6e399d399ac90",
-    "title": "第2回チーム開発について"
+    "title": "第2回チーム開発について",
+    "type": ""
   },
   {
     "id": "2aba501ef33780e89515c59e3df96b94",
@@ -2153,7 +1352,8 @@
     "coverType": "",
     "order": 28,
     "parentId": "2aaa501ef337807abd11f1b8f4e661a2",
-    "title": "タスク管理表（見本）"
+    "title": "タスク管理表（見本）",
+    "type": ""
   },
   {
     "id": "2bca501ef337805c92e1c507b61498f7",
@@ -2164,7 +1364,8 @@
     "coverType": "external",
     "order": 2,
     "parentId": "28aa501ef337805185e6e399d399ac90",
-    "title": "ハッカソンについて"
+    "title": "ハッカソンについて",
+    "type": ""
   },
   {
     "id": "2bca501ef33781beaa94e00b0368dbe8",
@@ -2175,18 +1376,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "2bca501ef337809ba41bdb202b82a918",
-    "title": "タスク管理表（見本）"
-  },
-  {
-    "id": "1ada501ef3378122b26fd5ed2f5d6a1b",
-    "curriculumId": "1ada501ef3378122b26fd5ed2f5d6a1b",
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/gear_orange.svg",
-    "cover": "",
-    "coverType": "",
-    "order": 10,
-    "parentId": "",
-    "title": "Git、GitHubセットアップ"
+    "title": "タスク管理表（見本）",
+    "type": ""
   },
   {
     "id": "256a501ef33780a9a46fc17219f411da",
@@ -2197,7 +1388,8 @@
     "coverType": "external",
     "order": 10001,
     "parentId": "",
-    "title": "Git, Github"
+    "title": "Git, Github",
+    "type": ""
   },
   {
     "id": "26aa501ef33780ea9c00c101544df5e6",
@@ -2208,7 +1400,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "Git、Githubとは "
+    "title": "Git、Githubとは ",
+    "type": ""
   },
   {
     "id": "266a501ef337808e8078e09ab83d6de8",
@@ -2219,7 +1412,8 @@
     "coverType": "external",
     "order": 4,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "Git,GitHubのはじめ方"
+    "title": "Git,GitHubのはじめ方",
+    "type": ""
   },
   {
     "id": "26aa501ef33780cab7cae768aa7bc7f0",
@@ -2230,7 +1424,8 @@
     "coverType": "external",
     "order": 5,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "チーム開発での使い方"
+    "title": "チーム開発での使い方",
+    "type": ""
   },
   {
     "id": "272a501ef33780c7a5e6fb2c06746bc3",
@@ -2241,7 +1436,8 @@
     "coverType": "external",
     "order": 6,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "競合エラーの原因と解決方法"
+    "title": "競合エラーの原因と解決方法",
+    "type": ""
   },
   {
     "id": "273a501ef337803d879cc2d7157f3fe6",
@@ -2252,7 +1448,8 @@
     "coverType": "",
     "order": 7,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "ブランチを分ける"
+    "title": "ブランチを分ける",
+    "type": ""
   },
   {
     "id": "277a501ef33780b786eee25597018d01",
@@ -2263,7 +1460,8 @@
     "coverType": "",
     "order": 10,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "リモートとローカルについて"
+    "title": "リモートとローカルについて",
+    "type": ""
   },
   {
     "id": "2c3a501ef33780cf9a87d90191b07681",
@@ -2274,7 +1472,8 @@
     "coverType": "",
     "order": 11,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "Push時のコマンドについて"
+    "title": "Push時のコマンドについて",
+    "type": ""
   },
   {
     "id": "2c3a501ef33780bd9acaf29783b9d4f8",
@@ -2285,7 +1484,8 @@
     "coverType": "",
     "order": 12,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "ステージとコミットについて"
+    "title": "ステージとコミットについて",
+    "type": ""
   },
   {
     "id": "2c4a501ef3378035bc9ecd0f750c8309",
@@ -2296,7 +1496,8 @@
     "coverType": "",
     "order": 13,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "リポジトリについて"
+    "title": "リポジトリについて",
+    "type": ""
   },
   {
     "id": "273a501ef337807dad51ea377d446b60",
@@ -2307,7 +1508,8 @@
     "coverType": "",
     "order": 14,
     "parentId": "256a501ef33780a9a46fc17219f411da",
-    "title": "not a git repositoryエラーについて"
+    "title": "not a git repositoryエラーについて",
+    "type": ""
   },
   {
     "id": "2c4a501ef337809e8d3aef9f6f2340c1",
@@ -2318,7 +1520,8 @@
     "coverType": "external",
     "order": 1006,
     "parentId": "",
-    "title": "Webアプリのガイド"
+    "title": "Webアプリのガイド",
+    "type": ""
   },
   {
     "id": "2c7a501ef3378027b627d12ad61e4a21",
@@ -2329,7 +1532,8 @@
     "coverType": "",
     "order": 2,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "Webアプリとは"
+    "title": "Webアプリとは",
+    "type": ""
   },
   {
     "id": "2c7a501ef337804eb393f2b6b1123ac7",
@@ -2340,7 +1544,8 @@
     "coverType": "",
     "order": 3,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "Webサーバーについて"
+    "title": "Webサーバーについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef33780b0958cfbe4315cd0f2",
@@ -2351,7 +1556,8 @@
     "coverType": "",
     "order": 4,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "URLについて"
+    "title": "URLについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef33780a48908ef6886462f93",
@@ -2362,7 +1568,8 @@
     "coverType": "",
     "order": 5,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "HTTPについて"
+    "title": "HTTPについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef33780d5a1e3e42f0d0af4c2",
@@ -2373,7 +1580,8 @@
     "coverType": "",
     "order": 6,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "Webサイトについて"
+    "title": "Webサイトについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef337804ba440e500391055f8",
@@ -2384,7 +1592,8 @@
     "coverType": "",
     "order": 7,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "HTMLについて"
+    "title": "HTMLについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef33780718408d710b10bc242",
@@ -2395,7 +1604,8 @@
     "coverType": "",
     "order": 8,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "バックエンドについて"
+    "title": "バックエンドについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef337801e84ccf3dfc1723b4b",
@@ -2406,7 +1616,8 @@
     "coverType": "",
     "order": 9,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "ミドルウェアについて"
+    "title": "ミドルウェアについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef337803fa6cdfc08d24c3443",
@@ -2417,7 +1628,8 @@
     "coverType": "",
     "order": 10,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "フレームワークについて"
+    "title": "フレームワークについて",
+    "type": ""
   },
   {
     "id": "2c8a501ef337807cbe63df809cb0ac68",
@@ -2428,6 +1640,1015 @@
     "coverType": "",
     "order": 11,
     "parentId": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "Webアプリを開発するには？"
+    "title": "Webアプリを開発するには？",
+    "type": ""
+  },
+  {
+    "id": "1ada501ef3378122b26fd5ed2f5d6a1b",
+    "curriculumId": "1ada501ef3378122b26fd5ed2f5d6a1b",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/gear_orange.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 10,
+    "parentId": "",
+    "title": "Git、GitHubセットアップ",
+    "type": ""
+  },
+  {
+    "id": "1ada501ef337814bac7dcbd864901138",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "custom_emoji",
+    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1ada501ef337814bac7dcbd864901138/icon.png",
+    "cover": "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
+    "coverType": "external",
+    "order": 6,
+    "parentId": "",
+    "title": "Python基礎文法",
+    "type": ""
+  },
+  {
+    "id": "1dfa501ef33780b39835e82769bd01f8",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 2,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "0. VSCodeでプログラムを始める",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef337806c8615f492e93f80b0",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 3,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "1. Hello World! ",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780f1af62f3552733a81d",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 4,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "2. 変数 ",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef3378064b0e1f200f4276e5e",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 5,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "3. 変数の型",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780f0a9cdf0d196c362de",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 6,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "4. 四則演算 ",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780baa251c8fe9f1c8cc2",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 7,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "練習問題1",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780819a0cd8aafc4b4c17",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 8,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "5. 入力",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef337800d909dc7f9943aba15",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 9,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "6. 条件分岐（if文）",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef3378040be11fcc20622dd7c",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 10,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "練習問題2 ",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780329beede1f29e138fa",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 11,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "7. リストと辞書",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780a5a084f584f95197c5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 12,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "8. 繰り返し（for文）",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef337803f8590d0737976ab27",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 13,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "練習問題3",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780fab3cec5016923e198",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 14,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "9. 文字列",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef33780108067de8083f6ecc5",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 15,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "練習問題4",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef3378022a217fb1418047a05",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 16,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "10. 関数とは",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef337802fa0f0c6e94d32d3bf",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "",
+    "iconUrl": "",
+    "cover": "",
+    "coverType": "",
+    "order": 17,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "11. 関数を作ろう！",
+    "type": "curriculum"
+  },
+  {
+    "id": "1b8a501ef337804eada7c904a1585fd1",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 18,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "練習問題5",
+    "type": "curriculum"
+  },
+  {
+    "id": "1dfa501ef3378051a42ff0790a6a502a",
+    "curriculumId": "1ada501ef337814bac7dcbd864901138",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 19,
+    "parentId": "1ada501ef337814bac7dcbd864901138",
+    "title": "Pythonまとめ問題",
+    "type": "curriculum"
+  },
+  {
+    "id": "1bea501ef337804c90e8da6f1f5384c1",
+    "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/keyboard_lightgray.svg",
+    "cover": "https://images.unsplash.com/photo-1600860701935-40f338f8d793?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
+    "coverType": "external",
+    "order": 8,
+    "parentId": "",
+    "title": "CLIの基礎",
+    "type": ""
+  },
+  {
+    "id": "1f0a501ef33780d8a091da399b7fa1e2",
+    "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/grid_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 22,
+    "parentId": "1bea501ef337804c90e8da6f1f5384c1",
+    "title": "for Windows(PowerShell)",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f0a501ef33780079a3ff6f6db3fec52",
+    "curriculumId": "1bea501ef337804c90e8da6f1f5384c1",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/apple_red.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 23,
+    "parentId": "1bea501ef337804c90e8da6f1f5384c1",
+    "title": "for Mac(zsh)",
+    "type": "curriculum"
+  },
+  {
+    "id": "1d8a501ef337800c9ae8ca9153877fc1",
+    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
+    "iconType": "emoji",
+    "iconUrl": "💫",
+    "cover": "https://images.unsplash.com/photo-1621508654686-809f23efdabc?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "coverType": "external",
+    "order": 1,
+    "parentId": "",
+    "title": "Horizonではじめにやること！",
+    "type": ""
+  },
+  {
+    "id": "1d8a501ef3378046aa5fe50c89a862f6",
+    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/save_blue.svg",
+    "cover": "https://images.unsplash.com/photo-1491382825904-a4c6dca98e8c?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "coverType": "external",
+    "order": 0,
+    "parentId": "1d8a501ef3378092959dd4df91e6277f",
+    "title": "Pythonのインストール",
+    "type": "curriculum"
+  },
+  {
+    "id": "1d8a501ef33780a8846dcdc0f52c57b8",
+    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/move-document_orange.svg",
+    "cover": "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1636.jpg",
+    "coverType": "external",
+    "order": 0,
+    "parentId": "1d8a501ef33780c9a2f2e2553bc27a75",
+    "title": "Visual Studio Codeのチュートリアル",
+    "type": "curriculum"
+  },
+  {
+    "id": "1d8a501ef33781569349f0f8face44f2",
+    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
+    "iconType": "emoji",
+    "iconUrl": "🪟",
+    "cover": "https://www.notion.so/images/page-cover/met_fitz_henry_lane.jpg",
+    "coverType": "external",
+    "order": 0,
+    "parentId": "1d8a501ef337816d891bfea92cb044a2",
+    "title": "VSCodeのチュートリアル：Windows",
+    "type": "curriculum"
+  },
+  {
+    "id": "1d8a501ef337810292b5ff2f78906951",
+    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
+    "iconType": "emoji",
+    "iconUrl": "🍎",
+    "cover": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg",
+    "coverType": "external",
+    "order": 1,
+    "parentId": "1d8a501ef337816d891bfea92cb044a2",
+    "title": "VSCodeのチュートリアル：Mac",
+    "type": "curriculum"
+  },
+  {
+    "id": "1d8a501ef3378058b91cc0a04b396d44",
+    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
+    "iconType": "file",
+    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1d8a501ef3378058b91cc0a04b396d44/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB466QEKFD4SU%2F20251215%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251215T062838Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJGMEQCIE3pS9QK4pw%2FtukPoIVZwITITaZGXlMzOXCYgDaWmYEMAiAfaHyg%2FFOgwWsIEMmw9Xh2eVK3VdkxyiV8x3jGLBY%2FESr%2FAwhHEAAaDDYzNzQyMzE4MzgwNSIMK%2B7yRBtvYDsnRUNLKtwDgVXAvC6ZFBxG0bA7o4fXcBq%2F3HXwUnOlR6TAdCv7ukxkCDMzzUt5SJUJvsWbACyxKodvDxyJhuAcNmGYyjQeoGZiiNCHkQnF24S3v9qZbJVfMcqCvrJD6gxZE1mlqgIymtwXeOJEju%2FBd%2FMdO0hlxNheqYvLJxuRxdUsqlxdK6U8ODjeHGDXNtxOOzeslut6Gnqc7ydGpvXd8CVpS1i%2BqdfERaA6VAyZ7jjcv%2FLx2XHmOja3zUzKdZyjxNm9wjtfTL4jH4KnIjdYqM3yGBc3V%2FG%2BxNqsZaD1mGmLVf4qvi9hhUVsIDIXrS9t508eJQbt%2FLkkSrzl7i53uKM670TQzgyoc9EeavIBfF7ZEuBYxiMB2BW5yuN1uCVBh3ufNHfK491r9kg5W2zJPdiNF7necmAg0c9chudPgovh11qT8W%2FMBeX26bUArdlQfIRfGmYoe6qvzAd5hIlMS2jn%2FKtab8qzVHuwJPk7WouwaFYHeNdEnqAlDziQjcgdnD1wtXSla8Kggn88Ah2kK0gFJIEaq3EblBEOWVnbGhbmDYh7adRd0EQ5%2F3LEV8vDsyliopy6K%2FTtKIyvpL1HtN7XKxUtGnaXE1Zs2lIRGgCbRLqNTgG5dAfnZNcdwqv9qj4w8cf%2ByQY6pgH0V3aEoQLls58Zqs4h0i4CrX1uM4OrlgTwXzivvuWYrjXUnsV0jaDDCzfKpz%2FqVoZPSfVHzc5wwjgKMAkCN9zXTsrtaKSc9oyci8TpgeAi%2FCf7A%2BJtxNqXDgEgqz8vy2f0q0fA7y%2B6lkcw1NjAGmS%2BTUW0JYQYL8ecidInUAotCfx%2B2kzr8BTsUeGI7pQ%2BCTSDj7aJKfD%2FJ0T7TzzOqGn8c2Ubc2zs\u0026X-Amz-Signature=2767d709cc9a8ec44c3eafb14b84fb7a4b3a8567afc3cd70b4e1f50bd316f19d\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
+    "cover": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "coverType": "external",
+    "order": 0,
+    "parentId": "1d8a501ef337802797e0c712e5a097de",
+    "title": "Canvaについて",
+    "type": "curriculum"
+  },
+  {
+    "id": "1d8a501ef33780fa90edeffb876c58ba",
+    "curriculumId": "1d8a501ef337800c9ae8ca9153877fc1",
+    "iconType": "file",
+    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1d8a501ef33780fa90edeffb876c58ba/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB466TFZBFNWR%2F20251215%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251215T062845Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCXVzLXdlc3QtMiJIMEYCIQDobCrTSo7E9UNkAl%2Fj8n8TRkTSI56jk1GH2gf9tUOQpwIhAIiYvWFh0eB1Au1ewvRX6KgUY7Tp1iJtyxlHok%2BXJCx6Kv8DCEcQABoMNjM3NDIzMTgzODA1IgwK4RDdz7sRYLf7GCcq3AM0oqd577%2BFkOispSkeH0mCykIhq7SBRcIGdju53oxubIf8UrbVm%2F3QZGfcDem6DT57hfNuCFCrU4hyvbkGtgkrvju5zi41GjqEpXCYWEzdQW36mWvS6Ly%2Bk6H1oRz3z9EM%2BuylFw9gZC1IW2qXKNHyZNxZNOVyi6tqTJMmKn8WvbrCjhllDu%2BA%2FCr8ARTTe9%2Bk9%2FemxJJS%2BLms4KFZwxhDszQxYKv2VHMgVZ3UJbO9ZRgbl%2FxwdsAn3wdhtkcf1s%2F27YDME6UB9VQp8%2F2DQLnSv%2FTDtb34pgXO6HmXXc847KAwBqiPjfBrMv8o4BZUOXkL3z%2FzzeGp1pnog1SB3o8NUCR%2BGudNHjVz4Sl7rR8LGuqeffUKD2RmTzj90o8i3y9aN2a3owVjKOi3Q%2BEQEaM%2BNjfj97fqZCOLAmNce9kwiLSKvQZvQxpyX8zoUlbHORFChFPgSPQAEJdkvc3XXZaw7yhQdLmcEy00VzeAy2dGuKbgfuvrGrVJZZN6sR2VFzi7MzwlD%2F697jPQTdGAXQr1rfdUe98q5X31xfcLSjI2dFzKXZAao9A4%2FKjwZytTS6bFQ60pnqyYhL45LqaUmwfABzxFWQFlhjFPcP3bzR%2Bz%2FfKE2MhKq%2BJoq%2B8jMjDEyP7JBjqkARgztJwp%2FUqKfnLcgOI5zfNEp%2BHFXq2I2W6ZPxY%2BhdS8uZkrWOgZXMMAZB8wKroZWHHfYSaH9oxgn0S%2B2fWoPOC1aMCxUZd94FeE2K%2FFHo82tjRbj7wYjw3CTfJr20h4PXzmOU%2BvKbiBq2vN4msJgORK84xdMEzCr%2BGXr8zk40dgjZw60qWeOM6HRJ5C3Ka%2BNfY%2F5ZfG79eqCpJQlVg8Nrzm1BO6\u0026X-Amz-Signature=5da61f6af0707a118ac263a15e0a8ceb6ad59fb4bf66fde142bb311f4b64018f\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
+    "cover": "https://www.notion.so/images/page-cover/webb1.jpg",
+    "coverType": "external",
+    "order": 0,
+    "parentId": "1d8a501ef337808fbf30cd0b0078f90f",
+    "title": "Discordの使い方",
+    "type": "curriculum"
+  },
+  {
+    "id": "1e7a501ef337805bbc4ed442525244f3",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "🦾",
+    "cover": "",
+    "coverType": "",
+    "order": 500,
+    "parentId": "",
+    "title": "番外編（カリキュラム終わった人向け）",
+    "type": ""
+  },
+  {
+    "id": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "☑️",
+    "cover": "https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg",
+    "coverType": "external",
+    "order": 4,
+    "parentId": "1e7a501ef337805bbc4ed442525244f3",
+    "title": "数当てゲームをPythonで作ってみよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781379cadf44a28bc0617",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 8,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "「Numer0n」って何？",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef3378195ac72cd402b5d391b",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 10,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "1-1 モジュールを使ってみよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781d08bdbed9a375a9245",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 11,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "1-2 乱数を扱ってみよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781f3a70cedaf1c040177",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 12,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "1-3 無限ループを使ってみよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef337819aa15fc1cc5e64cda2",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📗",
+    "cover": "",
+    "coverType": "",
+    "order": 13,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "1-4 練習問題",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef337818c9c6dddca1f8feb10",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 15,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "2-1 正解の数字をリスト化しよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef337814e95ebc4445ff31b47",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 16,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "2-2 正解の数字を全て異なる数字にしよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef337810b9186e990e57dedc1",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📗",
+    "cover": "",
+    "coverType": "",
+    "order": 17,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "2-3 練習問題",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef337817a9e5bc6190535af2e",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 19,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "3-1 入力される数字の桁数を制限しよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef3378166a58be172fea0ca95",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 20,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "3-2 数字や桁の一致判定システムを作成しよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef3378151b8d2da01eb4c2a83",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📘",
+    "cover": "",
+    "coverType": "",
+    "order": 21,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "3-3 ゲームクリア判定を作成しよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781e4a7a8c9a25f22dcb5",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📗",
+    "cover": "",
+    "coverType": "",
+    "order": 22,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "3-4 練習問題",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781d29d15fdd984df7fc6",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📗",
+    "cover": "",
+    "coverType": "",
+    "order": 24,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "4-1 処理を待たせられるようにしよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781369cadcf4ef1c20633",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📗",
+    "cover": "",
+    "coverType": "",
+    "order": 25,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "4-2 3桁モードと4桁モードを選択できるようにしよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781e2bb62d04269f9236f",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📗",
+    "cover": "",
+    "coverType": "",
+    "order": 26,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "4-3 正解するまでにかかった回数を表示できるようにしよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1eca501ef33781198c88d6b2b00d184d",
+    "curriculumId": "1e7a501ef337805bbc4ed442525244f3",
+    "iconType": "emoji",
+    "iconUrl": "📗",
+    "cover": "",
+    "coverType": "",
+    "order": 27,
+    "parentId": "1eca501ef33780fca5bdf2a1ea7ef2ca",
+    "title": "4-4 百の位に0が使えるようにしよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "🖥️",
+    "cover": "https://images.unsplash.com/photo-1621508654686-809f23efdabc?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "coverType": "external",
+    "order": 9,
+    "parentId": "",
+    "title": "Flet の基礎",
+    "type": ""
+  },
+  {
+    "id": "1f2a501ef337814ab324f922a04c07a9",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "❔",
+    "cover": "",
+    "coverType": "",
+    "order": 2,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "0. GUIとFletについて",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378153af80dbeb43b4e269",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/playback-play_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 3,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "1. Fletのインストール",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781a49284d0a05e2c6853",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "➕",
+    "cover": "",
+    "coverType": "",
+    "order": 4,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "2. カウンターを作ってみよう",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781159ab6e102f005effc",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "🆕",
+    "cover": "",
+    "coverType": "",
+    "order": 5,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "3. ページの生成",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef337811f8cdfd048944a1a02",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/square-three-fourths_green.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 6,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "4. コントロール",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378193b91fe640fb009c46",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 7,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "Fletの練習問題1",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378105b4bdf8d00128dc56",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/cursor-button_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 8,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "5. 主要なコントロール①（ボタン系）",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781f0aa2ed10a99de4035",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/rename_gray.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 9,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "6. 主要なコントロール②（テキスト系）",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef337815ca39fee7c9b906b66",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 10,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "Fletの練習問題2",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781c09affe4634d3f7993",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/list-indent_red.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 11,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "7. コントロールのレイアウト",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef337814d9630d6bca814fb48",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 12,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "Fletの練習問題3",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378140af60f2e9ccf706c1",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/arrow-down_green.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 13,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "8. プロパティへのアクセス",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781308728e3d7c43f6ab4",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 14,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "Fletの練習問題4",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef337814f8d9ad3ff930e4a0c",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/gear_yellow.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 15,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "9. イベントハンドラとイベントオブジェクト",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378191b1e8c8bb82351594",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "",
+    "coverType": "",
+    "order": 16,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "Fletの練習問題5",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781fa8253ffa48f3563e5",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/calculator_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 21,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "電卓について",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378100a84de70c910fe58a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/calculator_orange.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 25,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "電卓アレンジ例",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781fa971eff1c96a32fe2",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "📑",
+    "cover": "",
+    "coverType": "",
+    "order": 27,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "ToDoアプリ",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781218bfdedd80b5b35ad",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "🚧",
+    "cover": "",
+    "coverType": "",
+    "order": 30,
+    "parentId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "title": "【工事中】コントロール紹介",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781839576ce0ffe742787",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "🔲",
+    "cover": "",
+    "coverType": "",
+    "order": 5,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "Container",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781f9a0daf94add8e7cc3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "📄",
+    "cover": "",
+    "coverType": "",
+    "order": 6,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "Text",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378179830cc107a72faf73",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/cursor-button_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 7,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "Button",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef337813ca777f48d0edddc2a",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/rename_gray.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 10,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "TextField",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378143a535edb6d9256710",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "✅",
+    "cover": "",
+    "coverType": "",
+    "order": 11,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "Checkbox",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378191b01dc3837805d3b3",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "custom_emoji",
+    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1f2a501ef3378191b01dc3837805d3b3/icon.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 14,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "Tabs",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef33781dd9aabc21539a0882b",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "🎨",
+    "cover": "",
+    "coverType": "",
+    "order": 17,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "Colors",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f2a501ef3378146ba46cbed686c0185",
+    "curriculumId": "1f2a501ef3378055b70de6fcbb3bbb87",
+    "iconType": "emoji",
+    "iconUrl": "😆",
+    "cover": "",
+    "coverType": "",
+    "order": 18,
+    "parentId": "1f2a501ef33781218bfdedd80b5b35ad",
+    "title": "Icons",
+    "type": "curriculum"
+  },
+  {
+    "id": "1f5a501ef3378055b23cf8b1b79b780a",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/meeting_blue.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 15,
+    "parentId": "",
+    "title": "グループワーク",
+    "type": ""
+  },
+  {
+    "id": "1f5a501ef337800ca814cda3cb32fb56",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "iconType": "emoji",
+    "iconUrl": "🐾",
+    "cover": "https://www.notion.so/images/page-cover/nasa_great_sandy_desert_australia.jpg",
+    "coverType": "external",
+    "order": 3,
+    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "title": "エラー解決クエスト - 5/16(金)",
+    "type": "curriculum"
+  },
+  {
+    "id": "207a501ef33780c483a6f976c40cd9d2",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "iconType": "emoji",
+    "iconUrl": "🖋️",
+    "cover": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "coverType": "external",
+    "order": 4,
+    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "title": "意見交換 de 復習 - 6/3, 4 (火, 水)",
+    "type": "curriculum"
+  },
+  {
+    "id": "214a501ef337805981b4fcf49cf9c102",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "iconType": "emoji",
+    "iconUrl": "🐾",
+    "cover": "https://www.notion.so/images/page-cover/woodcuts_1.jpg",
+    "coverType": "external",
+    "order": 5,
+    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "title": "エラー解決クエスト２ - 6/17, 18 (火, 水)",
+    "type": "curriculum"
+  },
+  {
+    "id": "229a501ef337803ea0bed46547063528",
+    "curriculumId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "iconType": "emoji",
+    "iconUrl": "🐾",
+    "cover": "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "coverType": "external",
+    "order": 6,
+    "parentId": "1f5a501ef3378055b23cf8b1b79b780a",
+    "title": "エラー解決クエスト３ - 7/8, 9 (火, 水)",
+    "type": "curriculum"
+  },
+  {
+    "id": "232a501ef33780c8920dc85f8ca9efde",
+    "curriculumId": "232a501ef33780c8920dc85f8ca9efde",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/home_brown.svg",
+    "cover": "",
+    "coverType": "",
+    "order": 50,
+    "parentId": "",
+    "title": "Fletの宿題",
+    "type": ""
+  },
+  {
+    "id": "232a501ef3378064a9cce16e066f0f48",
+    "curriculumId": "232a501ef33780c8920dc85f8ca9efde",
+    "iconType": "emoji",
+    "iconUrl": "🍅",
+    "cover": "https://images.unsplash.com/photo-1505705694340-019e1e335916?ixlib=rb-4.1.0\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "coverType": "external",
+    "order": 12,
+    "parentId": "232a501ef33780c8920dc85f8ca9efde",
+    "title": "回文判定アプリの手引き",
+    "type": "curriculum"
+  },
+  {
+    "id": "232a501ef3378021ab94e9762df05e86",
+    "curriculumId": "232a501ef33780c8920dc85f8ca9efde",
+    "iconType": "emoji",
+    "iconUrl": "📝",
+    "cover": "https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg",
+    "coverType": "external",
+    "order": 16,
+    "parentId": "232a501ef33780c8920dc85f8ca9efde",
+    "title": "シンプルメモアプリの手引き",
+    "type": "curriculum"
   }
 ]

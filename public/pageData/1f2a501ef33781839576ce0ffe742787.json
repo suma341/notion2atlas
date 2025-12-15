@@ -42,7 +42,7 @@
     "pageId": "1f2a501ef33781839576ce0ffe742787",
     "data": {
       "ogp": {
-        "title": "Container | Flet",
+        "title": "Flet",
         "description": "",
         "image": "",
         "icon": "https://flet.dev/img/favicon.ico"
@@ -1834,8 +1834,8 @@
     "pageId": "1f2a501ef33781839576ce0ffe742787",
     "data": {
       "ogp": {
-        "title": "Container | Flet",
-        "description": "Container allows to decorate a control with background color and border and position it with padding, margin and alignment.",
+        "title": "Flet",
+        "description": "",
         "image": "",
         "icon": "https://flet.dev/img/favicon.ico"
       },
