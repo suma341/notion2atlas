@@ -9,7 +9,7 @@
     "coverUrl": "https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
     "is_basic_curriculum": true,
     "order": 1,
-    "last_edited_time": "2025-12-04T02:44:00.000Z",
+    "last_edited_time": "2025-12-15T07:05:00.000Z",
     "update": true
   },
   {
@@ -22,8 +22,8 @@
     "coverUrl": "https://images.unsplash.com/photo-1567584032175-e3605e93b056?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
     "is_basic_curriculum": true,
     "order": 3,
-    "last_edited_time": "2025-12-04T03:01:00.000Z",
-    "update": false
+    "last_edited_time": "2025-12-15T07:05:00.000Z",
+    "update": true
   },
   {
     "id": "1aea501ef33781c38a8af99e680a3dc6",
@@ -35,8 +35,8 @@
     "coverUrl": "https://images.unsplash.com/photo-1685805576471-2d8bf78366fe?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
     "is_basic_curriculum": true,
     "order": 2,
-    "last_edited_time": "2025-12-04T03:01:00.000Z",
-    "update": false
+    "last_edited_time": "2025-12-15T07:05:00.000Z",
+    "update": true
   },
   {
     "id": "1e0a501ef3378063b111dff8a4ce1c9b",
@@ -48,7 +48,7 @@
     "coverUrl": "https://www.notion.so/images/page-cover/webb3.jpg",
     "is_basic_curriculum": false,
     "order": 4,
-    "last_edited_time": "2025-12-04T03:01:00.000Z",
-    "update": false
+    "last_edited_time": "2025-12-15T07:05:00.000Z",
+    "update": true
   }
 ]
