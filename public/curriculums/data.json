@@ -428,7 +428,8 @@
     "title": "Webアプリのガイド",
     "tag": [
       "web",
-      "HTML"
+      "HTML",
+      "サーバー"
     ],
     "visibility": [
       "発展班",
@@ -440,7 +441,7 @@
     "iconUrl": "🌐",
     "coverType": "external",
     "coverUrl": "https://www.notion.so/images/page-cover/nasa_transonic_tunnel.jpg",
-    "last_edited_time": "2025-12-16T07:06:00.000Z",
+    "last_edited_time": "2025-12-16T14:32:00.000Z",
     "update": true
   }
 ]
