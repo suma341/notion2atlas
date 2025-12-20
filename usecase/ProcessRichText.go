@@ -1,6 +1,7 @@
 package usecase
 
 import (
+	"errors"
 	"fmt"
 	"notion2atlas/domain"
 	"notion2atlas/utils"
@@ -24,8 +25,10 @@ func ProcessRichText(richTexts []domain.RichTextProperty, type_ string) ([]RichT
 	for _, it := range richTexts {
 		model, err := richTextRes2Model(it, type_)
 		if err != nil {
-			fmt.Println("error in usecase/ProcessRichText/richTextRes2Model")
-			return nil, err
+			if !errors.Is(err, domain.ErrNotionErrorResponse) {
+				fmt.Println("error in usecase/ProcessRichText/richTextRes2Model")
+				return nil, err
+			}
 		}
 		richTextModels = append(richTextModels, *model)
 	}
@@ -43,6 +46,9 @@ func richTextRes2Model(rich_text domain.RichTextProperty, type_ string) (*RichTe
 	if rich_text.Mention != nil {
 		mentionModel, err := getMentionModel(rich_text.Mention, type_)
 		if err != nil {
+			if errors.Is(err, domain.ErrNotionErrorResponse) {
+				return nil, domain.ErrNotionErrorResponse
+			}
 			fmt.Println("error in usecase/richTextRes2Model/getMentionModel")
 			return nil, err
 		}
@@ -71,6 +77,9 @@ func getMentionModel(mention *domain.MentionProperty, type_ string) (*MentionMod
 			pageId := mention.Page.Id
 			pageData, err := GetPageItem(pageId, type_)
 			if err != nil {
+				if errors.Is(err, domain.ErrNotionErrorResponse) {
+					return nil, domain.ErrNotionErrorResponse
+				}
 				fmt.Println("error in usecase/getMentionModel/GetPageItem")
 				return nil, err
 			}

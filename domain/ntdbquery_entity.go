@@ -6,16 +6,17 @@ import (
 	"strings"
 )
 
-type NTDBQueryRepository struct {
+type NtDBQueryEntity struct {
 	Id             string         `json:"id"`
 	Properties     map[string]any `json:"properties"`
 	Icon           IconProperty   `json:"icon"`
 	Cover          *CoverProperty `json:"cover"`
 	LastEditedTime string         `json:"last_edited_time"`
+	Object         string         `json:"object"` // list
 }
 
-func Res2NTDBQueryRepository(results []any) (*[]NTDBQueryRepository, error) {
-	var filtered []NTDBQueryRepository
+func Res2NtDBQueryEntity(results []any) (*[]NtDBQueryEntity, error) {
+	var filtered []NtDBQueryEntity
 	for _, item := range results {
 		objMap, ok := item.(map[string]any)
 		if !ok {
@@ -23,22 +24,33 @@ func Res2NTDBQueryRepository(results []any) (*[]NTDBQueryRepository, error) {
 		}
 		jsonBytes, err := json.Marshal(objMap)
 		if err != nil {
-			fmt.Println("error in domain/Res2NTDBQueryRepository/json.Marshal(objMap)")
+			fmt.Println("error in domain/Res2NtDBQueryEntity/json.Marshal(objMap)")
 			return nil, err
 		}
-		var obj NTDBQueryRepository
+		var obj NtObjectProbe
 		err = json.Unmarshal(jsonBytes, &obj)
 		if err != nil {
-			fmt.Println("error in domain/Res2NTDBQueryRepository/json.Unmarshal(jsonBytes, &obj)")
+			fmt.Println("error in domain/Res2NTBlockEntity/son.Unmarshal(jsonBytes, &obj)")
 			return nil, err
 		}
-		obj.Id = strings.ReplaceAll(obj.Id, "-", "")
-		filtered = append(filtered, obj)
+		if obj.Object != "error" {
+			var block NtDBQueryEntity
+			if err := json.Unmarshal(jsonBytes, &block); err != nil {
+				return nil, err
+			}
+			block.Id = strings.ReplaceAll(block.Id, "-", "")
+			filtered = append(filtered, block)
+		} else {
+			var ntErr NTErrorEntity
+			if err := json.Unmarshal(jsonBytes, &ntErr); err != nil {
+				return nil, err
+			}
+		}
 	}
 	return &filtered, nil
 }
 
-func (ntdbq NTDBQueryRepository) ToCurriculumEntity() (*CurriculumEntity, error) {
+func (ntdbq NtDBQueryEntity) ToCurriculumEntity() (*CurriculumEntity, error) {
 	id := ntdbq.Id
 	pro, err := Map2Struct[CurriculumProperties](ntdbq.Properties)
 	if err != nil {
@@ -87,7 +99,7 @@ func (ntdbq NTDBQueryRepository) ToCurriculumEntity() (*CurriculumEntity, error)
 	return &curriculum, nil
 }
 
-func (ntdbq NTDBQueryRepository) ToInfoEntity() (*InfoEntity, error) {
+func (ntdbq NtDBQueryEntity) ToInfoEntity() (*InfoEntity, error) {
 	id := ntdbq.Id
 	pro, err := Map2Struct[InfoProperties](ntdbq.Properties)
 	if err != nil {
@@ -117,7 +129,7 @@ func (ntdbq NTDBQueryRepository) ToInfoEntity() (*InfoEntity, error) {
 	}, nil
 }
 
-func (ntdbq NTDBQueryRepository) ToAnswerEntity() (*AnswerEntity, error) {
+func (ntdbq NtDBQueryEntity) ToAnswerEntity() (*AnswerEntity, error) {
 	id := ntdbq.Id
 	pro, err := Map2Struct[AnswerProperties](ntdbq.Properties)
 	if err != nil {
@@ -147,7 +159,7 @@ func (ntdbq NTDBQueryRepository) ToAnswerEntity() (*AnswerEntity, error) {
 	}, nil
 }
 
-func (ntdbq NTDBQueryRepository) ToCategoryEntity() (*CategoryEntity, error) {
+func (ntdbq NtDBQueryEntity) ToCategoryEntity() (*CategoryEntity, error) {
 	id := ntdbq.Id
 	pro, err := Map2Struct[CategoryProperties](ntdbq.Properties)
 	if err != nil {
