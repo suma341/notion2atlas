@@ -1,21 +1,22 @@
 package usecase
 
 import (
+	"errors"
 	"fmt"
 	"notion2atlas/domain"
 	"notion2atlas/gateway"
 )
 
-func GetDBQuery(id string) ([]domain.NTDBQueryRepository, error) {
+func GetDBQuery(id string) ([]domain.NtDBQueryEntity, error) {
 	var data, err = gateway.GetNotionData(domain.DBQuery, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetDBQuery/gateway.GetNotionData")
 		return nil, err
 	}
 	results := data["results"].([]any)
-	queryModel, err := domain.Res2NTDBQueryRepository(results)
+	queryModel, err := domain.Res2NtDBQueryEntity(results)
 	if err != nil {
-		fmt.Println("error in usecase/GetDBQuery/domain.Res2NTDBQueryRepository")
+		fmt.Println("error in usecase/GetDBQuery/domain.Res2NTDBQueryEntity")
 		return nil, err
 	}
 	if queryModel == nil {
@@ -24,16 +25,16 @@ func GetDBQuery(id string) ([]domain.NTDBQueryRepository, error) {
 	return *queryModel, nil
 }
 
-func GetChildDB(id string) ([]domain.NTDBQueryRepository, error) {
+func GetChildDB(id string) ([]domain.NtDBQueryEntity, error) {
 	var data, err = gateway.GetNotionData(domain.ChildDatabase, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetDBQuery/gateway.GetNotionData")
 		return nil, err
 	}
 	results := data["results"].([]any)
-	queryModel, err := domain.Res2NTDBQueryRepository(results)
+	queryModel, err := domain.Res2NtDBQueryEntity(results)
 	if err != nil {
-		fmt.Println("error in usecase/GetDBQuery/domain.Res2NTDBQueryRepository")
+		fmt.Println("error in usecase/GetDBQuery/domain.Res2NTDBQueryEntity")
 		return nil, err
 	}
 	if queryModel == nil {
@@ -43,15 +44,15 @@ func GetChildDB(id string) ([]domain.NTDBQueryRepository, error) {
 }
 
 func Test(id string) (any, error) {
-	var data, err = gateway.GetNotionData(domain.DBQuery, id)
+	var data, err = gateway.GetNotionData(domain.Block, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetDBQuery/gateway.GetNotionData")
 		return nil, err
 	}
 	// results := data["results"].([]any)
-	// queryModel, err := domain.Res2NTDBQueryRepository(results)
+	// queryModel, err := domain.Res2NTDBQueryEntity(results)
 	// if err != nil {
-	// 	fmt.Println("error in usecase/GetDBQuery/domain.Res2NTDBQueryRepository")
+	// 	fmt.Println("error in usecase/GetDBQuery/domain.Res2NTDBQueryEntity")
 	// 	return nil, err
 	// }
 	// if queryModel == nil {
@@ -60,48 +61,58 @@ func Test(id string) (any, error) {
 	return data, nil
 }
 
-func GetDBItem(id string) (*domain.NTDBRepository, error) {
+func GetDBItem(id string) (*domain.NtDBEntity, error) {
 	data, err := gateway.GetNotionData(domain.DB, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetDBItem/gateway.GetNotionData")
 		return nil, err
 	}
-	filtered, err := domain.Res2NTDBRepository(data)
+	filtered, err := domain.Res2NtDBEntity(data)
 	if err != nil {
+		if errors.Is(err, domain.ErrNotionErrorResponse) {
+			return nil, domain.ErrNotionErrorResponse
+		}
 		fmt.Println("error in usecase/GetDBItem/converter.Res2DBModel")
 		return nil, err
 	}
 	return filtered, nil
 }
 
-func GetPageItem(id string, type_ string) (*domain.NTPageRepository, error) {
+func GetPageItem(id string, type_ string) (*domain.NtPageEntity, error) {
 	data, err := gateway.GetNotionData(domain.Page, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetPageItem/gateway.GetNotionData")
 		return nil, err
 	}
-	filtered, err := domain.ResNTPageRepository(data, type_)
+	filtered, err := domain.ResNtPageEntity(data, type_)
 	if err != nil {
-		fmt.Println("error in usecase/GetPageItem/domain.ResNTPageRepositoryRepository")
-		return nil, err
-	}
-	return filtered, nil
-}
-func GetBlockItem(id string) (*domain.NTBlockRepository, error) {
-	data, err := gateway.GetNotionData(domain.Block, id)
-	if err != nil {
-		fmt.Println("error in usecase/GetBlockItem/gateway.GetNotionData")
-		return nil, err
-	}
-	filtered, err := domain.Res2NTBlockRepository(data)
-	if err != nil {
-		fmt.Println("error in usecase/GetBlockItem/domain.Res2NTBlockRepository")
+		if errors.Is(err, domain.ErrNotionErrorResponse) {
+			return nil, domain.ErrNotionErrorResponse
+		}
+		fmt.Println("error in usecase/GetPageItem/domain.ResNtPageEntityEntity")
 		return nil, err
 	}
 	return filtered, nil
 }
 
-func GetChildren(id string) ([]domain.NTBlockRepository, error) {
+func GetBlockItem(id string) (*domain.NTBlockEntity, error) {
+	data, err := gateway.GetNotionData(domain.Block, id)
+	if err != nil {
+		fmt.Println("error in usecase/GetBlockItem/gateway.GetNotionData")
+		return nil, err
+	}
+	filtered, err := domain.Res2NTBlockEntity(data)
+	if err != nil {
+		if errors.Is(err, domain.ErrNotionErrorResponse) {
+			return nil, domain.ErrNotionErrorResponse
+		}
+		fmt.Println("error in usecase/GetBlockItem/domain.Res2NTBlockEntity")
+		return nil, err
+	}
+	return filtered, nil
+}
+
+func GetChildren(id string) ([]domain.NTBlockEntity, error) {
 	data, err := gateway.GetNotionData(domain.Children, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetBlockItem/gateway.GetNotionData")
@@ -111,18 +122,19 @@ func GetChildren(id string) ([]domain.NTBlockRepository, error) {
 	if !ok {
 		return nil, fmt.Errorf("unexpected type: results")
 	}
-	var list []domain.NTBlockRepository
+	var list []domain.NTBlockEntity
 	for _, item := range results {
 		obj := item.(map[string]any)
-		blockModel, err := domain.Res2NTBlockRepository(obj)
+		blockModel, err := domain.Res2NTBlockEntity(obj)
 		if err != nil {
-			fmt.Println("error in usecase/GetBlockItem/domain.Res2NTBlockRepository")
-			return nil, err
+			if !errors.Is(err, domain.ErrNotionErrorResponse) {
+				fmt.Println("error in usecase/GetBlockItem/domain.Res2NTBlockEntity")
+				return nil, err
+			}
 		}
-		if blockModel == nil {
-			return nil, fmt.Errorf("unexpected: blockModel is nil")
+		if blockModel != nil {
+			list = append(list, *blockModel)
 		}
-		list = append(list, *blockModel)
 	}
 	return list, nil
 }

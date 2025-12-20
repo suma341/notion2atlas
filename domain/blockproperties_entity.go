@@ -7,12 +7,20 @@ type PageProperty struct {
 	Properties struct {
 		Title TitleProperty `json:"title"`
 	} `json:"properties"`
+	Object string `json:"object"`
 }
 
 type ParagraphProperty struct {
 	RichText []RichTextProperty `json:"rich_text"`
 	Color    string             `json:"color"`
 }
+
+type ToDoProperty struct {
+	RichText []RichTextProperty `json:"rich_text"`
+	Color    string             `json:"color"`
+	Checked  bool               `json:"checked"`
+}
+
 type HeaderProperty struct {
 	RichText     []RichTextProperty `json:"rich_text"`
 	Color        string             `json:"color"`

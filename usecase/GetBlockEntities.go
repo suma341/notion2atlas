@@ -1,12 +1,13 @@
 package usecase
 
 import (
+	"errors"
 	"fmt"
 	"notion2atlas/domain"
 )
 
 func GetBlockEntities(
-	res domain.NTBlockRepository,
+	res domain.NTBlockEntity,
 	buffer []domain.BlockEntity,
 	curriculumId string,
 	pageId string,
@@ -65,7 +66,7 @@ func GetBlockEntities(
 
 func appendBlock(
 	buffer []domain.BlockEntity,
-	res domain.NTBlockRepository,
+	res domain.NTBlockEntity,
 	curriculumId string,
 	pageId string,
 	i int,
@@ -81,12 +82,22 @@ func appendBlock(
 		return buffer, pageBuffer, err
 	}
 	switch res.Type {
-	case "paragraph", "quote", "toggle", "bulleted_list_item", "numbered_list_item", "to_do":
+	case "paragraph", "quote", "toggle", "bulleted_list_item", "numbered_list_item":
 		obj, ok := block.(*domain.ParagraphProperty)
 		if !ok {
 			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.ParagraphProperty)")
 		}
 		data, err = makeParagraphData(*obj, type_)
+		if err != nil {
+			fmt.Println("error in usecase/appendBlock/makeParagraphData")
+			return buffer, pageBuffer, err
+		}
+	case "to_do":
+		obj, ok := block.(*domain.ToDoProperty)
+		if !ok {
+			return buffer, pageBuffer, fmt.Errorf("type convert failed: block.(*domain.ParagraphProperty)")
+		}
+		data, err = makeToDoData(*obj, type_)
 		if err != nil {
 			fmt.Println("error in usecase/appendBlock/makeParagraphData")
 			return buffer, pageBuffer, err
@@ -148,6 +159,9 @@ func appendBlock(
 		}
 		data, err = makeLinkToPageData(*obj, type_)
 		if err != nil {
+			if errors.Is(err, domain.ErrNotionErrorResponse) {
+				return buffer, pageBuffer, nil
+			}
 			fmt.Println("error in usecase/appendBlock/makeLinkToPageData")
 			return buffer, pageBuffer, err
 		}
@@ -195,13 +209,19 @@ func appendBlock(
 	case "child_database":
 		data, err = makeChildDatabaseData(res.Id)
 		if err != nil {
+			if errors.Is(err, domain.ErrNotionErrorResponse) {
+				return buffer, pageBuffer, nil
+			}
 			fmt.Println("error in usecase/appendBlock/makeChildDatabaseData")
 			return buffer, pageBuffer, err
 		}
 	case "child_page":
-		var pageDataAddress *domain.NTPageRepository
+		var pageDataAddress *domain.NtPageEntity
 		data, pageDataAddress, err = makeChildPageData(res.Id, type_)
 		if err != nil {
+			if errors.Is(err, domain.ErrNotionErrorResponse) {
+				return buffer, pageBuffer, nil
+			}
 			fmt.Println("error in usecase/appendBlock/makeChildPageData")
 			return buffer, pageBuffer, err
 		}

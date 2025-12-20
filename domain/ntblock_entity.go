@@ -6,18 +6,19 @@ import (
 	"strings"
 )
 
-type NTBlockRepository struct {
+type NTBlockEntity struct {
 	Id          string     `json:"id"`
 	Type        string     `json:"type"`
 	HasChildren bool       `json:"has_children"`
 	Parent      ParentData `json:"parent"`
+	Object      string     `json:"object"` //block or list
 	// types
 	Paragraph        *ParagraphProperty  `json:"paragraph,omitempty"`
 	Quote            *ParagraphProperty  `json:"quote,omitempty"`
 	Toggle           *ParagraphProperty  `json:"toggle,omitempty"`
 	BulletedListItem *ParagraphProperty  `json:"bulleted_list_item,omitempty"`
 	NumberedListItem *ParagraphProperty  `json:"numbered_list_item,omitempty"`
-	ToDo             *ParagraphProperty  `json:"ToDo,omitempty"`
+	ToDo             *ToDoProperty       `json:"to_do,omitempty"`
 	Heading1         *HeaderProperty     `json:"heading_1,omitempty"`
 	Heading2         *HeaderProperty     `json:"heading_2,omitempty"`
 	Heading3         *HeaderProperty     `json:"heading_3,omitempty"`
@@ -40,7 +41,7 @@ type ParentData struct {
 	Type       string  `json:"type"`
 }
 
-func (b NTBlockRepository) GetParentId() (string, error) {
+func (b NTBlockEntity) GetParentId() (string, error) {
 	switch b.Parent.Type {
 	case "page_id":
 		return strings.ReplaceAll(*b.Parent.PageId, "-", ""), nil
@@ -52,18 +53,32 @@ func (b NTBlockRepository) GetParentId() (string, error) {
 	return "", fmt.Errorf("unexpected parent type")
 }
 
-func Res2NTBlockRepository(res map[string]any) (*NTBlockRepository, error) {
+func Res2NTBlockEntity(res map[string]any) (*NTBlockEntity, error) {
 	jsonBytes, err := json.Marshal(res)
 	if err != nil {
-		fmt.Println("error in domain/Res2NTBlockRepository/json.Marshal(res)")
+		fmt.Println("error in domain/Res2NTBlockEntity/json.Marshal(res)")
 		return nil, err
 	}
-	var obj NTBlockRepository
+	var obj NtObjectProbe
 	err = json.Unmarshal(jsonBytes, &obj)
 	if err != nil {
-		fmt.Println("error in domain/Res2NTBlockRepository/son.Unmarshal(jsonBytes, &obj)")
+		fmt.Println("error in domain/Res2NTBlockEntity/son.Unmarshal(jsonBytes, &obj)")
 		return nil, err
 	}
-	obj.Id = strings.ReplaceAll(obj.Id, "-", "")
-	return &obj, nil
+	switch obj.Object {
+	case "block":
+		var block NTBlockEntity
+		if err := json.Unmarshal(jsonBytes, &block); err != nil {
+			return nil, err
+		}
+		block.Id = strings.ReplaceAll(block.Id, "-", "")
+		return &block, nil
+	case "error":
+		var ntErr NTErrorEntity
+		if err := json.Unmarshal(jsonBytes, &ntErr); err != nil {
+			return nil, err
+		}
+		return nil, ErrNotionErrorResponse
+	}
+	return nil, fmt.Errorf("unexpected: object type is Neither block or error")
 }

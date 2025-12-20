@@ -1,6 +1,7 @@
 package usecase
 
 import (
+	"errors"
 	"fmt"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
@@ -16,6 +17,20 @@ func makeParagraphData(para domain.ParagraphProperty, type_ string) (map[string]
 	data := map[string]any{
 		"color":  para.Color,
 		"parent": richTextModels,
+	}
+	return data, nil
+}
+
+func makeToDoData(todo domain.ToDoProperty, type_ string) (map[string]any, error) {
+	richTextModels, err := ProcessRichText(todo.RichText, type_)
+	if err != nil {
+		fmt.Println("error in usecase/makeParagraphData/ProcessRichText")
+		return nil, err
+	}
+	data := map[string]any{
+		"color":   todo.Color,
+		"parent":  richTextModels,
+		"checked": todo.Checked,
 	}
 	return data, nil
 }
@@ -111,9 +126,12 @@ func makeTableRowData(table_row domain.TableRowProperty, type_ string) ([][]Rich
 	return cells, nil
 }
 
-func makeChildPageData(pageId string, type_ string) (map[string]any, *domain.NTPageRepository, error) {
+func makeChildPageData(pageId string, type_ string) (map[string]any, *domain.NtPageEntity, error) {
 	pageDataAddress, err := GetPageItem(pageId, type_)
 	if err != nil {
+		if errors.Is(err, domain.ErrNotionErrorResponse) {
+			return nil, nil, domain.ErrNotionErrorResponse
+		}
 		fmt.Println("error in usecase/makeChildPageData/GetPageItem")
 		return nil, nil, err
 	}
@@ -132,7 +150,7 @@ func makeChildPageData(pageId string, type_ string) (map[string]any, *domain.NTP
 		"iconUrl":  urls.IconUrl,
 		"coverUrl": urls.CoverUrl,
 	}
-	pageRepo := domain.NTPageRepository{
+	pageRepo := domain.NtPageEntity{
 		Id:        pageDataAddress.Id,
 		IconUrl:   urls.IconUrl,
 		IconType:  pageDataAddress.IconType,
@@ -148,6 +166,9 @@ func makeLinkToPageData(link_to_page domain.LinkToPageProperty, type_ string) (m
 	link := "/posts/curriculums/" + pageId
 	pageData, err := GetPageItem(pageId, type_)
 	if err != nil {
+		if errors.Is(err, domain.ErrNotionErrorResponse) {
+			return nil, domain.ErrNotionErrorResponse
+		}
 		fmt.Println("error in usecase/makeLinkToPageData/GetPageItem")
 		return nil, err
 	}
@@ -206,6 +227,9 @@ func makeSyncedBlockData(syncedBlock domain.SyncedProperty) string {
 func makeChildDatabaseData(database_id string) (map[string]any, error) {
 	dbData, err := GetDBItem(database_id)
 	if err != nil {
+		if errors.Is(err, domain.ErrNotionErrorResponse) {
+			return nil, domain.ErrNotionErrorResponse
+		}
 		fmt.Println("error in usecase/makeChildDatabaseData/GetDBItem")
 		return nil, err
 	}
