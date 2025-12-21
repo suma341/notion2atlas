@@ -1,0 +1,952 @@
+[
+  {
+    "id": "2c7a501ef337808ca5a2d0de72bd84ae",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリとは、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリとは、インターネットを通じてWebブラウザ上で利用できるアプリのことです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2c7a501ef3378061a94ff0cb85efd5a2",
+    "type": "divider",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "2c7a501ef3378017ac9ff01b986b243a",
+    "type": "heading_3",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリの例：",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "2c7a501ef33780e4b105de650f4c2147",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Google検索",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "2c7a501ef33780eaa5aadc9b488a31c5",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "YouTube",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "2c7a501ef33780b692b9ec95558db42f",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "X (Twitter)",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "2c7a501ef33780cfa722db07208c6634",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Amazon",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "2c7a501ef33780369502e802601db993",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ChatGPT",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "2c8a501ef3378045aaa1d972b2c61c02",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Gemini",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "2c7a501ef33780569d03eed23da0ebb3",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webブラウザ上で動くアプリは全てWebアプリです",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "2c7a501ef337807da82dd997ec91942a",
+    "type": "heading_2",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webブラウザとは",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "2c7a501ef33780809b83ef5579317aff",
+    "type": "divider",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": "_",
+    "order": 11
+  },
+  {
+    "id": "2c7a501ef33780789798e33051158592",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ブラウザとは、WEBサイトを閲覧するために使うソフトのことです。いま、あなたがこのページを見ているソフトが「ブラウザ」に当たります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "2c7a501ef3378059acf9dbdaab03d577",
+    "type": "callout",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "gray_background",
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/command-line_gray.svg"
+        }
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webブラウザの例",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "2c7a501ef337800d8e87eb1ece5de1b8",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378059acf9dbdaab03d577",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、Google ChromeやsafariやMicrosoft edgeなど",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2c7a501ef337805e9bd1d72e93fdc793",
+    "type": "image",
+    "parentId": "2c7a501ef3378059acf9dbdaab03d577",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/2c7a501ef3378027b627d12ad61e4a21/2c7a501ef337805e9bd1d72e93fdc793.png"
+    },
+    "order": 1
+  },
+  {
+    "id": "2c7a501ef33780fd858fd2b4bbed8099",
+    "type": "heading_2",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリの仕組み（超ざっくり）",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "2c7a501ef33780e4aef6e8fc2633339a",
+    "type": "divider",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": "_",
+    "order": 15
+  },
+  {
+    "id": "2c7a501ef33780c09b7ae2b819a00c51",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリは、多くの場合 ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「フロントエンド」「バックエンド」",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "で構成されています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "2c7a501ef337803b8ed9e10b2621a532",
+    "type": "heading_3",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フロントエンド",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "2c7a501ef3378044b101d35cd8491699",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "フロントエンドはユーザーが画面で直接見ることができる部分です。つまりブラウザで動作する部分です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "2c7a501ef33780b990fecff15e1101eb",
+    "type": "heading_3",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "バックエンド",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "2c7a501ef33780918923c3b8cd3b74ce",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "バックエンドはユーザーが見ることのできない部分です。ブラウザではなく、サーバーと呼ばれるネットワークの向こう側で動くコンピュータで処理される部分です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "2c7a501ef337807685eee0272c1299b7",
+    "type": "callout",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "orange_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "つまり、ブラウザ上での処理をフロントエンド、サーバー上での処理をバックエンドと呼びます",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "2c7a501ef33780d2a948c70113f60526",
+    "type": "image",
+    "parentId": "2c7a501ef337807685eee0272c1299b7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/2c7a501ef3378027b627d12ad61e4a21/2c7a501ef33780d2a948c70113f60526.png"
+    },
+    "order": 0
+  },
+  {
+    "id": "2c7a501ef33780189c99d2cbe1cba67f",
+    "type": "heading_2",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webアプリの特徴",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "2c7a501ef33780d6a2e0d106333ed399",
+    "type": "divider",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": "_",
+    "order": 23
+  },
+  {
+    "id": "2c7a501ef3378011af90e3d933a89302",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "インストール不要（ブラウザがあれば使える）",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "2c7a501ef33780988ff2d6c113795b75",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "PC・スマホどちらでも使える",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "2c7a501ef33780758b6ccffdd2169665",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "更新時にユーザー側の作業が不要（開発者がサーバーを更新すればOK）",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "2c7a501ef33780ff9bbae4696a9022d7",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "URLだけで共有できる",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "2c7a501ef3378060aae4f9767df58dd4",
+    "type": "heading_2",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なぜWebアプリが使われるのか",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "2c7a501ef33780549486eac9e98362cb",
+    "type": "divider",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": "_",
+    "order": 29
+  },
+  {
+    "id": "2c7a501ef33780319d64c6f40ccc4870",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "開発コストが比較的低い",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "2c7a501ef3378022ab33e7af1deba64c",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "配布が簡単（審査が要らない）",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "2c7a501ef33780f18b58e4ab81301641",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "アップデートがすぐ反映される",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "2c7a501ef33780679b0fc633bbb8c201",
+    "type": "bulleted_list_item",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "多くの人に届きやすい",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "2c8a501ef337806eb5aee13004b18a6e",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 34
+  },
+  {
+    "id": "2c8a501ef33780198ba2e36ede2433a4",
+    "type": "divider",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": "_",
+    "order": 35
+  },
+  {
+    "id": "2c8a501ef337809ba076f96cc826c7d8",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webサーバーについて",
+          "href": "/posts/curriculums/2c7a501ef337804eb393f2b6b1123ac7",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/server_blue.svg",
+              "title": "Webサーバーについて"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "2c8a501ef33780bba644c4a0e9122742",
+    "type": "paragraph",
+    "parentId": "2c7a501ef3378027b627d12ad61e4a21",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef3378027b627d12ad61e4a21",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 37
+  }
+]

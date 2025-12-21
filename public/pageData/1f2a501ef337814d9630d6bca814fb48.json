@@ -808,7 +808,7 @@
     "data": {
       "ogp": {
         "title": "Page | Flet",
-        "description": "Page is a container for View controls.",
+        "description": "",
         "image": "",
         "icon": "https://flet.dev/img/favicon.ico"
       },

@@ -1,0 +1,419 @@
+[
+  {
+    "id": "2c7a501ef3378087a4eafd5434a74bdd",
+    "type": "heading_2",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "サーバーとは",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2c7a501ef337808ba6a4fcad48934cbb",
+    "type": "divider",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": "_",
+    "order": 1
+  },
+  {
+    "id": "2c7a501ef33780e48f70c16e026970e0",
+    "type": "paragraph",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "サーバーとは、「サービスを提供する役割を持つコンピューター」のことです。「サービスをする（Serve）」から サーバー（Server）です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "2c8a501ef33780aebaead17b31443c2d",
+    "type": "paragraph",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "サービスを受ける機器を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "クライアント",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言います。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "2c7a501ef33780c7a889d0b1d197d3a7",
+    "type": "heading_2",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webサーバーとは",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "2c7a501ef337806ea55df112a6dd2722",
+    "type": "divider",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": "_",
+    "order": 5
+  },
+  {
+    "id": "2c7a501ef33780a9b120c669a1588fb6",
+    "type": "paragraph",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webサーバとは、サーバーの中でも、HTTP通信という方法でネットワークを通じてHTMLやオブジェクトの表示サービスを提供するサーバーのことです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "2c7a501ef33780279f6eed79f455f65b",
+    "type": "paragraph",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "サーバーは常に待機していて、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "「クライアント（ブラウザ）」からの通信を受け取って動きます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "2c8a501ef337806da5c5d9b6031a3ff3",
+    "type": "image",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/2c7a501ef337804eb393f2b6b1123ac7/2c8a501ef337806da5c5d9b6031a3ff3.png"
+    },
+    "order": 8
+  },
+  {
+    "id": "2c7a501ef337806ba049d15eea3bcd34",
+    "type": "heading_2",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "サーバーへのアクセス",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "2c7a501ef33780f4afd4e36e100aeebe",
+    "type": "divider",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": "_",
+    "order": 10
+  },
+  {
+    "id": "2c7a501ef3378058a30ada41d3f6d956",
+    "type": "paragraph",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "サーバーに何かを求めることを",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リクエスト",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言います",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "2c8a501ef337808798f6f9918a835917",
+    "type": "paragraph",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例えば、YouTubeの動画を再生できたり、Xの投稿を見られたりするのは、サーバーにあるリソース（動画や投稿）をブラウザがリクエストし、サーバーが返答した結果です。このサーバーの返答を",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "レスポンス",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "と言います",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "2c8a501ef337808181a5e0b619822a46",
+    "type": "image",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/2c7a501ef337804eb393f2b6b1123ac7/2c8a501ef337808181a5e0b619822a46.png"
+    },
+    "order": 13
+  },
+  {
+    "id": "2c8a501ef3378047abc5c415d55b8675",
+    "type": "divider",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": "_",
+    "order": 14
+  },
+  {
+    "id": "2c8a501ef33780779fa0fee737b7dcc0",
+    "type": "paragraph",
+    "parentId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c7a501ef337804eb393f2b6b1123ac7",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "URLについて",
+          "href": "/posts/curriculums/2c8a501ef33780b0958cfbe4315cd0f2",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/username_blue.svg",
+              "title": "URLについて"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  }
+]

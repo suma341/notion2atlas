@@ -9,7 +9,7 @@
     "coverUrl": "https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
     "is_basic_curriculum": true,
     "order": 1,
-    "last_edited_time": "2025-12-04T02:44:00.000Z",
+    "last_edited_time": "2025-12-15T09:30:00.000Z",
     "update": true
   },
   {
@@ -22,8 +22,8 @@
     "coverUrl": "https://images.unsplash.com/photo-1567584032175-e3605e93b056?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
     "is_basic_curriculum": true,
     "order": 3,
-    "last_edited_time": "2025-12-04T03:01:00.000Z",
-    "update": false
+    "last_edited_time": "2025-12-15T09:30:00.000Z",
+    "update": true
   },
   {
     "id": "1aea501ef33781c38a8af99e680a3dc6",
@@ -35,8 +35,8 @@
     "coverUrl": "https://images.unsplash.com/photo-1685805576471-2d8bf78366fe?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
     "is_basic_curriculum": true,
     "order": 2,
-    "last_edited_time": "2025-12-04T03:01:00.000Z",
-    "update": false
+    "last_edited_time": "2025-12-15T09:30:00.000Z",
+    "update": true
   },
   {
     "id": "1e0a501ef3378063b111dff8a4ce1c9b",
@@ -48,7 +48,20 @@
     "coverUrl": "https://www.notion.so/images/page-cover/webb3.jpg",
     "is_basic_curriculum": false,
     "order": 4,
-    "last_edited_time": "2025-12-04T03:01:00.000Z",
-    "update": false
+    "last_edited_time": "2025-12-15T09:30:00.000Z",
+    "update": true
+  },
+  {
+    "id": "2cba501ef3378093a839e6ee939ca052",
+    "title": "Webコース",
+    "description": "Webに関連する知識が集まっています。Webアプリに入門したい人はまずはここから！",
+    "iconType": "file",
+    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/2cba501ef3378093a839e6ee939ca052/icon.png?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Credential=ASIAZI2LB4663R5CGEW7%2F20251216%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20251216T070239Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH9YbyYPiDcVfk6YhaaRKvzjMPLJXX%2FqZN3s1JbTPT1eAiEAuwekSQiBAXEqsRnOk0iY3KyCK%2FUNfJjL4Ndf01mWJBEq%2FwMIXxAAGgw2Mzc0MjMxODM4MDUiDHl5riFcvvIREqyZVyrcA6ccvR5oa9S%2Bk6J1XXpZmwj0lyyP5KJilw%2FuT6yQMTFKrolaqnm0jTbKgwfKoVrdOailH1kIqfsMtGQ4kyFWJGcXyI5gz19lQBPW6lvN7xT5QDmLt8TknB0wB9o0R5ZQw2BQLCz6Di9bm7MIrIfzvJzDtT%2FKrr2wPeqjLNCYGcyAe3IIWt03drGscZ5QhQjXj%2F5C8l%2FTQyywmkTkZOfFpL0C6A0FW4nO332sollvdhJH%2B7yN%2BAQ197Oq82NfvszOLgaWbSp%2FBZKXT40Q93rwyS6pClRcIAaNpfwKSmoD8xD6%2BY2GTjhlMGu4iCLC%2FqDEBaM1U0AXT0f36YCpknl3lpmuD%2FtXUwecggPwKRZOvCDgZN4P%2F5%2B%2BQwuaQt9Bvw7sRnOBAHiIfrTFtacUI7Rc4wVURer%2BEttho7YnWUl7noMB1D2SxhBkncdtIlDuxpdejBJasluI80yobeVyO01zio0sOMzc79RgzRmhudMDlKz1iiskP1wIvYPpks31Q%2FTXEkMxf0f9phWW7rCu33fqIobQyyae6uJXqVf9JlRAB0tw%2F%2Bye0eCfA0YTT%2F4bqGPJTOC2OlYeDKEosN6p0dS4qMc7OlVBmUqVitJ1gpK0v8NMsoLUO56%2FBAXBgWOGMJDxg8oGOqUBpYM1auSZ2ZwFTGMazpSmkynLJycF46dPzNECmReYwxi%2BOWSeBuvTuGr2ZYB2s%2BrzZlWspuqQjQs0idaExUn4PcUNWH4hsHtoACzutcANaDDJ9bLunr4VbzlkPljm81QmFIYKg%2F22bMFNSABmoNk0VlzUlNeZPYiRtkvFOxpcQgZwt1xfycRzS8I%2BacIoOhyGpW%2FuEYb3nEKfg9VSKQ09kzMqSrvR\u0026X-Amz-Signature=e0b8943aa46cdd761d2166416f3698139552fcd399a43762ab52b3108436735a\u0026X-Amz-SignedHeaders=host\u0026x-amz-checksum-mode=ENABLED\u0026x-id=GetObject",
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk.jpg",
+    "is_basic_curriculum": false,
+    "order": 5,
+    "last_edited_time": "2025-12-16T07:01:00.000Z",
+    "update": true
   }
 ]

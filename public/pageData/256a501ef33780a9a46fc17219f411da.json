@@ -211,6 +211,48 @@
     "order": 10
   },
   {
+    "id": "2c3a501ef33780cf9a87d90191b07681",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/new-document_orange.svg",
+      "parent": "Push時のコマンドについて"
+    },
+    "order": 11
+  },
+  {
+    "id": "2c3a501ef33780bd9acaf29783b9d4f8",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/archive_orange.svg",
+      "parent": "ステージとコミットについて"
+    },
+    "order": 12
+  },
+  {
+    "id": "2c4a501ef3378035bc9ecd0f750c8309",
+    "type": "child_page",
+    "parentId": "256a501ef33780a9a46fc17219f411da",
+    "curriculumId": "256a501ef33780a9a46fc17219f411da",
+    "pageId": "256a501ef33780a9a46fc17219f411da",
+    "data": {
+      "coverUrl": "",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/database_orange.svg",
+      "parent": "リポジトリについて"
+    },
+    "order": 13
+  },
+  {
     "id": "273a501ef337807dad51ea377d446b60",
     "type": "child_page",
     "parentId": "256a501ef33780a9a46fc17219f411da",
@@ -218,11 +260,11 @@
     "pageId": "256a501ef33780a9a46fc17219f411da",
     "data": {
       "coverUrl": "",
-      "iconType": "emoji",
-      "iconUrl": "🔴",
+      "iconType": "external",
+      "iconUrl": "https://www.notion.so/icons/bomb_orange.svg",
       "parent": "not a git repositoryエラーについて"
     },
-    "order": 11
+    "order": 14
   },
   {
     "id": "277a501ef337803f80fafe3935956112",
@@ -234,6 +276,6 @@
       "color": "default",
       "parent": []
     },
-    "order": 12
+    "order": 15
   }
 ]

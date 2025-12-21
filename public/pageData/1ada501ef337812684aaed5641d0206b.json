@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "1ada501ef3378108ba5ed2e192db2387",
+    "type": "divider",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": "_",
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781ad8468e533cc88eea7",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "みなさんは、パソコン・スマホでメモを取ったり、授業内容をまとめたりするときはどうしていますか？",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "1ada501ef3378190bca4db185a461182",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "標準のメモアプリを使ったり、Wordを使ったりしているかもしれません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 2
+  },
+  {
+    "id": "1ada501ef337817d8c8af4c585ebeb27",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "しかし、そのようなアプリは使い勝手が悪かったり、起動に時間がかかったりすることが多いです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "1ada501ef33781fc91c4d697a8a85d47",
+    "type": "callout",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "☝"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "そこで出てくるのが ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notion ",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "というサービスです！",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "1ada501ef33781589db0db9940db581b",
+    "type": "image",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "parent": [],
+      "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/public/assets/1ada501ef337812684aaed5641d0206b/1ada501ef33781589db0db9940db581b.png"
+    },
+    "order": 5
+  },
+  {
+    "id": "1ada501ef3378163a824ea9790182c46",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notionにはメモに留まらない便利な機能がたくさん搭載されたサービスです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "1ada501ef3378102bccbc98a36bd455f",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notionを使うと、いろいろな場所に分散してしまいがちなメモを一箇所にわかりやすくまとめておけるのです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "1ada501ef33781739e02c1eaa62495e0",
+    "type": "bookmark",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "ogp": {
+        "title": "あなたのニーズを叶えるAIワークスペース。| Notion (ノーション)",
+        "description": "カスタムエージェントの構築やすべてのアプリを横断する情報検索、面倒な作業の自動化を行えるAIワークスペースで、チームはより多くの作業をスピーディにこなせます。",
+        "image": "https://www.notion.com/front-static/meta/mwn-og-image.png",
+        "icon": "https://www.notion.com/front-static/favicon.ico"
+      },
+      "parent": [],
+      "url": "https://www.notion.so/ja"
+    },
+    "order": 8
+  },
+  {
+    "id": "1ada501ef33781d69389e75e336a7835",
+    "type": "heading_2",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なんでNotionを使うの？",
+          "href": null
+        }
+      ]
+    },
+    "order": 9
+  },
+  {
+    "id": "1ada501ef337813daf4dea5e4e15a90b",
+    "type": "divider",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": "_",
+    "order": 10
+  },
+  {
+    "id": "1ada501ef33781bcbb01ee48da0a08ad",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Horizonでは、後期後半からチーム開発・ハッカソンに取り組んでいきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "1ada501ef337811eb5dcf0c65d5ed33b",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "このとき、作成するアプリ/サービスに関する設計情報や進捗などの資料を、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "できるだけ早く、そしてわかりやすく",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作成して、チーム内で",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "共有",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "しなければいけません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "1ada501ef33781d1a874e2bd023b8494",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "この",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "1ada501ef33781d3b1b4ed15b1a65a52",
+    "type": "numbered_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "早く",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "1ada501ef33781cb88aedc5897174d13",
+    "type": "numbered_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "わかりやすく",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "1ada501ef33781aca8fcf34dca466227",
+    "type": "numbered_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "共有",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "1ada501ef33781e9a7ddc9f61ab7eab4",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "の3点を併せ持つサービスが、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notion",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なのです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "1ada501ef33781e88fbcea4ebcf57169",
+    "type": "heading_2",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notionの使用例",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "1ada501ef337815da0cdf2e10a1d20e7",
+    "type": "divider",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": "_",
+    "order": 19
+  },
+  {
+    "id": "1ada501ef33781f9ad86c367910ebf13",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "カリキュラム、資料作成",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "1ada501ef33781bdb332c2ce47089211",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "授業内容のメモ",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "1ada501ef3378112a4c4c4a944128cf0",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "議事録",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "1ada501ef337812e8135f64d2f349837",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "タスク管理",
+          "href": null
+        }
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "1ada501ef3378140bc7bc13a2310248c",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "予定表",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "1ada501ef337812989cafdfa4ddc1dc4",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "仕様書",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "1ada501ef33781119631f0af723a6e4c",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ホームページ",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "1ada501ef3378146894dc778600c2bc1",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "etc…",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "1ada501ef33781df9541e0900716c84f",
+    "type": "callout",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "blue_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "☝"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "もちろん、これだけではありません。Notionの持つ可能性は無限大です！",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "1ada501ef337817f86bee6bc67c35d52",
+    "type": "heading_2",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notionの特徴",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "1ada501ef33781b0ae65d9aac49a6931",
+    "type": "divider",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": "_",
+    "order": 30
+  },
+  {
+    "id": "1ada501ef33781f39573cff3d30d8b92",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "完全クラウドサービス",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "1ada501ef337816584d0fb4c43d057a0",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781f39573cff3d30d8b92",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "作業データはリアルタイムにインターネット上のサーバーに保存されるので、セーブ忘れでデータがなくなる心配がありません",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef337811ca48ee2ea1ad54e08",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "洗練されたレイアウト",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "1ada501ef33781a6accbfd7222dd9343",
+    "type": "paragraph",
+    "parentId": "1ada501ef337811ca48ee2ea1ad54e08",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Notionでは何も考えなくても文字のレイアウトがいい感じに調整されます。Wordのようなピクセル・文字数単位での細かい設定は不要です",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781109cb7f6da12f2473e",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "複数人でのコラボレーション",
+          "href": null
+        }
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "1ada501ef337815f9b61fc9cc01abc37",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781109cb7f6da12f2473e",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "インターネットを介して複数人でリアルタイムに作業を行うことができます",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef33781e88fa3ca55964e5438",
+    "type": "bulleted_list_item",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": true,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベース搭載",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  },
+  {
+    "id": "1ada501ef33781299203d72010f038ec",
+    "type": "paragraph",
+    "parentId": "1ada501ef33781e88fa3ca55964e5438",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "データベースによって大量のデータの整理も簡単になります",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "1ada501ef337813d81f4d412423184b7",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 35
+  },
+  {
+    "id": "1ada501ef3378126b39bcab10bb19784",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "はじめからすべての特徴を生かしてNotionを使うことは難しいかもしれません。",
+          "href": null
+        }
+      ]
+    },
+    "order": 36
+  },
+  {
+    "id": "1ada501ef33781bdb9bfc63e873c8723",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "一緒に少しづつ使えるようになっていきましょう！",
+          "href": null
+        }
+      ]
+    },
+    "order": 37
+  },
+  {
+    "id": "1ada501ef33781ec8670eced5a9a0066",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "次のページからは、Notionの具体的な使用方法を案内していきます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 38
+  },
+  {
+    "id": "1ada501ef33781db882cf05ee6f713a8",
+    "type": "paragraph",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": {
+      "color": "default",
+      "parent": []
+    },
+    "order": 39
+  },
+  {
+    "id": "1ada501ef337814e928af516f326446c",
+    "type": "synced_block",
+    "parentId": "1ada501ef337812684aaed5641d0206b",
+    "curriculumId": "1ada501ef33781428531e12a83e0195b",
+    "pageId": "1ada501ef337812684aaed5641d0206b",
+    "data": "119a501e-f337-80f4-8603-e98716459a8b",
+    "order": 40
+  }
+]

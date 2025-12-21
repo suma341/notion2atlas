@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "2c8a501ef337800196ccc337ab1f3484",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTTPとは通信のルールのようなもので、Webアプリは基本的にHTTPというルールで通信しています。このネットワーク通信でのルールをプロトコルと言います。HTTPはプロトコルの一種です。",
+          "href": null
+        }
+      ]
+    },
+    "order": 0
+  },
+  {
+    "id": "2c8a501ef337802fa1edfe35f8df2e47",
+    "type": "heading_2",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "なぜプロトコルが必要か",
+          "href": null
+        }
+      ]
+    },
+    "order": 1
+  },
+  {
+    "id": "2c8a501ef3378005b089ecee13a5c036",
+    "type": "divider",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": "_",
+    "order": 2
+  },
+  {
+    "id": "2c8a501ef337806a82c9f442ae221f28",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "コンピュータ同士が勝手な形式でデータを送ったら——",
+          "href": null
+        }
+      ]
+    },
+    "order": 3
+  },
+  {
+    "id": "2c8a501ef337806f84fcd25a164ff3e1",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "片方は JSON",
+          "href": null
+        }
+      ]
+    },
+    "order": 4
+  },
+  {
+    "id": "2c8a501ef33780779f70d3f0864ab7f5",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "片方はバイナリ",
+          "href": null
+        }
+      ]
+    },
+    "order": 5
+  },
+  {
+    "id": "2c8a501ef337806c80a6d2529d7593c0",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "といったことになりかねず、意思疎通ができないです。人間同士が共通の言語がないと話せないのと同じようなものです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 6
+  },
+  {
+    "id": "2c8a501ef337803a8e95df75456dcdbf",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webでのネット通信はHTTPによってデータの形式が決められています。",
+          "href": null
+        }
+      ]
+    },
+    "order": 7
+  },
+  {
+    "id": "2c8a501ef33780d4b694e612b3851201",
+    "type": "heading_2",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "リクエスト",
+          "href": null
+        }
+      ]
+    },
+    "order": 8
+  },
+  {
+    "id": "2c8a501ef337804889a9e1b765b08203",
+    "type": "divider",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": "_",
+    "order": 9
+  },
+  {
+    "id": "2c8a501ef33780d4b7adefe09174e850",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "HTTPでは、クライアントがサーバーにリクエストするには",
+          "href": null
+        }
+      ]
+    },
+    "order": 10
+  },
+  {
+    "id": "2c8a501ef33780c3b8c3e52ada07886c",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "URL（どこに送りたいのか）",
+          "href": null
+        }
+      ]
+    },
+    "order": 11
+  },
+  {
+    "id": "2c8a501ef33780159bd4f2840f1d5cd9",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "メソッド（何をしたいのか）",
+          "href": null
+        }
+      ]
+    },
+    "order": 12
+  },
+  {
+    "id": "2c8a501ef337808e9886ec8fede6b8d3",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ボディ（必要なデータ）",
+          "href": null
+        }
+      ]
+    },
+    "order": 13
+  },
+  {
+    "id": "2c8a501ef337800eb490cedd30581dd4",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "ヘッダ（認証情報など）",
+          "href": null
+        }
+      ]
+    },
+    "order": 14
+  },
+  {
+    "id": "2c8a501ef33780fca8d8db26aeeb9a81",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "を送ります",
+          "href": null
+        }
+      ]
+    },
+    "order": 15
+  },
+  {
+    "id": "2c8a501ef337807eb887c93dec7a82d2",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例（ログイン）：",
+          "href": null
+        }
+      ]
+    },
+    "order": 16
+  },
+  {
+    "id": "2c8a501ef33780eab915d04508e52df6",
+    "type": "code",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "POST /api/login\nemail=aaa@test.com\npassword=1234",
+          "href": null
+        }
+      ]
+    },
+    "order": 17
+  },
+  {
+    "id": "2c8a501ef337803689a0ea18b7a34382",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "POST",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（データの送信）がメソッドで、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "/api/login",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "がURL、email,passwordは送信するデータです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 18
+  },
+  {
+    "id": "2c8a501ef33780afa96cd24a1d3edba7",
+    "type": "callout",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "orange_background",
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "つまり、この場合",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "/api/login",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "という場所に、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "email=aaa@test.com password=1234",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "というデータの送信（POST）をしたいということです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 19
+  },
+  {
+    "id": "2c8a501ef337805c8b25d32eae0e0480",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "メソッドには、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "GET",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（データの取得）、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "POST",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（データの送信）、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "UPDATE",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（データの更新）、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "DELETE",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "（データの削除）などがあります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 20
+  },
+  {
+    "id": "2c8a501ef33780dab958dcb053ac0898",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "この形式によって、どこに求めるか、何をしたいか、何を送るか、がわかります。",
+          "href": null
+        }
+      ]
+    },
+    "order": 21
+  },
+  {
+    "id": "2c8a501ef337808eb65dcfe01a137b80",
+    "type": "heading_2",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "is_toggleable": false,
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "レスポンス",
+          "href": null
+        }
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "2c8a501ef33780c9a0bcfc4156f805ef",
+    "type": "divider",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": "_",
+    "order": 23
+  },
+  {
+    "id": "2c8a501ef33780b78f81f5bf7c959194",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "レスポンスには：",
+          "href": null
+        }
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "2c8a501ef33780eb95fcc04048555922",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "結果データ（HTML / JSON など）",
+          "href": null
+        }
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "2c8a501ef33780dcb300d3ee18f663f6",
+    "type": "bulleted_list_item",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "成功・失敗の情報（ステータスコード）",
+          "href": null
+        }
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "2c8a501ef3378076a3bcfd3466411af4",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "が含まれます。",
+          "href": null
+        }
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "2c8a501ef33780adb19ee7bf710abeb7",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "例：",
+          "href": null
+        }
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "2c8a501ef3378058840beb5dc61de786",
+    "type": "code",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "caption": [],
+      "language": "plain text",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "200 OK\n{ \"token\": \"xxxx\" }",
+          "href": null
+        }
+      ]
+    },
+    "order": 29
+  },
+  {
+    "id": "2c8a501ef33780c88aa0cc4af5ccb8c8",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "200 OK",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "がステータスコードで、",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": true,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "{ \"token\": \"xxxx\" }",
+          "href": null
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "はJSON形式のデータです。",
+          "href": null
+        }
+      ]
+    },
+    "order": 30
+  },
+  {
+    "id": "2c8a501ef33780ee9442ed4b4b098f21",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "クライアントは、ステータスコードによって、リクエストが成功したかどうかを判別できます。200なら成功、400ならクライアント側の問題（リクエスト方法など）で失敗、500ならサーバー側の問題で失敗など。",
+          "href": null
+        }
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "2c8a501ef33780ad8d05d0477ffaae49",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "結果のデータは基本的にHTMLやJSONです。HTMLであればブラウザがページを組み立て、画面に表示します。JSONであれば、基本的にJavaScriptがそのデータを元に何らかの処理をします。",
+          "href": null
+        }
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "2c8a501ef33780349cc3e31699d228ec",
+    "type": "divider",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": "_",
+    "order": 33
+  },
+  {
+    "id": "2c8a501ef33780c9b62efd5641e52176",
+    "type": "paragraph",
+    "parentId": "2c8a501ef33780a48908ef6886462f93",
+    "curriculumId": "2c4a501ef337809e8d3aef9f6f2340c1",
+    "pageId": "2c8a501ef33780a48908ef6886462f93",
+    "data": {
+      "color": "default",
+      "parent": [
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": "Webサイトについて",
+          "href": "/posts/curriculums/2c8a501ef33780d5a1e3e42f0d0af4c2",
+          "mention": {
+            "content": {
+              "iconType": "external",
+              "iconUrl": "https://www.notion.so/icons/document_blue.svg",
+              "title": "Webサイトについて"
+            },
+            "type": "prossedPage"
+          }
+        },
+        {
+          "annotations": {
+            "bold": false,
+            "code": false,
+            "color": "default",
+            "italic": false,
+            "strikethrough": false,
+            "underline": false
+          },
+          "plain_text": " ",
+          "href": null
+        }
+      ]
+    },
+    "order": 34
+  }
+]

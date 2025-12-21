@@ -1135,8 +1135,8 @@
     "pageId": "1b8a501ef33780baa251c8fe9f1c8cc2",
     "data": {
       "ogp": {
-        "title": "Google フォーム: ログイン",
-        "description": "Google フォームには、個人の Google アカウントまたは Google Workspace アカウント（ビジネス ユーザー向け）でアクセスできます。",
+        "title": "Google Forms: Sign-in",
+        "description": "Access Google Forms with a personal Google account or Google Workspace account (for business use).",
         "image": "",
         "icon": ""
       },
