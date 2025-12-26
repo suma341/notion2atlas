@@ -83,3 +83,21 @@ func (cat CategoryEntity) CompareQueryEntityTime(q2 DBQueryEntity) (bool, error)
 	isEqual := t1.Equal(*t2)
 	return isEqual, nil
 }
+
+func CreateStaticCategory(
+	Id string,
+	Title string,
+	IconType string,
+	IconUrl string,
+
+) CategoryEntity {
+	return CategoryEntity{
+		Id:                Id,
+		Title:             Title,
+		Description:       "",
+		IconType:          IconType,
+		IconUrl:           IconUrl,
+		IsBasicCurriculum: false,
+		Order:             1,
+	}
+}

@@ -39,7 +39,20 @@ func ProcessCategory(categories []domain.CategoryEntity) error {
 	}
 	err := UpsertCategory(processed)
 	if err != nil {
-		fmt.Println("error in presentation/updateCategory/usecase.UpsertCategory")
+		fmt.Println("error in usecase/updateCategory/usecase.UpsertCategory")
+		return err
+	}
+	return nil
+}
+
+func CreateStaticCategories() error {
+	var staticCategories []domain.CategoryEntity
+	infoCategory := domain.CreateStaticCategory("info", "部活情報", "emoji", "ℹ️")
+	answerCategory := domain.CreateStaticCategory("answer", "解答", "emoji", "✔️")
+	staticCategories = append(staticCategories, []domain.CategoryEntity{infoCategory, answerCategory}...)
+	err := UpsertCategory(staticCategories)
+	if err != nil {
+		fmt.Println("error in usecase/CreateStaticCategories/UpsertCategory")
 		return err
 	}
 	return nil

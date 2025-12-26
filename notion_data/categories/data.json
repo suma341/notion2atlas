@@ -63,5 +63,31 @@
     "order": 5,
     "last_edited_time": "2025-12-21T13:41:00.000Z",
     "update": true
+  },
+  {
+    "id": "info",
+    "title": "部活情報",
+    "description": "",
+    "iconType": "emoji",
+    "iconUrl": "ℹ️",
+    "coverType": "",
+    "coverUrl": "",
+    "is_basic_curriculum": false,
+    "order": 1,
+    "last_edited_time": "",
+    "update": false
+  },
+  {
+    "id": "answer",
+    "title": "解答",
+    "description": "",
+    "iconType": "emoji",
+    "iconUrl": "✔️",
+    "coverType": "",
+    "coverUrl": "",
+    "is_basic_curriculum": false,
+    "order": 1,
+    "last_edited_time": "",
+    "update": false
   }
 ]
