@@ -16,7 +16,6 @@ const (
 )
 
 const (
-	SYNCED_PATH             = SYNCED_DIR + "/data.json"
 	TMP_PAGE_PATH           = TMP_DIR + "/page.json"
 	TMP_ALL_PAGE_PATH       = TMP_DIR + "/all_page.json"
 	PAGE_DAT_PATH           = PAGE_DIR + "/page.dat"

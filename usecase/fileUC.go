@@ -128,7 +128,7 @@ func InitCurriculumRelatedDir(curriculumId string) error {
 		if pageId == nil {
 			return fmt.Errorf("unexpected: pageId is nil")
 		}
-		err = filemanager.DelFile(fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, *pageId))
+		err = filemanager.DelFile(fmt.Sprintf("%s/%s.dat", constants.PAGE_DATA_DIR, *pageId))
 		if err != nil {
 			fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.DelFile")
 			return err

@@ -81,7 +81,7 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 	case ANSWER:
 		return constants.TMP_ALL_ANSWER_PATH, nil
 	case SYNCED:
-		return constants.SYNCED_PATH, nil
+		return constants.TMP_ALL_SYNCED_PATH, nil
 	case TMP_PAGE:
 		return constants.TMP_PAGE_PATH, nil
 	case TMP_ALL_PAGE:

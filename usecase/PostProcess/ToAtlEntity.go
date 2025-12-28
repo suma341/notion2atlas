@@ -27,13 +27,14 @@ func rewriteToAtlEntity() error {
 			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/blockToAtlEntity")
 			return err
 		}
-		pageDataPath := fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, pageId)
+		pageDataPath := fmt.Sprintf("%s/%s.dat", constants.PAGE_DATA_DIR, pageId)
 		_, err = filemanager.CreateFileIfNotExist(pageDataPath)
 		if err != nil {
 			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/filemanager.CreateFileIfNotExist")
 			return err
 		}
-		err = filemanager.WriteJson(atlBlocks, pageDataPath)
+		err = filemanager.EncodeAndSave(atlBlocks, pageDataPath)
+		// err = filemanager.WriteJson(atlBlocks, pageDataPath)
 		if err != nil {
 			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/filemanager.WriteJson")
 			return err
