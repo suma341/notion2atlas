@@ -6,16 +6,21 @@ import (
 	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
+	"notion2atlas/gateway"
 	"os"
 )
 
 func processSyncedChild(atlEntity domain.AtlBlockEntity) (*[]domain.AtlBlockEntity, error) {
 	syncedId := string(*atlEntity.Data.Synced)
-	originals, err := filemanager.ReadJson[[]domain.BlockEntity](constants.SYNCED_PATH)
+	originalP, err := gateway.GetDatFileData[[]domain.BlockEntity](domain.SYNCED_DAT)
 	if err != nil {
-		fmt.Println("error in postprocess/processSyncedChild/filemanager.ReadJson:14")
+		fmt.Println("❌ error in postprocess/processSyncedChild/gateway.GetDatFileData")
 		return nil, err
 	}
+	if originalP == nil {
+		return nil, nil
+	}
+	originals := *originalP
 	var original *domain.BlockEntity
 	for _, ori := range originals {
 		if syncedId == ori.Id {
@@ -30,13 +35,13 @@ func processSyncedChild(atlEntity domain.AtlBlockEntity) (*[]domain.AtlBlockEnti
 	atlEntities, err := filemanager.ReadJson[[]domain.AtlBlockEntity](pageDataPath)
 	if err != nil {
 		if !errors.Is(err, os.ErrNotExist) {
-			fmt.Println("error in postprocess/processSyncedChild/filemanager.ReadJson:30")
+			fmt.Println("❌ error in postprocess/processSyncedChild/filemanager.ReadJson:30")
 			return nil, err
 		}
 		tmpDataPath := fmt.Sprintf("%s/%s.json", constants.TMP_DIR, original.PageId)
 		entities, err := filemanager.ReadJson[[]domain.BlockEntity](tmpDataPath)
 		if err != nil {
-			fmt.Println("error in postprocess/processSyncedChild/filemanager.ReadJson:37")
+			fmt.Println("❌ error in postprocess/processSyncedChild/filemanager.ReadJson:37")
 			return nil, err
 		}
 		if len(entities) == 0 {
@@ -44,7 +49,7 @@ func processSyncedChild(atlEntity domain.AtlBlockEntity) (*[]domain.AtlBlockEnti
 		}
 		atlEntities, err = processEntities(entities, original.Id, original.PageId)
 		if err != nil {
-			fmt.Println("error in postprocess/processSyncedChild/processEntities:45")
+			fmt.Println("❌ error in postprocess/processSyncedChild/processEntities:45")
 			return nil, err
 		}
 		if len(atlEntities) == 0 {
@@ -97,14 +102,14 @@ func processEntities(entities []domain.BlockEntity, originalId string, originalP
 	pageEntities, err := filemanager.ReadJson[[]domain.PageEntity](path)
 	if err != nil {
 		if !errors.Is(err, os.ErrNotExist) {
-			fmt.Println("error in postprocess/processEntities/filemanager.ReadJson:88")
+			fmt.Println("❌ error in postprocess/processEntities/filemanager.ReadJson:88")
 			return nil, err
 		}
 		return nil, nil
 	}
 	atlBlocks, err := blockToAtlEntity(children, pageEntities)
 	if err != nil {
-		fmt.Println("error in postprocess/processEntites/blockToAtlEntity:95")
+		fmt.Println("❌ error in postprocess/processEntites/blockToAtlEntity:95")
 		return nil, err
 	}
 	return atlBlocks, nil

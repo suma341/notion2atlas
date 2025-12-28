@@ -25,7 +25,7 @@ func FlushBlockBuffer(blocks []domain.BlockEntity, pageId string) error {
 }
 
 func FlushPageBuffer(pages []domain.PageEntity, curriculumId string) error {
-	err := gateway.UpsertFile(domain.TMP_PAGE, "id", pages)
+	_, err := gateway.UpsertFile(domain.TMP_PAGE, "id", pages)
 	if err != nil {
 		fmt.Println("error in usecase/FlushPageBuffer/gateway.UpsertPage")
 		return err

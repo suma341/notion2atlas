@@ -7,6 +7,16 @@ import (
 	"notion2atlas/utils"
 )
 
+func GetDatFileData[T any](r domain.DatRType) (*T, error) {
+	_, tmp := r.GetPath()
+	dat, err := filemanager.ReadJson[T](tmp)
+	if err != nil {
+		fmt.Println("error in fileGW.go/GetDatFileData/ReadJson")
+		return nil, err
+	}
+	return &dat, nil
+}
+
 func GetFileData[T any](resourceType domain.ResourceType) (*T, error) {
 	path, err := resourceType.GetFilePathFromResourceType()
 	if err != nil {
@@ -86,23 +96,23 @@ func UpsertById[T domain.Entity](resourceType domain.ResourceType, targetId stri
 	return nil
 }
 
-func UpsertFile[T domain.Entity](resourceType domain.ResourceType, key string, newData []T) error {
+func UpsertFile[T domain.Entity](resourceType domain.ResourceType, key string, newData []T) ([]T, error) {
 	filepath, err := resourceType.GetFilePathFromResourceType()
 	if err != nil {
 		fmt.Println("error in gateway/GetFileData/resourceType.GetFilePathFromResourceType")
-		return err
+		return nil, err
 	}
 	arr, err := filemanager.ReadJSONToMapArray(filepath)
 	if err != nil {
 		fmt.Println("error in gateway/UpsertFile/filemanager.LoadJSONToMap")
-		return err
+		return nil, err
 	}
 	var newDataMap []map[string]any
 	for _, new := range newData {
 		map_, err := domain.Struct2Map(new)
 		if err != nil {
 			fmt.Println("error in gateway/UpsertFile/ domain.Struct2Map")
-			return err
+			return nil, err
 		}
 		newDataMap = append(newDataMap, map_)
 	}
@@ -110,12 +120,12 @@ func UpsertFile[T domain.Entity](resourceType domain.ResourceType, key string, n
 	for _, item := range arr {
 		id, ok := item[key].(string)
 		if !ok {
-			return fmt.Errorf("unexpected data type: item[key]")
+			return nil, fmt.Errorf("unexpected data type: item[key]")
 		}
 		isSameIdInNewData, err := utils.IsSameIdInMapArray(key, newDataMap, id)
 		if err != nil {
 			fmt.Println("error in gateway/UpsertFile/utils.IsSameIdInMapArray")
-			return err
+			return nil, err
 		}
 		if !isSameIdInNewData {
 			newList = append(newList, item)
@@ -127,17 +137,17 @@ func UpsertFile[T domain.Entity](resourceType domain.ResourceType, key string, n
 		entity, err := domain.Map2Struct[T](item)
 		if err != nil {
 			fmt.Println("error in gateway/UpsertFile/domain.Map2Struct")
-			return err
+			return nil, err
 		}
 		if entity == nil {
-			return fmt.Errorf("unexpected: entity is nil")
+			return nil, fmt.Errorf("unexpected: entity is nil")
 		}
 		newEntities = append(newEntities, *entity)
 	}
 	err = filemanager.WriteJson(newEntities, filepath)
 	if err != nil {
 		fmt.Println("error in gateway/UpsertFile/filemanager.WriteJson")
-		return err
+		return nil, err
 	}
-	return nil
+	return newEntities, nil
 }

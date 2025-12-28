@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"strings"
+	"time"
 )
 
 type NtPageEntity struct {
@@ -15,6 +16,37 @@ type NtPageEntity struct {
 	Title          string `json:"title"`
 	Type           string `json:"type"`
 	LastEditedTime string `json:"last_edited_time"`
+	InTrash        bool   `json:"in_trash"`
+}
+
+func (c NtPageEntity) GetTime() (*time.Time, error) {
+	lastEditedTime, err := time.Parse(time.RFC3339, c.LastEditedTime)
+	if err != nil {
+		fmt.Println("❌ error in entity/CurriculumEntity/GetTime")
+		return nil, err
+	}
+	return &lastEditedTime, nil
+}
+
+func (curr NtPageEntity) CompareQueryEntityTime(q2 NtBlock) (bool, error) {
+	t1, err := curr.GetTime()
+	if err != nil {
+		fmt.Println("❌ error in utils/CompareQueryEntityTime/curr.GetTime")
+		return false, err
+	}
+	if t1 == nil {
+		return false, fmt.Errorf("unexpected: t1 is nil")
+	}
+	t2, err := q2.GetTime()
+	if err != nil {
+		fmt.Println("❌ error in utils/CompareQueryEntityTime/q2.GetTime")
+		return false, err
+	}
+	if t2 == nil {
+		return false, fmt.Errorf("unexpected: t2 is nil")
+	}
+	isEqual := t1.Equal(*t2)
+	return isEqual, nil
 }
 
 func (p NtPageEntity) GetTitle() string {
@@ -39,6 +71,7 @@ func NewNtPageEntity(
 	Title string,
 	Type string,
 	LastEditedTime string,
+	InTrash bool,
 ) NtPageEntity {
 	return NtPageEntity{
 		Id:             Id,
@@ -49,26 +82,27 @@ func NewNtPageEntity(
 		Title:          Title,
 		Type:           Type,
 		LastEditedTime: LastEditedTime,
+		InTrash:        InTrash,
 	}
 }
 
 func ResNtPageEntity(res map[string]any, type_ string) (*NtPageEntity, error) {
 	jsonBytes, err := json.Marshal(res)
 	if err != nil {
-		fmt.Println("error in domain/Res2NtPageEntity/json.Marshal(res)")
+		fmt.Println("❌ error in domain/Res2NtPageEntity/json.Marshal(res)")
 		return nil, err
 	}
 	var obj NtObjectProbe
 	err = json.Unmarshal(jsonBytes, &obj)
 	if err != nil {
-		fmt.Println("error in domain/ResNtPageEntity/json.Marshal(jsonBytes, &obj)")
+		fmt.Println("❌ error in domain/ResNtPageEntity/json.Marshal(jsonBytes, &obj)")
 		return nil, err
 	}
 	if obj.Object != "error" {
 		var block PageProperty
 		err = json.Unmarshal(jsonBytes, &block)
 		if err != nil {
-			fmt.Println("error in domain/ResNtPageEntity/json.Marshal(jsonBytes, &block)")
+			fmt.Println("❌ error in domain/ResNtPageEntity/json.Marshal(jsonBytes, &block)")
 			return nil, err
 		}
 		id := strings.ReplaceAll(block.Id, "-", "")
@@ -94,6 +128,7 @@ func ResNtPageEntity(res map[string]any, type_ string) (*NtPageEntity, error) {
 			title,
 			type_,
 			block.LastEditedTime,
+			block.InTrash,
 		)
 		return &page, nil
 	} else {

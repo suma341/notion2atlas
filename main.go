@@ -1,20 +1,41 @@
 package main
 
 import (
+	"notion2atlas/constants"
+	"notion2atlas/domain"
+	"notion2atlas/filemanager"
 	"notion2atlas/presentation"
-
-	"github.com/joho/godotenv"
 )
+
+func test() {
+	a, e := filemanager.LoadAndDecodeJson[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH)
+	if e != nil {
+		panic(e)
+	}
+	filemanager.WriteJson(a, "notion_data/test.json")
+}
+
+func decode(path string) {
+	a, _ := filemanager.LoadAndDecodeJson[[]domain.BlockEntity](path)
+	filemanager.WriteJson(a, "notion_data/test.json")
+}
+
+func encode(path string) {
+	b, _ := filemanager.ReadJson[[]domain.BlockEntity](constants.SYNCED_PATH)
+	filemanager.EncodeAndSave(b, path)
+}
 
 func main() {
 	var err error = nil
-	godotenv.Load()
 	err = presentation.HandleUpdateData()
-	// aaa, err := usecase.Test("2aba501ef33780eaa8f6ca103f2d1d09")
-	// filemanager.WriteJson(aaa, "notion_data/test.json")
 	if err != nil {
 		panic(err)
 	}
+	// test()
+	// decode("notion_data/synced.dat")
+	// encode("notion_data/synced.dat")
+	// p, _ := usecase.Test("24ba501ef33780edacc4d54914fb20d2")
+	// filemanager.WriteJson(p, "notion_data/test.json")
 }
 
-// https://www.notion.so/1ada501ef33781e8b251df0f38a0cb23?v=1ada501ef33781c291ee000c04c13f15&source=copy_link#2aba501ef33780eaa8f6ca103f2d1d09
+//https://www.notion.so/1-24ba501ef33780edacc4d54914fb20d2?source=copy_link

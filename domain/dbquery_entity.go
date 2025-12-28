@@ -13,3 +13,9 @@ type DBQueryEntity interface {
 	GetTitle() string
 	ToPageEntity() (*PageEntity, error)
 }
+
+type NtBlock interface {
+	GetId() string
+	CompareQueryEntityTime(n NtBlock) (bool, error)
+	GetTime() (*time.Time, error)
+}

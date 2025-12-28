@@ -1,6 +1,9 @@
 package domain
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 type PageEntity struct {
 	Id             string `json:"id"`
@@ -16,6 +19,35 @@ type PageEntity struct {
 	LastEditedTime string `json:"last_edited_time"`
 }
 
+func (c PageEntity) GetTime() (*time.Time, error) {
+	lastEditedTime, err := time.Parse(time.RFC3339, c.LastEditedTime)
+	if err != nil {
+		fmt.Println("❌ error in entity/CurriculumEntity/GetTime")
+		return nil, err
+	}
+	return &lastEditedTime, nil
+}
+
+func (curr PageEntity) CompareQueryEntityTime(q2 NtBlock) (bool, error) {
+	t1, err := curr.GetTime()
+	if err != nil {
+		fmt.Println("❌ error in utils/CompareQueryEntityTime/curr.GetTime")
+		return false, err
+	}
+	if t1 == nil {
+		return false, fmt.Errorf("unexpected: t1 is nil")
+	}
+	t2, err := q2.GetTime()
+	if err != nil {
+		fmt.Println("❌ error in utils/CompareQueryEntityTime/q2.GetTime")
+		return false, err
+	}
+	if t2 == nil {
+		return false, fmt.Errorf("unexpected: t2 is nil")
+	}
+	isEqual := t1.Equal(*t2)
+	return isEqual, nil
+}
 func (p PageEntity) GetTitle() string {
 	return p.Title
 }
@@ -43,7 +75,7 @@ func (p PageEntity) ChangePageEntityUrl(iconUrl string, coverUrl string) (*PageE
 		p.LastEditedTime,
 	)
 	if err != nil {
-		fmt.Println("error in domain/PageEntity.ChangePageEntityUrl/NewPageEntity")
+		fmt.Println("❌ error in domain/PageEntity.ChangePageEntityUrl/NewPageEntity")
 		return nil, err
 	}
 	return entity, nil

@@ -101,7 +101,6 @@ func UpsertSyncedFile(b domain.BlockEntity) error {
 }
 
 func InitCurriculumRelatedDir(curriculumId string) error {
-	noHyphenTargetId := strings.ReplaceAll(curriculumId, "-", "")
 	pageDatas, err := filemanager.ReadJSONToMapArray(constants.PAGE_PATH)
 	if err != nil {
 		fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.ReadJSONToMapArray")
@@ -118,7 +117,7 @@ func InitCurriculumRelatedDir(curriculumId string) error {
 			return fmt.Errorf("unexpected: id is nil")
 		}
 		noHyphenId := strings.ReplaceAll(*id, "-", "")
-		if noHyphenTargetId == noHyphenId {
+		if curriculumId == noHyphenId {
 			targetPages = append(targetPages, item)
 		}
 	}
@@ -152,7 +151,7 @@ func InitCurriculumRelatedDir(curriculumId string) error {
 }
 
 func UpsertCategory(entities []domain.CategoryEntity) error {
-	err := gateway.UpsertFile(domain.CATEGORY, "id", entities)
+	_, err := gateway.UpsertFile(domain.CATEGORY, "id", entities)
 	if err != nil {
 		fmt.Println("error in usecase/UpsertCategory/gateway.UpsertFile")
 		return err

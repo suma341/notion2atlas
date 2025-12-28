@@ -4,13 +4,15 @@ import (
 	"fmt"
 	"notion2atlas/usecase"
 	postprocess "notion2atlas/usecase/PostProcess"
+	"notion2atlas/usecase/cleanup"
+	"notion2atlas/usecase/initapp"
 )
 
 func HandleUpdateData() error {
 	var err error = nil
-	err = usecase.InitDir()
+	err = initapp.InitApp()
 	if err != nil {
-		panic(err)
+		return err
 	}
 	fmt.Println("start process curriculums")
 	curriculum_nde, err := updateCurriculum()
@@ -46,6 +48,10 @@ func HandleUpdateData() error {
 	pageEntities = append(pageEntities, answer_nde.New...)
 	pageEntities = append(pageEntities, answer_nde.Edit...)
 	err = postprocess.RewriteToAtlEntity(pageEntities)
+	if err != nil {
+		return err
+	}
+	err = cleanup.CleanUp()
 	if err != nil {
 		return err
 	}

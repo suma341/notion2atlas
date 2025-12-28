@@ -5,17 +5,34 @@ import (
 	"notion2atlas/constants"
 )
 
+type DatRType int
+
+const (
+	PAGE_DAT DatRType = iota
+	SYNCED_DAT
+)
+
+func (r DatRType) GetPath() (dat string, tmp string) {
+	switch r {
+	case PAGE_DAT:
+		return constants.PAGE_DAT_PATH, constants.TMP_ALL_PAGE_PATH
+	case SYNCED_DAT:
+		return constants.SYNCED_DAT_PATH, constants.TMP_ALL_PAGE_PATH
+	}
+	return "", ""
+}
+
 type ResourceType int
 
 const (
-	Resources ResourceType = iota
-	CURRICULUM
+	CURRICULUM ResourceType = iota
 	PAGE
 	CATEGORY
 	INFO
 	ANSWER
 	SYNCED
 	TMP_PAGE
+	TMP_ALL_PAGE
 )
 
 func (r ResourceType) GetStr() string {
@@ -53,6 +70,8 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 		return constants.SYNCED_PATH, nil
 	case TMP_PAGE:
 		return constants.TMP_PAGE_PATH, nil
+	case TMP_ALL_PAGE:
+		return constants.TMP_ALL_PAGE_PATH, nil
 	default:
 		return "", fmt.Errorf("unexpected resourceType")
 	}

@@ -20,7 +20,7 @@ func processImage(item domain.BlockEntity, pageEntities []domain.PageEntity) (*d
 				fmt.Printf("file is not Exists: %s\n", image_path)
 				return nil, nil
 			}
-			fmt.Println("error in postprocess/ProcessParent/filemanager.MeasureImageSize")
+			fmt.Println("❌ error in postprocess/ProcessParent/filemanager.MeasureImageSize")
 			return nil, err
 		}
 		atlEntity.Data.Image.Width = image_size.Width
@@ -37,11 +37,10 @@ func processImage(item domain.BlockEntity, pageEntities []domain.PageEntity) (*d
 				case errors.Is(err, filemanager.ErrNotImage):
 					return nil, nil
 				case errors.Is(err, filemanager.ErrDecodeImage):
-					// 壊れた画像
 					return nil, nil
 				default:
 					// 想定外
-					fmt.Println("error in postprocess/ProcessParent/filemanager.MeasureImageSizeFromURL")
+					fmt.Println("❌ error in postprocess/ProcessParent/filemanager.MeasureImageSizeFromURL")
 					return nil, err
 				}
 			}

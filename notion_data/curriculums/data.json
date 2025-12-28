@@ -1,56 +1,64 @@
 [
   {
+    "category": [
+      "前期"
+    ],
+    "coverType": "external",
+    "coverUrl": "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
+    "iconType": "custom_emoji",
+    "iconUrl": "https://img.icons8.com/?size=100\u0026id=13441\u0026format=png\u0026color=000000",
     "id": "1ada501ef337814bac7dcbd864901138",
-    "title": "Python基礎文法",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 6,
     "tag": [
       "Python",
       "基礎班"
     ],
+    "title": "Python基礎文法",
+    "update": true,
     "visibility": [
       "体験入部",
       "発展班",
       "基礎班",
       "ゲスト"
-    ],
-    "order": 6,
+    ]
+  },
+  {
     "category": [
       "前期"
     ],
-    "iconType": "custom_emoji",
-    "iconUrl": "https://img.icons8.com/?size=100\u0026id=13441\u0026format=png\u0026color=000000",
     "coverType": "external",
-    "coverUrl": "https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "coverUrl": "https://images.unsplash.com/photo-1600860701935-40f338f8d793?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/keyboard_lightgray.svg",
     "id": "1bea501ef337804c90e8da6f1f5384c1",
-    "title": "CLIの基礎",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 8,
     "tag": [
       "基礎班",
       "CLI",
       "VSCode"
     ],
+    "title": "CLIの基礎",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班",
       "体験入部",
       "ゲスト"
-    ],
-    "order": 8,
+    ]
+  },
+  {
     "category": [
       "前期"
     ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/keyboard_lightgray.svg",
     "coverType": "external",
-    "coverUrl": "https://images.unsplash.com/photo-1600860701935-40f338f8d793?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb\u0026w=3600",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "coverUrl": "https://images.unsplash.com/photo-1621508654686-809f23efdabc?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
+    "iconType": "emoji",
+    "iconUrl": "💫",
     "id": "1d8a501ef337800c9ae8ca9153877fc1",
-    "title": "Horizonではじめにやること！",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 1,
     "tag": [
       "Python",
       "基礎班",
@@ -59,453 +67,426 @@
       "VisualStudioCode",
       "Canva"
     ],
+    "title": "Horizonではじめにやること！",
+    "update": true,
     "visibility": [
       "基礎班",
       "体験入部",
       "発展班",
       "ゲスト"
-    ],
-    "order": 1,
+    ]
+  },
+  {
     "category": [
       "前期"
     ],
-    "iconType": "emoji",
-    "iconUrl": "💫",
     "coverType": "external",
     "coverUrl": "https://images.unsplash.com/photo-1621508654686-809f23efdabc?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "iconType": "emoji",
+    "iconUrl": "🖥️",
     "id": "1f2a501ef3378055b70de6fcbb3bbb87",
-    "title": "Flet の基礎",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 9,
     "tag": [
       "Python",
       "Flet",
       "基礎班",
       "GUI"
     ],
+    "title": "Flet の基礎",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 9,
+    ]
+  },
+  {
     "category": [
       "前期"
     ],
-    "iconType": "emoji",
-    "iconUrl": "🖥️",
-    "coverType": "external",
-    "coverUrl": "https://images.unsplash.com/photo-1621508654686-809f23efdabc?ixlib=rb-4.0.3\u0026q=85\u0026fm=jpg\u0026crop=entropy\u0026cs=srgb",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "coverType": "",
+    "coverUrl": "",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/gear_orange.svg",
     "id": "1ada501ef3378122b26fd5ed2f5d6a1b",
-    "title": "Git、GitHubセットアップ",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 10,
     "tag": [
       "基礎班",
       "Git",
       "GitHub",
       "セットアップ"
     ],
+    "title": "Git、GitHubセットアップ",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 10,
+    ]
+  },
+  {
     "category": [
       "前期"
     ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/gear_orange.svg",
     "coverType": "",
     "coverUrl": "",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "iconType": "emoji",
+    "iconUrl": "🦾",
     "id": "1e7a501ef337805bbc4ed442525244f3",
-    "title": "番外編（カリキュラム終わった人向け）",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 500,
     "tag": [
       "Python",
       "基礎班"
     ],
+    "title": "番外編（カリキュラム終わった人向け）",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班",
       "体験入部"
-    ],
-    "order": 500,
+    ]
+  },
+  {
     "category": [
       "前期"
     ],
-    "iconType": "emoji",
-    "iconUrl": "🦾",
     "coverType": "",
     "coverUrl": "",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/meeting_blue.svg",
     "id": "1f5a501ef3378055b23cf8b1b79b780a",
-    "title": "グループワーク",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 15,
     "tag": [
       "グループワーク",
       "基礎班",
       "Python"
     ],
+    "title": "グループワーク",
+    "update": true,
     "visibility": [
       "発展班",
       "体験入部",
       "基礎班"
-    ],
-    "order": 15,
-    "category": [
-      "前期"
-    ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/meeting_blue.svg",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "夏休み"
+    ],
+    "coverType": "",
+    "coverUrl": "",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/home_brown.svg",
     "id": "232a501ef33780c8920dc85f8ca9efde",
-    "title": "Fletの宿題",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 50,
     "tag": [
       "Flet",
       "Python",
       "基礎班",
       "GUI"
     ],
+    "title": "Fletの宿題",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 50,
-    "category": [
-      "夏休み"
-    ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/home_brown.svg",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "後期"
+    ],
+    "coverType": "",
+    "coverUrl": "",
+    "iconType": "custom_emoji",
+    "iconUrl": "https://img.icons8.com/?size=100\u0026id=13441\u0026format=png\u0026color=000000",
     "id": "256a501ef337802e8fcaf378c366fb03",
-    "title": "Python後期",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 110,
     "tag": [
       "基礎班",
       "Python"
     ],
+    "title": "Python後期",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 110,
-    "category": [
-      "後期"
-    ],
-    "iconType": "custom_emoji",
-    "iconUrl": "https://img.icons8.com/?size=100\u0026id=13441\u0026format=png\u0026color=000000",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "技術ガイド",
+      "後期"
+    ],
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/gradients_2.png",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/database_blue.svg",
     "id": "1ada501ef33781e8b251df0f38a0cb23",
-    "title": "データベース基礎",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 1003,
     "tag": [
       "基礎班",
       "データベース",
       "Python"
     ],
+    "title": "データベース基礎",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 1003,
-    "category": [
-      "技術ガイド",
-      "後期"
-    ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/database_blue.svg",
-    "coverType": "external",
-    "coverUrl": "https://www.notion.so/images/page-cover/gradients_2.png",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "技術ガイド"
+    ],
+    "coverType": "",
+    "coverUrl": "",
+    "iconType": "emoji",
+    "iconUrl": "📘",
     "id": "1e0a501ef33780dd8d3ee0341937095f",
-    "title": "言語一覧",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 1001,
     "tag": [
       "プログラミング言語",
       "ガイド",
       "セットアップ"
     ],
+    "title": "言語一覧",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 1001,
+    ]
+  },
+  {
     "category": [
       "技術ガイド"
     ],
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/woodcuts_8.jpg",
     "iconType": "emoji",
-    "iconUrl": "📘",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
-  },
-  {
+    "iconUrl": "📚",
     "id": "1e0a501ef33780efadc7e6da2c264201",
-    "title": "プログラミング言語ガイド",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 1000,
     "tag": [
       "ガイド",
       "プログラミング言語"
     ],
+    "title": "プログラミング言語ガイド",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 1000,
-    "category": [
-      "技術ガイド"
-    ],
-    "iconType": "emoji",
-    "iconUrl": "📚",
-    "coverType": "external",
-    "coverUrl": "https://www.notion.so/images/page-cover/woodcuts_8.jpg",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "後期"
+    ],
+    "coverType": "",
+    "coverUrl": "",
+    "iconType": "custom_emoji",
+    "iconUrl": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/7168b811-de02-41a8-b288-d3d9c791720a/flet-android-192.png",
     "id": "256a501ef337803b9c9ee872f50d594f",
-    "title": "Flet後期",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 111,
     "tag": [
       "基礎班",
       "Python",
       "Flet"
     ],
+    "title": "Flet後期",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 111,
+    ]
+  },
+  {
     "category": [
       "後期"
     ],
-    "iconType": "custom_emoji",
-    "iconUrl": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/7168b811-de02-41a8-b288-d3d9c791720a/flet-android-192.png",
     "coverType": "",
     "coverUrl": "",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "iconType": "emoji",
+    "iconUrl": "💪",
     "id": "256a501ef33780788124f85e3320ee25",
-    "title": "任意ページ",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 113,
     "tag": [
       "基礎班"
     ],
+    "title": "任意ページ",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 113,
+    ]
+  },
+  {
     "category": [
       "後期"
     ],
-    "iconType": "emoji",
-    "iconUrl": "💪",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
-  },
-  {
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/met_edgar_degas_1874.jpg",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/git_orange.svg",
     "id": "256a501ef33780a9a46fc17219f411da",
-    "title": "Git, Github",
+    "last_edited_time": "2025-12-26T02:11:00.000Z",
+    "order": 112,
     "tag": [
       "基礎班",
       "Git",
       "GitHub"
     ],
+    "title": "Git, Github",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 112,
+    ]
+  },
+  {
     "category": [
       "後期"
     ],
+    "coverType": "",
+    "coverUrl": "",
     "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/git_orange.svg",
-    "coverType": "external",
-    "coverUrl": "https://www.notion.so/images/page-cover/met_edgar_degas_1874.jpg",
-    "last_edited_time": "2025-12-26T02:11:00.000Z",
-    "update": true
-  },
-  {
+    "iconUrl": "https://www.notion.so/icons/meeting_blue.svg",
     "id": "28aa501ef337805185e6e399d399ac90",
-    "title": "チーム開発",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 120,
     "tag": [
       "基礎班"
     ],
+    "title": "チーム開発",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 120,
-    "category": [
-      "後期"
-    ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/meeting_blue.svg",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "技術ガイド"
+    ],
+    "coverType": "",
+    "coverUrl": "",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/notion_gray.svg",
     "id": "1ada501ef33781428531e12a83e0195b",
-    "title": "Notionの使い方",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 1004,
     "tag": [
       "基礎班",
       "Notion",
       "ガイド"
     ],
+    "title": "Notionの使い方",
+    "update": true,
     "visibility": [
       "基礎班",
       "発展班"
-    ],
-    "order": 1004,
+    ]
+  },
+  {
     "category": [
       "技術ガイド"
     ],
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/solid_yellow.png",
     "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/notion_gray.svg",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
-  },
-  {
-    "id": "200a501ef33780ffb3a9ed1bd068b618",
-    "title": "Qiita Teamへの参加方法（全体向け）",
-    "tag": [
-      "Qiita Team"
-    ],
-    "visibility": [
-      "発展班",
-      "基礎班"
-    ],
-    "order": 2000,
-    "category": [],
-    "iconType": "custom_emoji",
-    "iconUrl": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/825fcd9e-9a5c-4f9c-8a97-c45c3a331eeb/qiita-team-icon.png",
-    "coverType": "",
-    "coverUrl": "",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
-  },
-  {
+    "iconUrl": "https://www.notion.so/icons/whale_blue.svg",
     "id": "211a501ef3378033aba3e2b9e036eacf",
-    "title": "Dockerガイド",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 1006,
     "tag": [
       "Docker",
       "セットアップ"
     ],
+    "title": "Dockerガイド",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 1006,
-    "category": [
-      "技術ガイド"
-    ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/whale_blue.svg",
-    "coverType": "external",
-    "coverUrl": "https://www.notion.so/images/page-cover/solid_yellow.png",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "Webコース"
+    ],
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/code_orange.svg",
     "id": "24ba501ef33780e683f3dec2d9cb8a44",
-    "title": "HTML,CSS",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 1101,
     "tag": [
       "web",
       "HTML",
       "CSS"
     ],
+    "title": "HTML,CSS",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 1101,
-    "category": [
-      "Webコース"
-    ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/code_orange.svg",
-    "coverType": "external",
-    "coverUrl": "https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "技術ガイド"
+    ],
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/met_vincent_van_gogh_ginoux.jpg",
+    "iconType": "external",
+    "iconUrl": "https://www.notion.so/icons/hammer_pink.svg",
     "id": "272a501ef3378040af9bfae333f7427a",
-    "title": "アプリケーションアーキテクチャ基礎",
+    "last_edited_time": "2025-12-26T01:57:00.000Z",
+    "order": 1005,
     "tag": [
       "基礎班",
       "アーキテクチャ",
       "Python",
       "Flet"
     ],
+    "title": "アプリケーションアーキテクチャ基礎",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 1005,
-    "category": [
-      "技術ガイド"
-    ],
-    "iconType": "external",
-    "iconUrl": "https://www.notion.so/icons/hammer_pink.svg",
-    "coverType": "external",
-    "coverUrl": "https://www.notion.so/images/page-cover/met_vincent_van_gogh_ginoux.jpg",
-    "last_edited_time": "2025-12-26T01:57:00.000Z",
-    "update": true
+    ]
   },
   {
+    "category": [
+      "Webコース"
+    ],
+    "coverType": "external",
+    "coverUrl": "https://www.notion.so/images/page-cover/nasa_transonic_tunnel.jpg",
+    "iconType": "emoji",
+    "iconUrl": "🌐",
     "id": "2c4a501ef337809e8d3aef9f6f2340c1",
-    "title": "Webアプリのガイド",
+    "last_edited_time": "2025-12-26T01:54:00.000Z",
+    "order": 1102,
     "tag": [
       "web",
       "HTML",
       "サーバー"
     ],
+    "title": "Webアプリのガイド",
+    "update": true,
     "visibility": [
       "発展班",
       "基礎班"
-    ],
-    "order": 1102,
-    "category": [
-      "Webコース"
-    ],
-    "iconType": "emoji",
-    "iconUrl": "🌐",
-    "coverType": "external",
-    "coverUrl": "https://www.notion.so/images/page-cover/nasa_transonic_tunnel.jpg",
-    "last_edited_time": "2025-12-26T01:54:00.000Z",
-    "update": true
+    ]
   }
 ]

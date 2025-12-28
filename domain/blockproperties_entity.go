@@ -9,6 +9,7 @@ type PageProperty struct {
 	} `json:"properties"`
 	Object         string `json:"object"`
 	LastEditedTime string `json:"last_edited_time"`
+	InTrash        bool   `json:"in_trash"`
 }
 
 type ParagraphProperty struct {
