@@ -18,11 +18,11 @@ func CleanUp() error {
 			return err
 		}
 	}
-	// err := cleanTmpDir()
-	// if err != nil {
-	// 	fmt.Println("error in usecase/cleanup/cleanup.go:/CleanUp/cleanTmpDir")
-	// 	return err
-	// }
+	err := cleanTmpDir()
+	if err != nil {
+		fmt.Println("error in usecase/cleanup/cleanup.go:/CleanUp/cleanTmpDir")
+		return err
+	}
 	return nil
 }
 

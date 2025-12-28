@@ -59,7 +59,7 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 	case CURRICULUM:
 		return constants.CURRICULUM_PATH, nil
 	case PAGE:
-		return constants.PAGE_PATH, nil
+		return constants.TMP_ALL_PAGE_PATH, nil
 	case CATEGORY:
 		return constants.CATEGORY_PATH, nil
 	case INFO:

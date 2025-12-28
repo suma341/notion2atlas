@@ -18,7 +18,6 @@ const (
 
 const (
 	CURRICULUM_PATH     = CURRICULUM_DIR + "/data.json"
-	PAGE_PATH           = PAGE_DIR + "/data.json"
 	CATEGORY_PATH       = CATEGORY_DIR + "/data.json"
 	INFO_PATH           = INFO_DIR + "/data.json"
 	ANSWER_PATH         = ANSWER_DIR + "/data.json"

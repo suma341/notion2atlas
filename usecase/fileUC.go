@@ -7,11 +7,10 @@ import (
 	"notion2atlas/filemanager"
 	"notion2atlas/gateway"
 	"notion2atlas/utils"
-	"strings"
 )
 
-func GetPageFile() (*[]domain.PageEntity, error) {
-	data, err := gateway.GetFileData[[]domain.PageEntity](domain.PAGE)
+func GetPageFile() (*[]domain.AtlPageEntity, error) {
+	data, err := gateway.GetDatFileData[[]domain.AtlPageEntity](domain.PAGE_DAT)
 	if err != nil {
 		fmt.Println("error in usecase/GetPageFile/gateway.GetFileData")
 		return nil, err
@@ -65,7 +64,7 @@ func DelBasePageById(id string, resourseType domain.ResourceType) error {
 }
 
 func DelPageByCurriculumId(curriculumId string) error {
-	err := gateway.DeleteById(domain.PAGE, "curriculumId", curriculumId)
+	err := gateway.DeleteById(domain.TMP_ALL_PAGE, "curriculumId", curriculumId)
 	if err != nil {
 		fmt.Println("error in usecase/DelPageById/gateway.DeleteById")
 		return err
@@ -101,7 +100,7 @@ func UpsertSyncedFile(b domain.BlockEntity) error {
 }
 
 func InitCurriculumRelatedDir(curriculumId string) error {
-	pageDatas, err := filemanager.ReadJSONToMapArray(constants.PAGE_PATH)
+	pageDatas, err := filemanager.ReadJSONToMapArray(constants.TMP_ALL_PAGE_PATH)
 	if err != nil {
 		fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.ReadJSONToMapArray")
 		return err
@@ -116,8 +115,7 @@ func InitCurriculumRelatedDir(curriculumId string) error {
 		if id == nil {
 			return fmt.Errorf("unexpected: id is nil")
 		}
-		noHyphenId := strings.ReplaceAll(*id, "-", "")
-		if curriculumId == noHyphenId {
+		if curriculumId == *id {
 			targetPages = append(targetPages, item)
 		}
 	}

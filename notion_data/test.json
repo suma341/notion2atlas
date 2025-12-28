@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "iconType": "custom_emoji",
+    "iconUrl": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/icon.png",
+    "coverUrl": "",
+    "coverType": "",
+    "order": 2000,
+    "parentId": "",
+    "title": "Qiita Teamへの参加方法（全体向け）",
+    "type": "curriculum",
+    "last_edited_time": "2025-12-28T08:45:00.000Z"
+  }
+]

@@ -10,24 +10,24 @@ import (
 
 func processPageEntity() error {
 	tmpPages, err := filemanager.ReadJson[[]domain.PageEntity](constants.TMP_PAGE_PATH)
-	filemanager.WriteJson(tmpPages, "notion_data/test.json")
+	// filemanager.WriteJson(tmpPages, "notion_data/test.json")
 	if err != nil {
-		fmt.Println("❌ error in postprocess/addOgpDataToPage/filemanager.ReadJson")
+		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err
 	}
 	curriculums, err := filemanager.ReadJson[[]domain.CurriculumEntity](constants.CURRICULUM_PATH)
 	if err != nil {
-		fmt.Println("❌ error in postprocess/addOgpDataToPage/filemanager.ReadJson")
+		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err
 	}
 	infos, err := filemanager.ReadJson[[]domain.InfoEntity](constants.INFO_PATH)
 	if err != nil {
-		fmt.Println("❌ error in postprocess/addOgpDataToPage/filemanager.ReadJson")
+		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err
 	}
 	answers, err := filemanager.ReadJson[[]domain.AnswerEntity](constants.ANSWER_PATH)
 	if err != nil {
-		fmt.Println("❌ error in postprocess/addOgpDataToPage/filemanager.ReadJson")
+		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err
 	}
 	atlPageEntities := []domain.AtlPageEntity{}
@@ -35,7 +35,7 @@ func processPageEntity() error {
 		var filepath = fmt.Sprintf("%s/%s.json", constants.TMP_DIR, page.Id)
 		blocks, err := filemanager.ReadJson[[]domain.BlockEntity](filepath)
 		if err != nil {
-			fmt.Println("❌ error in postprocess/addOgpDataToPage/filemanager.ReadJson")
+			fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 			return err
 		}
 		firstText := getFirstText(blocks)
@@ -86,12 +86,12 @@ func processPageEntity() error {
 	}
 	newEntity, err := gateway.UpsertFile(domain.TMP_ALL_PAGE, "id", atlPageEntities)
 	if err != nil {
-		fmt.Println("❌ error in postprocess/addOgpDataToPage/gateway.UpsertFile")
+		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/gateway.UpsertFile")
 		return err
 	}
 	err = filemanager.EncodeAndSave(newEntity, constants.PAGE_DAT_PATH)
 	if err != nil {
-		fmt.Println("❌ error in postprocess/addOgpDataToPage/filemanager.EncodeAndSave")
+		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.EncodeAndSave")
 		return err
 	}
 	return nil

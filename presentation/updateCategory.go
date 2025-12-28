@@ -73,7 +73,7 @@ func updateCategory() error {
 			fmt.Println("error in presentation/updateCategory/usecase.DelCategoryById")
 			return err
 		}
-		err = filemanager.DelFile(constants.OGP_DIR + id + ".png")
+		err = filemanager.DelFile(constants.OGP_DIR + "/" + id + ".png")
 		if err != nil {
 			fmt.Println("error in presentation/updateCategory/filemanager.DelFile")
 			return err

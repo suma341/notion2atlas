@@ -2,9 +2,7 @@ package usecase
 
 import (
 	"fmt"
-	"notion2atlas/constants"
 	"notion2atlas/domain"
-	"notion2atlas/filemanager"
 	"notion2atlas/utils"
 )
 
@@ -110,16 +108,14 @@ func processDelNTData[T domain.BasePage](delItems []string, resourceType domain.
 			fmt.Println("error in usecase/processDelNTData/DelBasePageById")
 			return err
 		}
-		err = filemanager.DelFile(constants.OGP_DIR + id + ".png")
-		if err != nil {
-			fmt.Println("error in usecase/processDelNTData/filemanager.DelFile")
-			return err
-		}
 	}
 	return nil
 }
 
 func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceType domain.ResourceType) error {
+	if len(editItems) <= 0 {
+		return nil
+	}
 	for _, item := range editItems {
 		err := InitCurriculumRelatedDir(item.GetId())
 		if err != nil {
@@ -136,6 +132,9 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 }
 
 func processNewNTData[T domain.BasePage](newItems []domain.BasePage, resourceType domain.ResourceType) error {
+	if len(newItems) <= 0 {
+		return nil
+	}
 	for _, item := range newItems {
 		err := saveNtData[T](item, resourceType)
 		if err != nil {

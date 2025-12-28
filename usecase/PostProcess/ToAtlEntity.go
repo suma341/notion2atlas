@@ -7,15 +7,10 @@ import (
 	"notion2atlas/filemanager"
 )
 
-func RewriteToAtlEntity(bps []domain.BasePage) error {
-	err := processPageEntity()
-	if err != nil {
-		fmt.Println("❌ error in postprocess/ToAtlEntity/addOgpDataToPage")
-		return err
-	}
+func rewriteToAtlEntity() error {
 	pageEntities, err := filemanager.ReadJson[[]domain.PageEntity](constants.TMP_ALL_PAGE_PATH)
 	if err != nil {
-		fmt.Println("❌ error in postprocess/ToAtlEntity/filemanager.ReadJson:11")
+		fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/filemanager.ReadJson:11")
 		return err
 	}
 	tmpPages, err := filemanager.ReadJson[[]domain.PageEntity](constants.TMP_PAGE_PATH)
@@ -24,35 +19,30 @@ func RewriteToAtlEntity(bps []domain.BasePage) error {
 		path := fmt.Sprintf("%s/%s.json", constants.TMP_DIR, pageId)
 		blockEntities, err := filemanager.ReadJson[[]domain.BlockEntity](path)
 		if err != nil {
-			fmt.Println("❌ error in postprocess/ToAtlEntity/filemanager.ReadJson:20")
+			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/filemanager.ReadJson:20")
 			return err
 		}
 		atlBlocks, err := blockToAtlEntity(blockEntities, pageEntities)
 		if err != nil {
-			fmt.Println("❌ error in postprocess/RewriteToAtlEntity/blockToAtlEntity")
+			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/blockToAtlEntity")
 			return err
 		}
 		pageDataPath := fmt.Sprintf("%s/%s.json", constants.PAGE_DATA_DIR, pageId)
 		_, err = filemanager.CreateFileIfNotExist(pageDataPath)
 		if err != nil {
-			fmt.Println("❌ error in postprocess/ToAtlEntity/filemanager.CreateFileIfNotExist")
+			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/filemanager.CreateFileIfNotExist")
 			return err
 		}
 		err = filemanager.WriteJson(atlBlocks, pageDataPath)
 		if err != nil {
-			fmt.Println("❌ error in postprocess/ToAtlEntity/filemanager.WriteJson")
+			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/filemanager.WriteJson")
 			return err
 		}
 		err = filemanager.DelFile(path)
 		if err != nil {
-			fmt.Println("❌ error in postprocess/ToAtlEntity/filemanager.DelFile")
+			fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/rewriteToAtlEntity/filemanager.DelFile")
 			return err
 		}
-	}
-	err = encodeAndSaveSyncedDat()
-	if err != nil {
-		fmt.Println("❌ error in postprocess/ToAtlEntity/encodeAndSaveSyncedDat")
-		return err
 	}
 	fmt.Println("✅ complete process ntData to atlData")
 	return nil
@@ -69,7 +59,7 @@ func blockToAtlEntity(blocks []domain.BlockEntity, pageEntities []domain.PageEnt
 			if item.Type == "image" {
 				atlEntityPt, err := processImage(item, pageEntities)
 				if err != nil {
-					fmt.Println("❌ error in postprocess/ToAtlEntity/processImage")
+					fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/blockToAtlEntity/processImage")
 					return nil, err
 				}
 				if atlEntityPt == nil {
@@ -97,7 +87,7 @@ func blockToAtlEntity(blocks []domain.BlockEntity, pageEntities []domain.PageEnt
 				atlEntity = item.ToAtlEntity(item.Data.ToAtlData(nil))
 				childrenPt, err := processSyncedChild(atlEntity)
 				if err != nil {
-					fmt.Println("❌ error in postprocess/ToAtlEntity/processSyncedChild")
+					fmt.Println("error in usecase/postprocess/ToAtlEntity.go:/blockToAtlEntity/processSyncedChild")
 					return nil, err
 				}
 				if childrenPt != nil {
@@ -118,7 +108,7 @@ func blockToAtlEntity(blocks []domain.BlockEntity, pageEntities []domain.PageEnt
 	return atlBlocks, nil
 }
 
-func getAllPages(bps []domain.BasePage, pageEntities []domain.PageEntity) []domain.PageEntity {
+func getAllPagesInCurriculum(bps []domain.BasePage, pageEntities []domain.PageEntity) []domain.PageEntity {
 	allPages := []domain.PageEntity{}
 	for _, pe := range pageEntities {
 		for _, bp := range bps {

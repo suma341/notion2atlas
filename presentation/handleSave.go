@@ -47,7 +47,7 @@ func HandleUpdateData() error {
 	pageEntities = append(pageEntities, info_nde.Edit...)
 	pageEntities = append(pageEntities, answer_nde.New...)
 	pageEntities = append(pageEntities, answer_nde.Edit...)
-	err = postprocess.RewriteToAtlEntity(pageEntities)
+	err = postprocess.PostProcess()
 	if err != nil {
 		return err
 	}

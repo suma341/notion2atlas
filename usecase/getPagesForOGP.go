@@ -6,13 +6,13 @@ import (
 )
 
 func GetPagesForOGP() ([]domain.PageEntity, error) {
-	pagesPointer, err := GetPageFile()
+	pagesP, err := GetPageFile()
 	if err != nil {
 		fmt.Println("error in presentation/HandleCreateGGP/GetPageFile")
 		return nil, err
 	}
-	if pagesPointer == nil {
-		return nil, fmt.Errorf("unexpected: pagesPointer is nil")
+	if pagesP == nil {
+		return nil, fmt.Errorf("unexpected: pagesP is nil")
 	}
 	categoriesPointer, err := GetCategoryFile()
 	if err != nil {
@@ -22,7 +22,16 @@ func GetPagesForOGP() ([]domain.PageEntity, error) {
 	if categoriesPointer == nil {
 		return nil, fmt.Errorf("unexpected: categoriesPointer is nil")
 	}
-	pages := *pagesPointer
+	pages := *pagesP
+	var pageEntity []domain.PageEntity
+	for _, p := range pages {
+		ent, err := p.ToPageEntity()
+		if err != nil {
+			fmt.Println("error in usecase/getPagesForOGP.go/GetPagesForOGP/p.ToPageEntity")
+			return nil, err
+		}
+		pageEntity = append(pageEntity, *ent)
+	}
 	categories := *categoriesPointer
 	for _, c := range categories {
 		entity, err := c.ToPageEntity()
@@ -30,9 +39,9 @@ func GetPagesForOGP() ([]domain.PageEntity, error) {
 			fmt.Println("error in usecase/GetPagesForOGPc.ToPageEntity/")
 			return nil, err
 		}
-		pages = append(pages, *entity)
+		pageEntity = append(pageEntity, *entity)
 	}
-	pages = append(pages, domain.CreatePage("部活情報", "emoji", "ℹ️", "infos"))
-	pages = append(pages, domain.CreatePage("基礎班カリキュラム", "emoji", "🔰", "basic"))
-	return pages, nil
+	pageEntity = append(pageEntity, domain.CreatePage("部活情報", "emoji", "ℹ️", "infos"))
+	pageEntity = append(pageEntity, domain.CreatePage("基礎班カリキュラム", "emoji", "🔰", "basic"))
+	return pageEntity, nil
 }
