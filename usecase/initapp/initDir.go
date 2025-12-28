@@ -16,22 +16,19 @@ func initDir() error {
 			return err
 		}
 	}
-	require_files := [2]string{constants.ANSWER_PATH, constants.TMP_PAGE_PATH}
-	for _, path := range require_files {
-		exists, err := filemanager.CreateFileIfNotExist(path)
+	exists, err := filemanager.CreateFileIfNotExist(constants.TMP_PAGE_PATH)
+	if err != nil {
+		fmt.Println("error in usecase/InitDir/filemanager.CreateFileIfNotExist")
+		return err
+	}
+	if !exists {
+		err := filemanager.WriteJson([]any{}, constants.TMP_PAGE_PATH)
 		if err != nil {
-			fmt.Println("error in usecase/InitDir/filemanager.CreateFileIfNotExist")
+			fmt.Println("error in usecase/InitDir/filemanager.WriteJson")
 			return err
 		}
-		if !exists {
-			err := filemanager.WriteJson([]any{}, path)
-			if err != nil {
-				fmt.Println("error in usecase/InitDir/filemanager.WriteJson")
-				return err
-			}
-		}
 	}
-	err := loadDat()
+	err = loadDat()
 	if err != nil {
 		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/loadDat")
 		return err
@@ -61,6 +58,11 @@ func loadDat() error {
 		return err
 	}
 	err = loadAndWrite[[]domain.InfoEntity](constants.INFO_DAT_PATH, constants.TMP_ALL_INFO_PATH)
+	if err != nil {
+		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/loadAndWrite")
+		return err
+	}
+	err = loadAndWrite[[]domain.AnswerEntity](constants.ANSWER_DAT_PATH, constants.TMP_ALL_ANSWER_PATH)
 	if err != nil {
 		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/loadAndWrite")
 		return err

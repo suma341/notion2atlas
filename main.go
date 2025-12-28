@@ -21,7 +21,7 @@ func decode[T any](path string) {
 }
 
 func encode[T any](path string) {
-	b, _ := filemanager.ReadJson[T](constants.INFO_DIR + "/data.json")
+	b, _ := filemanager.ReadJson[T](constants.ANSWER_DIR + "/data.json")
 	filemanager.EncodeAndSave(b, path)
 }
 
@@ -30,9 +30,9 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	test()
-	// decode[[]domain.InfoEntity]("notion_data/info.dat")
-	// encode[[]domain.InfoEntity]("notion_data/info.dat")
+	// test()
+	// decode[[]domain.AnswerEntity]("notion_data/answer.dat")
+	// encode[[]domain.AnswerEntity]("notion_data/answer.dat")
 	// p, _ := usecase.Test("24ba501ef33780edacc4d54914fb20d2")
 	// filemanager.WriteJson(p, "notion_data/test.json")
 }

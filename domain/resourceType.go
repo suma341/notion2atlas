@@ -13,6 +13,7 @@ const (
 	CURRICULUM_DAT
 	CATEGORY_DAT
 	INFO_DAT
+	ANSWER_DAT
 )
 
 func (r DatRType) GetPath() (dat string, tmp string) {
@@ -27,6 +28,8 @@ func (r DatRType) GetPath() (dat string, tmp string) {
 		return constants.CATEGORY_DAT_PATH, constants.TMP_ALL_CATEGORY_PATH
 	case INFO_DAT:
 		return constants.INFO_DAT_PATH, constants.TMP_ALL_INFO_PATH
+	case ANSWER_DAT:
+		return constants.ANSWER_DAT_PATH, constants.TMP_ALL_ANSWER_PATH
 	}
 	return "", ""
 }
@@ -43,6 +46,7 @@ const (
 	TMP_PAGE
 	TMP_ALL_PAGE
 	TMP_ALL_CATEGORY
+	TMP_ALL_ANSWER
 )
 
 func (r ResourceType) GetStr() string {
@@ -75,7 +79,7 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 	case INFO:
 		return constants.TMP_ALL_INFO_PATH, nil
 	case ANSWER:
-		return constants.ANSWER_PATH, nil
+		return constants.TMP_ALL_ANSWER_PATH, nil
 	case SYNCED:
 		return constants.SYNCED_PATH, nil
 	case TMP_PAGE:

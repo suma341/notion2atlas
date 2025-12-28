@@ -17,20 +17,6 @@ func GetDatFileData[T any](r domain.DatRType) (*T, error) {
 	return &dat, nil
 }
 
-func GetFileData[T any](resourceType domain.ResourceType) (*T, error) {
-	path, err := resourceType.GetFilePathFromResourceType()
-	if err != nil {
-		fmt.Println("error in gateway/GetFileData/resourceType.GetFilePathFromResourceType")
-		return nil, err
-	}
-	data, err := filemanager.ReadJson[T](path)
-	if err != nil {
-		fmt.Println("error in gateway/GetFileData/filemanager.ReadJson")
-		return nil, err
-	}
-	return &data, nil
-}
-
 func DeleteById(resourceType domain.ResourceType, key string, targetId string) error {
 	path, err := resourceType.GetFilePathFromResourceType()
 	if err != nil {

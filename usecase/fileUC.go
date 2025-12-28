@@ -46,7 +46,7 @@ func GetInfoFile() (*[]domain.InfoEntity, error) {
 }
 
 func GetAnswerFile() (*[]domain.AnswerEntity, error) {
-	data, err := gateway.GetFileData[[]domain.AnswerEntity](domain.ANSWER)
+	data, err := gateway.GetDatFileData[[]domain.AnswerEntity](domain.ANSWER_DAT)
 	if err != nil {
 		fmt.Println("error in usecase/GetAnswerFile/gateway.GetFileData")
 		return nil, err
