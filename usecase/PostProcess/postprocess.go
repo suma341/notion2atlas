@@ -13,14 +13,9 @@ func PostProcess() error {
 		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/rewriteToAtlEntity")
 		return err
 	}
-	err = encodeAndSaveSyncedDat()
+	err = encodeAndSaveDats()
 	if err != nil {
-		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/encodeAndSaveSyncedDat")
-		return err
-	}
-	err = encodeAndSaveCurriculumDat()
-	if err != nil {
-		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/encodeAndSaveCurriculumDat")
+		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/encodeAndSaveDats")
 		return err
 	}
 	return nil

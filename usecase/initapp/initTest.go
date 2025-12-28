@@ -30,6 +30,11 @@ func initTest(test bool) error {
 			fmt.Println("error in usecase/initprocess/initTest.go:/InitTest/filemanager.LoadAndDecodeJson")
 			return err
 		}
+		err = createTestFile[[]domain.CategoryEntity](constants.CATEGORY_DAT_PATH, constants.TEST_PREV_CATEGORY_PATH)
+		if err != nil {
+			fmt.Println("error in usecase/initprocess/initTest.go:/InitTest/filemanager.LoadAndDecodeJson")
+			return err
+		}
 	}
 	return nil
 }

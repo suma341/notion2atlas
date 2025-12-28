@@ -28,9 +28,9 @@ func GetCurriculumFile() (*[]domain.CurriculumEntity, error) {
 }
 
 func GetCategoryFile() (*[]domain.CategoryEntity, error) {
-	data, err := gateway.GetFileData[[]domain.CategoryEntity](domain.CATEGORY)
+	data, err := gateway.GetDatFileData[[]domain.CategoryEntity](domain.CATEGORY_DAT)
 	if err != nil {
-		fmt.Println("error in usecase/GetCurriculumFile/gateway.GetFileData")
+		fmt.Println("error in usecase/GetCurriculumFile/gateway.GetDatFileData")
 		return nil, err
 	}
 	return data, nil
@@ -73,7 +73,7 @@ func DelPageByCurriculumId(curriculumId string) error {
 }
 
 func DelCategoryById(categoryId string) error {
-	err := gateway.DeleteById(domain.CATEGORY, "id", categoryId)
+	err := gateway.DeleteById(domain.TMP_ALL_CATEGORY, "id", categoryId)
 	if err != nil {
 		fmt.Println("error in usecase/DelCategoryById/gateway.DeleteById")
 		return err
@@ -149,7 +149,7 @@ func InitCurriculumRelatedDir(curriculumId string) error {
 }
 
 func UpsertCategory(entities []domain.CategoryEntity) error {
-	_, err := gateway.UpsertFile(domain.CATEGORY, "id", entities)
+	_, err := gateway.UpsertFile(domain.TMP_ALL_CATEGORY, "id", entities)
 	if err != nil {
 		fmt.Println("error in usecase/UpsertCategory/gateway.UpsertFile")
 		return err

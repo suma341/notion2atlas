@@ -21,19 +21,18 @@ func decode[T any](path string) {
 }
 
 func encode[T any](path string) {
-	b, _ := filemanager.ReadJson[T](constants.CURRICULUM_DIR + "/data.json")
+	b, _ := filemanager.ReadJson[T](constants.CATEGORY_DIR + "/data.json")
 	filemanager.EncodeAndSave(b, path)
 }
 
 func main() {
-	var err error = nil
-	err = presentation.HandleUpdateData()
+	err := presentation.HandleUpdateData()
 	if err != nil {
 		panic(err)
 	}
-	// test()
-	// decode[[]domain.CurriculumEntity]("notion_data/curriculum.dat")
-	// encode[[]domain.CurriculumEntity]("notion_data/curriculum.dat")
+	test()
+	// decode[[]domain.CategoryEntity]("notion_data/category.dat")
+	// encode[[]domain.CategoryEntity]("notion_data/category.dat")
 	// p, _ := usecase.Test("24ba501ef33780edacc4d54914fb20d2")
 	// filemanager.WriteJson(p, "notion_data/test.json")
 }

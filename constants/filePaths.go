@@ -16,8 +16,6 @@ const (
 )
 
 const (
-	// CURRICULUM_PATH     = CURRICULUM_DIR + "/data.json"
-	CATEGORY_PATH           = CATEGORY_DIR + "/data.json"
 	INFO_PATH               = INFO_DIR + "/data.json"
 	ANSWER_PATH             = ANSWER_DIR + "/data.json"
 	SYNCED_PATH             = SYNCED_DIR + "/data.json"
@@ -28,6 +26,8 @@ const (
 	TMP_ALL_SYNCED_PATH     = TMP_DIR + "/all_synced.json"
 	CURRICULUM_DAT_PATH     = CURRICULUM_DIR + "/curriculum.dat"
 	TMP_ALL_CURRICULUM_PATH = TMP_DIR + "/curriculum.json"
+	CATEGORY_DAT_PATH       = CATEGORY_DIR + "/category.dat"
+	TMP_ALL_CATEGORY_PATH   = TMP_DIR + "/category.json"
 )
 
 const (
@@ -39,4 +39,6 @@ const (
 	TEST_RESULT_PAGE_PATH       = TEST_RESULT_DIR + "/page.json"
 	TEST_PREV_CURRICULUM_PATH   = TEST_PREV_DIR + "/curriculum.json"
 	TEST_RESULT_CURRICULUM_PATH = TEST_RESULT_DIR + "/curriculum.json"
+	TEST_PREV_CATEGORY_PATH     = TEST_PREV_DIR + "/category.json"
+	TEST_RESULT_CATEGORY_PATH   = TEST_RESULT_DIR + "/category.json"
 )

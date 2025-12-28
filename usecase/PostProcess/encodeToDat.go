@@ -8,29 +8,55 @@ import (
 	"notion2atlas/gateway"
 )
 
+func encodeAndSaveDats() error {
+	err := encodeAndSaveSyncedDat()
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go:/encodeAndSaveDats/encodeAndSaveSyncedDat")
+		return err
+	}
+	err = encodeAndSaveCurriculumDat()
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go:/encodeAndSaveDats/encodeAndSaveCurriculumDat")
+		return err
+	}
+	err = encodeAndSaveCategoryDat()
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go:/encodeAndSaveDats/encodeAndSaveCategoryDat")
+		return err
+	}
+	return nil
+}
+
 func encodeAndSaveSyncedDat() error {
-	return encodeAndSaveDat[[]domain.BlockEntity](
+	return encodeAndSaveDatItem[[]domain.BlockEntity](
 		domain.SYNCED_DAT,
 		constants.SYNCED_DAT_PATH,
 	)
 }
 
 func encodeAndSaveCurriculumDat() error {
-	return encodeAndSaveDat[[]domain.CurriculumEntity](
+	return encodeAndSaveDatItem[[]domain.CurriculumEntity](
 		domain.CURRICULUM_DAT,
 		constants.CURRICULUM_DAT_PATH,
 	)
 }
 
-func encodeAndSaveDat[T any](datType domain.DatRType, savePath string) error {
+func encodeAndSaveCategoryDat() error {
+	return encodeAndSaveDatItem[[]domain.CategoryEntity](
+		domain.CATEGORY_DAT,
+		constants.CATEGORY_DAT_PATH,
+	)
+}
+
+func encodeAndSaveDatItem[T any](datType domain.DatRType, savePath string) error {
 	dat, err := gateway.GetDatFileData[T](datType)
 	if err != nil {
-		fmt.Println("❌ error in postprocess/encodeAndSaveDat/gateway.GetDatFileData")
+		fmt.Println("❌ error in postprocess/encodeAndSaveDatItem/gateway.GetDatFileData")
 		return err
 	}
 
 	if err := filemanager.EncodeAndSave(dat, savePath); err != nil {
-		fmt.Println("❌ error in postprocess/encodeAndSaveDat/filemanager.EncodeAndSave")
+		fmt.Println("❌ error in postprocess/encodeAndSaveDatItem/filemanager.EncodeAndSave")
 		return err
 	}
 

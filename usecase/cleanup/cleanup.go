@@ -37,6 +37,7 @@ func writeTestResult() error {
 		fmt.Println("error in usecase/cleanup.go:/writeTestResult/loadAndwrite")
 		return err
 	}
+	err = loadAndWrite[[]domain.CategoryEntity](constants.CATEGORY_DAT_PATH, constants.TEST_RESULT_CATEGORY_PATH)
 	return nil
 }
 

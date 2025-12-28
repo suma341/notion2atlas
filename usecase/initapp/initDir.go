@@ -16,7 +16,7 @@ func initDir() error {
 			return err
 		}
 	}
-	require_files := [4]string{constants.CATEGORY_PATH, constants.INFO_PATH, constants.ANSWER_PATH, constants.TMP_PAGE_PATH}
+	require_files := [3]string{constants.INFO_PATH, constants.ANSWER_PATH, constants.TMP_PAGE_PATH}
 	for _, path := range require_files {
 		exists, err := filemanager.CreateFileIfNotExist(path)
 		if err != nil {
@@ -51,6 +51,11 @@ func loadDat() error {
 		return err
 	}
 	err = loadAndWrite[[]domain.CurriculumEntity](constants.CURRICULUM_DAT_PATH, constants.TMP_ALL_CURRICULUM_PATH)
+	if err != nil {
+		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/loadAndWrite")
+		return err
+	}
+	err = loadAndWrite[[]domain.CategoryEntity](constants.CATEGORY_DAT_PATH, constants.TMP_ALL_CATEGORY_PATH)
 	if err != nil {
 		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/loadAndWrite")
 		return err

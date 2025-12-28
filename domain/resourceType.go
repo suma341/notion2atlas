@@ -11,6 +11,7 @@ const (
 	PAGE_DAT DatRType = iota
 	SYNCED_DAT
 	CURRICULUM_DAT
+	CATEGORY_DAT
 )
 
 func (r DatRType) GetPath() (dat string, tmp string) {
@@ -21,6 +22,8 @@ func (r DatRType) GetPath() (dat string, tmp string) {
 		return constants.SYNCED_DAT_PATH, constants.TMP_ALL_PAGE_PATH
 	case CURRICULUM_DAT:
 		return constants.CURRICULUM_DAT_PATH, constants.TMP_ALL_CURRICULUM_PATH
+	case CATEGORY_DAT:
+		return constants.CATEGORY_DAT_PATH, constants.TMP_ALL_CATEGORY_PATH
 	}
 	return "", ""
 }
@@ -36,6 +39,7 @@ const (
 	SYNCED
 	TMP_PAGE
 	TMP_ALL_PAGE
+	TMP_ALL_CATEGORY
 )
 
 func (r ResourceType) GetStr() string {
@@ -64,7 +68,7 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 	case PAGE:
 		return constants.TMP_ALL_PAGE_PATH, nil
 	case CATEGORY:
-		return constants.CATEGORY_PATH, nil
+		return constants.TMP_ALL_CATEGORY_PATH, nil
 	case INFO:
 		return constants.INFO_PATH, nil
 	case ANSWER:
@@ -75,6 +79,8 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 		return constants.TMP_PAGE_PATH, nil
 	case TMP_ALL_PAGE:
 		return constants.TMP_ALL_PAGE_PATH, nil
+	case TMP_ALL_CATEGORY:
+		return constants.TMP_ALL_CATEGORY_PATH, nil
 	default:
 		return "", fmt.Errorf("unexpected resourceType")
 	}
