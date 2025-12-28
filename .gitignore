@@ -1,3 +1,4 @@
 .env
 .DS_Store
 notion_data/test/
+notion_data/test.json
