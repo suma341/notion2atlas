@@ -62,12 +62,10 @@ func updateCategory() error {
 		fmt.Println("error in presentation/updateCategory/usecase.ProcessCategory")
 		return err
 	}
-	err = usecase.CreateStaticCategories()
-	if err != nil {
-		fmt.Println("error in presentation/updateCategory/usecase.CreateStaticCategories")
-		return err
-	}
 	for _, id := range nde.Del {
+		if id == "info" || id == "answer" {
+			continue
+		}
 		err = usecase.DelCategoryById(id)
 		if err != nil {
 			fmt.Println("error in presentation/updateCategory/usecase.DelCategoryById")
@@ -78,6 +76,11 @@ func updateCategory() error {
 			fmt.Println("error in presentation/updateCategory/filemanager.DelFile")
 			return err
 		}
+	}
+	err = usecase.CreateStaticCategories()
+	if err != nil {
+		fmt.Println("error in presentation/updateCategory/usecase.CreateStaticCategories")
+		return err
 	}
 	return nil
 }

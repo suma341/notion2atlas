@@ -1,0 +1,2149 @@
+[
+  {
+    "id": "200a501ef337808ca7ecffefb155230a",
+    "type": "divider",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "none"
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef33780eaaf77efc8fb92ea7c",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiita Team",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "とは、部内で様々な知識・経験を共有するために使用している情報共有サービスです！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 1
+  },
+  {
+    "id": "200a501ef337805ebb3efd2fc4607c67",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "みなさんはQiita Teamに自由に記事を投稿したり、投稿された記事を閲覧したりすることができます！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 2
+  },
+  {
+    "id": "200a501ef33780f9a2baef28fa16b474",
+    "type": "bookmark",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://teams.qiita.com/",
+        "ogp": {
+          "title": "Qiita Team - 日報やナレッジ共有に便利な情報共有サービス",
+          "description": "誰でも「かんたん」に記事が書ける社内向け情報共有サービス。ナレッジ共有や日報にオススメです。国内最大級エンジニアコミュニティ「Qiita」が運営しており、累計8,500以上のチームに選ばれています！",
+          "image": "https://i0.wp.com/teams.qiita.com/wp-content/uploads/2024/07/OGP.png?fit=880%2C462\u0026ssl=1",
+          "icon": "https://i0.wp.com/teams.qiita.com/wp-content/uploads/2023/04/favicon.png?fit=32%2C32\u0026ssl=1"
+        }
+      }
+    },
+    "order": 3
+  },
+  {
+    "id": "200a501ef337806cb1f4e8a4b4bae87a",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "利用には ",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiitaアカウントの作成",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " と ",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Horizonのチームへの参加",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " が必須ですので、以下の手順に沿って作業をしてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 4
+  },
+  {
+    "id": "200a501ef3378011a348cd9ffd788f5b",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 5
+  },
+  {
+    "id": "200a501ef3378023a04fcb0fa371370f",
+    "type": "callout",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "すでにQiitaアカウントを持っている人は、",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "こちら",
+            "href": "/posts/curriculums/200a501ef33780ffb3a9ed1bd068b618",
+            "scroll": "200a501ef33780499c05e25e7a90204f",
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "blue",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": " ",
+            "href": "/posts/curriculums/200a501ef33780ffb3a9ed1bd068b618",
+            "scroll": "200a501ef33780499c05e25e7a90204f",
+            "is_same_bp": true
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "からチームへの参加申請をしてください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "☝"
+        }
+      }
+    },
+    "order": 6
+  },
+  {
+    "id": "200a501ef33780f48a1dceb7a2a070f7",
+    "type": "heading_1",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiitaアカウントの作成",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 7
+  },
+  {
+    "id": "200a501ef337809abfd9db7ae49df9c5",
+    "type": "divider",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "none"
+    },
+    "order": 8
+  },
+  {
+    "id": "200a501ef33780e6bce9fa4d2f4f8abb",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiitaにアクセス",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 9
+  },
+  {
+    "id": "200a501ef337801c9598d66fa0f99b96",
+    "type": "bookmark",
+    "parentId": "200a501ef33780e6bce9fa4d2f4f8abb",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "bookmark",
+      "bookmark": {
+        "parent": [],
+        "url": "https://qiita.com/",
+        "ogp": {
+          "title": "Qiita",
+          "description": "Qiitaは、エンジニアに関する知識を記録・共有するためのサービスです。 プログラミングに関するTips、ノウハウ、メモを簡単に記録 \u0026amp; 公開することができます。",
+          "image": "https://cdn.qiita.com/assets/qiita-ogp-3b6fcfdd74755a85107071ffc3155898.png",
+          "icon": "https://cdn.qiita.com/assets/favicons/public/production-c620d3e403342b1022967ba5e3db1aaa.ico"
+        }
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef33780aabaa4d1635b33c2c0",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 10
+  },
+  {
+    "id": "200a501ef33780b6bc8ade0e819bfff6",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "新規登録",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」ボタンから、アカウント作成",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 11
+  },
+  {
+    "id": "200a501ef33780ee9df9c331d35028ad",
+    "type": "image",
+    "parentId": "200a501ef33780b6bc8ade0e819bfff6",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef33780ee9df9c331d35028ad.png",
+        "width": 1209,
+        "height": 814
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef337802888c4dfeaea5ccec4",
+    "type": "paragraph",
+    "parentId": "200a501ef33780b6bc8ade0e819bfff6",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "GitHubやGoogleの外部サービスで登録することをおすすめします（ログインが楽）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 1
+  },
+  {
+    "id": "200a501ef337807db279c010adbaf1c4",
+    "type": "callout",
+    "parentId": "200a501ef33780b6bc8ade0e819bfff6",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "callout",
+      "callout": {
+        "color": "blue_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiitaは大学を卒業してからも使い続けることができます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        }
+      }
+    },
+    "order": 2
+  },
+  {
+    "id": "200a501ef337801998b7c60bb382219b",
+    "type": "paragraph",
+    "parentId": "200a501ef337807db279c010adbaf1c4",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "登録するメールアドレス（",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": true
+            },
+            "plain_text": "外部サービスに紐づいたものも含む",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "）は、大学のものではなく",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "個人のものにすることをおすすめします！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef33780cea128ddf21e793ec0",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 12
+  },
+  {
+    "id": "200a501ef337808398feefe0c17169e5",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "登録完了！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 13
+  },
+  {
+    "id": "200a501ef337802aa8bff103e3783ead",
+    "type": "image",
+    "parentId": "200a501ef337808398feefe0c17169e5",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef337802aa8bff103e3783ead.png",
+        "width": 1420,
+        "height": 1222
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef3378021a41bffbc220b25ea",
+    "type": "paragraph",
+    "parentId": "200a501ef337808398feefe0c17169e5",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "登録が終わると、こんな画面になります。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 1
+  },
+  {
+    "id": "200a501ef33780bbab6df09e17dc6651",
+    "type": "paragraph",
+    "parentId": "200a501ef337808398feefe0c17169e5",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "余裕があれば、画面上部にあるメールアドレス認証をしておくといいかもです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 2
+  },
+  {
+    "id": "200a501ef33780499c05e25e7a90204f",
+    "type": "heading_1",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "チームへの参加申請",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 14
+  },
+  {
+    "id": "200a501ef3378068a4bec123ae0a009a",
+    "type": "divider",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "none"
+    },
+    "order": 15
+  },
+  {
+    "id": "200a501ef33780d183e8c4d026d77a65",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "以下フォームより、",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiitaに登録したメールアドレス",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "を送信してください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 16
+  },
+  {
+    "id": "200a501ef33780149c6bd48bcf005e2e",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※大学のGoogleアカウントでログインして回答してください",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 17
+  },
+  {
+    "id": "292a501ef337808ead99c57e4ef15eec",
+    "type": "callout",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "callout",
+      "callout": {
+        "color": "red_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "※一時的に非公開です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": ""
+        }
+      }
+    },
+    "order": 18
+  },
+  {
+    "id": "292a501ef337804785d1e14b06e910e1",
+    "type": "paragraph",
+    "parentId": "292a501ef337808ead99c57e4ef15eec",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "　参加したい方は、お手数ですが技術部署員までご連絡ください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef33780e7a27dc050b6bed256",
+    "type": "toggle",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "登録したメールアドレスを調べる方法",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 19
+  },
+  {
+    "id": "200a501ef33780b9b0f0faa9b7852a99",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780e7a27dc050b6bed256",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "画面右上のプロフィール写真をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef337809d969be4268e3a2144",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780e7a27dc050b6bed256",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「マイページ」をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 1
+  },
+  {
+    "id": "200a501ef337801aabedc8aec6d452bd",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780e7a27dc050b6bed256",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「プロフィールを編集する」をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 2
+  },
+  {
+    "id": "200a501ef337804b9cafd9c5c04fe8ea",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780e7a27dc050b6bed256",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "左側の「メールアドレスと通知」をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 3
+  },
+  {
+    "id": "200a501ef3378024b1aede8d454e6459",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780e7a27dc050b6bed256",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "メールアドレスが表示される",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 4
+  },
+  {
+    "id": "200a501ef33780b9ace6f8d8bc5b3704",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 20
+  },
+  {
+    "id": "200a501ef3378014a2ddee5f907cc850",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "フォームを送信すると、数分で",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 21
+  },
+  {
+    "id": "200a501ef33780a49fa9c1139b6a93c2",
+    "type": "heading_3",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「Invitation to ryukokuhorizon team」",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 22
+  },
+  {
+    "id": "200a501ef33780d7af24d9ab9385bd0c",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "という件名のメールが届くはずです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 23
+  },
+  {
+    "id": "200a501ef33780bba827ef402651c86e",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "メール内のリンクをクリックし、チームへ参加してください！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 24
+  },
+  {
+    "id": "200a501ef33780028879f22ebde49278",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "参加が完了すると、以下のような画面になるはずです！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 25
+  },
+  {
+    "id": "200a501ef3378000a404ea899aeba6f9",
+    "type": "image",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef3378000a404ea899aeba6f9.png",
+        "width": 2878,
+        "height": 1589
+      }
+    },
+    "order": 26
+  },
+  {
+    "id": "200a501ef33780508c89e793e9dafcb0",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 27
+  },
+  {
+    "id": "200a501ef33780bb98c4e75f47731c0e",
+    "type": "callout",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "callout",
+      "callout": {
+        "color": "yellow_background",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "エラー等が表示されてチームに参加できない場合、登録したメールアドレスと併せて発展班運営担当までご連絡ください。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "⚠️"
+        }
+      }
+    },
+    "order": 28
+  },
+  {
+    "id": "200a501ef33780259109ca9cc5b3940b",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 29
+  },
+  {
+    "id": "200a501ef337804aa30df111c19d0979",
+    "type": "heading_2",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "オススメ設定（あとでやっといて～）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 30
+  },
+  {
+    "id": "200a501ef33780b9a91ce36b07bf1869",
+    "type": "divider",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "none"
+    },
+    "order": 31
+  },
+  {
+    "id": "200a501ef3378016a5c2f6d7f7d11920",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiita Teamを使用するうえでおすすめな設定をいくつかご紹介します。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 32
+  },
+  {
+    "id": "200a501ef337800bbecac4d001873641",
+    "type": "heading_3",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "表示名の設定",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 33
+  },
+  {
+    "id": "200a501ef3378090a143ecca69b5c35f",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "チーム参加直後は、このように ID のみが表示され、誰が投稿した記事かがわかりにくいです。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 34
+  },
+  {
+    "id": "200a501ef3378068a3bcd316bf923eec",
+    "type": "image",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef3378068a3bcd316bf923eec.png",
+        "width": 869,
+        "height": 174
+      }
+    },
+    "order": 35
+  },
+  {
+    "id": "200a501ef33780a99f1de89357b5464d",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "そこで、表示名を設定しましょう。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 36
+  },
+  {
+    "id": "200a501ef337805a94a1d6a56d6c1754",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "右上プロフィール写真をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 37
+  },
+  {
+    "id": "200a501ef33780d99b1afe2f49ca1ee9",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「設定」をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 38
+  },
+  {
+    "id": "200a501ef337800881e2e9cd8f929c8d",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「名前」の欄に表示名を入力する",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 39
+  },
+  {
+    "id": "200a501ef33780ccbbfedc7243034211",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "完了！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 40
+  },
+  {
+    "id": "200a501ef337805c8e05ea32bfcd7c04",
+    "type": "image",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef337805c8e05ea32bfcd7c04.png",
+        "width": 891,
+        "height": 162
+      }
+    },
+    "order": 41
+  },
+  {
+    "id": "200a501ef33780928b84c2e19534cdeb",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "特に指定はしませんが、外部に公開されることもないので本名で良いと思います。わかりやすいし",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 42
+  },
+  {
+    "id": "200a501ef33780288885f8ea7b944222",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 43
+  },
+  {
+    "id": "200a501ef3378060b01dfec6eb8be722",
+    "type": "heading_3",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "非表示グループへの参加",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 44
+  },
+  {
+    "id": "200a501ef337803fac78d186da94205e",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "Qiita Teamのグループは、すべてが表示されるわけではなく自分が参加しているグループのみが表示されます。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 45
+  },
+  {
+    "id": "200a501ef33780bd8759fe3faea56ad2",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "他のグループを見るには、そのグループに参加しなければいけません。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 46
+  },
+  {
+    "id": "200a501ef337806aaf0eebb80d7355e2",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "参加手順は以下です。",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 47
+  },
+  {
+    "id": "200a501ef3378016a592c9fe09e97e7e",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "参加中のグループ",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」の右側の「",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "︙",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」をクリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 48
+  },
+  {
+    "id": "200a501ef33780229472fd71a5af947a",
+    "type": "paragraph",
+    "parentId": "200a501ef3378016a592c9fe09e97e7e",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "（ウィンドウサイズによっては「すべてのグループ」かも）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef337803b8ddafd31f6040434",
+    "type": "image",
+    "parentId": "200a501ef3378016a592c9fe09e97e7e",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef337803b8ddafd31f6040434.png",
+        "width": 271,
+        "height": 205
+      }
+    },
+    "order": 1
+  },
+  {
+    "id": "200a501ef33780a9b84ec153e174a79f",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "参加していないグループを見つけて、クリック",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 49
+  },
+  {
+    "id": "200a501ef33780319ad7d35880f5dc17",
+    "type": "numbered_list_item",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "「",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": true,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "グループに参加する",
+            "href": null,
+            "is_same_bp": false
+          },
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "」ボタンを押して参加完了！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 50
+  },
+  {
+    "id": "200a501ef3378044b507e521e55118f8",
+    "type": "image",
+    "parentId": "200a501ef33780319ad7d35880f5dc17",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef3378044b507e521e55118f8.png",
+        "width": 752,
+        "height": 255
+      }
+    },
+    "order": 0
+  },
+  {
+    "id": "200a501ef33780f6a571f51b98237e09",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": []
+      }
+    },
+    "order": 51
+  },
+  {
+    "id": "200a501ef3378041b1ebd50a97735f57",
+    "type": "heading_3",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "header",
+      "header": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "（設定じゃないけど）自己紹介",
+            "href": null,
+            "is_same_bp": false
+          }
+        ],
+        "is_toggleable": false
+      }
+    },
+    "order": 52
+  },
+  {
+    "id": "200a501ef3378058abedfc8483db20e5",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "右上の「新規作成」から「自己紹介」テンプレートで自己紹介記事を書いてみましょう！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 53
+  },
+  {
+    "id": "200a501ef33780028cb1e638782dd2e5",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "（自己紹介グループに投稿）",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 54
+  },
+  {
+    "id": "200a501ef33780a7bf15f0fd8d2cb6b1",
+    "type": "paragraph",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "parent": [
+          {
+            "annotations": {
+              "bold": false,
+              "code": false,
+              "color": "default",
+              "italic": false,
+              "strikethrough": false,
+              "underline": false
+            },
+            "plain_text": "テンプレートに縛られる必要はないので、好きに書いてもらえれば！",
+            "href": null,
+            "is_same_bp": false
+          }
+        ]
+      }
+    },
+    "order": 55
+  },
+  {
+    "id": "200a501ef33780f88331f0fab6130f6b",
+    "type": "image",
+    "parentId": "200a501ef33780ffb3a9ed1bd068b618",
+    "curriculumId": "200a501ef33780ffb3a9ed1bd068b618",
+    "pageId": "200a501ef33780ffb3a9ed1bd068b618",
+    "data": {
+      "type": "image",
+      "image": {
+        "parent": [],
+        "url": "https://raw.githubusercontent.com/Ryukoku-Horizon/notion2atlas/main/notion_data/assets/200a501ef33780ffb3a9ed1bd068b618/200a501ef33780f88331f0fab6130f6b.png",
+        "width": 687,
+        "height": 448
+      }
+    },
+    "order": 56
+  }
+]

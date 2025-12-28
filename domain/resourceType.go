@@ -10,6 +10,7 @@ type DatRType int
 const (
 	PAGE_DAT DatRType = iota
 	SYNCED_DAT
+	CURRICULUM_DAT
 )
 
 func (r DatRType) GetPath() (dat string, tmp string) {
@@ -18,6 +19,8 @@ func (r DatRType) GetPath() (dat string, tmp string) {
 		return constants.PAGE_DAT_PATH, constants.TMP_ALL_PAGE_PATH
 	case SYNCED_DAT:
 		return constants.SYNCED_DAT_PATH, constants.TMP_ALL_PAGE_PATH
+	case CURRICULUM_DAT:
+		return constants.CURRICULUM_DAT_PATH, constants.TMP_ALL_CURRICULUM_PATH
 	}
 	return "", ""
 }
@@ -57,7 +60,7 @@ func (r ResourceType) GetStr() string {
 func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 	switch r {
 	case CURRICULUM:
-		return constants.CURRICULUM_PATH, nil
+		return constants.TMP_ALL_CURRICULUM_PATH, nil
 	case PAGE:
 		return constants.TMP_ALL_PAGE_PATH, nil
 	case CATEGORY:

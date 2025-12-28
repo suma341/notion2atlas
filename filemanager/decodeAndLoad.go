@@ -10,20 +10,20 @@ import (
 )
 
 func LoadAndDecodeJson[T any](path string) (*T, error) {
-	encoded, err := LoadFile(path)
+	encoded, err := loadFile(path)
 	if err != nil {
 		return nil, err
 	}
 
-	jsonStr, err := GzipBase64Decode(encoded)
+	jsonStr, err := gzipBase64Decode(encoded)
 	if err != nil {
 		return nil, err
 	}
 
-	return UnmarshalJsonStr[T](jsonStr)
+	return unmarshalJsonStr[T](jsonStr)
 }
 
-func UnmarshalJsonStr[T any](jsonStr string) (*T, error) {
+func unmarshalJsonStr[T any](jsonStr string) (*T, error) {
 	var data T
 	if err := json.Unmarshal([]byte(jsonStr), &data); err != nil {
 		return nil, err
@@ -31,7 +31,7 @@ func UnmarshalJsonStr[T any](jsonStr string) (*T, error) {
 	return &data, nil
 }
 
-func LoadFile(path string) (string, error) {
+func loadFile(path string) (string, error) {
 	b, err := os.ReadFile(path)
 	if err != nil {
 		return "", err
@@ -39,7 +39,7 @@ func LoadFile(path string) (string, error) {
 	return string(b), nil
 }
 
-func GzipBase64Decode(encoded string) (string, error) {
+func gzipBase64Decode(encoded string) (string, error) {
 	compressed, err := base64.StdEncoding.DecodeString(encoded)
 	if err != nil {
 		return "", err

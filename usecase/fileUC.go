@@ -19,7 +19,7 @@ func GetPageFile() (*[]domain.AtlPageEntity, error) {
 }
 
 func GetCurriculumFile() (*[]domain.CurriculumEntity, error) {
-	data, err := gateway.GetFileData[[]domain.CurriculumEntity](domain.CURRICULUM)
+	data, err := gateway.GetDatFileData[[]domain.CurriculumEntity](domain.CURRICULUM_DAT)
 	if err != nil {
 		fmt.Println("error in usecase/GetCurriculumFile/gateway.GetFileData")
 		return nil, err

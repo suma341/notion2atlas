@@ -27,14 +27,28 @@ func CleanUp() error {
 }
 
 func writeTestResult() error {
-	page, err := filemanager.LoadAndDecodeJson[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH)
+	err := loadAndWrite[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH, constants.TEST_RESULT_PAGE_PATH)
 	if err != nil {
-		fmt.Println("❌ error in presentation/HandleUpdateData/filemanager.LoadAndDecodeJson")
+		fmt.Println("error in usecase/cleanup.go:/writeTestResult/loadAndwrite")
 		return err
 	}
-	err = filemanager.WriteJson(page, constants.TEST_RESULT_PATH)
+	err = loadAndWrite[[]domain.CurriculumEntity](constants.CURRICULUM_DAT_PATH, constants.TEST_RESULT_CURRICULUM_PATH)
 	if err != nil {
-		fmt.Println("❌ error in presentation/HandleUpdateData/filemanager.WriteJson")
+		fmt.Println("error in usecase/cleanup.go:/writeTestResult/loadAndwrite")
+		return err
+	}
+	return nil
+}
+
+func loadAndWrite[T any](datPath string, resultPath string) error {
+	data, err := filemanager.LoadAndDecodeJson[T](datPath)
+	if err != nil {
+		fmt.Println("error in usecase/cleanup.go:/loadAndWrite/filemanager.LoadAndDecodeJson")
+		return err
+	}
+	err = filemanager.WriteJson(data, resultPath)
+	if err != nil {
+		fmt.Println("error in usecase/cleanup.go:/loadAndWrite/filemanager.WriteJson")
 		return err
 	}
 	return nil

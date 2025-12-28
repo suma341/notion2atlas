@@ -13,20 +13,30 @@ const (
 	PAGE_DATA_DIR  = NT_DATA_DIR + "/pageData"
 	TMP_DIR        = NT_DATA_DIR + "/tmp"
 	SYNCED_DIR     = NT_DATA_DIR + "/synced"
-	TEST_DIR       = NT_DATA_DIR + "/test"
 )
 
 const (
-	CURRICULUM_PATH     = CURRICULUM_DIR + "/data.json"
-	CATEGORY_PATH       = CATEGORY_DIR + "/data.json"
-	INFO_PATH           = INFO_DIR + "/data.json"
-	ANSWER_PATH         = ANSWER_DIR + "/data.json"
-	SYNCED_PATH         = SYNCED_DIR + "/data.json"
-	TMP_PAGE_PATH       = TMP_DIR + "/page.json"
-	TMP_ALL_PAGE_PATH   = TMP_DIR + "/all_page.json"
-	PAGE_DAT_PATH       = PAGE_DIR + "/page.dat"
-	TEST_PREV_PATH      = TEST_DIR + "/prev.json"
-	TEST_RESULT_PATH    = TEST_DIR + "/result.json"
-	SYNCED_DAT_PATH     = SYNCED_DIR + "/synced.dat"
-	TMP_ALL_SYNCED_PATH = TMP_DIR + "/all_synced.json"
+	// CURRICULUM_PATH     = CURRICULUM_DIR + "/data.json"
+	CATEGORY_PATH           = CATEGORY_DIR + "/data.json"
+	INFO_PATH               = INFO_DIR + "/data.json"
+	ANSWER_PATH             = ANSWER_DIR + "/data.json"
+	SYNCED_PATH             = SYNCED_DIR + "/data.json"
+	TMP_PAGE_PATH           = TMP_DIR + "/page.json"
+	TMP_ALL_PAGE_PATH       = TMP_DIR + "/all_page.json"
+	PAGE_DAT_PATH           = PAGE_DIR + "/page.dat"
+	SYNCED_DAT_PATH         = SYNCED_DIR + "/synced.dat"
+	TMP_ALL_SYNCED_PATH     = TMP_DIR + "/all_synced.json"
+	CURRICULUM_DAT_PATH     = CURRICULUM_DIR + "/curriculum.dat"
+	TMP_ALL_CURRICULUM_PATH = TMP_DIR + "/curriculum.json"
+)
+
+const (
+	TEST_DIR        = NT_DATA_DIR + "/test"
+	TEST_PREV_DIR   = TEST_DIR + "/prev"
+	TEST_RESULT_DIR = TEST_DIR + "/result"
+
+	TEST_PREV_PAGE_PATH         = TEST_PREV_DIR + "/page.json"
+	TEST_RESULT_PAGE_PATH       = TEST_RESULT_DIR + "/page.json"
+	TEST_PREV_CURRICULUM_PATH   = TEST_PREV_DIR + "/curriculum.json"
+	TEST_RESULT_CURRICULUM_PATH = TEST_RESULT_DIR + "/curriculum.json"
 )

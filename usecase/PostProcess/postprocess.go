@@ -18,5 +18,10 @@ func PostProcess() error {
 		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/encodeAndSaveSyncedDat")
 		return err
 	}
+	err = encodeAndSaveCurriculumDat()
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/encodeAndSaveCurriculumDat")
+		return err
+	}
 	return nil
 }

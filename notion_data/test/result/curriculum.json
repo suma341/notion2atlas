@@ -488,5 +488,24 @@
     "coverUrl": "https://www.notion.so/images/page-cover/nasa_transonic_tunnel.jpg",
     "last_edited_time": "2025-12-26T01:54:00.000Z",
     "update": true
+  },
+  {
+    "id": "200a501ef33780ffb3a9ed1bd068b618",
+    "title": "Qiita Teamへの参加方法（全体向け）",
+    "tag": [
+      "Qiita Team"
+    ],
+    "visibility": [
+      "発展班",
+      "基礎班"
+    ],
+    "order": 2000,
+    "category": [],
+    "iconType": "custom_emoji",
+    "iconUrl": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/825fcd9e-9a5c-4f9c-8a97-c45c3a331eeb/qiita-team-icon.png",
+    "coverType": "",
+    "coverUrl": "",
+    "last_edited_time": "2025-12-28T11:40:00.000Z",
+    "update": false
   }
 ]

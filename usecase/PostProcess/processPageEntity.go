@@ -15,7 +15,7 @@ func processPageEntity() error {
 		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err
 	}
-	curriculums, err := filemanager.ReadJson[[]domain.CurriculumEntity](constants.CURRICULUM_PATH)
+	curriculums, err := filemanager.ReadJson[[]domain.CurriculumEntity](constants.TMP_ALL_CURRICULUM_PATH)
 	if err != nil {
 		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err

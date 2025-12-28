@@ -15,13 +15,13 @@ func test() {
 	filemanager.WriteJson(a, "notion_data/test.json")
 }
 
-func decode(path string) {
-	a, _ := filemanager.LoadAndDecodeJson[[]domain.BlockEntity](path)
+func decode[T any](path string) {
+	a, _ := filemanager.LoadAndDecodeJson[T](path)
 	filemanager.WriteJson(a, "notion_data/test.json")
 }
 
-func encode(path string) {
-	b, _ := filemanager.ReadJson[[]domain.BlockEntity](constants.SYNCED_PATH)
+func encode[T any](path string) {
+	b, _ := filemanager.ReadJson[T](constants.CURRICULUM_DIR + "/data.json")
 	filemanager.EncodeAndSave(b, path)
 }
 
@@ -32,8 +32,8 @@ func main() {
 		panic(err)
 	}
 	// test()
-	// decode("notion_data/synced.dat")
-	// encode("notion_data/synced.dat")
+	// decode[[]domain.CurriculumEntity]("notion_data/curriculum.dat")
+	// encode[[]domain.CurriculumEntity]("notion_data/curriculum.dat")
 	// p, _ := usecase.Test("24ba501ef33780edacc4d54914fb20d2")
 	// filemanager.WriteJson(p, "notion_data/test.json")
 }

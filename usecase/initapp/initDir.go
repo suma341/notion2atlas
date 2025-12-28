@@ -16,7 +16,7 @@ func initDir() error {
 			return err
 		}
 	}
-	require_files := [5]string{constants.CURRICULUM_PATH, constants.CATEGORY_PATH, constants.INFO_PATH, constants.ANSWER_PATH, constants.TMP_PAGE_PATH}
+	require_files := [4]string{constants.CATEGORY_PATH, constants.INFO_PATH, constants.ANSWER_PATH, constants.TMP_PAGE_PATH}
 	for _, path := range require_files {
 		exists, err := filemanager.CreateFileIfNotExist(path)
 		if err != nil {
@@ -40,25 +40,34 @@ func initDir() error {
 }
 
 func loadDat() error {
-	pageDat, err := filemanager.LoadAndDecodeJson[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH)
+	err := loadAndWrite[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH, constants.TMP_ALL_PAGE_PATH)
 	if err != nil {
-		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.LoadAndDecodeJson")
+		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/loadAndWrite")
 		return err
 	}
-	err = filemanager.WriteJson(pageDat, constants.TMP_ALL_PAGE_PATH)
+	err = loadAndWrite[[]domain.BlockEntity](constants.SYNCED_DAT_PATH, constants.TMP_ALL_SYNCED_PATH)
 	if err != nil {
-		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.WriteJson")
+		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/loadAndWrite")
 		return err
 	}
-	syncedDat, err := filemanager.LoadAndDecodeJson[[]domain.BlockEntity](constants.SYNCED_DAT_PATH)
+	err = loadAndWrite[[]domain.CurriculumEntity](constants.CURRICULUM_DAT_PATH, constants.TMP_ALL_CURRICULUM_PATH)
 	if err != nil {
-		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.LoadAndDecodeJson")
-		return err
-	}
-	err = filemanager.WriteJson(syncedDat, constants.TMP_ALL_SYNCED_PATH)
-	if err != nil {
-		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.WriteJson")
+		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/loadAndWrite")
 		return err
 	}
 	return nil
+}
+
+func loadAndWrite[T any](datPath string, tmpAllPath string) error {
+	data, err := filemanager.LoadAndDecodeJson[T](datPath)
+	if err != nil {
+		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.LoadAndDecodeJson")
+		return err
+	}
+	err = filemanager.WriteJson(data, tmpAllPath)
+	if err != nil {
+		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.WriteJson")
+		return err
+	}
+	return err
 }
