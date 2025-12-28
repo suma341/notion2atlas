@@ -20,7 +20,7 @@ func processPageEntity() error {
 		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err
 	}
-	infos, err := filemanager.ReadJson[[]domain.InfoEntity](constants.INFO_PATH)
+	infos, err := filemanager.ReadJson[[]domain.InfoEntity](constants.TMP_ALL_INFO_PATH)
 	if err != nil {
 		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/filemanager.ReadJson")
 		return err

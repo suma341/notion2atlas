@@ -12,6 +12,7 @@ const (
 	SYNCED_DAT
 	CURRICULUM_DAT
 	CATEGORY_DAT
+	INFO_DAT
 )
 
 func (r DatRType) GetPath() (dat string, tmp string) {
@@ -24,6 +25,8 @@ func (r DatRType) GetPath() (dat string, tmp string) {
 		return constants.CURRICULUM_DAT_PATH, constants.TMP_ALL_CURRICULUM_PATH
 	case CATEGORY_DAT:
 		return constants.CATEGORY_DAT_PATH, constants.TMP_ALL_CATEGORY_PATH
+	case INFO_DAT:
+		return constants.INFO_DAT_PATH, constants.TMP_ALL_INFO_PATH
 	}
 	return "", ""
 }
@@ -70,7 +73,7 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 	case CATEGORY:
 		return constants.TMP_ALL_CATEGORY_PATH, nil
 	case INFO:
-		return constants.INFO_PATH, nil
+		return constants.TMP_ALL_INFO_PATH, nil
 	case ANSWER:
 		return constants.ANSWER_PATH, nil
 	case SYNCED:

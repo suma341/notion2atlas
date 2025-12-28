@@ -37,7 +37,7 @@ func GetCategoryFile() (*[]domain.CategoryEntity, error) {
 }
 
 func GetInfoFile() (*[]domain.InfoEntity, error) {
-	data, err := gateway.GetFileData[[]domain.InfoEntity](domain.INFO)
+	data, err := gateway.GetDatFileData[[]domain.InfoEntity](domain.INFO_DAT)
 	if err != nil {
 		fmt.Println("error in usecase/GetInfoFile/gateway.GetFileData")
 		return nil, err

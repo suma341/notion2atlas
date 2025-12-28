@@ -38,6 +38,15 @@ func writeTestResult() error {
 		return err
 	}
 	err = loadAndWrite[[]domain.CategoryEntity](constants.CATEGORY_DAT_PATH, constants.TEST_RESULT_CATEGORY_PATH)
+	if err != nil {
+		fmt.Println("error in usecase/cleanup.go:/writeTestResult/loadAndwrite")
+		return err
+	}
+	err = loadAndWrite[[]domain.InfoEntity](constants.INFO_DAT_PATH, constants.TEST_RESULT_INFO_PATH)
+	if err != nil {
+		fmt.Println("error in usecase/cleanup.go:/writeTestResult/loadAndwrite")
+		return err
+	}
 	return nil
 }
 

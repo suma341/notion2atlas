@@ -24,6 +24,11 @@ func encodeAndSaveDats() error {
 		fmt.Println("error in usecase/postprocess/postprocess.go:/encodeAndSaveDats/encodeAndSaveCategoryDat")
 		return err
 	}
+	err = encodeAndSaveInfoDat()
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go:/encodeAndSaveDats/encodeAndSaveInfoDat")
+		return err
+	}
 	return nil
 }
 
@@ -45,6 +50,13 @@ func encodeAndSaveCategoryDat() error {
 	return encodeAndSaveDatItem[[]domain.CategoryEntity](
 		domain.CATEGORY_DAT,
 		constants.CATEGORY_DAT_PATH,
+	)
+}
+
+func encodeAndSaveInfoDat() error {
+	return encodeAndSaveDatItem[[]domain.InfoEntity](
+		domain.INFO_DAT,
+		constants.INFO_DAT_PATH,
 	)
 }
 
