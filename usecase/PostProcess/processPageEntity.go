@@ -84,7 +84,7 @@ func processPageEntity() error {
 		)
 		atlPageEntities = append(atlPageEntities, atlPageEntity)
 	}
-	newEntity, err := gateway.UpsertFile(domain.TMP_ALL_PAGE, "id", atlPageEntities)
+	newEntity, err := gateway.UpsertFile(domain.PAGE, "id", atlPageEntities)
 	if err != nil {
 		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/gateway.UpsertFile")
 		return err

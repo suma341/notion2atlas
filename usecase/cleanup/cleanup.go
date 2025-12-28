@@ -52,6 +52,11 @@ func writeTestResult() error {
 		fmt.Println("error in usecase/cleanup.go:/writeTestResult/loadAndwrite")
 		return err
 	}
+	err = loadAndWrite[[]domain.BlockEntity](constants.SYNCED_DAT_PATH, constants.TEST_RESULT_SYNCED_PATH)
+	if err != nil {
+		fmt.Println("error in usecase/cleanup.go:/writeTestResult/loadAndwrite")
+		return err
+	}
 	return nil
 }
 

@@ -21,7 +21,7 @@ func (r DatRType) GetPath() (dat string, tmp string) {
 	case PAGE_DAT:
 		return constants.PAGE_DAT_PATH, constants.TMP_ALL_PAGE_PATH
 	case SYNCED_DAT:
-		return constants.SYNCED_DAT_PATH, constants.TMP_ALL_PAGE_PATH
+		return constants.SYNCED_DAT_PATH, constants.TMP_ALL_SYNCED_PATH
 	case CURRICULUM_DAT:
 		return constants.CURRICULUM_DAT_PATH, constants.TMP_ALL_CURRICULUM_PATH
 	case CATEGORY_DAT:
@@ -44,9 +44,6 @@ const (
 	ANSWER
 	SYNCED
 	TMP_PAGE
-	TMP_ALL_PAGE
-	TMP_ALL_CATEGORY
-	TMP_ALL_ANSWER
 )
 
 func (r ResourceType) GetStr() string {
@@ -84,10 +81,6 @@ func (r ResourceType) GetFilePathFromResourceType() (string, error) {
 		return constants.TMP_ALL_SYNCED_PATH, nil
 	case TMP_PAGE:
 		return constants.TMP_PAGE_PATH, nil
-	case TMP_ALL_PAGE:
-		return constants.TMP_ALL_PAGE_PATH, nil
-	case TMP_ALL_CATEGORY:
-		return constants.TMP_ALL_CATEGORY_PATH, nil
 	default:
 		return "", fmt.Errorf("unexpected resourceType")
 	}

@@ -46,4 +46,6 @@ const (
 	TEST_RESULT_INFO_PATH       = TEST_RESULT_DIR + "/info.json"
 	TEST_PREV_ANSWER_PATH       = TEST_PREV_DIR + "/answer.json"
 	TEST_RESULT_ANSWER_PATH     = TEST_RESULT_DIR + "/answer.json"
+	TEST_PREV_SYNCED_PATH       = TEST_PREV_DIR + "/synced.json"
+	TEST_RESULT_SYNCED_PATH     = TEST_RESULT_DIR + "/synced.json"
 )

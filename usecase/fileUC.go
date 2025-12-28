@@ -9,6 +9,15 @@ import (
 	"notion2atlas/utils"
 )
 
+func GetPageDataFile(pageId string) ([]domain.AtlBlockEntity, error) {
+	data, err := gateway.GetDatPageBlocksFileData(pageId)
+	if err != nil {
+		fmt.Println("error in usecase/GetPageDataFile/gateway.GetDatPageBlocksFileData")
+		return nil, err
+	}
+	return data, nil
+}
+
 func GetPageFile() (*[]domain.AtlPageEntity, error) {
 	data, err := gateway.GetDatFileData[[]domain.AtlPageEntity](domain.PAGE_DAT)
 	if err != nil {
@@ -64,7 +73,7 @@ func DelBasePageById(id string, resourseType domain.ResourceType) error {
 }
 
 func DelPageByCurriculumId(curriculumId string) error {
-	err := gateway.DeleteById(domain.TMP_ALL_PAGE, "curriculumId", curriculumId)
+	err := gateway.DeleteById(domain.PAGE, "curriculumId", curriculumId)
 	if err != nil {
 		fmt.Println("error in usecase/DelPageById/gateway.DeleteById")
 		return err
@@ -73,7 +82,7 @@ func DelPageByCurriculumId(curriculumId string) error {
 }
 
 func DelCategoryById(categoryId string) error {
-	err := gateway.DeleteById(domain.TMP_ALL_CATEGORY, "id", categoryId)
+	err := gateway.DeleteById(domain.CATEGORY, "id", categoryId)
 	if err != nil {
 		fmt.Println("error in usecase/DelCategoryById/gateway.DeleteById")
 		return err
@@ -149,7 +158,7 @@ func InitCurriculumRelatedDir(curriculumId string) error {
 }
 
 func UpsertCategory(entities []domain.CategoryEntity) error {
-	_, err := gateway.UpsertFile(domain.TMP_ALL_CATEGORY, "id", entities)
+	_, err := gateway.UpsertFile(domain.CATEGORY, "id", entities)
 	if err != nil {
 		fmt.Println("error in usecase/UpsertCategory/gateway.UpsertFile")
 		return err

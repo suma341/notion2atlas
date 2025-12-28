@@ -2,6 +2,7 @@ package gateway
 
 import (
 	"fmt"
+	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"notion2atlas/utils"
@@ -15,6 +16,16 @@ func GetDatFileData[T any](r domain.DatRType) (*T, error) {
 		return nil, err
 	}
 	return &dat, nil
+}
+
+func GetDatPageBlocksFileData(pageId string) ([]domain.AtlBlockEntity, error) {
+	path := fmt.Sprintf("%s/%s.dat", constants.PAGE_DATA_DIR, pageId)
+	dat, err := filemanager.LoadAndDecodeJson[[]domain.AtlBlockEntity](path)
+	if err != nil {
+		fmt.Println("error in fileGW.go/GetDatFileData/LoadAndDecodeJson")
+		return nil, err
+	}
+	return *dat, nil
 }
 
 func DeleteById(resourceType domain.ResourceType, key string, targetId string) error {
