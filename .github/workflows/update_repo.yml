@@ -47,6 +47,7 @@ jobs:
           NOTION_DB_ID_CATEGORY: ${{ secrets.NOTION_DB_ID_CATEGORY }}
           NOTION_DB_ID_INFO: ${{ secrets.NOTION_DB_ID_INFO }}
           NOTION_DB_ID_ANSWER: ${{ secrets.NOTION_DB_ID_ANSWER }}
+          ENC_KEY: ${{ secrets.ENC_KEY }}
 
       - name: Commit and push if changes exist
         run: |

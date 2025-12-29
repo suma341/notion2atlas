@@ -71,6 +71,14 @@ func loadDat() error {
 }
 
 func loadAndWrite[T any](datPath string, tmpAllPath string) error {
+	exists := filemanager.FileExists(datPath)
+	if !exists {
+		err := filemanager.EncodeAndSave([]bool{}, datPath)
+		if err != nil {
+			fmt.Println("error in usecase/initprocess/initDir.go:/loadAndWrite/filemanager.EncodeAndSave")
+			return err
+		}
+	}
 	data, err := filemanager.LoadAndDecodeJson[T](datPath)
 	if err != nil {
 		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.LoadAndDecodeJson")
@@ -81,5 +89,5 @@ func loadAndWrite[T any](datPath string, tmpAllPath string) error {
 		fmt.Println("error in usecase/initprocess/initDir.go:/loadDat/filemanager.WriteJson")
 		return err
 	}
-	return err
+	return nil
 }

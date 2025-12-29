@@ -109,17 +109,17 @@ func blockToAtlEntity(blocks []domain.BlockEntity, pageEntities []domain.PageEnt
 	return atlBlocks, nil
 }
 
-func getAllPagesInCurriculum(bps []domain.BasePage, pageEntities []domain.PageEntity) []domain.PageEntity {
-	allPages := []domain.PageEntity{}
-	for _, pe := range pageEntities {
-		for _, bp := range bps {
-			if pe.CurriculumId == bp.GetId() {
-				allPages = append(allPages, pe)
-			}
-		}
-	}
-	return allPages
-}
+// func getAllPagesInCurriculum(bps []domain.BasePage, pageEntities []domain.PageEntity) []domain.PageEntity {
+// 	allPages := []domain.PageEntity{}
+// 	for _, pe := range pageEntities {
+// 		for _, bp := range bps {
+// 			if pe.CurriculumId == bp.GetId() {
+// 				allPages = append(allPages, pe)
+// 			}
+// 		}
+// 	}
+// 	return allPages
+// }
 
 func processNormalParent(atl domain.BlockEntity, pageEntities []domain.PageEntity) domain.AtlBlockEntity {
 	hasParentEntity := atl.Data.GetHasParentEntity()

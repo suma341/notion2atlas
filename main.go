@@ -1,29 +1,26 @@
 package main
 
 import (
-	"notion2atlas/constants"
-	"notion2atlas/domain"
-	"notion2atlas/filemanager"
 	"notion2atlas/presentation"
 )
 
-func test() {
-	a, e := filemanager.LoadAndDecodeJson[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH)
-	if e != nil {
-		panic(e)
-	}
-	filemanager.WriteJson(a, "notion_data/test.json")
-}
+// func test() {
+// 	a, e := filemanager.LoadAndDecodeJson[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH)
+// 	if e != nil {
+// 		panic(e)
+// 	}
+// 	filemanager.WriteJson(a, "notion_data/test.json")
+// }
 
-func decode[T any](path string) {
-	a, _ := filemanager.LoadAndDecodeJson[T](path)
-	filemanager.WriteJson(a, "notion_data/test.json")
-}
+// func decode[T any](path string) {
+// 	a, _ := filemanager.LoadAndDecodeJson[T](path)
+// 	filemanager.WriteJson(a, "notion_data/test.json")
+// }
 
-func encode[T any](path string) {
-	b, _ := filemanager.ReadJson[T](constants.NT_DATA_DIR + "/test.json")
-	filemanager.EncodeAndSave(b, path)
-}
+// func encode[T any](path string) {
+// 	b, _ := filemanager.ReadJson[T](constants.NT_DATA_DIR + "/test.json")
+// 	filemanager.EncodeAndSave(b, path)
+// }
 
 func main() {
 	err := presentation.HandleUpdateData()
