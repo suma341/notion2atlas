@@ -38,7 +38,7 @@ const token = process.env.HORIZON_ATLAS_APP_GH_PAT;
         期限切れの可能性があるので、確認しましょう
         error: ${text}
         `)
-    console.error(text)
+    throw new Error(text)
     }
 
     console.log("workflow dispatched");

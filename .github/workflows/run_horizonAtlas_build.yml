@@ -8,6 +8,7 @@ on:
 
 jobs:
   build-and-deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -22,5 +23,5 @@ jobs:
       - name: build and deploy horizon-atlas
         run: node ./scripts/runHorizonAtlasBuild.js
         env:
-          NOTION2ATLAS_GH_PAT: ${{secrets.HORIZON_ATLAS_APP_GH_PAT}}
+          HORIZON_ATLAS_APP_GH_PAT: ${{secrets.HORIZON_ATLAS_APP_GH_PAT}}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
