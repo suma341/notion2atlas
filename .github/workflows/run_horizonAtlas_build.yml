@@ -1,4 +1,4 @@
-name: run notion2atlas
+name: run build-deploy on HorizonAtlas
 
 on:
   workflow_run:
