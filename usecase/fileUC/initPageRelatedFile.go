@@ -22,12 +22,6 @@ func InitPageRelatedFile(pageId string) error {
 		fmt.Println("error in usecase/InitPageRelatedFile/filemanager.DelFile")
 		return err
 	}
-	dirpath := fmt.Sprintf("%s/%s", constants.ASSETS_DIR, pageId)
-	err = filemanager.ClearDir(dirpath)
-	if err != nil {
-		fmt.Println("error in usecase/InitPageRelatedFile/filemanager.ClearDir")
-		return err
-	}
 	fmt.Println("✅ completed: initialize page related directory")
 	return nil
 }
