@@ -132,14 +132,15 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 					fmt.Println("error in usecase/processNTData.go: processEditNTData/notinoUC.GetPageItem")
 					return err
 				}
-				isEqualTime, err := ntpage.CompareQueryEntityTime(p)
-				if err != nil {
-					fmt.Println("error in usecase/processNTData.go: processEditNTData/ntpage.CompareQueryEntityTime")
-					return err
-				}
-				if !isEqualTime {
-					updatedPages = append(updatedPages, *ntpage)
-				}
+				// isEqualTime, err := ntpage.CompareQueryEntityTime(p)
+				// if err != nil {
+				// 	fmt.Println("error in usecase/processNTData.go: processEditNTData/ntpage.CompareQueryEntityTime")
+				// 	return err
+				// }
+				updatedPages = append(updatedPages, *ntpage)
+				// if !isEqualTime {
+				// 	updatedPages = append(updatedPages, *ntpage)
+				// }
 			}
 		}
 		for _, p := range updatedPages {
