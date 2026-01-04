@@ -4,12 +4,14 @@ import (
 	"fmt"
 	"notion2atlas/domain"
 	"notion2atlas/usecase"
+	"notion2atlas/usecase/fileUC"
+	"notion2atlas/usecase/notionUC"
 	"os"
 )
 
 func updateAnswer() (*usecase.NDE, error) {
 	db_id := os.Getenv("NOTION_DB_ID_ANSWER")
-	publishedRecords, err := usecase.GetDBQuery(db_id)
+	publishedRecords, err := notionUC.GetDBQuery(db_id)
 	if err != nil {
 		fmt.Println("error in presentation/UpdateAnswer/usecase.GetDBQuery")
 		return nil, err
@@ -26,7 +28,7 @@ func updateAnswer() (*usecase.NDE, error) {
 		}
 		Answers = append(Answers, *Answer)
 	}
-	oldDataAddress, err := usecase.GetAnswerFile()
+	oldDataAddress, err := fileUC.GetAnswerFile()
 	if err != nil {
 		fmt.Println("error in presentation/UpdateAnswer/usecase.GetCurriculumFile")
 		return nil, err

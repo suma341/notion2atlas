@@ -3,6 +3,8 @@ package usecase
 import (
 	"fmt"
 	"notion2atlas/domain"
+	"notion2atlas/usecase/fileUC"
+	"notion2atlas/usecase/notionUC"
 	"notion2atlas/utils"
 )
 
@@ -46,12 +48,7 @@ func GetNDE[T domain.DBQueryEntity](oldData []T, newData []T) (*NDE, error) {
 	for _, new := range newData {
 		for _, old := range oldData {
 			if new.GetId() == old.GetId() {
-				isEqualTime, err := new.CompareQueryEntityTime(old)
-				if err != nil {
-					fmt.Println("error in usecase/GetNDE/utils.CompareQueryEntityTime")
-					return nil, err
-				}
-				if !isEqualTime && new.GetUpdate() {
+				if new.GetUpdate() {
 					editedList = append(editedList, new)
 				}
 			}
@@ -93,17 +90,17 @@ func processNDEData[T domain.BasePage](nde NDE, resourceType domain.ResourceType
 
 func processDelNTData[T domain.BasePage](delItems []string, resourceType domain.ResourceType) error {
 	for _, id := range delItems {
-		err := InitCurriculumRelatedDir(id)
+		err := fileUC.InitCurriculumRelatedDir(id)
 		if err != nil {
 			fmt.Println("error in usecase/processDelNTData/InitCurriculumRelatedDir")
 			return err
 		}
-		err = DelPageByCurriculumId(id)
+		err = fileUC.DelPageByCurriculumId(id)
 		if err != nil {
 			fmt.Println("error in usecase/processDelNTData/DelPageByCurriculumId")
 			return err
 		}
-		err = DelBasePageById(id, resourceType)
+		err = fileUC.DelBasePageById(id, resourceType)
 		if err != nil {
 			fmt.Println("error in usecase/processDelNTData/DelBasePageById")
 			return err
@@ -116,15 +113,50 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 	if len(editItems) <= 0 {
 		return nil
 	}
+	existPageData, err := fileUC.GetPageFile()
+	if err != nil {
+		fmt.Println("error in usecase/processNTData.go: processEditNTData/fileUC.GetPageFile")
+		return err
+	}
 	for _, item := range editItems {
-		err := InitCurriculumRelatedDir(item.GetId())
+		updatedPages := []domain.NtPageEntity{}
+		curriculumPages, err := fileUC.GetPageFile()
 		if err != nil {
-			fmt.Println("error in usecase/processEditNTData/InitCurriculumRelatedDir")
+			fmt.Println("error in usecase/processNTData.go:/processEditNTData/fileUC.GetPageFile")
 			return err
 		}
-		err = saveNtData[T](item, resourceType)
+		for _, p := range *curriculumPages {
+			if p.CurriculumId == item.GetId() {
+				ntpage, err := notionUC.GetPageItem(p.Id, resourceType.GetStr())
+				if err != nil {
+					fmt.Println("error in usecase/processNTData.go: processEditNTData/notinoUC.GetPageItem")
+					return err
+				}
+				isEqualTime, err := ntpage.CompareQueryEntityTime(p)
+				if err != nil {
+					fmt.Println("error in usecase/processNTData.go: processEditNTData/ntpage.CompareQueryEntityTime")
+					return err
+				}
+				if !isEqualTime {
+					updatedPages = append(updatedPages, *ntpage)
+				}
+			}
+		}
+		for _, p := range updatedPages {
+			err := fileUC.InitPageRelatedFile(p.Id)
+			if err != nil {
+				fmt.Println("error in usecase/processEditNTData/InitCurriculumRelatedDir")
+				return err
+			}
+			err = saveNtData(p, item.GetId(), *existPageData, resourceType)
+			if err != nil {
+				fmt.Println("error in usecase/processEditNTData/saveNtData")
+				return err
+			}
+		}
+		err = upsertBasePage(item, resourceType)
 		if err != nil {
-			fmt.Println("error in usecase/processEditNTData/saveNtData")
+			fmt.Println("error in usecase/saveNtData/UpsertCurriculum")
 			return err
 		}
 	}
@@ -135,10 +167,64 @@ func processNewNTData[T domain.BasePage](newItems []domain.BasePage, resourceTyp
 	if len(newItems) <= 0 {
 		return nil
 	}
+	existPageData, err := fileUC.GetPageFile()
+	if err != nil {
+		fmt.Println("error in usecase/processNTData.go: processEditNTData/fileUC.GetPageFile")
+		return err
+	}
 	for _, item := range newItems {
-		err := saveNtData[T](item, resourceType)
+		ntpage, err := notionUC.GetPageItem(item.GetId(), resourceType.GetStr())
+		if err != nil {
+			fmt.Println("error in usecase/processNTData.go:/processNweNTData/notionUC.GetPageItem")
+			return err
+		}
+		err = saveNtData(*ntpage, item.GetId(), *existPageData, resourceType)
 		if err != nil {
 			fmt.Println("error in usecase/processNewNTData/usecase.saveNtData")
+			return err
+		}
+		err = upsertBasePage(item, resourceType)
+		if err != nil {
+			fmt.Println("error in usecase/saveNtData/UpsertCurriculum")
+			return err
+		}
+	}
+	return nil
+}
+
+func upsertBasePage(newData domain.BasePage, resourceType domain.ResourceType) error {
+	switch resourceType {
+	case domain.INFO:
+		info, ok := newData.(domain.InfoEntity)
+		if !ok {
+			fmt.Println("error in usecase/processNTData.go: upsertBasePage/newData.(domain.InfoEntity)")
+			return fmt.Errorf("error: failed parse BasePage to InfoEntity")
+		}
+		err := fileUC.UpsertInfo(info.Id, info, resourceType)
+		if err != nil {
+			fmt.Println("error in usecase/processNTData.go: upsertBasePage/fileUC.UpsertInfo")
+			return err
+		}
+	case domain.CURRICULUM:
+		curr, ok := newData.(domain.CurriculumEntity)
+		if !ok {
+			fmt.Println("error in usecase/processNTData.go: upsertBasePage/newData.(domain.CurriculumEntity)")
+			return fmt.Errorf("error: failed parse BasePage to InfoEntity")
+		}
+		err := fileUC.UpsertCurriculum(curr.Id, curr, resourceType)
+		if err != nil {
+			fmt.Println("error in usecase/processNTData.go: upsertBasePage/fileUC.UpsertCurriculum")
+			return err
+		}
+	case domain.ANSWER:
+		ans, ok := newData.(domain.AnswerEntity)
+		if !ok {
+			fmt.Println("error in usecase/processNTData.go: upsertBasePage/newData.(domain.AnswerEntity)")
+			return fmt.Errorf("error: failed parse BasePage to InfoEntity")
+		}
+		err := fileUC.UpsertAnswer(ans.Id, ans, resourceType)
+		if err != nil {
+			fmt.Println("error in usecase/processNTData.go: upsertBasePage/fileUC.UpsertAnswer")
 			return err
 		}
 	}

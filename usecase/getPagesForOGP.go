@@ -3,10 +3,11 @@ package usecase
 import (
 	"fmt"
 	"notion2atlas/domain"
+	"notion2atlas/usecase/fileUC"
 )
 
 func GetPagesForOGP() ([]domain.PageEntity, error) {
-	pagesP, err := GetPageFile()
+	pagesP, err := fileUC.GetPageFile()
 	if err != nil {
 		fmt.Println("error in presentation/HandleCreateGGP/GetPageFile")
 		return nil, err
@@ -14,7 +15,7 @@ func GetPagesForOGP() ([]domain.PageEntity, error) {
 	if pagesP == nil {
 		return nil, fmt.Errorf("unexpected: pagesP is nil")
 	}
-	categoriesPointer, err := GetCategoryFile()
+	categoriesPointer, err := fileUC.GetCategoryFile()
 	if err != nil {
 		fmt.Println("error in presentation/HandleCreateGGP/GetCategoryFile")
 		return nil, err

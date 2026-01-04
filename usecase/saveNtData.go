@@ -5,25 +5,59 @@ import (
 	"notion2atlas/domain"
 )
 
-func saveNtData[T domain.BasePage](item domain.Entity, resourceType domain.ResourceType) error {
+func saveNtData(page domain.NtPageEntity, curriculumId string, existPages []domain.AtlPageEntity, resourceType domain.ResourceType) error {
 	var err error = nil
-	curr := item.(T)
 	pageBuffer := []domain.PageEntity{}
-	pageBuffer, err = saveNtBlockInPage(curr, pageBuffer, resourceType.GetStr())
+	newPageEntity, err := getNewPageEntity(page, existPages)
+	if err != nil {
+		fmt.Println("error in usecase/saveNtData.go: saveNtData/getNewPageEntity")
+		return err
+	}
+	pageBuffer = append(pageBuffer, *newPageEntity)
+	pageBuffer, err = saveNtBlockInPage(*newPageEntity, pageBuffer, resourceType.GetStr())
 	if err != nil {
 		fmt.Println("error in usecase/saveNtData/InsertCurriculumBlocks New")
 		return err
 	}
-	err = FlushPageBuffer(pageBuffer, curr.GetId())
+	err = FlushPageBuffer(pageBuffer, curriculumId)
 	if err != nil {
 		fmt.Println("error in usecase/saveNtData/FlushPageBuffer")
 		return err
 	}
-	err = UpsertBasePage(curr.GetId(), curr, resourceType)
-	if err != nil {
-		fmt.Println("error in usecase/saveNtData/UpsertCurriculum")
-		return err
-	}
-	fmt.Println("✅ complete read : " + curr.GetTitle())
+	fmt.Println("✅ complete read : " + page.GetTitle())
 	return nil
+}
+
+func getNewPageEntity(page domain.NtPageEntity, existPages []domain.AtlPageEntity) (*domain.PageEntity, error) {
+	var target domain.AtlPageEntity
+	for _, p := range existPages {
+		if p.Id == page.Id {
+			target = p
+			break
+		}
+	}
+	newPageEntity, err := domain.NewPageEntity(
+		page.Id,
+		target.CurriculumId,
+		page.IconType,
+		page.IconUrl,
+		page.CoverUrl,
+		page.CoverType,
+		target.Order,
+		target.ParentId,
+		page.Title,
+		page.Type,
+		page.LastEditedTime,
+	)
+	urls, err := saveBasePage(*newPageEntity)
+	if err != nil {
+		fmt.Println("error in usecase/saveNtData.go: /getNewPageEntity/saveBasePage in curriculum/" + newPageEntity.GetTitle())
+		return nil, err
+	}
+	urlRewritedEntity, err := newPageEntity.ChangePageEntityUrl(urls.IconUrl, urls.CoverUrl)
+	if err != nil {
+		fmt.Println("error in usecase/saveNtData.go: /getNewPageEntity/basePage.ChangePageEntityUrl")
+		return nil, err
+	}
+	return urlRewritedEntity, nil
 }

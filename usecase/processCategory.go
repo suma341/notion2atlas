@@ -3,12 +3,18 @@ package usecase
 import (
 	"fmt"
 	"notion2atlas/domain"
+	"notion2atlas/usecase/fileUC"
 )
 
 func ProcessCategory(categories []domain.CategoryEntity) error {
 	processed := []domain.CategoryEntity{}
 	for _, c := range categories {
-		urls, _, err := saveBasePage(c)
+		pageEntity, err := c.ToPageEntity()
+		if err != nil {
+			fmt.Println("error in usecase/processCategory.go:/ProcessCategory/c.ToPageEntity")
+			return err
+		}
+		urls, err := saveBasePage(*pageEntity)
 		if err != nil {
 			fmt.Println("error in presentation/updateCategory/usecase.InsertBasePage")
 			return err
@@ -37,7 +43,7 @@ func ProcessCategory(categories []domain.CategoryEntity) error {
 			return err
 		}
 	}
-	err := UpsertCategory(processed)
+	err := fileUC.UpsertCategory(processed)
 	if err != nil {
 		fmt.Println("error in usecase/updateCategory/usecase.UpsertCategory")
 		return err
@@ -50,7 +56,7 @@ func CreateStaticCategories() error {
 	infoCategory := domain.CreateStaticCategory("info", "部活情報", "emoji", "ℹ️")
 	answerCategory := domain.CreateStaticCategory("answer", "解答", "emoji", "✔️")
 	staticCategories = append(staticCategories, []domain.CategoryEntity{infoCategory, answerCategory}...)
-	err := UpsertCategory(staticCategories)
+	err := fileUC.UpsertCategory(staticCategories)
 	if err != nil {
 		fmt.Println("error in usecase/CreateStaticCategories/UpsertCategory")
 		return err

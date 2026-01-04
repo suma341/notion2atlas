@@ -4,6 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"notion2atlas/domain"
+	"notion2atlas/usecase/notionUC"
 	"notion2atlas/utils"
 )
 
@@ -62,7 +63,7 @@ func getMentionModel(mention *domain.MentionProperty, type_ string) (*domain.Men
 	case "page":
 		if mention.Page != nil {
 			pageId := mention.Page.Id
-			pageData, err := GetPageItem(pageId, type_)
+			pageData, err := notionUC.GetPageItem(pageId, type_)
 			if err != nil {
 				if errors.Is(err, domain.ErrNotionErrorResponse) {
 					return nil, domain.ErrNotionErrorResponse

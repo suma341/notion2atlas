@@ -60,18 +60,53 @@ func DeleteById(resourceType domain.ResourceType, key string, targetId string) e
 	return nil
 }
 
-func UpsertById[T domain.Entity](resourceType domain.ResourceType, targetId string, newData T) error {
+func UpsertBasePageById[T any](
+	resourceType domain.ResourceType,
+	targetId string,
+	newData T,
+	getId func(T) string,
+) error {
+	filepath, err := resourceType.GetFilePathFromResourceType()
+	if err != nil {
+		return err
+	}
+
+	data, err := filemanager.ReadJson[[]T](filepath)
+	if err != nil {
+		return err
+	}
+
+	newList := make([]T, 0, len(data))
+	found := false
+
+	for _, item := range data {
+		if getId(item) == targetId {
+			newList = append(newList, newData)
+			found = true
+		} else {
+			newList = append(newList, item)
+		}
+	}
+
+	if !found {
+		newList = append(newList, newData)
+	}
+
+	return filemanager.WriteJson(newList, filepath)
+}
+
+func UpsertSyncedDataById(resourceType domain.ResourceType, targetId string, newData domain.BlockEntity) error {
 	filepath, err := resourceType.GetFilePathFromResourceType()
 	if err != nil {
 		fmt.Println("error in gateway/GetFileData/resourceType.GetFilePathFromResourceType")
 		return err
 	}
-	data, err := filemanager.ReadJson[[]T](filepath)
+	data, err := filemanager.ReadJson[[]domain.BlockEntity](filepath)
 	if err != nil {
 		fmt.Println("error in gateway/UpsertById/filemanager.ReadJson")
 		return err
 	}
-	newList := make([]T, 0, len(data))
+	newList := make([]domain.BlockEntity, 0, len(data))
 	found := false
 	for _, item := range data {
 		if item.GetId() == targetId {

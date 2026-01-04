@@ -37,7 +37,6 @@ func (c CurriculumEntity) GetId() string {
 func (c CurriculumEntity) GetLastEditedTime() string {
 	return c.LastEditedTime
 }
-
 func (c CurriculumEntity) GetUpdate() bool {
 	return c.Update
 }
@@ -74,23 +73,18 @@ func (c CurriculumEntity) GetTitle() string {
 	return c.Title
 }
 
-func (curr CurriculumEntity) CompareQueryEntityTime(q2 DBQueryEntity) (bool, error) {
+func (curr CurriculumEntity) CompareQueryEntityTime(q2 NtBlock) (bool, error) {
 	t1, err := curr.GetTime()
 	if err != nil {
-		fmt.Println("error in utils/CompareQueryEntityTime/curr.GetTime")
 		return false, err
-	}
-	if t1 == nil {
-		return false, fmt.Errorf("unexpected: t1 is nil")
 	}
 	t2, err := q2.GetTime()
 	if err != nil {
-		fmt.Println("error in utils/CompareQueryEntityTime/q2.GetTime")
 		return false, err
 	}
-	if t2 == nil {
-		return false, fmt.Errorf("unexpected: t2 is nil")
-	}
-	isEqual := t1.Equal(*t2)
-	return isEqual, nil
+
+	t1u := t1.UTC().Truncate(time.Second)
+	t2u := t2.UTC().Truncate(time.Second)
+
+	return t1u.Equal(t2u), nil
 }

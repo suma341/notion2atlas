@@ -5,17 +5,12 @@ import (
 	"notion2atlas/domain"
 )
 
-func saveBasePage(bp domain.BasePage) (*URLModel, *domain.PageEntity, error) {
-	pageEntity, err := bp.ToPageEntity()
-	if err != nil {
-		fmt.Println("error in usecase/saveBasePage/bp.ToPageEntity")
-		return nil, nil, err
-	}
-	err = DownloadPageImg(pageEntity)
+func saveBasePage(pageEntity domain.PageEntity) (*URLModel, error) {
+	err := DownloadPageImg(pageEntity)
 	if err != nil {
 		fmt.Println("error in usecase/saveBasePage/DownloadPageImg")
-		return nil, nil, err
+		return nil, err
 	}
 	urls := GetPathRewritedUrl(pageEntity)
-	return &urls, pageEntity, nil
+	return &urls, nil
 }

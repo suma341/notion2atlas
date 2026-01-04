@@ -4,12 +4,14 @@ import (
 	"fmt"
 	"notion2atlas/domain"
 	"notion2atlas/usecase"
+	"notion2atlas/usecase/fileUC"
+	"notion2atlas/usecase/notionUC"
 	"os"
 )
 
 func updateCurriculum() (*usecase.NDE, error) {
 	db_id := os.Getenv("NOTION_DB_ID_HORIZON")
-	publishedRecords, err := usecase.GetDBQuery(db_id)
+	publishedRecords, err := notionUC.GetDBQuery(db_id)
 	if err != nil {
 		fmt.Println("error in presentation/saveCurriculum/usecase.GetDBQuery")
 		return nil, err
@@ -26,7 +28,7 @@ func updateCurriculum() (*usecase.NDE, error) {
 		}
 		curriculums = append(curriculums, *curr)
 	}
-	oldDataAddress, err := usecase.GetCurriculumFile()
+	oldDataAddress, err := fileUC.GetCurriculumFile()
 	if err != nil {
 		fmt.Println("error in presentation/saveCurriculum/usecase.GetCurriculumFile")
 		return nil, err

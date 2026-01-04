@@ -6,6 +6,7 @@ import (
 	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
+	"notion2atlas/usecase/notionUC"
 	"notion2atlas/utils"
 	"strings"
 )
@@ -161,7 +162,7 @@ func makeTableRowData(table_row domain.TableRowProperty, type_ string) (*domain.
 }
 
 func makeChildPageData(pageId string, type_ string) (*domain.BlockEntityData, *domain.NtPageEntity, error) {
-	pageDataAddress, err := GetPageItem(pageId, type_)
+	pageDataAddress, err := notionUC.GetPageItem(pageId, type_)
 	if err != nil {
 		if errors.Is(err, domain.ErrNotionErrorResponse) {
 			return nil, nil, domain.ErrNotionErrorResponse
@@ -206,7 +207,7 @@ func makeLinkToPageData(link_to_page domain.LinkToPageProperty, type_ string) (*
 	pageId := link_to_page.PageId
 	nohyphenId := strings.ReplaceAll(pageId, "-", "")
 	link := "/posts/curriculums/" + nohyphenId
-	pageData, err := GetPageItem(pageId, type_)
+	pageData, err := notionUC.GetPageItem(pageId, type_)
 	if err != nil {
 		if errors.Is(err, domain.ErrNotionErrorResponse) {
 			return nil, domain.ErrNotionErrorResponse
@@ -290,7 +291,7 @@ func makeSyncedBlockData(syncedBlock domain.SyncedProperty) *domain.BlockEntityD
 }
 
 func makeChildDatabaseData(database_id string) (*domain.BlockEntityData, error) {
-	dbData, err := GetDBItem(database_id)
+	dbData, err := notionUC.GetDBItem(database_id)
 	if err != nil {
 		if errors.Is(err, domain.ErrNotionErrorResponse) {
 			return nil, domain.ErrNotionErrorResponse
@@ -298,7 +299,7 @@ func makeChildDatabaseData(database_id string) (*domain.BlockEntityData, error) 
 		fmt.Println("error in usecase/makeChildDatabaseData/GetDBItem")
 		return nil, err
 	}
-	dbQueryData, err := GetChildDB(database_id)
+	dbQueryData, err := notionUC.GetChildDB(database_id)
 	if err != nil {
 		fmt.Println("error in usecase/makeChildDatabaseData/GetDBQuery")
 		return nil, err

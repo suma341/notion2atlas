@@ -20,7 +20,7 @@ func DownloadPageImg(page domain.PageIf) error {
 	case "file", "custom_emoji":
 		_, err := filemanager.DownloadFile(iconUrl, fmt.Sprintf("%s/%s", constants.ASSETS_DIR, page.GetId()), "icon", ".png")
 		if err != nil {
-			fmt.Println("error in usecase/DownloadPageImg/filemanager.DownloadFile iconType")
+			fmt.Println("error in usecase/downloadPageImg.go: DownloadPageImg/filemanager.DownloadFile iconType")
 			return err
 		}
 	}
@@ -28,13 +28,13 @@ func DownloadPageImg(page domain.PageIf) error {
 	case "file":
 		_, err := filemanager.DownloadFile(coverUrl, fmt.Sprintf("%s/%s", constants.ASSETS_DIR, page.GetId()), "cover", ".png")
 		if err != nil {
-			fmt.Println("error in usecase/DownloadPageImg/filemanager.DownloadFile coverType")
+			fmt.Println("error in usecase/downloadPageImg.go: DownloadPageImg/filemanager.DownloadFile coverType")
 			return err
 		}
 	}
 	err := SaveOGPPicture(page)
 	if err != nil {
-		fmt.Println("error in usecase/DownloadPageImg/SaveOGPPicture")
+		fmt.Println("error in usecase/downloadPageImg.go: DownloadPageImg/SaveOGPPicture")
 		return err
 	}
 	return nil

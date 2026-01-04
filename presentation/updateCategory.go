@@ -6,12 +6,14 @@ import (
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"notion2atlas/usecase"
+	"notion2atlas/usecase/fileUC"
+	"notion2atlas/usecase/notionUC"
 	"os"
 )
 
 func updateCategory() error {
 	db_id := os.Getenv("NOTION_DB_ID_CATEGORY")
-	publishedRecords, err := usecase.GetDBQuery(db_id)
+	publishedRecords, err := notionUC.GetDBQuery(db_id)
 	if err != nil {
 		fmt.Println("error in presentation/updateCategory/usecase.GetDBQuery")
 		return err
@@ -25,7 +27,7 @@ func updateCategory() error {
 		}
 		categories = append(categories, *category)
 	}
-	oldDataAddress, err := usecase.GetCategoryFile()
+	oldDataAddress, err := fileUC.GetCategoryFile()
 	if err != nil {
 		fmt.Println("error in presentation/updateCategory/usecase.GetCurriculumFile")
 		return err
@@ -66,7 +68,7 @@ func updateCategory() error {
 		if id == "info" || id == "answer" {
 			continue
 		}
-		err = usecase.DelCategoryById(id)
+		err = fileUC.DelCategoryById(id)
 		if err != nil {
 			fmt.Println("error in presentation/updateCategory/usecase.DelCategoryById")
 			return err

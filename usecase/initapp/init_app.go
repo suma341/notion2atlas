@@ -21,5 +21,5 @@ func InitApp() error {
 		fmt.Println("error in usecase/initprocess/init_app.go:/InitApp/initDir")
 		return err
 	}
-	return err
+	return nil
 }

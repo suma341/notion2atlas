@@ -14,7 +14,7 @@ func DownloadFile(fileURL string, dir string, filename string, spareExt string) 
 	// URL パース
 	parsed, err := url.Parse(fileURL)
 	if err != nil {
-		fmt.Println("error in filemanager/DownloadFile/url.Parse")
+		fmt.Println("error in filemanager/downloadFile.go: DownloadFile/url.Parse\nfileURL:" + fileURL)
 		return "", err
 	}
 
@@ -31,7 +31,7 @@ func DownloadFile(fileURL string, dir string, filename string, spareExt string) 
 	if _, err := os.Stat(dir); os.IsNotExist(err) {
 		err := os.MkdirAll(dir, 0755)
 		if err != nil {
-			fmt.Println("error in filenamager/DownloadFile/os.MkdirAll")
+			fmt.Println("error in filenamager/downloadFile.go: DownloadFile/os.MkdirAll\nfileURL:" + fileURL)
 			return "", err
 		}
 	}
@@ -39,25 +39,25 @@ func DownloadFile(fileURL string, dir string, filename string, spareExt string) 
 	// ファイル作成
 	resp, err := http.Get(fileURL)
 	if err != nil {
-		fmt.Println("error in filemanager/DownloadFile/http.Get")
+		fmt.Println("error in filemanager/downloadFile.go: DownloadFile/http.Get\nfileURL:" + fileURL)
 		return "", err
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return "", fmt.Errorf("failed to download: status code %d", resp.StatusCode)
+		return "", fmt.Errorf("failed to download: status code %d\nfileURL:%s", resp.StatusCode, fileURL)
 	}
 
 	file, err := os.Create(fullPath)
 	if err != nil {
-		fmt.Println("error in filemanager/DownloadFile/os.Create")
+		fmt.Println("error in filemanager/downloadFile.go: DownloadFile/os.Create\nfileURL:" + fileURL)
 		return "", err
 	}
 	defer file.Close()
 
 	_, err = io.Copy(file, resp.Body)
 	if err != nil {
-		fmt.Println("error in filemanager/DownloadFile/io.Copy")
+		fmt.Println("error in filemanager/downloadFile.go: DownloadFile/io.Copy\nfileURL:" + fileURL)
 		return "", err
 	}
 

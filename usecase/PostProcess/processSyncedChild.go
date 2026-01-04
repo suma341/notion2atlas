@@ -7,7 +7,7 @@ import (
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"notion2atlas/gateway"
-	"notion2atlas/usecase"
+	"notion2atlas/usecase/fileUC"
 	"os"
 )
 
@@ -32,7 +32,7 @@ func processSyncedChild(atlEntity domain.AtlBlockEntity) (*[]domain.AtlBlockEnti
 		fmt.Printf("original not found, synced_id:%s\n", syncedId)
 		return nil, nil
 	}
-	atlEntities, err := usecase.GetPageDataFile(original.PageId)
+	atlEntities, err := fileUC.GetPageDataFile(original.PageId)
 	if err != nil {
 		if !errors.Is(err, os.ErrNotExist) {
 			fmt.Println("❌ error in postprocess/processSyncedChild/filemanager.ReadJson:30")

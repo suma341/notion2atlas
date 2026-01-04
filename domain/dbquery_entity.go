@@ -9,7 +9,7 @@ type DBQueryEntity interface {
 	GetLastEditedTime() string
 	GetTime() (*time.Time, error)
 	GetUpdate() bool
-	CompareQueryEntityTime(q DBQueryEntity) (bool, error)
+	CompareQueryEntityTime(q NtBlock) (bool, error)
 	GetTitle() string
 	ToPageEntity() (*PageEntity, error)
 }
