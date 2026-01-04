@@ -16,9 +16,12 @@ type URLModel struct {
 func DownloadPageImg(page domain.PageIf) error {
 	iconType, iconUrl := page.GetIcon()
 	coverType, coverUrl := page.GetCover()
+	fmt.Println("iconType:" + iconType)
 	switch iconType {
 	case "file", "custom_emoji":
-		_, err := filemanager.DownloadFile(iconUrl, fmt.Sprintf("%s/%s", constants.ASSETS_DIR, page.GetId()), "icon", ".png")
+		dir := fmt.Sprintf("%s/%s", constants.ASSETS_DIR, page.GetId())
+		p, err := filemanager.DownloadFile(iconUrl, dir, "icon", ".png")
+		fmt.Println("path:", dir+"/"+p)
 		if err != nil {
 			fmt.Println("error in usecase/downloadPageImg.go: DownloadPageImg/filemanager.DownloadFile iconType")
 			return err

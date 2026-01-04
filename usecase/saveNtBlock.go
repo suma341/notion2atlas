@@ -11,22 +11,6 @@ import (
 
 func saveNtBlockInPage(pageEntity domain.PageEntity, pageBuffer []domain.PageEntity, resourceType string) ([]domain.PageEntity, error) {
 	filemanager.CreateDirIfNotExist(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, pageEntity.GetId()))
-	err := filemanager.ClearDir(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, pageEntity.GetId()))
-	if err != nil {
-		fmt.Println("error in usecase/saveNtBlock.go: /saveNtBlockInPage/filemanager.ClearDir in curriculum/" + pageEntity.GetTitle())
-		return pageBuffer, err
-	}
-	// urls, err := saveBasePage(pageEntity)
-	// if err != nil {
-	// 	fmt.Println("error in usecase/saveNtBlock.go: /saveNtBlockInPage/saveBasePage in curriculum/" + pageEntity.GetTitle())
-	// 	return pageBuffer, err
-	// }
-	// urlRewritedEntity, err := pageEntity.ChangePageEntityUrl(urls.IconUrl, urls.CoverUrl)
-	// if err != nil {
-	// 	fmt.Println("error in usecase/saveNtBlock.go: /saveNtBlockInPage/basePage.ChangePageEntityUrl")
-	// 	return pageBuffer, err
-	// }
-	// pageBuffer = append(pageBuffer, *urlRewritedEntity)
 	blocks, err := notionUC.GetChildren(pageEntity.GetId())
 	if err != nil {
 		fmt.Println("error in usecase/saveNtBlock.go: /saveNtBlockInPage/GetChildren in curriculum/" + pageEntity.GetTitle())
