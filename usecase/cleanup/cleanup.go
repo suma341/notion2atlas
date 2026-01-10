@@ -26,6 +26,7 @@ func CleanUp() error {
 	return nil
 }
 
+// https://www.notion.so/256a501ef33780788124f85e3320ee25?v=1ada501ef33781c291ee000c04c13f15&source=copy_link
 func writeTestResult() error {
 	err := loadAndWrite[[]domain.AtlPageEntity](constants.PAGE_DAT_PATH, constants.TEST_RESULT_PAGE_PATH)
 	if err != nil {

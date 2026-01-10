@@ -118,6 +118,7 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 		fmt.Println("error in usecase/processNTData.go: processEditNTData/fileUC.GetPageFile")
 		return err
 	}
+	var changes []fileUC.ChangeItem
 	for _, item := range editItems {
 		updatedPages := []domain.NtPageEntity{}
 		curriculumPages, err := fileUC.GetPageFile()
@@ -137,7 +138,6 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 					fmt.Println("error in usecase/processNTData.go: processEditNTData/ntpage.CompareQueryEntityTime")
 					return err
 				}
-				// updatedPages = append(updatedPages, *ntpage)
 				if !isEqualTime {
 					updatedPages = append(updatedPages, *ntpage)
 				}
@@ -154,12 +154,23 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 				fmt.Println("error in usecase/processEditNTData/saveNtData")
 				return err
 			}
+			changeItem, err := fileUC.NewChangeItem(p.Id, p.Title, "update")
+			if err != nil {
+				fmt.Println("error in usecase/processNTData.go: processEditNTData/fileUC.NewChangeItem")
+				return err
+			}
+			changes = append(changes, *changeItem)
 		}
 		err = upsertBasePage(item, resourceType)
 		if err != nil {
 			fmt.Println("error in usecase/saveNtData/UpsertCurriculum")
 			return err
 		}
+	}
+	err = fileUC.UpsertChangesFile(changes)
+	if err != nil {
+		fmt.Println("error in in usecase/processNTData.go: processEditNTData/fileUC/UpsertChangesFile")
+		return err
 	}
 	return nil
 }
@@ -173,6 +184,7 @@ func processNewNTData[T domain.BasePage](newItems []domain.BasePage, resourceTyp
 		fmt.Println("error in usecase/processNTData.go: processEditNTData/fileUC.GetPageFile")
 		return err
 	}
+	var changes []fileUC.ChangeItem
 	for _, item := range newItems {
 		ntpage, err := notionUC.GetPageItem(item.GetId(), resourceType.GetStr())
 		if err != nil {
@@ -189,6 +201,17 @@ func processNewNTData[T domain.BasePage](newItems []domain.BasePage, resourceTyp
 			fmt.Println("error in usecase/saveNtData/UpsertCurriculum")
 			return err
 		}
+		changeItem, err := fileUC.NewChangeItem(item.GetId(), item.GetTitle(), "add")
+		if err != nil {
+			fmt.Println("error in usecase/processNTData.go: processNewNTData/fileUC.NewChangeItem")
+			return err
+		}
+		changes = append(changes, *changeItem)
+	}
+	err = fileUC.UpsertChangesFile(changes)
+	if err != nil {
+		fmt.Println("error in usecase/processNTData.go: processNewNTData/fileUC.UpsertChangesFile")
+		return err
 	}
 	return nil
 }

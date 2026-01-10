@@ -6,7 +6,6 @@ import (
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
 	"notion2atlas/gateway"
-	"notion2atlas/utils"
 )
 
 func GetPageDataFile(pageId string) ([]domain.AtlBlockEntity, error) {
@@ -139,50 +138,55 @@ func UpsertSyncedFile(b domain.BlockEntity) error {
 	return nil
 }
 
+func UpsertChangesFile(changes_ []ChangeItem) error {
+	_, err := gateway.UpsertFile(domain.CHANGES, "id", changes_)
+	if err != nil {
+		fmt.Println("error in usecase/fileUC.go: UpsertChangesFile/gateway/UpsertFile")
+		return err
+	}
+	return nil
+}
+
 func InitCurriculumRelatedDir(curriculumId string) error {
-	pageDatas, err := filemanager.ReadJSONToMapArray(constants.TMP_ALL_PAGE_PATH)
+	pageDatas, err := filemanager.ReadJson[[]domain.AtlPageEntity](constants.TMP_ALL_PAGE_PATH)
 	if err != nil {
 		fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.ReadJSONToMapArray")
 		return err
 	}
-	var targetPages []map[string]any
+	var targetPages []domain.AtlPageEntity
 	for _, item := range pageDatas {
-		id, err := utils.SafelyRetrieve[string](item, "curriculumId")
-		if err != nil {
-			fmt.Println("error in usecase/InitCurriculumRelatedDir/utils.SafelyRetrieve")
-			return err
-		}
-		if id == nil {
-			return fmt.Errorf("unexpected: id is nil")
-		}
-		if curriculumId == *id {
+		if curriculumId == item.CurriculumId {
 			targetPages = append(targetPages, item)
 		}
 	}
+	var changeItems []ChangeItem
 	for _, page := range targetPages {
-		pageId, err := utils.SafelyRetrieve[string](page, "id")
-		if err != nil {
-			fmt.Println("error in usecase/InitCurriculumRelatedDir/utils.SafelyRetrieve")
-			return err
-		}
-		if pageId == nil {
-			return fmt.Errorf("unexpected: pageId is nil")
-		}
-		err = filemanager.DelFile(fmt.Sprintf("%s/%s.dat", constants.PAGE_DATA_DIR, *pageId))
+		err = filemanager.DelFile(fmt.Sprintf("%s/%s.dat", constants.PAGE_DATA_DIR, page.Id))
 		if err != nil {
 			fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.DelFile")
 			return err
 		}
-		err = filemanager.DelDir(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, *pageId))
+		err = filemanager.DelDir(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, page.Id))
 		if err != nil {
 			fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.DelDir")
 			return err
 		}
-		err = filemanager.DelFile(fmt.Sprintf("%s/%s.png", constants.OGP_DIR, *pageId))
+		err = filemanager.DelFile(fmt.Sprintf("%s/%s.png", constants.OGP_DIR, page.Id))
 		if err != nil {
 			fmt.Println("error in usecase/InitCurriculumRelatedDir/filemanager.DelFile")
 			return err
 		}
+		changeItem, err := NewChangeItem(page.Id, page.Title, "delete")
+		if err != nil {
+			fmt.Println("error in usecase/fileUC/fileUC.go: InitCurriculumRelatedDir/NewChangeItem")
+			return err
+		}
+		changeItems = append(changeItems, *changeItem)
+	}
+	err = UpsertChangesFile(changeItems)
+	if err != nil {
+		fmt.Println("error in usecase/fileUC/fileUC.go: InitCurriculumRelatedDir/UpsertChangeFile")
+		return err
 	}
 	fmt.Println("✅ completed: initialize curriculum related directory")
 	return nil

@@ -57,7 +57,7 @@ func saveNtBlock(block domain.NTBlockEntity, curriculumId string, pageId string,
 			fmt.Println("error in usecase/saveNtBlock.go:/isNewPage/fileUC/GetPageFile")
 			return buffer, pageBuffer, err
 		}
-		tmpPagePath := fmt.Sprintf("%s%s_new.json", constants.TMP_DIR, block.Id)
+		tmpPagePath := fmt.Sprintf("%s/%s_new.json", constants.TMP_DIR, block.Id)
 		if isNewPage_ {
 			exist := filemanager.FileExists(tmpPagePath)
 			if exist {
@@ -67,6 +67,16 @@ func saveNtBlock(block domain.NTBlockEntity, curriculumId string, pageId string,
 					return buffer, pageBuffer, err
 				}
 				pageBuffer = append(pageBuffer, pageEntity)
+				changeItem, err := fileUC.NewChangeItem(pageEntity.Id, pageEntity.Title, "add")
+				if err != nil {
+					fmt.Println("error in usecase/saveNtBlock.go: saveNtBlock/fileUC.NewChangeItem")
+					return buffer, pageBuffer, err
+				}
+				err = fileUC.UpsertChangesFile([]fileUC.ChangeItem{*changeItem})
+				if err != nil {
+					fmt.Println("error in usecase/saveNtBlock.go: saveNtBlock/fileUC.UpsertChangesFile")
+					return buffer, pageBuffer, err
+				}
 			}
 			filemanager.CreateDirIfNotExist(fmt.Sprintf("%s/%s", constants.ASSETS_DIR, block.Id))
 			children, err := notionUC.GetChildren(block.Id)

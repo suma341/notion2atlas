@@ -29,6 +29,7 @@ const (
 	TMP_ALL_INFO_PATH       = TMP_DIR + "/info.json"
 	ANSWER_DAT_PATH         = ANSWER_DIR + "/answer.dat"
 	TMP_ALL_ANSWER_PATH     = TMP_DIR + "/answer.json"
+	TMP_CHANGE_PATH         = TMP_DIR + "/changes.json"
 )
 
 const (

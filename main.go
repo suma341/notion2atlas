@@ -2,10 +2,8 @@ package main
 
 import (
 	"fmt"
-	"notion2atlas/filemanager"
 	"notion2atlas/presentation"
-
-	"github.com/joho/godotenv"
+	postprocess "notion2atlas/usecase/PostProcess"
 )
 
 // func test() {
@@ -16,16 +14,16 @@ import (
 // 	filemanager.WriteJson(a, "notion_data/test.json")
 // }
 
-func decode[T any](path string) {
-	godotenv.Load()
-	ex := filemanager.FileExists(path)
-	fmt.Println(ex)
-	a, e := filemanager.LoadAndDecodeJson[T](path)
-	if e != nil {
-		panic(e)
-	}
-	filemanager.WriteJson(a, "notion_data/test.json")
-}
+// func decode[T any](path string) {
+// 	godotenv.Load()
+// 	ex := filemanager.FileExists(path)
+// 	fmt.Println(ex)
+// 	a, e := filemanager.LoadAndDecodeJson[T](path)
+// 	if e != nil {
+// 		panic(e)
+// 	}
+// 	filemanager.WriteJson(a, "notion_data/test.json")
+// }
 
 // func encode[T any](path string) {
 // 	b, _ := filemanager.ReadJson[T](constants.NT_DATA_DIR + "/test.json")
@@ -35,6 +33,10 @@ func decode[T any](path string) {
 func main() {
 	err := presentation.HandleUpdateData()
 	if err != nil {
+		err2 := postprocess.SendDiscordMessage("**❌ エラーが発生したため、ページの更新に失敗しました**")
+		if err2 != nil {
+			fmt.Printf("discord error: %s\n", err2)
+		}
 		panic(err)
 	}
 	// test()
@@ -45,3 +47,4 @@ func main() {
 }
 
 //https://www.notion.so/1-24ba501ef33780edacc4d54914fb20d2?source=copy_link
+//https://www.notion.so/Python-256a501ef337802e8fcaf378c366fb03?v=1ada501ef33781c291ee000c04c13f15&source=copy_link

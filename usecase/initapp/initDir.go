@@ -16,21 +16,25 @@ func initDir() error {
 			return err
 		}
 	}
-	exists, err := filemanager.CreateFileIfNotExist(constants.TMP_PAGE_PATH)
+	err := createTmpFiles(constants.TMP_PAGE_PATH)
+	err = createTmpFiles(constants.TMP_CHANGE_PATH)
+	err = loadDat()
+	if err != nil {
+		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/loadDat")
+		return err
+	}
+	return nil
+}
+
+func createTmpFiles(filePath string) error {
+	_, err := filemanager.CreateFileIfNotExist(filePath)
 	if err != nil {
 		fmt.Println("error in usecase/InitDir/filemanager.CreateFileIfNotExist")
 		return err
 	}
-	if !exists {
-		err := filemanager.WriteJson([]any{}, constants.TMP_PAGE_PATH)
-		if err != nil {
-			fmt.Println("error in usecase/InitDir/filemanager.WriteJson")
-			return err
-		}
-	}
-	err = loadDat()
+	err = filemanager.WriteJson([]any{}, filePath)
 	if err != nil {
-		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/loadDat")
+		fmt.Println("error in usecase/InitDir/filemanager.WriteJson")
 		return err
 	}
 	return nil

@@ -85,6 +85,7 @@ func processPageEntity() error {
 		atlPageEntities = append(atlPageEntities, atlPageEntity)
 	}
 	newEntity, err := gateway.UpsertFile(domain.PAGE, "id", atlPageEntities)
+	filemanager.WriteJson(atlPageEntities, constants.TEST_DIR+"/t.json")
 	if err != nil {
 		fmt.Println("error in usecase/postprocess/processPageEntity.go:/processPageEntity/gateway.UpsertFile")
 		return err
@@ -125,6 +126,8 @@ type BpData struct {
 
 func getBPData[T domain.DBBasePage](bps []T, curriculumId string) *BpData {
 	for _, bp := range bps {
+		if bp.GetId() == curriculumId {
+		}
 		if bp.GetId() == curriculumId {
 			data := BpData{
 				Visibility: bp.GetVisilities(),

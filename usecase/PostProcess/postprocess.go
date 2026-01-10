@@ -1,6 +1,8 @@
 package postprocess
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func PostProcess() error {
 	err := processPageEntity()
@@ -16,6 +18,16 @@ func PostProcess() error {
 	err = encodeAndSaveDats()
 	if err != nil {
 		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/encodeAndSaveDats")
+		return err
+	}
+	message, err := createChangesMessage()
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/createChangesMessage")
+		return err
+	}
+	err = SendDiscordMessage(*message)
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/sendDiscordMessage")
 		return err
 	}
 	return nil
