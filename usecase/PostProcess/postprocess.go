@@ -20,7 +20,17 @@ func PostProcess() error {
 		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/encodeAndSaveDats")
 		return err
 	}
-	message, err := createChangesMessage()
+	changeContents, err := getChanges()
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go:/PostProcess/getChanges")
+		return err
+	}
+	err = updateVersion(changeContents.isChanged())
+	if err != nil {
+		fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/createChangesMessage")
+		return err
+	}
+	message, err := createChangesMessage(*changeContents)
 	if err != nil {
 		fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/createChangesMessage")
 		return err

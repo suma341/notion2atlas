@@ -5,6 +5,7 @@ import (
 	"notion2atlas/constants"
 	"notion2atlas/domain"
 	"notion2atlas/filemanager"
+	"os"
 )
 
 func initDir() error {
@@ -17,11 +18,40 @@ func initDir() error {
 		}
 	}
 	err := createTmpFiles(constants.TMP_PAGE_PATH)
+	if err != nil {
+		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/createTmpFiles")
+		return err
+	}
 	err = createTmpFiles(constants.TMP_CHANGE_PATH)
+	if err != nil {
+		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/createTmpFiles")
+		return err
+	}
+	err = initVersionFile()
+	if err != nil {
+		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/initVersionFile")
+		return err
+	}
 	err = loadDat()
 	if err != nil {
 		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/loadDat")
 		return err
+	}
+	return nil
+}
+
+func initVersionFile() error {
+	exist, err := filemanager.CreateFileIfNotExist(constants.VERSION_PATH)
+	if err != nil {
+		fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/filemanager.CreateFileIfNotExist")
+		return err
+	}
+	if !exist {
+		err = os.WriteFile(constants.VERSION_PATH, []byte("1.0.0"), 0644)
+		if err != nil {
+			fmt.Println("error in usescase/initprocess/initDir.go:/InitDir/os.WriteFile")
+			return err
+		}
 	}
 	return nil
 }

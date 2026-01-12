@@ -252,7 +252,7 @@ func appendBlock(
 			fmt.Println("error in usecase/appendBlock/domain.NewPageEntity")
 			return buffer, err
 		}
-		filemanager.WriteJson(pageEntity, fmt.Sprintf("%s%s_new.json", constants.TMP_DIR, res.Id))
+		filemanager.WriteJson(pageEntity, fmt.Sprintf("%s/%s_new.json", constants.TMP_DIR, res.Id))
 	default:
 		data = &domain.BlockEntityData{
 			Type: "none",

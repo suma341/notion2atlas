@@ -5,9 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"notion2atlas/constants"
-	"notion2atlas/filemanager"
-	"notion2atlas/usecase/fileUC"
 	"os"
 )
 
@@ -49,33 +46,15 @@ func SendDiscordMessage(message string) error {
 	return nil
 }
 
-func createChangesMessage() (*string, error) {
-	changes, err := filemanager.ReadJson[[]fileUC.ChangeItem](constants.TMP_CHANGE_PATH)
-	if err != nil {
-		fmt.Println("error in usecase/PostProcess.sendMessageToDiscord.go: createChangesMessage/filemanager.ReadJson")
-		return nil, err
-	}
-	var del []string
-	var add []string
-	var update []string
-	for _, c := range changes {
-		switch c.Type {
-		case "add":
-			t := "- " + c.Title + "\n"
-			add = append(add, t)
-		case "delete":
-			t := "- " + c.Title + "\n"
-			del = append(del, t)
-		case "update":
-			t := "- " + c.Title + "\n"
-			update = append(update, t)
-		}
-	}
+func createChangesMessage(changeContent ChangeContents) (*string, error) {
 	var message string
-	if len(del) == 0 && len(add) == 0 && len(update) == 0 {
+	if !changeContent.isChanged() {
 		message = "### 更新はありませんでした"
 		return &message, nil
 	}
+	del := changeContent.del
+	add := changeContent.add
+	update := changeContent.update
 	message += "# 更新内容\n"
 	if len(del) != 0 {
 		message += "### 削除：\n"

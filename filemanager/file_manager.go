@@ -45,6 +45,14 @@ func ReadJson[T any](path string) (T, error) {
 	return obj, nil
 }
 
+func LoadFile(path string) ([]byte, error) {
+	b, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	return b, nil
+}
+
 func ReadJSONToMapArray(path string) ([]map[string]any, error) {
 	data, err := os.ReadFile(path)
 	if err != nil {

@@ -14,7 +14,7 @@ import (
 
 func LoadAndDecodeJson[T any](path string) (*T, error) {
 	// 1. load file (Base64 string)
-	encodedBytes, err := loadFile(path)
+	encodedBytes, err := LoadFile(path)
 	if err != nil {
 		return nil, err
 	}
@@ -84,12 +84,4 @@ func decryptAESGCM(ciphertext []byte, key []byte) ([]byte, error) {
 	}
 
 	return plain, nil
-}
-
-func loadFile(path string) ([]byte, error) {
-	b, err := os.ReadFile(path)
-	if err != nil {
-		return nil, err
-	}
-	return b, nil
 }

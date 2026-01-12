@@ -30,6 +30,7 @@ const (
 	ANSWER_DAT_PATH         = ANSWER_DIR + "/answer.dat"
 	TMP_ALL_ANSWER_PATH     = TMP_DIR + "/answer.json"
 	TMP_CHANGE_PATH         = TMP_DIR + "/changes.json"
+	VERSION_PATH            = NT_DATA_DIR + "/version.dat"
 )
 
 const (
