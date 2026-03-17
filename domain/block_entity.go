@@ -247,8 +247,9 @@ func (p HeaderEntity) ToAtl(atlParents *[]AtlRichTextEntity) AtlHeaderEntity {
 		atl = *atlParents
 	}
 	return AtlHeaderEntity{
-		Color:  p.Color,
-		Parent: atl,
+		Color:        p.Color,
+		Parent:       atl,
+		IsToggleable: p.IsToggleable,
 	}
 }
 

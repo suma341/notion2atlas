@@ -54,6 +54,14 @@ type AtlHeaderEntity struct {
 	IsToggleable bool                `json:"is_toggleable"`
 }
 
+func (h AtlHeaderEntity) GetComb() string {
+	plain_text := ""
+	for _, s := range h.Parent {
+		plain_text = plain_text + s.PlainText
+	}
+	return plain_text
+}
+
 type AtlImageEntity struct {
 	Parent []AtlRichTextEntity `json:"parent"`
 	Url    string              `json:"url"`

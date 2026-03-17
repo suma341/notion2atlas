@@ -2,6 +2,7 @@ package postprocess
 
 import (
 	"fmt"
+	"os"
 )
 
 func PostProcess() error {
@@ -30,15 +31,19 @@ func PostProcess() error {
 		fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/createChangesMessage")
 		return err
 	}
-	message, err := createChangesMessage(*changeContents)
-	if err != nil {
-		fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/createChangesMessage")
-		return err
-	}
-	err = SendDiscordMessage(*message)
-	if err != nil {
-		fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/sendDiscordMessage")
-		return err
+	test := os.Getenv("TEST")
+	is_test := test == "true"
+	if !is_test {
+		message, err := createChangesMessage(*changeContents)
+		if err != nil {
+			fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/createChangesMessage")
+			return err
+		}
+		err = SendDiscordMessage(*message)
+		if err != nil {
+			fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/sendDiscordMessage")
+			return err
+		}
 	}
 	return nil
 }

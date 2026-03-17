@@ -127,8 +127,14 @@ func processNormalParent(atl domain.BlockEntity, pageEntities []domain.PageEntit
 		return atl.ToAtlEntity(atl.Data.ToAtlData(nil))
 	}
 	richTexts := hasParentEntity.GetParent()
+	// if atl.Type == "heading_3" {
+	// 	print("atl: ", atl.Data.Header.GetCombinedPlainText(), " ", atl.Data.Header.IsToggleable, "\n")
+	// }
 	atlParents := processRichText(richTexts, pageEntities, atl.CurriculumId)
 	atlData := atl.Data.ToAtlData(&atlParents)
+	// if atlData.Type == "header" {
+	// 	print("atlData: ", atlData.Header.GetComb(), " ", atlData.Header.IsToggleable, "\n")
+	// }
 	atlEntity := atl.ToAtlEntity(atlData)
 	return atlEntity
 }

@@ -44,8 +44,9 @@ func GetChildDB(id string) ([]domain.NtDBQueryEntity, error) {
 }
 
 func Test(id string) (any, error) {
-	var data, err = gateway.GetNotionData(domain.Block, id)
+	data, err := gateway.GetNotionData(domain.Block, id)
 	if err != nil {
+		fmt.Println("error in usecase/GetBlockItem/gateway.GetNotionData")
 		return nil, err
 	}
 	return data, nil

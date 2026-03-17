@@ -28,6 +28,7 @@ type HeaderProperty struct {
 	Color        string             `json:"color"`
 	IsToggleable bool               `json:"is_toggleable"`
 }
+
 type CalloutProperty struct {
 	RichText []RichTextProperty `json:"rich_text"`
 	Color    string             `json:"color"`
