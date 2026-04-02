@@ -28,13 +28,17 @@ func updateVersion(isVersionUp bool) error {
 		fmt.Println("error in usecase/postprocess/versionPath.go updateVersion/os.WriteFile")
 		return err
 	}
+	fmt.Println("✅ Complete to update version")
 	return nil
 }
 
 func bumpPatch(version string) (string, error) {
+	// 前後の改行やスペースを削除
+	version = strings.TrimSpace(version)
+
 	parts := strings.Split(version, ".")
 	if len(parts) != 3 {
-		return "", fmt.Errorf("invalid version format")
+		return "", fmt.Errorf("invalid version format: %q", version)
 	}
 
 	patch, err := strconv.Atoi(parts[2])

@@ -45,5 +45,6 @@ func getChanges() (*ChangeContents, error) {
 		add:    add,
 		update: update,
 	}
+	fmt.Println("✅ Complete to get changes")
 	return &content, nil
 }

@@ -46,11 +46,11 @@ func SendDiscordMessage(message string) error {
 	return nil
 }
 
-func createChangesMessage(changeContent ChangeContents) (*string, error) {
+func createChangesMessage(changeContent ChangeContents) *string {
 	var message string
 	if !changeContent.isChanged() {
 		message = "### 更新はありませんでした"
-		return &message, nil
+		return &message
 	}
 	del := changeContent.del
 	add := changeContent.add
@@ -74,5 +74,5 @@ func createChangesMessage(changeContent ChangeContents) (*string, error) {
 			message += a + "\n"
 		}
 	}
-	return &message, nil
+	return &message
 }

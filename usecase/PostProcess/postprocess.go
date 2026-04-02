@@ -34,7 +34,7 @@ func PostProcess() error {
 	test := os.Getenv("TEST")
 	is_test := test == "true"
 	if !is_test {
-		message, err := createChangesMessage(*changeContents)
+		message := createChangesMessage(*changeContents)
 		if err != nil {
 			fmt.Println("error in usecase/postprocess/postprocess.go: PostProcess/createChangesMessage")
 			return err
@@ -45,5 +45,6 @@ func PostProcess() error {
 			return err
 		}
 	}
+	fmt.Println("✅ Complete Post Process")
 	return nil
 }

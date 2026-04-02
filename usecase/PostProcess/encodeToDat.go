@@ -34,6 +34,7 @@ func encodeAndSaveDats() error {
 		fmt.Println("error in usecase/postprocess/postprocess.go:/encodeAndSaveDats/encodeAndSaveAnswerDat")
 		return err
 	}
+	fmt.Println("✅ Complete Encode and Save datas")
 	return nil
 }
 
