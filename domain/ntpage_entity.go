@@ -114,6 +114,7 @@ func ResNtPageEntity(res map[string]any, type_ string) (*NtPageEntity, error) {
 			coverType = block.Cover.Type
 			coverUrl = block.Cover.GetCoverUrl()
 		}
+		// fmt.Printf("type: %s, url: %s", iconType, iconUrl)
 		var page = NewNtPageEntity(
 			id,
 			iconUrl,

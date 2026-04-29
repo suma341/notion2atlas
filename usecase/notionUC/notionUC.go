@@ -44,7 +44,7 @@ func GetChildDB(id string) ([]domain.NtDBQueryEntity, error) {
 }
 
 func Test(id string) (any, error) {
-	data, err := gateway.GetNotionData(domain.Block, id)
+	data, err := gateway.GetNotionData(domain.Page, id)
 	if err != nil {
 		fmt.Println("error in usecase/GetBlockItem/gateway.GetNotionData")
 		return nil, err
@@ -75,6 +75,7 @@ func GetPageItem(id string, type_ string) (*domain.NtPageEntity, error) {
 		fmt.Println("error in usecase/GetPageItem/gateway.GetNotionData")
 		return nil, err
 	}
+	// filemanager.WriteJson(data, constants.TEST_JSON)
 	filtered, err := domain.ResNtPageEntity(data, type_)
 	if err != nil {
 		if errors.Is(err, domain.ErrNotionErrorResponse) {

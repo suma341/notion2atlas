@@ -45,6 +45,9 @@ func main() {
 		}
 		panic(err)
 	}
+	// initapp.InitApp()
+	// a, _ := notionUC.Test("331a501ef33780508cd9f67021f715ab")
+	// filemanager.WriteJson(a, constants.TEST_JSON)
 	// test()
 	// decode[[]domain.InfoEntity]("notion_data/infos/info.dat")
 	// encode[[]domain.BlockEntity]("notion_data/synced.dat")
@@ -52,6 +55,4 @@ func main() {
 	// filemanager.WriteJson(p, "notion_data/test.json")
 }
 
-//https://www.notion.so/2f5a501ef33780069c27c8c9c3d5c599?v=1ada501ef33781c291ee000c04c13f15&source=copy_link#2f5a501ef33780609d4ae06e1a207595
-//https://www.notion.so/1-24ba501ef33780edacc4d54914fb20d2?source=copy_link
-//https://www.notion.so/Python-256a501ef337802e8fcaf378c366fb03?v=1ada501ef33781c291ee000c04c13f15&source=copy_link
+//https://www.notion.so/331a501ef33780508cd9f67021f715ab?v=1ada501ef33781c291ee000c04c13f15&source=copy_link

@@ -129,6 +129,7 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 		for _, p := range *curriculumPages {
 			if p.CurriculumId == item.GetId() {
 				ntpage, err := notionUC.GetPageItem(p.Id, resourceType.GetStr())
+
 				if err != nil {
 					fmt.Println("error in usecase/processNTData.go: processEditNTData/notinoUC.GetPageItem")
 					return err
@@ -139,6 +140,7 @@ func processEditNTData[T domain.BasePage](editItems []domain.BasePage, resourceT
 					return err
 				}
 				if !isEqualTime {
+					// fmt.Printf("ntpage: %+v", *ntpage)
 					updatedPages = append(updatedPages, *ntpage)
 				}
 			}

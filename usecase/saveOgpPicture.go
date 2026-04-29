@@ -3,6 +3,7 @@ package usecase
 import (
 	"context"
 	"fmt"
+	"log"
 	"net/url"
 	"notion2atlas/constants"
 	"notion2atlas/domain"
@@ -41,9 +42,11 @@ func SaveOGPPicture(p domain.PageIf) error {
 	iconType, iconUrl := p.GetIcon()
 	title := p.GetTitle()
 	id := p.GetId()
+	fmt.Printf("title: %s\n", title)
 	html := createHTML(coverUrl, iconType, iconUrl, title)
 	pngByte, err := html2png(html, 1203, 630)
 	if err != nil {
+		fmt.Printf("html: \n%s\n", html)
 		fmt.Println("error in presentation/HandleCreateGGP/usecase.HTMLToPNG")
 		return err
 	}
@@ -57,36 +60,41 @@ func SaveOGPPicture(p domain.PageIf) error {
 
 func html2png(html string, width, height int) ([]byte, error) {
 
-	// --- HEADLESS & NO SANDBOX ---
 	opts := []chromedp.ExecAllocatorOption{
 		chromedp.NoFirstRun,
 		chromedp.NoDefaultBrowserCheck,
-		chromedp.Headless, // ← 必須
+		chromedp.Headless,
 		chromedp.DisableGPU,
 		chromedp.Flag("no-sandbox", true),
 		chromedp.Flag("disable-setuid-sandbox", true),
+		chromedp.Flag("disable-dev-shm-usage", true), // Docker環境ならこれも追加推奨
 	}
 
+	// 1. Allocatorを作成 (ブラウザプロセスの管理)
 	allocCtx, allocCancel := chromedp.NewExecAllocator(context.Background(), opts...)
 	defer allocCancel()
 
-	ctx, cancel := chromedp.NewContext(allocCtx)
-	defer cancel()
+	// 2. Contextを作成 (タブの管理)
+	// ここで ctx を受け取る
+	ctx, ctxCancel := chromedp.NewContext(allocCtx, chromedp.WithLogf(log.Printf))
+	defer ctxCancel()
 
-	// タイムアウト
-	ctx, cancel = context.WithTimeout(ctx, 30*time.Second)
-	defer cancel()
+	// 3. タイムアウトを設定 (ctx を上書き、または新しい変数で受け取る)
+	// 30秒だと重い画像の時にギリギリなので、少し余裕を持たせてもいいかもしれません
+	ctx, timeoutCancel := context.WithTimeout(ctx, 45*time.Second)
+	defer timeoutCancel()
 
-	// HTML をデータURL化
 	dataURL := "data:text/html;charset=utf-8," + url.PathEscape(html)
 
 	var buf []byte
 
+	// 4. 実行には「タイムアウト設定済みの ctx」を渡す
 	err := chromedp.Run(ctx,
 		chromedp.EmulateViewport(int64(width), int64(height)),
 		chromedp.Navigate(dataURL),
+		// 画像が重い場合、body だけでなく img タグの出現を待つのも手です
 		chromedp.WaitReady("body"),
-		chromedp.Sleep(200*time.Millisecond), // ← 画像読み込み待ち（重要）
+		chromedp.Sleep(500*time.Millisecond), // 念のため少し長めに
 		chromedp.FullScreenshot(&buf, 90),
 	)
 

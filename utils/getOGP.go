@@ -11,6 +11,9 @@ import (
 )
 
 func GetOGP(urlStr string) (*domain.OGPResult, error) {
+	if urlStr == "" {
+		return nil, fmt.Errorf("url is empty")
+	}
 	// Chrome を sandbox 無しで起動（GitHub Actions 対応）
 	u := launcher.New().
 		Headless(true).
@@ -38,7 +41,21 @@ func GetOGP(urlStr string) (*domain.OGPResult, error) {
 	}
 
 	// ページ移動
-	page.MustNavigate(urlStr).MustWaitLoad()
+	// page.MustNavigate(urlStr).MustWaitLoad()
+	err = page.Navigate(urlStr)
+	if err != nil {
+		fmt.Printf("❌ failed to navigate to [%s]: %v\n", urlStr, err)
+		return &domain.OGPResult{
+			Title:       "ページが見つかりません",
+			Icon:        "",
+			Image:       "",
+			Description: urlStr,
+		}, nil
+	}
+	err = page.WaitLoad()
+	if err != nil {
+		return nil, err
+	}
 
 	// タイトル取得
 	title := page.MustInfo().Title

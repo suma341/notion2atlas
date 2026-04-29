@@ -45,10 +45,10 @@ func GetNotionData(resourceType domain.NotionResourceType, id string) (map[strin
 		return nil, err
 	}
 	defer resp.Body.Close()
-
 	var data map[string]any
 	err = json.NewDecoder(resp.Body).Decode(&data)
 	if err != nil {
+		fmt.Println(data)
 		fmt.Println("error in gateway/GetNotionData/json.NewDecoder(resp.Body).Decode(&data)")
 		return nil, err
 	}

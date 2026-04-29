@@ -1,5 +1,7 @@
 package domain
 
+import "fmt"
+
 type RichTextProperty = struct {
 	Annotations AnnotationsProperty `json:"annotations"`
 	Href        *string             `json:"href"`
@@ -31,11 +33,12 @@ type LinkMentionProperty = struct {
 }
 
 type IconProperty struct {
-	Type        string       `json:"type"`
-	External    *UrlProperty `json:"external,omitempty"`
-	File        *UrlProperty `json:"file,omitempty"`
-	Emoji       *string      `json:"emoji,omitempty"`
-	CustomEmoji *UrlProperty `json:"custom_emoji,omitempty"`
+	Type        string              `json:"type"`
+	External    *UrlProperty        `json:"external,omitempty"`
+	File        *UrlProperty        `json:"file,omitempty"`
+	Emoji       *string             `json:"emoji,omitempty"`
+	CustomEmoji *UrlProperty        `json:"custom_emoji,omitempty"`
+	Icon        *NotionIconProperty `json:"icon,omitempty"`
 }
 
 func (i IconProperty) GetIconUrl() string {
@@ -57,6 +60,10 @@ func (i IconProperty) GetIconUrl() string {
 	case "emoji":
 		if i.Emoji != nil {
 			iconUrl = *i.Emoji
+		}
+	case "icon":
+		if i.Icon != nil {
+			iconUrl = fmt.Sprintf("https://www.notion.so/icons/%s_%s.svg", i.Icon.Name, i.Icon.Color)
 		}
 	}
 	return iconUrl
@@ -86,4 +93,9 @@ func (c CoverProperty) GetCoverUrl() string {
 
 type UrlProperty struct {
 	Url string `json:"url"`
+}
+
+type NotionIconProperty struct {
+	Color string `json:"color"`
+	Name  string `json:"name"`
 }
