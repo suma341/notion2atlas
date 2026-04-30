@@ -179,6 +179,7 @@ func makeChildPageData(pageId string, type_ string) (*domain.BlockEntityData, *d
 		return nil, nil, err
 	}
 	urls := GetPathRewritedUrl(pageDataAddress)
+	fmt.Println("title: ", pageDataAddress.Title, " icon_url: ", urls.IconUrl)
 	childPageEntity := domain.ChildPageEntity{
 		Parent:   pageDataAddress.Title,
 		IconType: pageDataAddress.IconType,

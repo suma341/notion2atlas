@@ -54,7 +54,7 @@ func GetPathRewritedUrl(page domain.PageIf) URLModel {
 		}
 		fileName := "icon" + ext
 		newIconUrl = fmt.Sprintf("%s/assets/%s/%s", constants.DEPLOY_URL, page.GetId(), fileName)
-	case "external", "emoji":
+	case "external", "emoji", "icon":
 		newIconUrl = iconUrl
 	}
 	switch coverType {
