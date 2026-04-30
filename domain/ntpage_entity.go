@@ -17,6 +17,7 @@ type NtPageEntity struct {
 	Type           string `json:"type"`
 	LastEditedTime string `json:"last_edited_time"`
 	InTrash        bool   `json:"in_trash"`
+	Order          int    `json:"order"`
 }
 
 func (c NtPageEntity) GetTime() (*time.Time, error) {
@@ -67,6 +68,7 @@ func NewNtPageEntity(
 	Type string,
 	LastEditedTime string,
 	InTrash bool,
+	Order int,
 ) NtPageEntity {
 	return NtPageEntity{
 		Id:             Id,
@@ -78,6 +80,7 @@ func NewNtPageEntity(
 		Type:           Type,
 		LastEditedTime: LastEditedTime,
 		InTrash:        InTrash,
+		Order:          Order,
 	}
 }
 
@@ -125,6 +128,7 @@ func ResNtPageEntity(res map[string]any, type_ string) (*NtPageEntity, error) {
 			type_,
 			block.LastEditedTime,
 			block.InTrash,
+			block.Properties.Order.Number,
 		)
 		return &page, nil
 	} else {

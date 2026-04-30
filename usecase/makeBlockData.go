@@ -200,6 +200,7 @@ func makeChildPageData(pageId string, type_ string) (*domain.BlockEntityData, *d
 		pageDataAddress.Type,
 		pageDataAddress.LastEditedTime,
 		pageDataAddress.InTrash,
+		pageDataAddress.Order,
 	)
 	return &data, &pageRepo, nil
 }

@@ -49,7 +49,15 @@ func Test(id string) (any, error) {
 		fmt.Println("error in usecase/GetBlockItem/gateway.GetNotionData")
 		return nil, err
 	}
-	return data, nil
+	filtered, err := domain.ResNtPageEntity(data, "")
+	if err != nil {
+		if errors.Is(err, domain.ErrNotionErrorResponse) {
+			return nil, domain.ErrNotionErrorResponse
+		}
+		fmt.Println("error in usecase/GetPageItem/domain.ResNtPageEntityEntity")
+		return nil, err
+	}
+	return filtered, nil
 }
 
 func GetDBItem(id string) (*domain.NtDBEntity, error) {

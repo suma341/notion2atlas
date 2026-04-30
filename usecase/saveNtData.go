@@ -39,10 +39,11 @@ func getNewPageEntity(page domain.NtPageEntity, existPages []domain.AtlPageEntit
 		}
 	}
 	var newPageEntity domain.PageEntity
-	if target.Id == "" {
+	if target.Id == "" || target.Order == 0 {
 		isBp := page.Id == curriculumId
 		if isBp {
 			order := getBpOrder(page.Type, page.Id)
+			fmt.Println("title: ", page.Title, " order: ", order)
 			ent, err := domain.NewPageEntity(
 				page.Id,
 				curriculumId,
@@ -102,7 +103,7 @@ func getBpOrder(pageType string, pageId string) int {
 	case "curriculum":
 		curriculums, err := filemanager.ReadJson[[]domain.CurriculumEntity](constants.TMP_ALL_CURRICULUM_PATH)
 		if err != nil {
-			fmt.Println("error in usecase/saveNtData.go: getBpOrder/filemanager.ReadJson")
+			fmt.Println("❌ error in usecase/saveNtData.go: getBpOrder/filemanager.ReadJson")
 			return 0
 		}
 		for _, c := range curriculums {
@@ -113,7 +114,7 @@ func getBpOrder(pageType string, pageId string) int {
 	case "answer":
 		ans, err := filemanager.ReadJson[[]domain.AnswerEntity](constants.TMP_ALL_ANSWER_PATH)
 		if err != nil {
-			fmt.Println("error in usecase/saveNtData.go: getBpOrder/filemanager.ReadJson")
+			fmt.Println("❌ error in usecase/saveNtData.go: getBpOrder/filemanager.ReadJson")
 			return 0
 		}
 		for _, c := range ans {
@@ -124,7 +125,7 @@ func getBpOrder(pageType string, pageId string) int {
 	case "info":
 		inf, err := filemanager.ReadJson[[]domain.InfoEntity](constants.TMP_ALL_INFO_PATH)
 		if err != nil {
-			fmt.Println("error in usecase/saveNtData.go: getBpOrder/filemanager.ReadJson")
+			fmt.Println("❌ error in usecase/saveNtData.go: getBpOrder/filemanager.ReadJson")
 			return 0
 		}
 		for _, c := range inf {

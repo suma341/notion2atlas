@@ -6,6 +6,7 @@ type PageProperty struct {
 	Cover      *CoverProperty `json:"cover"`
 	Properties struct {
 		Title TitleProperty `json:"title"`
+		Order NumberQuery   `json:"order"`
 	} `json:"properties"`
 	Object         string `json:"object"`
 	LastEditedTime string `json:"last_edited_time"`
